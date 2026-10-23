@@ -16,11 +16,12 @@ function render() {
   $('buy').textContent = predictions.filter(p => p.total_yen > 0).length + 'R';
   $('money').textContent = money(predictions.reduce((n,p) => n + p.total_yen, 0));
   $('status').textContent = (data.complete ? '全レースの処理完了' : '未判定または開催一覧の取得失敗があります') + '｜更新 ' + new Date(data.created_at).toLocaleString('ja-JP', {timeZone:'Asia/Tokyo'});
+  $('jump').innerHTML = data.venues.map(v => '<a class="btn" href="#venue-'+v.code+'">'+esc(v.name)+'</a>').join('');
   $('venues').innerHTML = (data.discovery_errors || []).map(v => '<div class="message">'+esc(v.name)+'：開催一覧を取得できません。'+esc(v.reason)+'</div>').join('') + data.venues.map(v => {
     const records = data.records.filter(r => r.race_id.slice(8,10) === v.code);
     const selected = records.filter(r => r.prediction?.total_yen > 0);
     const total = selected.reduce((n,r) => n + r.prediction.total_yen, 0);
-    return '<section class="venue"><div class="venue-head"><div><h2>'+esc(v.name)+'</h2><small>全'+records.length+'R</small></div><span class="venue-sum">'+selected.length+'R採用・'+money(total)+'</span></div>'+records.filter(r => !only || r.prediction?.total_yen > 0).map(r => {
+    return '<section id="venue-'+v.code+'" class="venue" style="scroll-margin-top:80px"><div class="venue-head"><div><h2>'+esc(v.name)+'</h2><small>全'+records.length+'R</small></div><span class="venue-sum">'+selected.length+'R採用・'+money(total)+'</span></div>'+records.filter(r => !only || r.prediction?.total_yen > 0).map(r => {
       const p = r.prediction, buy = p?.total_yen > 0;
       const label = r.status === 'excluded' ? '対象外' : r.status === 'error' ? '未判定' : buy ? 'HIGH採用' : '購入なし';
       const ranking = p ? p.ranked.map(x => x.bike).join(' → ') : '';
