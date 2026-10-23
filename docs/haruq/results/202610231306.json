@@ -1,0 +1,123 @@
+{
+  "system": "FLAGSHIP_HARUQUBE_20260321_V1",
+  "display_name": "ハルキュー",
+  "status": "対象外（ガールズ）",
+  "race_id": "202610231306",
+  "date": "2026-10-23",
+  "velodrome": "いわき平",
+  "race_number": 6,
+  "start_time": "23:03",
+  "grade": "F2",
+  "history": {
+    "races": 98902,
+    "last_race_date": "2026-10-23"
+  },
+  "confidence": null,
+  "ranked": [],
+  "bets": {
+    "exacta": {
+      "label": "EXCLUDED_GIRLS",
+      "tickets": [],
+      "points": 0,
+      "stake_per_ticket_yen": 0,
+      "total_yen": 0
+    },
+    "trifecta": {
+      "label": "EXCLUDED_GIRLS",
+      "tickets": [],
+      "points": 0,
+      "stake_per_ticket_yen": 0,
+      "total_yen": 0,
+      "decision": "EXCLUDED",
+      "decision_ja": "対象外"
+    }
+  },
+  "original_model_bets": {
+    "exacta": {
+      "label": "SKIP",
+      "stake_per_ticket_yen": 0,
+      "points": 0,
+      "total_yen": 0,
+      "tickets": []
+    },
+    "trifecta": {
+      "label": "SKIP",
+      "stake_per_ticket_yen": 0,
+      "points": 0,
+      "total_yen": 0,
+      "tickets": []
+    }
+  },
+  "f2_purchase_override_applied": true,
+  "f2_all_grades_eligible": true,
+  "s3_decision": "対象外（ガールズ）",
+  "s3_policy": {
+    "name": "ハルキュー",
+    "policy_version": "HARUQ_INVALIDATED_GIRLS_EXCLUDED",
+    "trifecta_tier": "EXCLUDED_GIRLS",
+    "trifecta_decision": "EXCLUDED",
+    "trifecta_decision_ja": "対象外",
+    "approved_bets": {
+      "exacta": {
+        "label": "EXCLUDED_GIRLS",
+        "tickets": [],
+        "points": 0,
+        "stake_per_ticket_yen": 0,
+        "total_yen": 0
+      },
+      "trifecta": {
+        "label": "EXCLUDED_GIRLS",
+        "tickets": [],
+        "points": 0,
+        "stake_per_ticket_yen": 0,
+        "total_yen": 0,
+        "decision": "EXCLUDED",
+        "decision_ja": "対象外"
+      }
+    },
+    "under_review": {
+      "trifecta": {
+        "label": "S3-HIGH",
+        "tickets": [],
+        "points": 0,
+        "stake_per_ticket_yen": 0,
+        "conditional_total_yen": 0,
+        "counts_as_purchase": false,
+        "decision": "なし"
+      }
+    },
+    "approved_total_yen": 0,
+    "never_modify_model": true,
+    "user_review_required_for_med": false
+  },
+  "med_under_review": {
+    "label": "S3-HIGH",
+    "tickets": [],
+    "points": 0,
+    "stake_per_ticket_yen": 0,
+    "conditional_total_yen": 0,
+    "counts_as_purchase": false,
+    "decision": "なし"
+  },
+  "total_yen": 0,
+  "feature_source": "historical 2026-03-21 build_race_features",
+  "model_sha256": "e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193",
+  "no_manual_selection": true,
+  "no_retraining": true,
+  "line_bonus_applied": false,
+  "torigami_filter_applied": false,
+  "input_url": "https://keirin.netkeiba.com/race/entry/?race_id=202610231306",
+  "web_record": {
+    "source_run_id": 39948410895,
+    "source_commit": "47a849ecd33ae151838de744719fff22a1b58eb0",
+    "created_at": "2026-10-23T11:47:11Z",
+    "origin": "verified-github-actions-output"
+  },
+  "invalidation": {
+    "invalid": true,
+    "reason": "L級ガールズレースをF2男子として誤判定した旧レコード。購入不可・予測対象外。",
+    "confirmed_source": "2026-10-23 official race listings / いわき平 1R L級一般・6R L級決勝",
+    "original_run_id": 39948410895,
+    "original_archived": "docs/haruq/results/runs/39948410895-202610231306.json"
+  }
+}
