@@ -67,7 +67,7 @@ jobs:
             --pattern keirin-history.sqlite.gpg --dir flagship_inputs
           gh release download "$TAG" --repo "$GITHUB_REPOSITORY" \
             --pattern PLAINTEXT_SHA256.txt --dir flagship_inputs
-          printf '%s' "$COLLECTOR_PASSPHRASE" | gpg --batch --yes --pinentry-mode loopback \
+          python -c 'import os,sys; sys.stdout.write(os.environ["COLLECTOR_PASSPHRASE"].rstrip("\r\n"))' | gpg --batch --yes --pinentry-mode loopback \
             --passphrase-fd 0 --output db/keirin.db \
             --decrypt flagship_inputs/keirin-history.sqlite.gpg
           ( cd db && sha256sum -c ../flagship_inputs/PLAINTEXT_SHA256.txt )
