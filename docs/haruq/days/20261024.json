@@ -1,0 +1,979 @@
+{
+  "date": "2026-10-24",
+  "created_at": "2026-10-23T17:15:27.845404+00:00",
+  "venues": [
+    {
+      "code": "87",
+      "name": "熊本",
+      "race_ids": [
+        "202610248701",
+        "202610248702",
+        "202610248703",
+        "202610248704",
+        "202610248705",
+        "202610248706",
+        "202610248707",
+        "202610248708",
+        "202610248709",
+        "202610248710",
+        "202610248711",
+        "202610248712"
+      ],
+      "source_url": "https://keirin.netkeiba.com/race/api_race_list.html?pid=api_race_list&input=UTF-8&output=html&kaisai_date=20261024&jyocd=87"
+    },
+    {
+      "code": "53",
+      "name": "奈良",
+      "race_ids": [
+        "202610245301",
+        "202610245302",
+        "202610245303",
+        "202610245304",
+        "202610245305",
+        "202610245306",
+        "202610245307",
+        "202610245308",
+        "202610245309",
+        "202610245310",
+        "202610245311",
+        "202610245312"
+      ],
+      "source_url": "https://keirin.netkeiba.com/race/api_race_list.html?pid=api_race_list&input=UTF-8&output=html&kaisai_date=20261024&jyocd=53"
+    },
+    {
+      "code": "73",
+      "name": "小松島",
+      "race_ids": [
+        "202610247301",
+        "202610247302",
+        "202610247303",
+        "202610247304",
+        "202610247305",
+        "202610247306",
+        "202610247307",
+        "202610247308",
+        "202610247309",
+        "202610247310",
+        "202610247311",
+        "202610247312"
+      ],
+      "source_url": "https://keirin.netkeiba.com/race/api_race_list.html?pid=api_race_list&input=UTF-8&output=html&kaisai_date=20261024&jyocd=73"
+    },
+    {
+      "code": "25",
+      "name": "大宮",
+      "race_ids": [
+        "202610242501",
+        "202610242502",
+        "202610242503",
+        "202610242504",
+        "202610242505",
+        "202610242506",
+        "202610242507",
+        "202610242508",
+        "202610242509",
+        "202610242510",
+        "202610242511"
+      ],
+      "source_url": "https://keirin.netkeiba.com/race/api_race_list.html?pid=api_race_list&input=UTF-8&output=html&kaisai_date=20261024&jyocd=25"
+    },
+    {
+      "code": "44",
+      "name": "大垣",
+      "race_ids": [
+        "202610244401",
+        "202610244402",
+        "202610244403",
+        "202610244404",
+        "202610244405",
+        "202610244406",
+        "202610244407"
+      ],
+      "source_url": "https://keirin.netkeiba.com/race/api_race_list.html?pid=api_race_list&input=UTF-8&output=html&kaisai_date=20261024&jyocd=44"
+    },
+    {
+      "code": "63",
+      "name": "防府",
+      "race_ids": [
+        "202610246301",
+        "202610246302",
+        "202610246303",
+        "202610246304",
+        "202610246305",
+        "202610246306",
+        "202610246307"
+      ],
+      "source_url": "https://keirin.netkeiba.com/race/api_race_list.html?pid=api_race_list&input=UTF-8&output=html&kaisai_date=20261024&jyocd=63"
+    },
+    {
+      "code": "12",
+      "name": "青森",
+      "race_ids": [
+        "202610241201",
+        "202610241202",
+        "202610241203",
+        "202610241204",
+        "202610241205",
+        "202610241206",
+        "202610241207",
+        "202610241208",
+        "202610241209"
+      ],
+      "source_url": "https://keirin.netkeiba.com/race/api_race_list.html?pid=api_race_list&input=UTF-8&output=html&kaisai_date=20261024&jyocd=12"
+    },
+    {
+      "code": "34",
+      "name": "川崎",
+      "race_ids": [
+        "202610243401",
+        "202610243402",
+        "202610243403",
+        "202610243404",
+        "202610243405",
+        "202610243406",
+        "202610243407",
+        "202610243408",
+        "202610243409"
+      ],
+      "source_url": "https://keirin.netkeiba.com/race/api_race_list.html?pid=api_race_list&input=UTF-8&output=html&kaisai_date=20261024&jyocd=34"
+    },
+    {
+      "code": "42",
+      "name": "名古屋",
+      "race_ids": [
+        "202610244201",
+        "202610244202",
+        "202610244203",
+        "202610244204",
+        "202610244205",
+        "202610244206",
+        "202610244207",
+        "202610244208",
+        "202610244209",
+        "202610244210",
+        "202610244211"
+      ],
+      "source_url": "https://keirin.netkeiba.com/race/api_race_list.html?pid=api_race_list&input=UTF-8&output=html&kaisai_date=20261024&jyocd=42"
+    }
+  ],
+  "discovery_errors": [],
+  "total_races": 90,
+  "counts": {
+    "predicted": 0,
+    "excluded": 10,
+    "error": 80
+  },
+  "complete": false,
+  "records": [
+    {
+      "race_id": "202610248701",
+      "velodrome": "熊本",
+      "race_number": 1,
+      "race_name": "Ｓ級 一般",
+      "start_time": "10:53",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248702",
+      "velodrome": "熊本",
+      "race_number": 2,
+      "race_name": "Ｓ級 一般",
+      "start_time": "11:17",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248703",
+      "velodrome": "熊本",
+      "race_number": 3,
+      "race_name": "Ｓ級 一般",
+      "start_time": "11:43",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248704",
+      "velodrome": "熊本",
+      "race_number": 4,
+      "race_name": "Ｓ級 選抜",
+      "start_time": "12:10",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248705",
+      "velodrome": "熊本",
+      "race_number": 5,
+      "race_name": "Ｓ級 選抜",
+      "start_time": "12:37",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248706",
+      "velodrome": "熊本",
+      "race_number": 6,
+      "race_name": "Ｓ級 選抜",
+      "start_time": "13:06",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248707",
+      "velodrome": "熊本",
+      "race_number": 7,
+      "race_name": "Ｓ級 特選",
+      "start_time": "13:36",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248708",
+      "velodrome": "熊本",
+      "race_number": 8,
+      "race_name": "Ｓ級 特選",
+      "start_time": "14:06",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248709",
+      "velodrome": "熊本",
+      "race_number": 9,
+      "race_name": "Ｓ級 特選",
+      "start_time": "14:36",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248710",
+      "velodrome": "熊本",
+      "race_number": 10,
+      "race_name": "Ｓ級 準決勝",
+      "start_time": "15:06",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248711",
+      "velodrome": "熊本",
+      "race_number": 11,
+      "race_name": "Ｓ級 準決勝",
+      "start_time": "15:39",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610248712",
+      "velodrome": "熊本",
+      "race_number": 12,
+      "race_name": "Ｓ級 準決勝",
+      "start_time": "16:24",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245301",
+      "velodrome": "奈良",
+      "race_number": 1,
+      "race_name": "Ａ級 一般",
+      "start_time": "15:53",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245302",
+      "velodrome": "奈良",
+      "race_number": 2,
+      "race_name": "Ａ級 一般",
+      "start_time": "16:17",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245303",
+      "velodrome": "奈良",
+      "race_number": 3,
+      "race_name": "Ａ級 準決勝",
+      "start_time": "16:41",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245304",
+      "velodrome": "奈良",
+      "race_number": 4,
+      "race_name": "Ａ級 準決勝",
+      "start_time": "17:05",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245305",
+      "velodrome": "奈良",
+      "race_number": 5,
+      "race_name": "Ａ級 準決勝",
+      "start_time": "17:29",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245306",
+      "velodrome": "奈良",
+      "race_number": 6,
+      "race_name": "Ｓ級 一般",
+      "start_time": "17:53",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245307",
+      "velodrome": "奈良",
+      "race_number": 7,
+      "race_name": "Ｓ級 一般",
+      "start_time": "18:17",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245308",
+      "velodrome": "奈良",
+      "race_number": 8,
+      "race_name": "Ｓ級 選抜",
+      "start_time": "18:42",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245309",
+      "velodrome": "奈良",
+      "race_number": 9,
+      "race_name": "Ｓ級 選抜",
+      "start_time": "19:08",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245310",
+      "velodrome": "奈良",
+      "race_number": 10,
+      "race_name": "Ｓ級 準決勝",
+      "start_time": "19:34",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245311",
+      "velodrome": "奈良",
+      "race_number": 11,
+      "race_name": "Ｓ級 準決勝",
+      "start_time": "20:01",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610245312",
+      "velodrome": "奈良",
+      "race_number": 12,
+      "race_name": "Ｓ級 準決勝",
+      "start_time": "20:30",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247301",
+      "velodrome": "小松島",
+      "race_number": 1,
+      "race_name": "Ａ級 予選",
+      "start_time": "10:45",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247302",
+      "velodrome": "小松島",
+      "race_number": 2,
+      "race_name": "Ａ級 予選",
+      "start_time": "11:09",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247303",
+      "velodrome": "小松島",
+      "race_number": 3,
+      "race_name": "Ａ級 予選",
+      "start_time": "11:34",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247304",
+      "velodrome": "小松島",
+      "race_number": 4,
+      "race_name": "Ａ級 予選",
+      "start_time": "12:01",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247305",
+      "velodrome": "小松島",
+      "race_number": 5,
+      "race_name": "Ａ級 初日特別選抜",
+      "start_time": "12:28",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247306",
+      "velodrome": "小松島",
+      "race_number": 6,
+      "race_name": "Ｓ級 予選",
+      "start_time": "12:56",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247307",
+      "velodrome": "小松島",
+      "race_number": 7,
+      "race_name": "Ｓ級 予選",
+      "start_time": "13:26",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247308",
+      "velodrome": "小松島",
+      "race_number": 8,
+      "race_name": "Ｓ級 予選",
+      "start_time": "13:56",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247309",
+      "velodrome": "小松島",
+      "race_number": 9,
+      "race_name": "Ｓ級 予選",
+      "start_time": "14:26",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247310",
+      "velodrome": "小松島",
+      "race_number": 10,
+      "race_name": "Ｓ級 予選",
+      "start_time": "14:56",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247311",
+      "velodrome": "小松島",
+      "race_number": 11,
+      "race_name": "Ｓ級 予選",
+      "start_time": "15:28",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610247312",
+      "velodrome": "小松島",
+      "race_number": 12,
+      "race_name": "Ｓ級 初日特別選抜",
+      "start_time": "16:01",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610242501",
+      "velodrome": "大宮",
+      "race_number": 1,
+      "race_name": "Ａ級 チャレンジ一般",
+      "start_time": "11:01",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610242502",
+      "velodrome": "大宮",
+      "race_number": 2,
+      "race_name": "Ａ級 チャレンジ一般",
+      "start_time": "11:25",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610242503",
+      "velodrome": "大宮",
+      "race_number": 3,
+      "race_name": "Ａ級 チャレンジ選抜",
+      "start_time": "11:52",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610242504",
+      "velodrome": "大宮",
+      "race_number": 4,
+      "race_name": "Ｌ級 ガールズ一般",
+      "start_time": "12:19",
+      "status": "excluded",
+      "reason": "ガールズは既存の購入対象外です。"
+    },
+    {
+      "race_id": "202610242505",
+      "velodrome": "大宮",
+      "race_number": 5,
+      "race_name": "Ａ級 特一般",
+      "start_time": "12:46",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610242506",
+      "velodrome": "大宮",
+      "race_number": 6,
+      "race_name": "Ａ級 特一般",
+      "start_time": "13:16",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610242507",
+      "velodrome": "大宮",
+      "race_number": 7,
+      "race_name": "Ａ級 特選",
+      "start_time": "13:46",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610242508",
+      "velodrome": "大宮",
+      "race_number": 8,
+      "race_name": "Ａ級 特選",
+      "start_time": "14:16",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610242509",
+      "velodrome": "大宮",
+      "race_number": 9,
+      "race_name": "Ａ級 チャレンジ決勝",
+      "start_time": "14:46",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610242510",
+      "velodrome": "大宮",
+      "race_number": 10,
+      "race_name": "Ｌ級 ガールズ決勝",
+      "start_time": "15:16",
+      "status": "excluded",
+      "reason": "ガールズは既存の購入対象外です。"
+    },
+    {
+      "race_id": "202610242511",
+      "velodrome": "大宮",
+      "race_number": 11,
+      "race_name": "Ａ級 決勝",
+      "start_time": "15:46",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244401",
+      "velodrome": "大垣",
+      "race_number": 1,
+      "race_name": "Ｌ級 ガールズ一般",
+      "start_time": "08:30",
+      "status": "excluded",
+      "reason": "ガールズは既存の購入対象外です。"
+    },
+    {
+      "race_id": "202610244402",
+      "velodrome": "大垣",
+      "race_number": 2,
+      "race_name": "Ａ級 特一般",
+      "start_time": "08:50",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244403",
+      "velodrome": "大垣",
+      "race_number": 3,
+      "race_name": "Ａ級 特一般",
+      "start_time": "09:10",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244404",
+      "velodrome": "大垣",
+      "race_number": 4,
+      "race_name": "Ａ級 特選",
+      "start_time": "09:30",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244405",
+      "velodrome": "大垣",
+      "race_number": 5,
+      "race_name": "Ａ級 特選",
+      "start_time": "09:50",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244406",
+      "velodrome": "大垣",
+      "race_number": 6,
+      "race_name": "Ｌ級 ガールズ決勝",
+      "start_time": "10:10",
+      "status": "excluded",
+      "reason": "ガールズは既存の購入対象外です。"
+    },
+    {
+      "race_id": "202610244407",
+      "velodrome": "大垣",
+      "race_number": 7,
+      "race_name": "Ａ級 決勝",
+      "start_time": "10:30",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610246301",
+      "velodrome": "防府",
+      "race_number": 1,
+      "race_name": "Ａ級 チャレンジ一般",
+      "start_time": "08:40",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610246302",
+      "velodrome": "防府",
+      "race_number": 2,
+      "race_name": "Ａ級 チャレンジ一般",
+      "start_time": "09:00",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610246303",
+      "velodrome": "防府",
+      "race_number": 3,
+      "race_name": "Ａ級 チャレンジ準決勝",
+      "start_time": "09:20",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610246304",
+      "velodrome": "防府",
+      "race_number": 4,
+      "race_name": "Ａ級 チャレンジ準決勝",
+      "start_time": "09:40",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610246305",
+      "velodrome": "防府",
+      "race_number": 5,
+      "race_name": "Ａ級 チャレンジ準決勝",
+      "start_time": "10:00",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610246306",
+      "velodrome": "防府",
+      "race_number": 6,
+      "race_name": "Ｌ級 ガールズ予選２",
+      "start_time": "10:20",
+      "status": "excluded",
+      "reason": "ガールズは既存の購入対象外です。"
+    },
+    {
+      "race_id": "202610246307",
+      "velodrome": "防府",
+      "race_number": 7,
+      "race_name": "Ｌ級 ガールズ予選２",
+      "start_time": "10:40",
+      "status": "excluded",
+      "reason": "ガールズは既存の購入対象外です。"
+    },
+    {
+      "race_id": "202610241201",
+      "velodrome": "青森",
+      "race_number": 1,
+      "race_name": "Ｌ級 ガールズ予選１",
+      "start_time": "20:40",
+      "status": "excluded",
+      "reason": "ガールズは既存の購入対象外です。"
+    },
+    {
+      "race_id": "202610241202",
+      "velodrome": "青森",
+      "race_number": 2,
+      "race_name": "Ｌ級 ガールズ予選１",
+      "start_time": "21:00",
+      "status": "excluded",
+      "reason": "ガールズは既存の購入対象外です。"
+    },
+    {
+      "race_id": "202610241203",
+      "velodrome": "青森",
+      "race_number": 3,
+      "race_name": "Ａ級 予選",
+      "start_time": "21:20",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610241204",
+      "velodrome": "青森",
+      "race_number": 4,
+      "race_name": "Ａ級 予選",
+      "start_time": "21:40",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610241205",
+      "velodrome": "青森",
+      "race_number": 5,
+      "race_name": "Ａ級 予選",
+      "start_time": "22:00",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610241206",
+      "velodrome": "青森",
+      "race_number": 6,
+      "race_name": "Ａ級 予選",
+      "start_time": "22:20",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610241207",
+      "velodrome": "青森",
+      "race_number": 7,
+      "race_name": "Ａ級 予選",
+      "start_time": "22:40",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610241208",
+      "velodrome": "青森",
+      "race_number": 8,
+      "race_name": "Ａ級 予選",
+      "start_time": "23:00",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610241209",
+      "velodrome": "青森",
+      "race_number": 9,
+      "race_name": "Ａ級 初日特別選抜",
+      "start_time": "23:20",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610243401",
+      "velodrome": "川崎",
+      "race_number": 1,
+      "race_name": "Ｌ級 ガールズ予選１",
+      "start_time": "20:50",
+      "status": "excluded",
+      "reason": "ガールズは既存の購入対象外です。"
+    },
+    {
+      "race_id": "202610243402",
+      "velodrome": "川崎",
+      "race_number": 2,
+      "race_name": "Ｌ級 ガールズ予選１",
+      "start_time": "21:10",
+      "status": "excluded",
+      "reason": "ガールズは既存の購入対象外です。"
+    },
+    {
+      "race_id": "202610243403",
+      "velodrome": "川崎",
+      "race_number": 3,
+      "race_name": "Ａ級 予選",
+      "start_time": "21:30",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610243404",
+      "velodrome": "川崎",
+      "race_number": 4,
+      "race_name": "Ａ級 予選",
+      "start_time": "21:50",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610243405",
+      "velodrome": "川崎",
+      "race_number": 5,
+      "race_name": "Ａ級 予選",
+      "start_time": "22:10",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610243406",
+      "velodrome": "川崎",
+      "race_number": 6,
+      "race_name": "Ａ級 予選",
+      "start_time": "22:30",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610243407",
+      "velodrome": "川崎",
+      "race_number": 7,
+      "race_name": "Ａ級 予選",
+      "start_time": "22:50",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610243408",
+      "velodrome": "川崎",
+      "race_number": 8,
+      "race_name": "Ａ級 予選",
+      "start_time": "23:10",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610243409",
+      "velodrome": "川崎",
+      "race_number": 9,
+      "race_name": "Ａ級 初日特別選抜",
+      "start_time": "23:30",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244201",
+      "velodrome": "名古屋",
+      "race_number": 1,
+      "race_name": "Ａ級 チャレンジ予選",
+      "start_time": "16:09",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244202",
+      "velodrome": "名古屋",
+      "race_number": 2,
+      "race_name": "Ａ級 チャレンジ予選",
+      "start_time": "16:31",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244203",
+      "velodrome": "名古屋",
+      "race_number": 3,
+      "race_name": "Ａ級 チャレンジ予選",
+      "start_time": "16:53",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244204",
+      "velodrome": "名古屋",
+      "race_number": 4,
+      "race_name": "Ａ級 チャレンジ予選",
+      "start_time": "17:17",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244205",
+      "velodrome": "名古屋",
+      "race_number": 5,
+      "race_name": "Ａ級 チャレンジ予選",
+      "start_time": "17:41",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244206",
+      "velodrome": "名古屋",
+      "race_number": 6,
+      "race_name": "Ａ級 特予選",
+      "start_time": "18:05",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244207",
+      "velodrome": "名古屋",
+      "race_number": 7,
+      "race_name": "Ａ級 特予選",
+      "start_time": "18:29",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244208",
+      "velodrome": "名古屋",
+      "race_number": 8,
+      "race_name": "Ａ級 特予選",
+      "start_time": "18:55",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244209",
+      "velodrome": "名古屋",
+      "race_number": 9,
+      "race_name": "Ａ級 特予選",
+      "start_time": "19:21",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244210",
+      "velodrome": "名古屋",
+      "race_number": 10,
+      "race_name": "Ａ級 特予選",
+      "start_time": "19:47",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    },
+    {
+      "race_id": "202610244211",
+      "velodrome": "名古屋",
+      "race_number": 11,
+      "race_name": "Ａ級 初日特別選抜",
+      "start_time": "20:15",
+      "status": "error",
+      "reason": "本家固定AIで計算中です。未判定のため買い目は表示していません。"
+    }
+  ]
+}
