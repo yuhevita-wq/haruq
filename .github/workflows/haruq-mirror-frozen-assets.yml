@@ -1,0 +1,68 @@
+name: Migrate Frozen HaruQ Assets (Verified Immutable Copy)
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/haruq-mirror-frozen-assets.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: haruq-one-time-asset-migration
+  cancel-in-progress: false
+
+jobs:
+  copy-immutable-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ORIGINAL_REPOSITORY: yuhevita-wq/keirin-ai-predictor
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy exact March 21 model and audit evidence from original release
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets/model assets/history
+          gh release download haruqube-20260321-flagship-v1 --repo "$ORIGINAL_REPOSITORY" --dir assets/model
+          test -s assets/model/haruqube_20260321_fresh_model.pkl
+          ACTUAL="$(sha256sum assets/model/haruqube_20260321_fresh_model.pkl | awk '{print $1}')"
+          test "$ACTUAL" = e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193
+          if gh release view haruqube-20260321-flagship-v1 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Frozen model release already exists; will not modify"
+          else
+            gh release create haruqube-20260321-flagship-v1 \
+              assets/model/* --repo "$GITHUB_REPOSITORY" \
+              --target "$GITHUB_SHA" --title "HARUQ frozen March 21 model (exact copy)" \
+              --notes "Immutable verified copy from yuhevita-wq/keirin-ai-predictor, SHA256: e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193" \
+              --latest=false
+          fi
+      - name: Copy encrypted race history snapshot, never decrypt or publish plaintext
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release download haruqube-20260321-history-cache-live \
+            --repo "$ORIGINAL_REPOSITORY" --dir assets/history
+          test -s assets/history/keirin-history.sqlite.gpg
+          test -s assets/history/ENCRYPTED_SHA256SUMS.txt
+          ( cd assets/history && sha256sum -c ENCRYPTED_SHA256SUMS.txt )
+          test -s assets/history/PLAINTEXT_SHA256.txt
+          if gh release view haruqube-20260321-history-cache-live --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Frozen history release already exists; will not modify"
+          else
+            gh release create haruqube-20260321-history-cache-live \
+              assets/history/* --repo "$GITHUB_REPOSITORY" \
+              --target "$GITHUB_SHA" --title "HARUQ encrypted history snapshot (exact copy)" \
+              --notes "Encrypted-only AES256 history; no plaintext or passphrase is exported. Immutable SHA256-verified copy from original GitHub Release." \
+              --latest=false
+          fi
+      - name: Confirm both new releases are available and archive migration receipt
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release view haruqube-20260321-flagship-v1 --repo "$GITHUB_REPOSITORY"
+          gh release view haruqube-20260321-history-cache-live --repo "$GITHUB_REPOSITORY"
+          printf '%s\n' 'HARUQ_RELEASE_MIRROR_COMPLETED'
