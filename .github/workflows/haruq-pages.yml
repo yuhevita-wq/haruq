@@ -1,0 +1,37 @@
+name: Publish HARUQ Web (Standalone)
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - ".github/workflows/haruq-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: haruq-pages-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enable Pages for Actions deployments
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload verified standalone dashboard
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
