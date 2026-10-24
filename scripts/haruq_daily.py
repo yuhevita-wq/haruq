@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 
-def discover(scraper, day):
+def discover(scraper, day, exclude_venues=()):
     from bs4 import BeautifulSoup
     from config import NETKEIRIN_BASE_URL, VELODROME_CODES
     from data.discovery import race_ids_from_html
@@ -26,6 +26,8 @@ def discover(scraper, day):
         raise RuntimeError('No published venues: refusing an empty day')
     venues, failures = [], []
     for code in codes:
+        if code in exclude_venues:
+            continue
         if code not in VELODROME_CODES:
             raise RuntimeError('Unknown venue ' + code)
         url = base + query + '&jyocd=' + code
@@ -57,7 +59,8 @@ def main():
     if req.get('scope') != 'all_published_races':
         raise ValueError('An explicit all-published-races request is required')
     scraper = KeirinScraper()
-    venues, discovery_errors = discover(scraper, day)
+    exclude_venues = tuple(req.get('exclude_venues', ()))
+    venues, discovery_errors = discover(scraper, day, exclude_venues)
     out = ROOT / 'flagship_daily_results'
     out.mkdir(exist_ok=True)
     public = ROOT / 'docs/haruq/results'
@@ -97,7 +100,7 @@ def main():
     counts = {s: sum(r['status'] == s for r in records) for s in ('predicted', 'excluded', 'error')}
     result = {'date': iso, 'created_at': datetime.now(timezone.utc).isoformat(),
               'run_id': run, 'source_commit': commit, 'venues': venues,
-              'discovery_errors': discovery_errors, 'total_races': expected,
+              'discovery_errors': discovery_errors, 'excluded_venues': list(exclude_venues), 'total_races': expected,
               'counts': counts, 'complete': not discovery_errors and counts['error'] == 0,
               'records': records}
     content = json.dumps(result, ensure_ascii=False, indent=2) + '\n'
