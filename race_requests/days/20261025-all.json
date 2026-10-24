@@ -1,1 +1,1 @@
-{"date":"2026-10-25","scope":"all_published_races"}
+{"date":"2026-10-25","scope":"all_published_races","exclude_venues":["12","34"],"refresh":"latest-published-entries"}
