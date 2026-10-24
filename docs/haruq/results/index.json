@@ -3,6 +3,21 @@
   "model": "FLAGSHIP_HARUQUBE_20260321_V1",
   "items": [
     {
+      "race_id": "202610244205",
+      "date": "2026-10-24",
+      "velodrome": "名古屋",
+      "race_number": 5,
+      "start_time": "17:41",
+      "confidence": 2.34360418,
+      "status": "発走前",
+      "s3_decision": "必ず買う",
+      "trifecta_tier": "S3-HIGH",
+      "exacta_tier": "HIGH",
+      "total_yen": 5000,
+      "updated_at": "2026-10-24T01:09:36Z",
+      "run_id": 40048448605
+    },
+    {
       "race_id": "202610241203",
       "date": "2026-10-24",
       "velodrome": "青森",
@@ -405,21 +420,6 @@
       "exacta_tier": "LOW",
       "total_yen": 0,
       "updated_at": "2026-10-23T17:20:55Z",
-      "run_id": 39993544283
-    },
-    {
-      "race_id": "202610244205",
-      "date": "2026-10-24",
-      "velodrome": "名古屋",
-      "race_number": 5,
-      "start_time": "17:41",
-      "confidence": 2.34360418,
-      "status": "発走前",
-      "s3_decision": "必ず買う",
-      "trifecta_tier": "S3-HIGH",
-      "exacta_tier": "HIGH",
-      "total_yen": 5000,
-      "updated_at": "2026-10-23T17:20:58Z",
       "run_id": 39993544283
     },
     {
@@ -1501,21 +1501,6 @@
       "total_yen": 800,
       "updated_at": "2026-10-23T10:50:07Z",
       "run_id": 39941804491
-    },
-    {
-      "race_id": "202610234812",
-      "date": "2026-10-23",
-      "velodrome": "四日市",
-      "race_number": 12,
-      "start_time": "20:30",
-      "confidence": 0.33991765,
-      "status": "発走前",
-      "s3_decision": "見送り",
-      "trifecta_tier": "LOW",
-      "exacta_tier": "LOW",
-      "total_yen": 0,
-      "updated_at": "2026-10-23T10:56:39Z",
-      "run_id": 39942552431
     }
   ]
 }

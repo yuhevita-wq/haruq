@@ -9,8 +9,8 @@
   "start_time": "17:41",
   "grade": "F2",
   "history": {
-    "races": 98970,
-    "last_race_date": "2026-10-24"
+    "races": 98897,
+    "last_race_date": "2026-10-22"
   },
   "confidence": 2.34360418,
   "ranked": [
@@ -182,9 +182,9 @@
   "torigami_filter_applied": false,
   "input_url": "https://keirin.netkeiba.com/race/entry/?race_id=202610244205",
   "web_record": {
-    "source_run_id": 39993544283,
-    "source_commit": "c7f936fc542459aff0f68b66eceb7a880264efce",
-    "created_at": "2026-10-23T17:20:58Z",
+    "source_run_id": 40048448605,
+    "source_commit": "65debc3211e90757df354c4c54f72ac201b52ae5",
+    "created_at": "2026-10-24T01:09:36Z",
     "origin": "verified-github-actions-output"
   }
 }
