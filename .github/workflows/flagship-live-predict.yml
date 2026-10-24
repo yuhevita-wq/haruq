@@ -68,10 +68,7 @@ jobs:
           gh release download haruqube-20260321-flagship-v1 \
             --repo "$GITHUB_REPOSITORY" --pattern haruqube_20260321_fresh_model.pkl \
             --dir flagship_inputs
-          HISTORY_TAG=haruqube-20260321-history-cache-live
-          if ! gh release view "$HISTORY_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            HISTORY_TAG=haruqube-20260321-history-cache-v1
-          fi
+          HISTORY_TAG=haruqube-20260321-history-cache-haruq-v1
           echo "HISTORY_CACHE_TAG=$HISTORY_TAG"
           gh release download "$HISTORY_TAG" \
             --repo "$GITHUB_REPOSITORY" \
@@ -83,7 +80,7 @@ jobs:
             --dir flagship_inputs
           test -s flagship_inputs/haruqube_20260321_fresh_model.pkl
           test -s flagship_inputs/keirin-history.sqlite.gpg
-          printf '%s' "$COLLECTOR_PASSPHRASE" | gpg --batch --yes \
+          python -c 'import os,sys; sys.stdout.write(os.environ["COLLECTOR_PASSPHRASE"].rstrip("\r\n"))' | gpg --batch --yes \
             --pinentry-mode loopback --passphrase-fd 0 \
             --output db/keirin.db --decrypt flagship_inputs/keirin-history.sqlite.gpg
           ( cd db && sha256sum -c ../flagship_inputs/PLAINTEXT_SHA256.txt )
