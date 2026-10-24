@@ -16,7 +16,7 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       COLLECTOR_PASSPHRASE: ${{ secrets.COLLECTOR_PASSPHRASE }}
-      GNUPGHOME: ${{ runner.temp }}/haruq-key-repair
+      GNUPGHOME: /tmp/haruq-key-repair
     steps:
       - name: Create passphrase-protected one-time migration key
         shell: bash
