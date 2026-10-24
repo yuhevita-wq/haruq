@@ -1,0 +1,38 @@
+name: HARUQ key repair - prepare encrypted transfer
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/haruq-key-repair-prepare.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: haruq-key-repair
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      COLLECTOR_PASSPHRASE: ${{ secrets.COLLECTOR_PASSPHRASE }}
+      GNUPGHOME: ${{ runner.temp }}/haruq-key-repair
+    steps:
+      - name: Create passphrase-protected one-time migration key
+        shell: bash
+        run: |
+          set -euo pipefail
+          umask 077
+          mkdir -p "$GNUPGHOME" transfer
+          python -c 'import os; assert len(os.environ["COLLECTOR_PASSPHRASE"].rstrip("\r\n")) >= 32'
+          python -c 'import os,sys; sys.stdout.write(os.environ["COLLECTOR_PASSPHRASE"].rstrip("\r\n"))' | gpg --batch --pinentry-mode loopback --passphrase-fd 0 --quick-generate-key "HARUQ one-time history migration 20261024" rsa3072 encr 1d
+          gpg --batch --armor --export > transfer/recipient.asc
+          python -c 'import os,sys; sys.stdout.write(os.environ["COLLECTOR_PASSPHRASE"].rstrip("\r\n"))' | gpg --batch --pinentry-mode loopback --passphrase-fd 0 --armor --export-secret-keys > transfer/recipient-protected-private.asc
+          gpg --with-colons --list-keys | awk -F: '$1=="fpr" {print $10; exit}' > transfer/FINGERPRINT.txt
+          (cd transfer && sha256sum recipient.asc recipient-protected-private.asc > SHA256SUMS.txt)
+          gh release create haruq-key-repair-recipient-20261024 transfer/* --repo "$GITHUB_REPOSITORY" --title "HARUQ one-time encrypted history transfer recipient" --notes "Public recipient key and passphrase-protected private key only. No plaintext history or credentials." --latest=false
+      - name: Remove temporary key material
+        if: always()
+        run: |
+          gpgconf --kill all || true
+          rm -rf "$GNUPGHOME" transfer
