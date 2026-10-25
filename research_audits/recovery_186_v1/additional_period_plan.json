@@ -1,0 +1,11 @@
+{
+  "period_from": "2026-10-01",
+  "period_to": "2026-10-22",
+  "role": "Additional diagnostic outside the prior main holdout. Choose candidate with existing2025H1rule before evaluating. Do not choose another candidate based on October results.",
+  "models": "Baseline and model selected by frozen2025H1rule only",
+  "purchase_policy": "Samegap1/2,HIGHonly,exacta4/trifecta6,100yen each",
+  "odds_filter": false,
+  "reason": "Complete per-ticket odds not archived forOctober; evaluatewithoutoddsfilter and labelseparately. No new data collection.",
+  "feature_parity_samples": 80,
+  "production_changed": false
+}
