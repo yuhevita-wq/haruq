@@ -1,0 +1,59 @@
+name: HaruQ Independent Online Purchase and Ticket Verification
+on:
+  push:
+    branches: [research/entry-only-validation-20261026]
+    paths: [.github/workflows/entry-decision-parity.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: entry-only-decision-parity
+  cancel-in-progress: false
+jobs:
+  redo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      COLLECTOR_PASSPHRASE: ${{ secrets.COLLECTOR_PASSPHRASE }}
+      OMP_NUM_THREADS: "2"
+      OPENBLAS_NUM_THREADS: "2"
+      MKL_NUM_THREADS: "2"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Stage unchanged frozen production source in temporary runner
+        run: |
+          cp research_snapshots/haruqube_20260321/config.py config.py
+          cp research_snapshots/haruqube_20260321/features/builder.py features/builder.py
+          cp research_snapshots/haruqube_20260321/features/line_features.py features/line_features.py
+          python -m pip install lightgbm==4.6.0 pandas==2.3.3 numpy==2.2.6 scikit-learn==1.7.2 python-dotenv==1.1.1 requests beautifulsoup4 lxml
+      - name: Restore verified frozen model and historical archive
+        run: |
+          set -euo pipefail
+          mkdir -p flagship_inputs db
+          gh release download haruqube-20260321-flagship-v1 --repo "$GITHUB_REPOSITORY" --pattern haruqube_20260321_fresh_model.pkl --dir flagship_inputs
+          for name in keirin-history.sqlite.gpg PLAINTEXT_SHA256.txt; do
+            gh release download haruqube-20260321-history-cache-haruq-v1 --repo "$GITHUB_REPOSITORY" --pattern "$name" --dir flagship_inputs
+          done
+          python -c 'import os,sys; sys.stdout.write(os.environ["COLLECTOR_PASSPHRASE"].rstrip("\r\n"))' | gpg --batch --yes --pinentry-mode loopback --passphrase-fd 0 --output db/keirin.db --decrypt flagship_inputs/keirin-history.sqlite.gpg
+          (cd db && sha256sum -c ../flagship_inputs/PLAINTEXT_SHA256.txt)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Independently verify frozen and research model purchase decisions and tickets
+        run: |
+          python -c 'from scripts.reproduce_haruqube_20260321 import verify_sources; verify_sources()'
+          python -u -m scripts.verify_entry_decisions
+      - name: Persist independent comparison
+        if: always()
+        run: |
+          if test -f entry_only_redo/decision_parity.json; then
+            git add -f entry_only_redo/decision_parity.json
+            git diff --cached --quiet || git commit -m "Verify online purchase and ticket parity for both research evaluations [skip ci]"
+            git push origin HEAD:research/entry-only-validation-20261026
+          fi
+      - name: Remove ephemeral history and frozen model
+        if: always()
+        run: rm -f db/keirin.db flagship_inputs/haruqube_20260321_fresh_model.pkl
