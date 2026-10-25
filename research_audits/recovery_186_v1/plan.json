@@ -1,0 +1,27 @@
+{
+  "target_roi_pct": 186.3,
+  "production_changed": false,
+  "candidates": [
+    {
+      "name": "eligible_train_ndcg3",
+      "change": "Existing live-eligible classes only in training and early-stopping validation; same NDCG3 objective."
+    },
+    {
+      "name": "all_train_head_focus",
+      "change": "Same full training population; early-stop NDCG1, lambdarank truncation4; live-eligible validation."
+    },
+    {
+      "name": "eligible_train_head_focus",
+      "change": "Live-eligible training and validation; early-stop NDCG1, truncation4."
+    }
+  ],
+  "control": "Previously verified entry-only retrained model bfca8b4a4b660bbfc676cf96b6132b0ce9197ff352a27c273df1f8cef968d1d6",
+  "features": 44,
+  "train": "2023-01-01 through 2024-12-31",
+  "validation": "2025-01-01 through 2025-06-30",
+  "holdout": "2025-07-01 through 2026-09-30",
+  "selection": "Validation eligible-race top1 hits, tie-break exacta4 hit rate then NDCG1. Freeze selection before new candidate holdout evaluation. Do not select best holdout ROI.",
+  "fixed_policy": "HIGH score gap>=1 exacta4; S3-HIGH gap>=2 trifecta6.100yen/ticket. Entire race skip if any exacta ticket final odds<=4.0. No threshold search, new formations or added filters.",
+  "odds_period": "2025-07-01 through 2026-06-30 only, final odds not purchase snapshots",
+  "limitation": "Archive already viewed for earlier models. This experiment keeps new candidate selection independent of its holdout returns but cannot claim globally untouched history."
+}
