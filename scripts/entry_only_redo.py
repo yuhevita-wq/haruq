@@ -71,20 +71,27 @@ def main():
   lf=builder.line_builder._build_all(Guard(con,day),str(rid));rf=builder.race_builder.build_batch(str(rid),list(em),day,Guard(con,day))
   clean=[]
   for _,r in g.iterrows():
-   k=str(r.rider_id);e=em[k];d=dict(race_id=str(rid),rider_id=r.rider_id,**lf[k],**rf[k]);d['class']=e['class'];d['rider_class_num']=float(CLASS_MAP.get(e['class'],6));d['bike_number']=int(e['bike_number']);d['frame_number']=e['frame_number'];d['line_group']=e['line_group'];d['line_role']=e['line_role'];clean.append(d)
+   k=str(r.rider_id);e=em[k];d=dict(race_id=str(rid),rider_id=r.rider_id,**lf[k],**rf[k]);d['class']=e['class'];d['rider_class_num']=float(CLASS_MAP.get(e['class'],6));d['bike_number']=int(e['bike_number']);d['frame_number']=e['frame_number'];d['line_group']=e['line_group'];d['line_role']=e['line_role'];
+   if float(r['rider_race_count'])==0:d['rider_avg_margin']=0.0 # frozen online empty-history branch uses setdefault(0), unlike batch DEFAULT_AVG_MARGIN
+   clean.append(d)
   c=pd.DataFrame(clean).set_index('rider_id');a=g.set_index('rider_id');a=a.loc[c.index]
   # Inputs not replaced here are strictly past-only history statistics from the original engine.
   c['class_rank_in_race']=c['rider_class_num'].rank(method='min');c['rider_class_x_jiku']=c['rider_class_num']*c['line_is_jiku'];c['form_trend_x_line_strength']=a['rider_form_trend']*c['line_strength_score']
-  for name in features:
-   if name not in c:continue
-   av=pd.to_numeric(a[name],errors='coerce').fillna(0);bv=pd.to_numeric(c[name],errors='coerce').fillna(0);n=int((~np.isclose(av,bv,atol=1e-8,rtol=1e-8)).sum())
-   if n:change[ph][name]+=n
   counts[ph+'_complete_entries']+=1;eligible.append(rid);replacements.extend(c.reset_index().to_dict('records'))
   if j%10000==0:print('REBUILD_PROGRESS',j,len(groups),flush=True)
  clean=old[old.race_id.isin(eligible)].copy();repl=pd.DataFrame(replacements);replace_cols=[c for c in repl if c not in ('race_id','rider_id')]
  clean=clean.drop(columns=[c for c in replace_cols if c in clean]);clean=clean.merge(repl,on=['race_id','rider_id'],validate='one_to_one')
  clean[features]=clean[features].apply(pd.to_numeric,errors='coerce').fillna(0)
- save('input_changes.json',dict(counts=counts,changed_cells_by_period=change,replacement_columns=replace_cols,source='entries for current race, races for metadata, strictly earlier dates for rider history; no current result fallback'))
+ oldmatch=old[old.race_id.isin(eligible)].reset_index(drop=True);clean=clean.reset_index(drop=True)
+ assert oldmatch[['race_id','rider_id']].equals(clean[['race_id','rider_id']])
+ phases=clean.race_date.map(phase)
+ for name in features:
+  av=pd.to_numeric(oldmatch[name],errors='coerce').fillna(0).to_numpy();bv=clean[name].to_numpy();badcells=~np.isclose(av,bv,atol=1e-8,rtol=1e-8)
+  for ph in ['train','validation','holdout','later']:
+   n=int(badcells[phases.eq(ph)].sum())
+   if n:change[ph][name]=n
+ del groups,replacements,repl,oldmatch
+ save('input_changes.json',dict(counts=counts,changed_cells_by_period=change,empty_history_margin='Match frozen online behavior: rider_avg_margin=0 when rider_race_count=0',replacement_columns=replace_cols,source='entries for current race, races for metadata, strictly earlier dates for rider history; no current result fallback'))
  # Independently call the unmodified online builder with historical class from entries.
  parity=[];bad=0
  for ph,n in [('train',80),('validation',80),('holdout',240)]:
@@ -99,6 +106,11 @@ def main():
     # Current result permutation is explicitly irrelevant to online queries: Guard forbids reading it.
     parity.append(dict(race_id=rid,phase=ph,changed_features=diff,identical=not diff,score_match=bool(score_match),rank_match=bool(np.array_equal(oa,ob))))
     bad+=bool(diff) or not score_match or not np.array_equal(oa,ob)
+    if j%10==0:
+     con.execute("UPDATE race_results SET finish_position=NULL,line_group='current_result_hidden',line_role='hidden',class='L1' WHERE race_id=?",(str(rid),))
+     hidden=builder.build_race_features(str(rid),day,Guard(con,day)).set_index('rider_id').loc[a.index]
+     invariant=bool(np.allclose(bb,hidden[features].apply(pd.to_numeric,errors='coerce').fillna(0),atol=1e-8,rtol=1e-8))
+     parity[-1]['current_outcome_hidden_invariant']=invariant;bad+=not invariant
    finally:con.execute('ROLLBACK TO parity');con.execute('RELEASE parity')
   print('PARITY_PHASE',ph,'bad',bad,flush=True)
  save('parity.json',parity)
