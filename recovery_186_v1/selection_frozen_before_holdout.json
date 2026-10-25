@@ -1,0 +1,125 @@
+{
+  "selected": "eligible_train_ndcg3",
+  "selection_rule": "2025H1 eligible validation top1 hits, then exacta4 hit rate, then NDCG1. No holdout profit or odds used.",
+  "validation": {
+    "baseline": {
+      "races": 10819,
+      "top1_hits": 4805,
+      "top1_rate": 0.44412607449856734,
+      "exacta4_hit_rate": 0.3975413624179684,
+      "trifecta6_hit_rate": 0.19863203623255385,
+      "ndcg1": 0.592668708775659,
+      "high_races": 2652,
+      "s3_high_races": 555
+    },
+    "eligible_train_ndcg3": {
+      "races": 10819,
+      "top1_hits": 4810,
+      "top1_rate": 0.44458822442000184,
+      "exacta4_hit_rate": 0.3991126721508457,
+      "trifecta6_hit_rate": 0.2002957759497181,
+      "ndcg1": 0.5931905161948119,
+      "high_races": 2615,
+      "s3_high_races": 545
+    },
+    "all_train_head_focus": {
+      "races": 10819,
+      "top1_hits": 4808,
+      "top1_rate": 0.44440336445142803,
+      "exacta4_hit_rate": 0.39569276273223036,
+      "trifecta6_hit_rate": 0.1904057676310195,
+      "ndcg1": 0.5937425711855381,
+      "high_races": 2312,
+      "s3_high_races": 443
+    },
+    "eligible_train_head_focus": {
+      "races": 10819,
+      "top1_hits": 4805,
+      "top1_rate": 0.44412607449856734,
+      "exacta4_hit_rate": 0.39624734263795175,
+      "trifecta6_hit_rate": 0.1968758665311027,
+      "ndcg1": 0.592609204985773,
+      "high_races": 2302,
+      "s3_high_races": 437
+    }
+  },
+  "models": {
+    "eligible_train_ndcg3": {
+      "name": "eligible_train_ndcg3",
+      "eligible_train": true,
+      "head_focus": false,
+      "params": {
+        "objective": "lambdarank",
+        "metric": "ndcg",
+        "ndcg_eval_at": [
+          3
+        ],
+        "learning_rate": 0.0679,
+        "num_leaves": 35,
+        "min_data_in_leaf": 96,
+        "feature_fraction": 0.6917,
+        "bagging_fraction": 0.728,
+        "bagging_freq": 5,
+        "lambda_l1": 1.8525,
+        "lambda_l2": 1.5214,
+        "verbose": -1
+      },
+      "train_races": 44691,
+      "early_stopping_validation_races": 10819,
+      "model_sha256": "1a9e9d1ab0e0534a0413e278428b55736c1d783a0565300f296d9c0174b9fe6c"
+    },
+    "all_train_head_focus": {
+      "name": "all_train_head_focus",
+      "eligible_train": false,
+      "head_focus": true,
+      "params": {
+        "objective": "lambdarank",
+        "metric": "ndcg",
+        "ndcg_eval_at": [
+          1
+        ],
+        "learning_rate": 0.0679,
+        "num_leaves": 35,
+        "min_data_in_leaf": 96,
+        "feature_fraction": 0.6917,
+        "bagging_fraction": 0.728,
+        "bagging_freq": 5,
+        "lambda_l1": 1.8525,
+        "lambda_l2": 1.5214,
+        "verbose": -1,
+        "lambdarank_truncation_level": 4
+      },
+      "train_races": 48297,
+      "early_stopping_validation_races": 10819,
+      "model_sha256": "151fa6f38d96b3fc7c20387f7d3fcf98d8acfefd0fa5959d362c5504d4b8a7d9"
+    },
+    "eligible_train_head_focus": {
+      "name": "eligible_train_head_focus",
+      "eligible_train": true,
+      "head_focus": true,
+      "params": {
+        "objective": "lambdarank",
+        "metric": "ndcg",
+        "ndcg_eval_at": [
+          1
+        ],
+        "learning_rate": 0.0679,
+        "num_leaves": 35,
+        "min_data_in_leaf": 96,
+        "feature_fraction": 0.6917,
+        "bagging_fraction": 0.728,
+        "bagging_freq": 5,
+        "lambda_l1": 1.8525,
+        "lambda_l2": 1.5214,
+        "verbose": -1,
+        "lambdarank_truncation_level": 4
+      },
+      "train_races": 44691,
+      "early_stopping_validation_races": 10819,
+      "model_sha256": "b4b8452067c917c8d865009cf9c7f9ab7c4f29673246de1864f675fdc5a49d45"
+    }
+  },
+  "production_changed": false,
+  "target_roi_pct": 186.3,
+  "policy": "HIGH gap>=1 exacta4; S3-HIGH gap>=2 trifecta6; 100yen each; requested <=4 final odds filter applied separately without tuning"
+}
