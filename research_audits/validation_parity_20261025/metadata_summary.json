@@ -1,0 +1,60 @@
+{
+  "valid_races": 31946,
+  "no_entries": 0,
+  "result_excluded": 2604,
+  "entry_excluded": 2604,
+  "eligibility_mismatch": [],
+  "by_grade": {
+    "F1": {
+      "races": 11317,
+      "result_excluded": 521,
+      "entry_excluded": 521
+    },
+    "F2": {
+      "races": 17391,
+      "result_excluded": 1891,
+      "entry_excluded": 1891
+    },
+    "G1": {
+      "races": 500,
+      "result_excluded": 105,
+      "entry_excluded": 105
+    },
+    "G2": {
+      "races": 205,
+      "result_excluded": 1,
+      "entry_excluded": 1
+    },
+    "G3": {
+      "races": 2452,
+      "result_excluded": 85,
+      "entry_excluded": 85
+    },
+    "GP": {
+      "races": 81,
+      "result_excluded": 1,
+      "entry_excluded": 1
+    }
+  },
+  "tie_diagnostic": {
+    "all": {
+      "races": 9066,
+      "winner_line_chosen": 8309,
+      "winner_line_chosen_pct": 91.65012133245092,
+      "first_row_is_winner": 9066
+    },
+    "eligible": {
+      "races": 6462,
+      "winner_line_chosen": 5705,
+      "winner_line_chosen_pct": 88.28536056948313,
+      "first_row_is_winner": 6462
+    },
+    "selected": {
+      "races": 1995,
+      "winner_line_chosen": 1822,
+      "winner_line_chosen_pct": 91.32832080200501,
+      "first_row_is_winner": 1995
+    }
+  },
+  "selected_rejection_cases": []
+}
