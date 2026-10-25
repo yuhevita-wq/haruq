@@ -7,18 +7,22 @@
   },
   "changed_cells_by_period": {
     "train": {
+      "rider_avg_margin": 2303,
       "rider_in_strongest_line": 26445
     },
     "validation": {
+      "rider_avg_margin": 86,
       "rider_in_strongest_line": 6861
     },
     "holdout": {
+      "rider_avg_margin": 95,
       "rider_in_strongest_line": 17930
     },
     "later": {
       "rider_in_strongest_line": 867
     }
   },
+  "empty_history_margin": "Match frozen online behavior: rider_avg_margin=0 when rider_race_count=0",
   "replacement_columns": [
     "line_size",
     "line_avg_class",
@@ -47,6 +51,7 @@
     "frame_number",
     "line_group",
     "line_role",
+    "rider_avg_margin",
     "class_rank_in_race",
     "rider_class_x_jiku",
     "form_trend_x_line_strength"

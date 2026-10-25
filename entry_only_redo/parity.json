@@ -2,21 +2,18 @@
   {
     "race_id": "202301011301",
     "phase": "train",
-    "changed_features": [
-      "rider_avg_margin"
-    ],
-    "identical": false,
-    "score_match": false,
-    "rank_match": true
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202301085310",
     "phase": "train",
-    "changed_features": [
-      "rider_avg_margin"
-    ],
-    "identical": false,
-    "score_match": false,
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
     "rank_match": true
   },
   {
@@ -73,7 +70,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202303247504",
@@ -129,7 +127,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202305272306",
@@ -193,7 +192,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202308102701",
@@ -249,7 +249,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202310168412",
@@ -313,7 +314,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202312282807",
@@ -369,7 +371,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202403021306",
@@ -489,7 +492,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202407121207",
@@ -609,7 +613,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202412026302",
@@ -649,7 +654,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202501024501",
@@ -705,7 +711,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202501174209",
@@ -761,7 +768,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202502021308",
@@ -817,7 +825,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202502215306",
@@ -993,7 +1002,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202504144501",
@@ -1049,7 +1059,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202505022110",
@@ -1105,7 +1116,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202505177409",
@@ -1161,7 +1173,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202506014807",
@@ -1281,7 +1294,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202507011101",
@@ -1289,7 +1303,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202507023402",
@@ -1329,7 +1344,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202507111204",
@@ -1393,7 +1409,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202507248705",
@@ -1457,7 +1474,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202508087311",
@@ -1561,7 +1579,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202509022206",
@@ -1625,7 +1644,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202509188705",
@@ -1729,7 +1749,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202510116104",
@@ -1793,7 +1814,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202510268603",
@@ -1897,7 +1919,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202511188308",
@@ -1961,7 +1984,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202512052308",
@@ -2025,7 +2049,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202512203605",
@@ -2129,7 +2154,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202601145608",
@@ -2193,7 +2219,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202601294810",
@@ -2297,7 +2324,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202602272306",
@@ -2361,7 +2389,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202603173109",
@@ -2465,7 +2494,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202604108308",
@@ -2529,7 +2559,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202604243106",
@@ -2593,7 +2624,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202605123604",
@@ -2697,7 +2729,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202606067305",
@@ -2761,7 +2794,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202606222103",
@@ -2865,7 +2899,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202607174711",
@@ -2929,7 +2964,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202608013606",
@@ -3033,7 +3069,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202608252404",
@@ -3097,7 +3134,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202609082108",
@@ -3161,7 +3199,8 @@
     "changed_features": [],
     "identical": true,
     "score_match": true,
-    "rank_match": true
+    "rank_match": true,
+    "current_outcome_hidden_invariant": true
   },
   {
     "race_id": "202609232502",
