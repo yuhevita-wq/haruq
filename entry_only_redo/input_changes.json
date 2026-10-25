@@ -1,0 +1,55 @@
+{
+  "counts": {
+    "train_complete_entries": 48297,
+    "validation_complete_entries": 11741,
+    "holdout_complete_entries": 30162,
+    "later_complete_entries": 1289
+  },
+  "changed_cells_by_period": {
+    "train": {
+      "rider_in_strongest_line": 26445
+    },
+    "validation": {
+      "rider_in_strongest_line": 6861
+    },
+    "holdout": {
+      "rider_in_strongest_line": 17930
+    },
+    "later": {
+      "rider_in_strongest_line": 867
+    }
+  },
+  "replacement_columns": [
+    "line_size",
+    "line_avg_class",
+    "line_is_jiku",
+    "line_is_番手",
+    "line_is_3番手",
+    "line_strength_score",
+    "rider_in_strongest_line",
+    "race_grade_num",
+    "race_bank_length",
+    "race_rider_count",
+    "race_number",
+    "race_weather",
+    "race_track_condition",
+    "entry_frame_number",
+    "entry_bike_number",
+    "entry_gear_ratio",
+    "entry_competition_score",
+    "entry_win_rate",
+    "entry_place_rate",
+    "entry_odds",
+    "entry_popularity",
+    "class",
+    "rider_class_num",
+    "bike_number",
+    "frame_number",
+    "line_group",
+    "line_role",
+    "class_rank_in_race",
+    "rider_class_x_jiku",
+    "form_trend_x_line_strength"
+  ],
+  "source": "entries for current race, races for metadata, strictly earlier dates for rider history; no current result fallback"
+}

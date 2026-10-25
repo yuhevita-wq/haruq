@@ -1,0 +1,3206 @@
+[
+  {
+    "race_id": "202301011301",
+    "phase": "train",
+    "changed_features": [
+      "rider_avg_margin"
+    ],
+    "identical": false,
+    "score_match": false,
+    "rank_match": true
+  },
+  {
+    "race_id": "202301085310",
+    "phase": "train",
+    "changed_features": [
+      "rider_avg_margin"
+    ],
+    "identical": false,
+    "score_match": false,
+    "rank_match": true
+  },
+  {
+    "race_id": "202301176203",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202301285408",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202302085401",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202302168603",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202302257403",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202303065604",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202303158510",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202303247504",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202304053705",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202304141108",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202304232406",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202305013809",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202305094403",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202305182611",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202305272306",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202306062405",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202306158501",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202306252106",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202307041209",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202307134606",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202307223504",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202307304211",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202308102701",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202308204508",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202308312305",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202309086110",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202309198607",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202309298405",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202310085406",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202310168412",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202310266107",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202311042501",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202311131304",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202311223101",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202312022509",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202312113510",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202312197307",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202312282807",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202401058602",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202401167106",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202401255307",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202402034809",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202402123606",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202402224408",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202403021306",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202403104211",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202403198607",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202403295604",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202404077505",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202404165406",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202404255109",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202405037106",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202405122706",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202405216104",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202405301103",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202406073601",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202406174401",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202406264509",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202407042405",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202407121207",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202407214607",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202408017504",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202408107512",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202408218605",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202409017509",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202409105105",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202409205106",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202409298303",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202410083601",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202410172103",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202410273501",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202411053501",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202411142309",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202411236109",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202412026302",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202412131308",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202412222305",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202412318607",
+    "phase": "train",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501012202",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501024501",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501042801",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501057410",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501078610",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501097403",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501118508",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501154303",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501174209",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501198704",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501227104",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501247505",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501267105",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501288301",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202501313501",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202502021308",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202502035305",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202502102408",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202502118705",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202502142202",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202502162711",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202502195605",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202502215306",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202502238706",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202502274301",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503013505",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503028311",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503063403",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503082606",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503103706",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503123706",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503148404",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503182203",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503213709",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503233710",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503257405",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503277107",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202503302804",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504015602",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504038502",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504061306",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504082804",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504103804",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504122211",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504144501",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504164504",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504183803",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504206102",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504238707",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504272103",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202504296106",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505022110",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505041108",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505062604",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505094305",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505114801",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505141106",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505158703",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505177409",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505201103",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505218408",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505242712",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505262507",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505285105",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202505306106",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506014807",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506034601",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506054609",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506081103",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506103701",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506123509",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506143504",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506162709",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506185601",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506203705",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506223508",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506244605",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506264503",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506287403",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202506308312",
+    "phase": "validation",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507011101",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507023402",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507042211",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507061306",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507074711",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507093106",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507111204",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507124805",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507144704",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507162710",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507181205",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507202506",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507221104",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507234510",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507248705",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507266303",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507294602",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202507314606",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508022101",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508037407",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508052304",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508064811",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508087311",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508103408",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508122210",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508143801",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508163501",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508186102",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508204212",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508218503",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508237406",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508257405",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508275612",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508294206",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202508314804",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509022206",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509038301",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509054312",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509075303",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509093506",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509138505",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509154804",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509174307",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509188705",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509205302",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509224310",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509242804",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509258102",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509275308",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202509292511",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510011112",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510028301",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510041109",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510061102",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510081205",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510096104",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510116104",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510135307",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510156104",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510174504",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510194505",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510214301",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510232211",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510251111",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510268603",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510286112",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202510308103",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511015302",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511034808",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511052601",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511065311",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511085309",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511102502",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511123707",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511137303",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511152710",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511172505",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511188308",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511207407",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511232304",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511252203",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511273103",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202511296108",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512015304",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512033510",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512052308",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512071311",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512085509",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512105506",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512125304",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512143704",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512166311",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512183704",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512203605",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512223807",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512254201",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512268303",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512294306",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202512316201",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601022404",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601034506",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601051310",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601068605",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601092609",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601108101",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601127305",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601145608",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601164407",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601184504",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601204310",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601222605",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601238304",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601258307",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601277404",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601294810",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202601315301",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602033703",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602046108",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602065309",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602105609",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602126107",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602144203",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602172307",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602187407",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602206203",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602224404",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602244505",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202602272306",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603012705",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603026201",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603044503",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603068102",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603088302",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603125504",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603154311",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603173109",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603192305",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603211309",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603232606",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603248601",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603264411",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603282811",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202603298705",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604014201",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604032702",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604054509",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604073507",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604092611",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604108308",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604124603",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604143704",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604158104",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604174505",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604192709",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604208409",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604228103",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604243106",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604274301",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604292501",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202604306204",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605037504",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605055604",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605078604",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605102406",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605123604",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605144404",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605162410",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605184305",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605201202",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605215308",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605233506",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605262706",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605281201",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605298108",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202605313803",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606032203",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606048308",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606067305",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606085301",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606102207",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606118605",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606136110",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606153606",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606182711",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606201102",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606222103",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606251201",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606271202",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606288501",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202606308501",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607033104",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607055507",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607074506",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607088310",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607104403",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607124301",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607142704",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607158505",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607174711",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607193810",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607214701",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607232204",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607246106",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607265308",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607292801",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202607311206",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608013606",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608034802",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608054507",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608068606",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608088502",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608104609",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608127505",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608145306",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608167503",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608184804",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608203405",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608216110",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608233112",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608252404",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608267404",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608286104",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202608304804",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609012408",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609026102",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609044505",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609062608",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609082108",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609098406",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609115303",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609134404",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609151310",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609168406",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609184611",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609212505",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609232502",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609252103",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609271204",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609288407",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  },
+  {
+    "race_id": "202609308507",
+    "phase": "holdout",
+    "changed_features": [],
+    "identical": true,
+    "score_match": true,
+    "rank_match": true
+  }
+]
