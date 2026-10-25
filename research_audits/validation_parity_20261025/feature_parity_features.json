@@ -1,0 +1,354 @@
+[
+  {
+    "feature": "rider_class_num",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_win_rate_all",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_place_rate_all",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_top3_rate_all",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_win_rate_recent10",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_place_rate_recent10",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_top3_rate_recent10",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_avg_finish_pos",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_avg_finish_pos_recent5",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_avg_finish_pos_recent10",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_race_count",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_competition_score",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_avg_margin",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 1.7763568394002505e-15,
+    "mean_abs_delta": 8.354346865654403e-17
+  },
+  {
+    "feature": "rider_avg_last_1lap",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 2.3092638912203256e-14,
+    "mean_abs_delta": 5.3978327184355996e-15
+  },
+  {
+    "feature": "rider_avg_last_1lap_recent5",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_best_last_1lap",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_normalized_last_1lap",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 2.6645352591003757e-14,
+    "mean_abs_delta": 5.656211895075636e-15
+  },
+  {
+    "feature": "rider_normalized_last_1lap_recent5",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_velodrome_race_count",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_venue_top3_rate",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_form_trend",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_form_acuity",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_days_since_last_race",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_finish_pos_std",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 6.217248937900877e-15,
+    "mean_abs_delta": 9.983542178036891e-16
+  },
+  {
+    "feature": "race_grade_num",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "race_bank_length",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "race_number",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "entry_frame_number",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "entry_bike_number",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "entry_competition_score",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "entry_win_rate",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "entry_place_rate",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "entry_gear_ratio",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "race_rider_count",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "line_size",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "line_avg_class",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "line_is_jiku",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "line_is_3番手",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "line_strength_score",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_in_strongest_line",
+    "mismatched_cells": 152,
+    "compared_cells": 1705,
+    "mismatch_pct": 8.914956011730204,
+    "max_abs_delta": 1.0,
+    "mean_abs_delta": 0.08914956011730206
+  },
+  {
+    "feature": "class_rank_in_race",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "score_rank_in_race",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "rider_class_x_jiku",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  },
+  {
+    "feature": "form_trend_x_line_strength",
+    "mismatched_cells": 0,
+    "compared_cells": 1705,
+    "mismatch_pct": 0.0,
+    "max_abs_delta": 0.0,
+    "mean_abs_delta": 0.0
+  }
+]

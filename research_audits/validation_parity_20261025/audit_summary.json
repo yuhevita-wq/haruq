@@ -1,0 +1,1377 @@
+{
+  "model_sha256": "e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193",
+  "baseline_ledger_check": {
+    "rows": 11821,
+    "race_sets_equal": true,
+    "all_ticket_outcomes_equal": true
+  },
+  "holdout_races": 30162,
+  "current_policy": {
+    "races": 7448,
+    "stake": 19330000,
+    "paid": 17926550,
+    "profit": -1403450,
+    "roi_pct": 92.7395240558717,
+    "hits": 4404
+  },
+  "excluded": {
+    "F2": 1822,
+    "F1": 500,
+    "G3": 83,
+    "G1": 102,
+    "GP": 1,
+    "G2": 1
+  },
+  "today_policy": {
+    "predicted": 66,
+    "purchases": 21,
+    "all_model_match": true,
+    "all_tickets_match": true,
+    "all_stakes_match": true,
+    "all_published_before_start": true
+  },
+  "parity": {
+    "requested": 240,
+    "compared": 240,
+    "feature_identical_races": 201,
+    "top1_match_races": 206,
+    "buy_match_races": 233,
+    "trifecta_buy_match_races": 234,
+    "tickets_match_races": 216,
+    "mismatch_features": [
+      {
+        "feature": "rider_in_strongest_line",
+        "mismatched_cells": 152,
+        "compared_cells": 1705,
+        "mismatch_pct": 8.914956011730204,
+        "max_abs_delta": 1.0,
+        "mean_abs_delta": 0.08914956011730206
+      },
+      {
+        "feature": "rider_class_num",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_win_rate_all",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_place_rate_all",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_top3_rate_all",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_win_rate_recent10",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_place_rate_recent10",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_top3_rate_recent10",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_avg_finish_pos",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_avg_finish_pos_recent5",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_avg_finish_pos_recent10",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_race_count",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_competition_score",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_avg_margin",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 1.7763568394002505e-15,
+        "mean_abs_delta": 8.354346865654403e-17
+      },
+      {
+        "feature": "rider_avg_last_1lap",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 2.3092638912203256e-14,
+        "mean_abs_delta": 5.3978327184355996e-15
+      },
+      {
+        "feature": "rider_avg_last_1lap_recent5",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_best_last_1lap",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_normalized_last_1lap",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 2.6645352591003757e-14,
+        "mean_abs_delta": 5.656211895075636e-15
+      },
+      {
+        "feature": "rider_normalized_last_1lap_recent5",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_velodrome_race_count",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_venue_top3_rate",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_form_trend",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_form_acuity",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_days_since_last_race",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_finish_pos_std",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 6.217248937900877e-15,
+        "mean_abs_delta": 9.983542178036891e-16
+      },
+      {
+        "feature": "race_grade_num",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "race_bank_length",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "race_number",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "entry_frame_number",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "entry_bike_number",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "entry_competition_score",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "entry_win_rate",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "entry_place_rate",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "entry_gear_ratio",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "race_rider_count",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "line_size",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "line_avg_class",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "line_is_jiku",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "line_is_3番手",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "line_strength_score",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "class_rank_in_race",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "score_rank_in_race",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "rider_class_x_jiku",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      },
+      {
+        "feature": "form_trend_x_line_strength",
+        "mismatched_cells": 0,
+        "compared_cells": 1705,
+        "mismatch_pct": 0.0,
+        "max_abs_delta": 0.0,
+        "mean_abs_delta": 0.0
+      }
+    ],
+    "scope": "Matched historical archive entries, master class aligned to contemporaneous result in rolled-back transactions; not timestamp proof"
+  },
+  "downside": {
+    "observed": {
+      "races": 21,
+      "stake": 45000,
+      "paid": 26950,
+      "loss": -18050,
+      "roi_pct": 59.88888888888889
+    },
+    "sliding": {
+      "windows": 7428,
+      "roi_at_or_below_today": 1924,
+      "roi_at_or_below_today_pct": 25.901992460958535,
+      "loss_at_least_today": 2486,
+      "loss_at_least_today_pct": 33.46795907377491,
+      "roi_percentiles": {
+        "0": 11.666666666666666,
+        "1": 27.166666666666668,
+        "5": 37.64705882352941,
+        "10": 44.77777777777778,
+        "25": 58.95559210526316,
+        "50": 81.97916666666667,
+        "75": 111.18201754385963,
+        "90": 150.18530701754386,
+        "95": 178.61140350877187,
+        "99": 276.3571700991609,
+        "100": 477.3015873015873
+      }
+    },
+    "nonoverlapping": {
+      "windows": 354,
+      "roi_at_or_below_today": 91,
+      "roi_at_or_below_today_pct": 25.70621468926554,
+      "loss_at_least_today": 114,
+      "loss_at_least_today_pct": 32.20338983050847,
+      "roi_percentiles": {
+        "0": 11.666666666666666,
+        "1": 26.496376811594203,
+        "5": 35.62721417069243,
+        "10": 44.93541666666667,
+        "25": 58.85553728070175,
+        "50": 84.88095238095238,
+        "75": 113.3650097465887,
+        "90": 143.9635076252723,
+        "95": 169.53240740740716,
+        "99": 264.07063492063446,
+        "100": 422.43055555555554
+      }
+    },
+    "sliding_same_21_exacta_plus_1_trifecta": {
+      "windows": 480,
+      "roi_at_or_below_today": 91,
+      "roi_at_or_below_today_pct": 18.958333333333332,
+      "loss_at_least_today": 91,
+      "loss_at_least_today_pct": 18.958333333333332,
+      "roi_percentiles": {
+        "0": 26.666666666666668,
+        "1": 33.15222222222222,
+        "5": 42.644444444444446,
+        "10": 48.63333333333334,
+        "25": 63.916666666666664,
+        "50": 81.66666666666667,
+        "75": 101.6111111111111,
+        "90": 131.66666666666666,
+        "95": 151.92777777777775,
+        "99": 191.39999999999986,
+        "100": 223.77777777777777
+      }
+    },
+    "matched_resampling": {
+      "method": "Independent empirical resampling by grade and exacta-only/exacta+trifecta; descriptive under archived backtest, not live risk estimate",
+      "draws": 50000,
+      "seed": 20261025,
+      "today_mix": {
+        "('F1', 1)": 6,
+        "('F2', 1)": 10,
+        "('F2', 2)": 1,
+        "('G3', 1)": 4
+      },
+      "pool_sizes": {
+        "('F1', 1)": 1904,
+        "('F2', 1)": 3557,
+        "('F2', 2)": 1234,
+        "('G3', 1)": 427
+      },
+      "stake_unique": [
+        45000.0
+      ],
+      "roi_at_or_below_today_pct": 21.582,
+      "loss_at_least_today_pct": 21.582,
+      "profit_percentiles": {
+        "0": -43150.0,
+        "1": -32400.0,
+        "5": -27000.0,
+        "10": -23500.0,
+        "25": -16650.0,
+        "50": -7300.0,
+        "75": 4550.0,
+        "95": 29200.0,
+        "99": 64950.0,
+        "100": 189050.0
+      }
+    },
+    "overlapping_windows_are_not_independent": true
+  },
+  "concentration": {
+    "combined": {
+      "total": {
+        "races": 7448,
+        "stake": 19330000,
+        "paid": 17926550,
+        "profit": -1403450,
+        "roi_pct": 92.7395240558717,
+        "hits": 4404
+      },
+      "stress": [
+        {
+          "remove_top": 1,
+          "share_of_returns_pct": 0.6448535830932333,
+          "remaining": {
+            "races": 7447,
+            "stake": 19325000,
+            "paid": 17810950,
+            "profit": -1514050,
+            "roi_pct": 92.16532988357051,
+            "hits": 4403
+          },
+          "roi_if_winnings_zero_but_stakes_retained_pct": 92.1414899120538
+        },
+        {
+          "remove_top": 3,
+          "share_of_returns_pct": 1.8874239605501337,
+          "remaining": {
+            "races": 7445,
+            "stake": 19315000,
+            "paid": 17588200,
+            "profit": -1726800,
+            "roi_pct": 91.05979808439037,
+            "hits": 4401
+          },
+          "roi_if_winnings_zero_but_stakes_retained_pct": 90.98913605794102
+        },
+        {
+          "remove_top": 5,
+          "share_of_returns_pct": 2.8898477398049263,
+          "remaining": {
+            "races": 7443,
+            "stake": 19308000,
+            "paid": 17408500,
+            "profit": -1899500,
+            "roi_pct": 90.16210897037497,
+            "hits": 4399
+          },
+          "roi_if_winnings_zero_but_stakes_retained_pct": 90.05949301603725
+        },
+        {
+          "remove_top": 10,
+          "share_of_returns_pct": 4.918124234724473,
+          "remaining": {
+            "races": 7438,
+            "stake": 19286000,
+            "paid": 17044900,
+            "profit": -2241100,
+            "roi_pct": 88.37965363476097,
+            "hits": 4394
+          },
+          "roi_if_winnings_zero_but_stakes_retained_pct": 88.17847904811174
+        },
+        {
+          "remove_top": 20,
+          "share_of_returns_pct": 7.891367831512477,
+          "remaining": {
+            "races": 7428,
+            "stake": 19239000,
+            "paid": 16511900,
+            "profit": -2727100,
+            "roi_pct": 85.8251468371537,
+            "hits": 4384
+          },
+          "roi_if_winnings_zero_but_stakes_retained_pct": 85.42110708742887
+        },
+        {
+          "remove_top": 75,
+          "share_of_returns_pct": 17.052360883717167,
+          "remaining": {
+            "races": 7373,
+            "stake": 19027000,
+            "paid": 14869650,
+            "profit": -4157350,
+            "roi_pct": 78.15026015661954,
+            "hits": 4329
+          },
+          "roi_if_winnings_zero_but_stakes_retained_pct": 76.92524573202276
+        },
+        {
+          "remove_top": 373,
+          "share_of_returns_pct": 40.478787050492144,
+          "remaining": {
+            "races": 7075,
+            "stake": 18053000,
+            "paid": 10670100,
+            "profit": -7382900,
+            "roi_pct": 59.104303993796044,
+            "hits": 4031
+          },
+          "roi_if_winnings_zero_but_stakes_retained_pct": 55.19968960165546
+        },
+        {
+          "remove_top": 745,
+          "share_of_returns_pct": 56.580323598238365,
+          "remaining": {
+            "races": 6703,
+            "stake": 16931000,
+            "paid": 7783650,
+            "profit": -9147350,
+            "roi_pct": 45.97277183863918,
+            "hits": 3659
+          },
+          "roi_if_winnings_zero_but_stakes_retained_pct": 40.267201241593376
+        }
+      ],
+      "minimum_largest_return_races_removed_to_erase_profit": 1
+    },
+    "markets": {
+      "exacta": {
+        "total": {
+          "races": 7448,
+          "stake": 14896000,
+          "paid": 13718100,
+          "profit": -1177900,
+          "roi_pct": 92.09250805585393,
+          "hits": 4404
+        },
+        "stress": [
+          {
+            "remove_top": 1,
+            "share_of_returns_pct": 0.6352920593959805,
+            "remaining": {
+              "races": 7447,
+              "stake": 14894000,
+              "paid": 13630950,
+              "profit": -1263050,
+              "roi_pct": 91.51973949241305,
+              "hits": 4403
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 91.50745166487647
+          },
+          {
+            "remove_top": 3,
+            "share_of_returns_pct": 1.6649536014462645,
+            "remaining": {
+              "races": 7445,
+              "stake": 14890000,
+              "paid": 13489700,
+              "profit": -1400300,
+              "roi_pct": 90.59570181329751,
+              "hits": 4401
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 90.5592105263158
+          },
+          {
+            "remove_top": 5,
+            "share_of_returns_pct": 2.311909083619452,
+            "remaining": {
+              "races": 7443,
+              "stake": 14886000,
+              "paid": 13400950,
+              "profit": -1485050,
+              "roi_pct": 90.02384791078866,
+              "hits": 4399
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 89.96341299677766
+          },
+          {
+            "remove_top": 10,
+            "share_of_returns_pct": 3.726099095355771,
+            "remaining": {
+              "races": 7438,
+              "stake": 14876000,
+              "paid": 13206950,
+              "profit": -1669050,
+              "roi_pct": 88.78025006722237,
+              "hits": 4394
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 88.66104994629431
+          },
+          {
+            "remove_top": 20,
+            "share_of_returns_pct": 6.0504005656760045,
+            "remaining": {
+              "races": 7428,
+              "stake": 14856000,
+              "paid": 12888100,
+              "profit": -1967900,
+              "roi_pct": 86.75350026925148,
+              "hits": 4384
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 86.52054242749732
+          },
+          {
+            "remove_top": 75,
+            "share_of_returns_pct": 13.92393990421414,
+            "remaining": {
+              "races": 7373,
+              "stake": 14746000,
+              "paid": 11808000,
+              "profit": -2938000,
+              "roi_pct": 80.07595280075952,
+              "hits": 4329
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 79.26960257787326
+          },
+          {
+            "remove_top": 373,
+            "share_of_returns_pct": 36.69531494886318,
+            "remaining": {
+              "races": 7075,
+              "stake": 14150000,
+              "paid": 8684200,
+              "profit": -5465800,
+              "roi_pct": 61.37243816254417,
+              "hits": 4031
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 58.29887218045113
+          },
+          {
+            "remove_top": 745,
+            "share_of_returns_pct": 53.5770259729846,
+            "remaining": {
+              "races": 6703,
+              "stake": 13406000,
+              "paid": 6368350,
+              "profit": -7037650,
+              "roi_pct": 47.503729673280624,
+              "hits": 3659
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 42.75208109559613
+          }
+        ],
+        "minimum_largest_return_races_removed_to_erase_profit": 1
+      },
+      "trifecta": {
+        "total": {
+          "races": 1478,
+          "stake": 4434000,
+          "paid": 4208450,
+          "profit": -225550,
+          "roi_pct": 94.91317095173657,
+          "hits": 635
+        },
+        "stress": [
+          {
+            "remove_top": 1,
+            "share_of_returns_pct": 2.4331998716867256,
+            "remaining": {
+              "races": 1477,
+              "stake": 4431000,
+              "paid": 4106050,
+              "profit": -324950,
+              "roi_pct": 92.66644098397653,
+              "hits": 634
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 92.60374379792512
+          },
+          {
+            "remove_top": 3,
+            "share_of_returns_pct": 6.755456284380235,
+            "remaining": {
+              "races": 1475,
+              "stake": 4425000,
+              "paid": 3924150,
+              "profit": -500850,
+              "roi_pct": 88.68135593220339,
+              "hits": 632
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 88.50135317997294
+          },
+          {
+            "remove_top": 5,
+            "share_of_returns_pct": 9.95378345946845,
+            "remaining": {
+              "races": 1473,
+              "stake": 4419000,
+              "paid": 3789550,
+              "profit": -629450,
+              "roi_pct": 85.75582711020593,
+              "hits": 630
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 85.46571944068562
+          },
+          {
+            "remove_top": 10,
+            "share_of_returns_pct": 16.024902279936793,
+            "remaining": {
+              "races": 1468,
+              "stake": 4404000,
+              "paid": 3534050,
+              "profit": -869950,
+              "roi_pct": 80.24636693914623,
+              "hits": 625
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 79.70342805593144
+          },
+          {
+            "remove_top": 15,
+            "share_of_returns_pct": 20.94476588767836,
+            "remaining": {
+              "races": 1463,
+              "stake": 4389000,
+              "paid": 3327000,
+              "profit": -1062000,
+              "roi_pct": 75.80314422419686,
+              "hits": 620
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 75.0338294993234
+          },
+          {
+            "remove_top": 20,
+            "share_of_returns_pct": 24.588625265834214,
+            "remaining": {
+              "races": 1458,
+              "stake": 4374000,
+              "paid": 3173650,
+              "profit": -1200350,
+              "roi_pct": 72.55715592135346,
+              "hits": 615
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 71.57532701849345
+          },
+          {
+            "remove_top": 74,
+            "share_of_returns_pct": 47.87273224108639,
+            "remaining": {
+              "races": 1404,
+              "stake": 4212000,
+              "paid": 2193750,
+              "profit": -2018250,
+              "roi_pct": 52.083333333333336,
+              "hits": 561
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 49.47564276048715
+          },
+          {
+            "remove_top": 148,
+            "share_of_returns_pct": 66.50785918806211,
+            "remaining": {
+              "races": 1330,
+              "stake": 3990000,
+              "paid": 1409500,
+              "profit": -2580500,
+              "roi_pct": 35.32581453634085,
+              "hits": 487
+            },
+            "roi_if_winnings_zero_but_stakes_retained_pct": 31.788452864230944
+          }
+        ],
+        "minimum_largest_return_races_removed_to_erase_profit": 1
+      }
+    }
+  },
+  "segments": {
+    "grade": {
+      "F1": {
+        "races": 2091,
+        "stake": 4743000,
+        "paid": 4359100,
+        "profit": -383900,
+        "roi_pct": 91.90596668775036,
+        "hits": 1148
+      },
+      "F2": {
+        "races": 4791,
+        "stake": 13284000,
+        "paid": 12467500,
+        "profit": -816500,
+        "roi_pct": 93.85350797952424,
+        "hits": 2999
+      },
+      "G1": {
+        "races": 53,
+        "stake": 118000,
+        "paid": 144750,
+        "profit": 26750,
+        "roi_pct": 122.66949152542372,
+        "hits": 26
+      },
+      "G2": {
+        "races": 29,
+        "stake": 70000,
+        "paid": 22250,
+        "profit": -47750,
+        "roi_pct": 31.785714285714285,
+        "hits": 6
+      },
+      "G3": {
+        "races": 473,
+        "stake": 1084000,
+        "paid": 923250,
+        "profit": -160750,
+        "roi_pct": 85.17066420664207,
+        "hits": 222
+      },
+      "GP": {
+        "races": 11,
+        "stake": 31000,
+        "paid": 9700,
+        "profit": -21300,
+        "roi_pct": 31.29032258064516,
+        "hits": 3
+      }
+    },
+    "year": {
+      "2025": {
+        "races": 2993,
+        "stake": 7606000,
+        "paid": 6731150,
+        "profit": -874850,
+        "roi_pct": 88.49789639758086,
+        "hits": 1747
+      },
+      "2026": {
+        "races": 4455,
+        "stake": 11724000,
+        "paid": 11195400,
+        "profit": -528600,
+        "roi_pct": 95.49129989764586,
+        "hits": 2657
+      }
+    },
+    "month": {
+      "2025-07": {
+        "races": 501,
+        "stake": 1281000,
+        "paid": 1060700,
+        "profit": -220300,
+        "roi_pct": 82.80249804839968,
+        "hits": 286
+      },
+      "2025-08": {
+        "races": 505,
+        "stake": 1256000,
+        "paid": 1348800,
+        "profit": 92800,
+        "roi_pct": 107.38853503184713,
+        "hits": 319
+      },
+      "2025-09": {
+        "races": 463,
+        "stake": 1139000,
+        "paid": 971150,
+        "profit": -167850,
+        "roi_pct": 85.26338893766462,
+        "hits": 265
+      },
+      "2025-10": {
+        "races": 525,
+        "stake": 1350000,
+        "paid": 1148400,
+        "profit": -201600,
+        "roi_pct": 85.06666666666666,
+        "hits": 321
+      },
+      "2025-11": {
+        "races": 513,
+        "stake": 1359000,
+        "paid": 1126550,
+        "profit": -232450,
+        "roi_pct": 82.89551140544518,
+        "hits": 297
+      },
+      "2025-12": {
+        "races": 486,
+        "stake": 1221000,
+        "paid": 1075550,
+        "profit": -145450,
+        "roi_pct": 88.0876330876331,
+        "hits": 259
+      },
+      "2026-01": {
+        "races": 547,
+        "stake": 1376000,
+        "paid": 1307800,
+        "profit": -68200,
+        "roi_pct": 95.0436046511628,
+        "hits": 320
+      },
+      "2026-02": {
+        "races": 407,
+        "stake": 1060000,
+        "paid": 782350,
+        "profit": -277650,
+        "roi_pct": 73.80660377358491,
+        "hits": 229
+      },
+      "2026-03": {
+        "races": 459,
+        "stake": 1179000,
+        "paid": 971050,
+        "profit": -207950,
+        "roi_pct": 82.36217133163699,
+        "hits": 281
+      },
+      "2026-04": {
+        "races": 566,
+        "stake": 1537000,
+        "paid": 1370300,
+        "profit": -166700,
+        "roi_pct": 89.15419648666233,
+        "hits": 344
+      },
+      "2026-05": {
+        "races": 535,
+        "stake": 1517000,
+        "paid": 2109700,
+        "profit": 592700,
+        "roi_pct": 139.07053394858272,
+        "hits": 353
+      },
+      "2026-06": {
+        "races": 491,
+        "stake": 1306000,
+        "paid": 1247750,
+        "profit": -58250,
+        "roi_pct": 95.53981623277183,
+        "hits": 290
+      },
+      "2026-07": {
+        "races": 491,
+        "stake": 1273000,
+        "paid": 1187050,
+        "profit": -85950,
+        "roi_pct": 93.24823252160252,
+        "hits": 281
+      },
+      "2026-08": {
+        "races": 478,
+        "stake": 1205000,
+        "paid": 1256550,
+        "profit": 51550,
+        "roi_pct": 104.27800829875518,
+        "hits": 291
+      },
+      "2026-09": {
+        "races": 481,
+        "stake": 1271000,
+        "paid": 962850,
+        "profit": -308150,
+        "roi_pct": 75.75531077891424,
+        "hits": 268
+      }
+    },
+    "venue": {
+      "11": {
+        "races": 195,
+        "stake": 507000,
+        "paid": 481050,
+        "profit": -25950,
+        "roi_pct": 94.88165680473372,
+        "hits": 127
+      },
+      "12": {
+        "races": 201,
+        "stake": 504000,
+        "paid": 535200,
+        "profit": 31200,
+        "roi_pct": 106.19047619047619,
+        "hits": 135
+      },
+      "13": {
+        "races": 174,
+        "stake": 441000,
+        "paid": 287400,
+        "profit": -153600,
+        "roi_pct": 65.17006802721089,
+        "hits": 94
+      },
+      "21": {
+        "races": 218,
+        "stake": 550000,
+        "paid": 513500,
+        "profit": -36500,
+        "roi_pct": 93.36363636363636,
+        "hits": 133
+      },
+      "22": {
+        "races": 213,
+        "stake": 546000,
+        "paid": 441800,
+        "profit": -104200,
+        "roi_pct": 80.91575091575092,
+        "hits": 128
+      },
+      "23": {
+        "races": 156,
+        "stake": 414000,
+        "paid": 329600,
+        "profit": -84400,
+        "roi_pct": 79.61352657004831,
+        "hits": 94
+      },
+      "24": {
+        "races": 181,
+        "stake": 497000,
+        "paid": 671000,
+        "profit": 174000,
+        "roi_pct": 135.01006036217305,
+        "hits": 110
+      },
+      "25": {
+        "races": 133,
+        "stake": 359000,
+        "paid": 319850,
+        "profit": -39150,
+        "roi_pct": 89.09470752089136,
+        "hits": 79
+      },
+      "26": {
+        "races": 183,
+        "stake": 426000,
+        "paid": 388850,
+        "profit": -37150,
+        "roi_pct": 91.27934272300469,
+        "hits": 107
+      },
+      "27": {
+        "races": 232,
+        "stake": 632000,
+        "paid": 531200,
+        "profit": -100800,
+        "roi_pct": 84.0506329113924,
+        "hits": 126
+      },
+      "28": {
+        "races": 162,
+        "stake": 411000,
+        "paid": 366150,
+        "profit": -44850,
+        "roi_pct": 89.08759124087591,
+        "hits": 95
+      },
+      "31": {
+        "races": 182,
+        "stake": 451000,
+        "paid": 358750,
+        "profit": -92250,
+        "roi_pct": 79.54545454545455,
+        "hits": 105
+      },
+      "34": {
+        "races": 137,
+        "stake": 364000,
+        "paid": 290000,
+        "profit": -74000,
+        "roi_pct": 79.67032967032966,
+        "hits": 88
+      },
+      "35": {
+        "races": 156,
+        "stake": 423000,
+        "paid": 689950,
+        "profit": 266950,
+        "roi_pct": 163.10874704491727,
+        "hits": 98
+      },
+      "36": {
+        "races": 157,
+        "stake": 413000,
+        "paid": 394400,
+        "profit": -18600,
+        "roi_pct": 95.49636803874093,
+        "hits": 98
+      },
+      "37": {
+        "races": 226,
+        "stake": 560000,
+        "paid": 497200,
+        "profit": -62800,
+        "roi_pct": 88.78571428571429,
+        "hits": 131
+      },
+      "38": {
+        "races": 162,
+        "stake": 429000,
+        "paid": 443100,
+        "profit": 14100,
+        "roi_pct": 103.2867132867133,
+        "hits": 97
+      },
+      "42": {
+        "races": 155,
+        "stake": 412000,
+        "paid": 362600,
+        "profit": -49400,
+        "roi_pct": 88.00970873786407,
+        "hits": 97
+      },
+      "43": {
+        "races": 234,
+        "stake": 579000,
+        "paid": 476300,
+        "profit": -102700,
+        "roi_pct": 82.26252158894646,
+        "hits": 135
+      },
+      "44": {
+        "races": 209,
+        "stake": 535000,
+        "paid": 495150,
+        "profit": -39850,
+        "roi_pct": 92.55140186915888,
+        "hits": 126
+      },
+      "45": {
+        "races": 146,
+        "stake": 385000,
+        "paid": 332550,
+        "profit": -52450,
+        "roi_pct": 86.37662337662337,
+        "hits": 80
+      },
+      "46": {
+        "races": 131,
+        "stake": 337000,
+        "paid": 406450,
+        "profit": 69450,
+        "roi_pct": 120.60830860534125,
+        "hits": 79
+      },
+      "47": {
+        "races": 207,
+        "stake": 558000,
+        "paid": 475600,
+        "profit": -82400,
+        "roi_pct": 85.23297491039426,
+        "hits": 121
+      },
+      "48": {
+        "races": 126,
+        "stake": 309000,
+        "paid": 292300,
+        "profit": -16700,
+        "roi_pct": 94.59546925566343,
+        "hits": 71
+      },
+      "51": {
+        "races": 47,
+        "stake": 136000,
+        "paid": 113050,
+        "profit": -22950,
+        "roi_pct": 83.125,
+        "hits": 32
+      },
+      "53": {
+        "races": 312,
+        "stake": 867000,
+        "paid": 686550,
+        "profit": -180450,
+        "roi_pct": 79.18685121107266,
+        "hits": 197
+      },
+      "55": {
+        "races": 137,
+        "stake": 340000,
+        "paid": 301150,
+        "profit": -38850,
+        "roi_pct": 88.57352941176471,
+        "hits": 79
+      },
+      "56": {
+        "races": 282,
+        "stake": 738000,
+        "paid": 667200,
+        "profit": -70800,
+        "roi_pct": 90.40650406504065,
+        "hits": 173
+      },
+      "61": {
+        "races": 325,
+        "stake": 815000,
+        "paid": 769300,
+        "profit": -45700,
+        "roi_pct": 94.39263803680981,
+        "hits": 187
+      },
+      "62": {
+        "races": 154,
+        "stake": 404000,
+        "paid": 366150,
+        "profit": -37850,
+        "roi_pct": 90.63118811881188,
+        "hits": 80
+      },
+      "63": {
+        "races": 181,
+        "stake": 470000,
+        "paid": 495850,
+        "profit": 25850,
+        "roi_pct": 105.5,
+        "hits": 107
+      },
+      "73": {
+        "races": 241,
+        "stake": 635000,
+        "paid": 538400,
+        "profit": -96600,
+        "roi_pct": 84.78740157480316,
+        "hits": 136
+      },
+      "74": {
+        "races": 217,
+        "stake": 548000,
+        "paid": 437950,
+        "profit": -110050,
+        "roi_pct": 79.91788321167883,
+        "hits": 126
+      },
+      "75": {
+        "races": 110,
+        "stake": 295000,
+        "paid": 630800,
+        "profit": 335800,
+        "roi_pct": 213.83050847457628,
+        "hits": 68
+      },
+      "81": {
+        "races": 276,
+        "stake": 729000,
+        "paid": 546250,
+        "profit": -182750,
+        "roi_pct": 74.93141289437585,
+        "hits": 163
+      },
+      "83": {
+        "races": 201,
+        "stake": 489000,
+        "paid": 395900,
+        "profit": -93100,
+        "roi_pct": 80.96114519427402,
+        "hits": 114
+      },
+      "84": {
+        "races": 186,
+        "stake": 450000,
+        "paid": 402150,
+        "profit": -47850,
+        "roi_pct": 89.36666666666666,
+        "hits": 98
+      },
+      "85": {
+        "races": 130,
+        "stake": 347000,
+        "paid": 217650,
+        "profit": -129350,
+        "roi_pct": 62.72334293948127,
+        "hits": 68
+      },
+      "86": {
+        "races": 224,
+        "stake": 610000,
+        "paid": 494900,
+        "profit": -115100,
+        "roi_pct": 81.1311475409836,
+        "hits": 136
+      },
+      "87": {
+        "races": 149,
+        "stake": 415000,
+        "paid": 483350,
+        "profit": 68350,
+        "roi_pct": 116.46987951807229,
+        "hits": 86
+      }
+    }
+  },
+  "limitations": [
+    "Historical feature timestamps unavailable; source-line metadata in batch comes from race_results while online uses entries.",
+    "Exact historic live entry snapshots unavailable, so archive-input parity cannot establish true live ROI.",
+    "Current HIGH-only policy was chosen after viewing holdout; selection bias remains.",
+    "21-race windows are consecutive by date and race ID, not actual interleaved start time.",
+    "Current odds and popularity are calculated as unused columns but are NOT in the actual 44 model features."
+  ]
+}
