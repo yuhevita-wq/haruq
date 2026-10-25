@@ -69,8 +69,21 @@ def main():
     run = os.environ['GITHUB_RUN_ID']
     commit = os.environ['GITHUB_SHA']
     records = []
+    previous = {}
+    if req.get('append_only'):
+        old_path = daily / (day + '.json')
+        if old_path.exists():
+            old_day = json.loads(old_path.read_text())
+            if old_day.get('date') != iso:
+                raise ValueError('Existing daily date mismatch')
+            previous = {r['race_id']: r for r in old_day['records']
+                        if r.get('status') in ('predicted', 'excluded')}
     for venue in venues:
         for rid in venue['race_ids']:
+            if rid in previous:
+                records.append(previous[rid])
+                print('HARUQ_DAILY_RETAINED', rid, flush=True)
+                continue
             print('HARUQ_DAILY_BEGIN', rid, flush=True)
             item = {'race_id': rid, 'velodrome': venue['name'], 'race_number': int(rid[-2:])}
             try:
