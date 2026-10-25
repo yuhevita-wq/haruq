@@ -8,7 +8,7 @@ permissions:
   contents: write
 concurrency:
   group: entry-only-research-redo
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   redo:
     runs-on: ubuntu-latest
@@ -62,4 +62,4 @@ jobs:
       - name: Remove ephemeral history and frozen model
         if: always()
         run: rm -f db/keirin.db flagship_inputs/haruqube_20260321_fresh_model.pkl
-# Replay iteration 2: align empty-history margin default and audit outcome invariance.
+# Align empty-history defaults while preserving every nonempty history value; supersede prior research run.

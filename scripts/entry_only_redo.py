@@ -72,8 +72,9 @@ def main():
   clean=[]
   for _,r in g.iterrows():
    k=str(r.rider_id);e=em[k];d=dict(race_id=str(rid),rider_id=r.rider_id,**lf[k],**rf[k]);d['class']=e['class'];d['rider_class_num']=float(CLASS_MAP.get(e['class'],6));d['bike_number']=int(e['bike_number']);d['frame_number']=e['frame_number'];d['line_group']=e['line_group'];d['line_role']=e['line_role'];
-   if float(r['rider_race_count'])==0:d['rider_avg_margin']=0.0 # frozen online empty-history branch uses setdefault(0), unlike batch DEFAULT_AVG_MARGIN
+   d['rider_avg_margin']=0.0 if float(r['rider_race_count'])==0 else float(r['rider_avg_margin']) # preserve all nonempty-history values
    clean.append(d)
+  assert all(set(d)==set(clean[0]) for d in clean), 'Sparse input replacements are forbidden'
   c=pd.DataFrame(clean).set_index('rider_id');a=g.set_index('rider_id');a=a.loc[c.index]
   # Inputs not replaced here are strictly past-only history statistics from the original engine.
   c['class_rank_in_race']=c['rider_class_num'].rank(method='min');c['rider_class_x_jiku']=c['rider_class_num']*c['line_is_jiku'];c['form_trend_x_line_strength']=a['rider_form_trend']*c['line_strength_score']
