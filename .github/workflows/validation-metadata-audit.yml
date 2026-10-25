@@ -1,0 +1,38 @@
+name: HaruQ Archive Eligibility and Line Tie Verification
+on:
+  push:
+    branches: [research/validation-parity-20261025]
+    paths: [.github/workflows/validation-metadata-audit.yml]
+permissions:
+  contents: write
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      COLLECTOR_PASSPHRASE: ${{ secrets.COLLECTOR_PASSPHRASE }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore original verified history read-only
+        run: |
+          set -euo pipefail
+          mkdir -p db inputs
+          gh release download haruqube-20260321-history-cache-haruq-v1 --repo "$GITHUB_REPOSITORY" --pattern keirin-history.sqlite.gpg --pattern PLAINTEXT_SHA256.txt --dir inputs
+          python3 -c 'import os,sys; sys.stdout.write(os.environ["COLLECTOR_PASSPHRASE"].rstrip("\r\n"))' | gpg --batch --yes --pinentry-mode loopback --passphrase-fd 0 --output db/keirin.db --decrypt inputs/keirin-history.sqlite.gpg
+          (cd db && sha256sum -c ../inputs/PLAINTEXT_SHA256.txt)
+      - run: python3 -u scripts/validation_metadata_audit.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: haruq-metadata-audit
+          path: metadata_audit/
+      - name: Save metadata evidence on audit branch only
+        run: |
+          cp metadata_audit/metadata_summary.json research_audits/validation_parity_20261025/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research_audits/validation_parity_20261025/metadata_summary.json
+          git commit -m "Verify source eligibility and row-order-dependent line tie assignment [skip ci]"
+          git push origin HEAD:research/validation-parity-20261025
+      - if: always()
+        run: rm -f db/keirin.db
