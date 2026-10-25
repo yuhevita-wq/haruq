@@ -1,0 +1,432 @@
+{
+  "period": "2026-10-01 through 2026-10-22",
+  "races": 1289,
+  "selected_on_prior_validation": "eligible_train_ndcg3",
+  "odds_filter_applied": false,
+  "reason": "Full selected-ticket final odds unavailable in this period; no substitution.",
+  "selection_uses_this_period": false,
+  "feature_parity": [
+    {
+      "race_id": "202610011201",
+      "all_match": true
+    },
+    {
+      "race_id": "202610012504",
+      "all_match": true
+    },
+    {
+      "race_id": "202610013412",
+      "all_match": true
+    },
+    {
+      "race_id": "202610015305",
+      "all_match": true
+    },
+    {
+      "race_id": "202610018308",
+      "all_match": true
+    },
+    {
+      "race_id": "202610021206",
+      "all_match": true
+    },
+    {
+      "race_id": "202610022509",
+      "all_match": true
+    },
+    {
+      "race_id": "202610024702",
+      "all_match": true
+    },
+    {
+      "race_id": "202610028301",
+      "all_match": true
+    },
+    {
+      "race_id": "202610028506",
+      "all_match": true
+    },
+    {
+      "race_id": "202610033106",
+      "all_match": true
+    },
+    {
+      "race_id": "202610033503",
+      "all_match": true
+    },
+    {
+      "race_id": "202610037302",
+      "all_match": true
+    },
+    {
+      "race_id": "202610038403",
+      "all_match": true
+    },
+    {
+      "race_id": "202610053103",
+      "all_match": true
+    },
+    {
+      "race_id": "202610055307",
+      "all_match": true
+    },
+    {
+      "race_id": "202610057306",
+      "all_match": true
+    },
+    {
+      "race_id": "202610058404",
+      "all_match": true
+    },
+    {
+      "race_id": "202610062202",
+      "all_match": true
+    },
+    {
+      "race_id": "202610062511",
+      "all_match": true
+    },
+    {
+      "race_id": "202610065309",
+      "all_match": true
+    },
+    {
+      "race_id": "202610067507",
+      "all_match": true
+    },
+    {
+      "race_id": "202610072505",
+      "all_match": true
+    },
+    {
+      "race_id": "202610073810",
+      "all_match": true
+    },
+    {
+      "race_id": "202610074807",
+      "all_match": true
+    },
+    {
+      "race_id": "202610075311",
+      "all_match": true
+    },
+    {
+      "race_id": "202610082209",
+      "all_match": true
+    },
+    {
+      "race_id": "202610083511",
+      "all_match": true
+    },
+    {
+      "race_id": "202610084405",
+      "all_match": true
+    },
+    {
+      "race_id": "202610087402",
+      "all_match": true
+    },
+    {
+      "race_id": "202610093403",
+      "all_match": true
+    },
+    {
+      "race_id": "202610093511",
+      "all_match": true
+    },
+    {
+      "race_id": "202610094804",
+      "all_match": true
+    },
+    {
+      "race_id": "202610097403",
+      "all_match": true
+    },
+    {
+      "race_id": "202610102106",
+      "all_match": true
+    },
+    {
+      "race_id": "202610103507",
+      "all_match": true
+    },
+    {
+      "race_id": "202610104606",
+      "all_match": true
+    },
+    {
+      "race_id": "202610108402",
+      "all_match": true
+    },
+    {
+      "race_id": "202610112112",
+      "all_match": true
+    },
+    {
+      "race_id": "202610114308",
+      "all_match": true
+    },
+    {
+      "race_id": "202610115304",
+      "all_match": true
+    },
+    {
+      "race_id": "202610118112",
+      "all_match": true
+    },
+    {
+      "race_id": "202610122102",
+      "all_match": true
+    },
+    {
+      "race_id": "202610122507",
+      "all_match": true
+    },
+    {
+      "race_id": "202610124605",
+      "all_match": true
+    },
+    {
+      "race_id": "202610128109",
+      "all_match": true
+    },
+    {
+      "race_id": "202610131305",
+      "all_match": true
+    },
+    {
+      "race_id": "202610132503",
+      "all_match": true
+    },
+    {
+      "race_id": "202610138101",
+      "all_match": true
+    },
+    {
+      "race_id": "202610138708",
+      "all_match": true
+    },
+    {
+      "race_id": "202610141309",
+      "all_match": true
+    },
+    {
+      "race_id": "202610145301",
+      "all_match": true
+    },
+    {
+      "race_id": "202610146105",
+      "all_match": true
+    },
+    {
+      "race_id": "202610148612",
+      "all_match": true
+    },
+    {
+      "race_id": "202610151207",
+      "all_match": true
+    },
+    {
+      "race_id": "202610153805",
+      "all_match": true
+    },
+    {
+      "race_id": "202610155304",
+      "all_match": true
+    },
+    {
+      "race_id": "202610156108",
+      "all_match": true
+    },
+    {
+      "race_id": "202610158612",
+      "all_match": true
+    },
+    {
+      "race_id": "202610164503",
+      "all_match": true
+    },
+    {
+      "race_id": "202610164811",
+      "all_match": true
+    },
+    {
+      "race_id": "202610168604",
+      "all_match": true
+    },
+    {
+      "race_id": "202610172710",
+      "all_match": true
+    },
+    {
+      "race_id": "202610174507",
+      "all_match": true
+    },
+    {
+      "race_id": "202610174804",
+      "all_match": true
+    },
+    {
+      "race_id": "202610177411",
+      "all_match": true
+    },
+    {
+      "race_id": "202610182712",
+      "all_match": true
+    },
+    {
+      "race_id": "202610184805",
+      "all_match": true
+    },
+    {
+      "race_id": "202610187402",
+      "all_match": true
+    },
+    {
+      "race_id": "202610188406",
+      "all_match": true
+    },
+    {
+      "race_id": "202610191207",
+      "all_match": true
+    },
+    {
+      "race_id": "202610192707",
+      "all_match": true
+    },
+    {
+      "race_id": "202610196202",
+      "all_match": true
+    },
+    {
+      "race_id": "202610197410",
+      "all_match": true
+    },
+    {
+      "race_id": "202610198508",
+      "all_match": true
+    },
+    {
+      "race_id": "202610222501",
+      "all_match": true
+    },
+    {
+      "race_id": "202610223409",
+      "all_match": true
+    },
+    {
+      "race_id": "202610224402",
+      "all_match": true
+    },
+    {
+      "race_id": "202610224805",
+      "all_match": true
+    },
+    {
+      "race_id": "202610228712",
+      "all_match": true
+    }
+  ],
+  "holdout": {
+    "baseline": {
+      "combined": {
+        "races": 250,
+        "stake": 134200,
+        "paid": 102170,
+        "profit": -32030,
+        "roi_pct": 76.13263785394933,
+        "hits": 146
+      },
+      "exacta": {
+        "races": 250,
+        "stake": 100000,
+        "paid": 76730,
+        "profit": -23270,
+        "roi_pct": 76.73,
+        "hits": 146
+      },
+      "trifecta": {
+        "races": 57,
+        "stake": 34200,
+        "paid": 25440,
+        "profit": -8760,
+        "roi_pct": 74.3859649122807,
+        "hits": 25
+      },
+      "excluded": {
+        "girls_or_all_unknown_class": 123
+      },
+      "months": {
+        "2026-10": {
+          "races": 250,
+          "stake": 134200,
+          "paid": 102170,
+          "profit": -32030,
+          "roi_pct": 76.13263785394933,
+          "hits": 146
+        }
+      }
+    },
+    "eligible_train_ndcg3": {
+      "combined": {
+        "races": 241,
+        "stake": 119800,
+        "paid": 93410,
+        "profit": -26390,
+        "roi_pct": 77.97161936560934,
+        "hits": 150
+      },
+      "exacta": {
+        "races": 241,
+        "stake": 96400,
+        "paid": 75600,
+        "profit": -20800,
+        "roi_pct": 78.42323651452283,
+        "hits": 150
+      },
+      "trifecta": {
+        "races": 39,
+        "stake": 23400,
+        "paid": 17810,
+        "profit": -5590,
+        "roi_pct": 76.11111111111111,
+        "hits": 20
+      },
+      "excluded": {
+        "girls_or_all_unknown_class": 123
+      },
+      "months": {
+        "2026-10": {
+          "races": 241,
+          "stake": 119800,
+          "paid": 93410,
+          "profit": -26390,
+          "roi_pct": 77.97161936560934,
+          "hits": 150
+        }
+      }
+    }
+  },
+  "prediction_quality": {
+    "baseline": {
+      "races": 1166,
+      "top1_hits": 513,
+      "top1_rate": 0.4399656946826758,
+      "exacta4_hit_rate": 0.39622641509433965,
+      "trifecta6_hit_rate": 0.19039451114922812,
+      "ndcg1": 0.5773658675610212,
+      "high_races": 250,
+      "s3_high_races": 57
+    },
+    "eligible_train_ndcg3": {
+      "races": 1166,
+      "top1_hits": 513,
+      "top1_rate": 0.4399656946826758,
+      "exacta4_hit_rate": 0.4013722126929674,
+      "trifecta6_hit_rate": 0.18524871355060035,
+      "ndcg1": 0.5737644825398948,
+      "high_races": 241,
+      "s3_high_races": 39
+    }
+  }
+}
