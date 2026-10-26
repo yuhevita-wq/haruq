@@ -38,6 +38,18 @@ jobs:
           python -m py_compile scripts/haruq_operating_policy.py scripts/haruq_meeting_final_day.py scripts/flagship_live_predict.py scripts/haruq_publish_web.py scripts/test_flagship_live.py
           python -m scripts.test_flagship_live
           python -m scripts.test_haruq_f2_publish
+      - name: Check rendered live-site JavaScript parses
+        run: |
+          python - <<'PY'
+          from bs4 import BeautifulSoup
+          from pathlib import Path
+          html=Path('docs/haruq/index.html').read_text(encoding='utf-8')
+          scripts=[s.get_text() for s in BeautifulSoup(html,'html.parser').find_all('script') if not s.get('src')]
+          assert scripts
+          Path('/tmp/haruq_index.inline.js').write_text(scripts[-1],encoding='utf-8')
+          PY
+          node --check /tmp/haruq_index.inline.js
+          node --check docs/haruq/daily.js
       - name: Check published live calendar for 2026-10-26
         shell: bash
         run: |
