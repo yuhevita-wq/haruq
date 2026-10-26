@@ -33,6 +33,27 @@ def export_result(source: Path, directory: Path, run_id: str, commit: str):
         raise ValueError("Published tickets differ from policy output")
     if value.get("total_yen") != value["s3_policy"]["approved_total_yen"]:
         raise ValueError("Published monetary total inconsistent")
+    if value.get("grade") == "F2":
+        proof = value.get("meeting_day") or {}
+        policy = value["s3_policy"]
+        if policy.get("f2_final_day_policy") is not True:
+            raise ValueError("F2 final-day purchase policy missing")
+        bets = value["bets"]
+        gap = float(value["confidence"])
+        rank = value.get("ranked") or []
+        if len(rank) < 4:
+            raise ValueError("Not enough frozen predicted ranks for F2 check")
+        expected = [str(rank[0]["bike"]) + ">" + str(rank[j]["bike"]) for j in (2,3)]
+        verified = proof.get("status") == "confirmed" and proof.get("is_final_day") is True
+        should_buy = verified and gap >= 2.0
+        if bets["trifecta"]["total_yen"] != 0 or bets["trifecta"]["tickets"]:
+            raise ValueError("F2 must not purchase trifecta")
+        if should_buy:
+            if bets["exacta"]["tickets"] != expected or bets["exacta"]["total_yen"] != 1000:
+                raise ValueError("F2 approved two-ticket formation differs from frozen rank order")
+        elif bets["exacta"]["tickets"] or bets["exacta"]["total_yen"] != 0:
+            raise ValueError("Unconfirmed/non-final/sub-HIGH F2 purchase is forbidden")
+
     if not re.fullmatch(r"\d+", str(run_id)):
         raise ValueError("Invalid GitHub workflow run id")
 
