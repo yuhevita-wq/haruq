@@ -20,7 +20,7 @@ value={
  "race_number":9,"start_time":"23:30","status":"発走前",
  "confidence":2.1,
  "ranked":[{"rank":i,"bike":b,"name":str(b),"score":5-i} for i,b in enumerate([5,3,7,2,1,4,6],1)],
- "s3_policy":operation,"bets":operation["approved_bets"],
+ "s3_policy":operation,"s3_decision":operation["trifecta_decision_ja"],"bets":operation["approved_bets"],
  "total_yen":operation["approved_total_yen"],
  "meeting_day":confirmed,"f2_all_grades_eligible":True
 }
