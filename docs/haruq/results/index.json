@@ -10,12 +10,12 @@
       "start_time": "09:53",
       "confidence": 2.97702896,
       "status": "発走前",
-      "s3_decision": "必ず買う",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-HIGH",
       "exacta_tier": "HIGH",
-      "total_yen": 5000,
-      "updated_at": "2026-10-25T15:49:53Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610265504",
@@ -25,12 +25,12 @@
       "start_time": "09:32",
       "confidence": 0.40045986,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:49:49Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610265503",
@@ -40,12 +40,12 @@
       "start_time": "09:11",
       "confidence": 1.44479877,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-MED",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:49:45Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610265502",
@@ -55,12 +55,12 @@
       "start_time": "08:50",
       "confidence": 0.00722973,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:49:41Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610265501",
@@ -70,12 +70,12 @@
       "start_time": "08:30",
       "confidence": 0.26035315,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:49:38Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264211",
@@ -85,12 +85,12 @@
       "start_time": "20:16",
       "confidence": 1.58805306,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-MED+",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:49:34Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264210",
@@ -100,12 +100,12 @@
       "start_time": "19:48",
       "confidence": 2.00530949,
       "status": "発走前",
-      "s3_decision": "必ず買う",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-HIGH",
       "exacta_tier": "HIGH",
-      "total_yen": 5000,
-      "updated_at": "2026-10-25T15:49:31Z",
-      "run_id": 40208399912
+      "total_yen": 1000,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264209",
@@ -115,12 +115,12 @@
       "start_time": "19:22",
       "confidence": 1.0866474,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-MED",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:49:27Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264208",
@@ -130,12 +130,12 @@
       "start_time": "18:56",
       "confidence": 0.30879249,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:49:24Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264207",
@@ -145,12 +145,12 @@
       "start_time": "18:30",
       "confidence": 0.00819696,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:49:20Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264206",
@@ -160,12 +160,12 @@
       "start_time": "18:04",
       "confidence": 0.35357409,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:49:17Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264205",
@@ -175,12 +175,12 @@
       "start_time": "17:38",
       "confidence": 0.9450496,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED+",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:49:13Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264204",
@@ -190,12 +190,12 @@
       "start_time": "17:12",
       "confidence": 0.19620499,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:49:10Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264203",
@@ -205,12 +205,12 @@
       "start_time": "16:46",
       "confidence": 0.32326354,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:49:06Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264202",
@@ -220,12 +220,12 @@
       "start_time": "16:22",
       "confidence": 1.51465242,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-MED+",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:49:03Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610264201",
@@ -235,12 +235,12 @@
       "start_time": "15:59",
       "confidence": 0.47226318,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:48:59Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263409",
@@ -250,12 +250,12 @@
       "start_time": "23:30",
       "confidence": 1.21574552,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-MED",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:48:56Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263407",
@@ -265,12 +265,12 @@
       "start_time": "22:50",
       "confidence": 0.55452944,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:48:49Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263406",
@@ -280,12 +280,12 @@
       "start_time": "22:30",
       "confidence": 1.6236828,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-MED+",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:48:45Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263405",
@@ -295,12 +295,12 @@
       "start_time": "22:10",
       "confidence": 0.02042174,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:48:42Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263404",
@@ -310,12 +310,12 @@
       "start_time": "21:50",
       "confidence": 0.11630804,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:48:39Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263403",
@@ -325,12 +325,12 @@
       "start_time": "21:30",
       "confidence": 0.35746498,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:48:35Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263402",
@@ -340,12 +340,12 @@
       "start_time": "21:10",
       "confidence": 0.61063255,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:48:32Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610261209",
@@ -355,12 +355,12 @@
       "start_time": "23:20",
       "confidence": 0.5277758,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:48:25Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610261207",
@@ -370,12 +370,12 @@
       "start_time": "22:40",
       "confidence": 2.44323958,
       "status": "発走前",
-      "s3_decision": "必ず買う",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-HIGH",
       "exacta_tier": "HIGH",
-      "total_yen": 5000,
-      "updated_at": "2026-10-25T15:48:18Z",
-      "run_id": 40208399912
+      "total_yen": 1000,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610261206",
@@ -385,12 +385,12 @@
       "start_time": "22:20",
       "confidence": 0.03079056,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:48:15Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610261205",
@@ -400,12 +400,12 @@
       "start_time": "22:00",
       "confidence": 0.23449621,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:48:12Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610261204",
@@ -415,12 +415,12 @@
       "start_time": "21:40",
       "confidence": 1.35497685,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-MED",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:48:08Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610261203",
@@ -430,12 +430,12 @@
       "start_time": "21:20",
       "confidence": 0.11588628,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:48:04Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610261202",
@@ -445,12 +445,12 @@
       "start_time": "21:00",
       "confidence": 1.28898402,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F2専用ルール：3連単なし）",
       "trifecta_tier": "S3-MED",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:48:00Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263612",
@@ -460,12 +460,12 @@
       "start_time": "15:52",
       "confidence": 0.06989411,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:53Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263611",
@@ -475,12 +475,12 @@
       "start_time": "15:22",
       "confidence": 0.25661314,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:50Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263610",
@@ -490,12 +490,12 @@
       "start_time": "14:53",
       "confidence": 0.18414838,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:46Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263609",
@@ -505,12 +505,12 @@
       "start_time": "14:25",
       "confidence": 0.86787948,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED+",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:43Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263608",
@@ -520,12 +520,12 @@
       "start_time": "13:57",
       "confidence": 0.52330866,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:39Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263607",
@@ -535,12 +535,12 @@
       "start_time": "13:29",
       "confidence": 0.03236134,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:36Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263606",
@@ -550,12 +550,12 @@
       "start_time": "13:01",
       "confidence": 0.08907857,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:33Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263605",
@@ -565,12 +565,12 @@
       "start_time": "12:33",
       "confidence": 0.01418529,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:29Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263604",
@@ -580,12 +580,12 @@
       "start_time": "12:05",
       "confidence": 0.61386866,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:26Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263603",
@@ -595,12 +595,12 @@
       "start_time": "11:37",
       "confidence": 0.20209922,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:22Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263602",
@@ -610,12 +610,12 @@
       "start_time": "11:10",
       "confidence": 0.805175,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED+",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:19Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610263601",
@@ -625,12 +625,12 @@
       "start_time": "10:45",
       "confidence": 0.49642367,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:16Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262712",
@@ -640,12 +640,12 @@
       "start_time": "20:30",
       "confidence": 0.66200824,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:13Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262711",
@@ -655,12 +655,12 @@
       "start_time": "20:02",
       "confidence": 0.05859996,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:09Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262710",
@@ -670,12 +670,12 @@
       "start_time": "19:35",
       "confidence": 1.37891839,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "S3-MED",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:47:06Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262709",
@@ -685,12 +685,12 @@
       "start_time": "19:09",
       "confidence": 0.13041825,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:47:02Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262708",
@@ -700,12 +700,12 @@
       "start_time": "18:43",
       "confidence": 1.0885699,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "S3-MED",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:46:58Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262707",
@@ -715,12 +715,12 @@
       "start_time": "18:17",
       "confidence": 0.27822989,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:55Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262706",
@@ -730,12 +730,12 @@
       "start_time": "17:51",
       "confidence": 0.03361641,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:52Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262705",
@@ -745,12 +745,12 @@
       "start_time": "17:25",
       "confidence": 0.09315858,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:49Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262704",
@@ -760,12 +760,12 @@
       "start_time": "16:59",
       "confidence": 0.04696774,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:45Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262703",
@@ -775,12 +775,12 @@
       "start_time": "16:33",
       "confidence": 1.14346596,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "S3-MED",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:46:41Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262702",
@@ -790,12 +790,12 @@
       "start_time": "16:07",
       "confidence": 1.30202019,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "S3-MED",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:46:38Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610262701",
@@ -805,12 +805,12 @@
       "start_time": "15:45",
       "confidence": 0.54042204,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:34Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267312",
@@ -820,12 +820,12 @@
       "start_time": "16:15",
       "confidence": 0.52972761,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:30Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267311",
@@ -835,12 +835,12 @@
       "start_time": "15:37",
       "confidence": 0.81580627,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED+",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:27Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267310",
@@ -850,12 +850,12 @@
       "start_time": "15:07",
       "confidence": 1.4550513,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "S3-MED",
       "exacta_tier": "HIGH",
-      "total_yen": 2000,
-      "updated_at": "2026-10-25T15:46:23Z",
-      "run_id": 40208399912
+      "total_yen": 0,
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267309",
@@ -865,12 +865,12 @@
       "start_time": "14:39",
       "confidence": 0.4296272,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:20Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267308",
@@ -880,12 +880,12 @@
       "start_time": "14:11",
       "confidence": 0.26007687,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:17Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267307",
@@ -895,12 +895,12 @@
       "start_time": "13:43",
       "confidence": 0.60000715,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:13Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267306",
@@ -910,12 +910,12 @@
       "start_time": "13:15",
       "confidence": 0.53564317,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:10Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267305",
@@ -925,12 +925,12 @@
       "start_time": "12:47",
       "confidence": 0.2014164,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:06Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267304",
@@ -940,12 +940,12 @@
       "start_time": "12:19",
       "confidence": 0.5621794,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:46:03Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267303",
@@ -955,12 +955,12 @@
       "start_time": "11:51",
       "confidence": 0.26316275,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:45:59Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267302",
@@ -970,12 +970,12 @@
       "start_time": "11:23",
       "confidence": 0.85918893,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "MED+",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:45:56Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610267301",
@@ -985,12 +985,12 @@
       "start_time": "10:57",
       "confidence": 0.17236899,
       "status": "発走前",
-      "s3_decision": "買わない（S3-HIGH未満）",
+      "s3_decision": "買わない（F1専用の3連単条件未達）",
       "trifecta_tier": "LOW",
       "exacta_tier": "LOW",
       "total_yen": 0,
-      "updated_at": "2026-10-25T15:45:52Z",
-      "run_id": 40208399912
+      "updated_at": "2026-10-26T11:35:46Z",
+      "run_id": 40316141656
     },
     {
       "race_id": "202610253409",

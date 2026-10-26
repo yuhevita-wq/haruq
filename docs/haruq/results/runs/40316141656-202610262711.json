@@ -1,0 +1,193 @@
+{
+  "system": "FLAGSHIP_HARUQUBE_20260321_V1",
+  "display_name": "ハルキュー",
+  "status": "発走前",
+  "race_id": "202610262711",
+  "date": "2026-10-26",
+  "velodrome": "京王閣",
+  "race_number": 11,
+  "start_time": "20:02",
+  "grade": "F1",
+  "history": {
+    "races": 98919,
+    "last_race_date": "2026-10-26"
+  },
+  "confidence": 0.05859996,
+  "ranked": [
+    {
+      "rank": 1,
+      "bike": 2,
+      "name": "桑名僚也",
+      "score": 0.310215
+    },
+    {
+      "rank": 2,
+      "bike": 5,
+      "name": "堀江省吾",
+      "score": 0.251615
+    },
+    {
+      "rank": 3,
+      "bike": 1,
+      "name": "戸田洋平",
+      "score": -0.915072
+    },
+    {
+      "rank": 4,
+      "bike": 4,
+      "name": "染谷幸喜",
+      "score": -1.000478
+    },
+    {
+      "rank": 5,
+      "bike": 3,
+      "name": "近藤俊明",
+      "score": -1.20623
+    },
+    {
+      "rank": 6,
+      "bike": 7,
+      "name": "大矢将大",
+      "score": -1.262643
+    },
+    {
+      "rank": 7,
+      "bike": 6,
+      "name": "中原航大",
+      "score": -1.844795
+    }
+  ],
+  "bets": {
+    "exacta": {
+      "label": "LOW",
+      "stake_per_ticket_yen": 0,
+      "points": 0,
+      "tickets": [],
+      "total_yen": 0,
+      "decision": "REJECT",
+      "decision_ja": "買わない（F1：最終日以外）"
+    },
+    "trifecta": {
+      "label": "LOW",
+      "decision": "REJECT",
+      "decision_ja": "買わない（F1専用の3連単条件未達）",
+      "tickets": [],
+      "points": 0,
+      "stake_per_ticket_yen": 0,
+      "total_yen": 0
+    }
+  },
+  "original_model_bets": {
+    "exacta": {
+      "label": "LOW",
+      "stake_per_ticket_yen": 0,
+      "points": 0,
+      "total_yen": 0,
+      "tickets": []
+    },
+    "trifecta": {
+      "label": "LOW",
+      "stake_per_ticket_yen": 0,
+      "points": 0,
+      "total_yen": 0,
+      "tickets": []
+    }
+  },
+  "f2_purchase_override_applied": false,
+  "f2_all_grades_eligible": true,
+  "s3_decision": "買わない（F1専用の3連単条件未達）",
+  "s3_policy": {
+    "name": "ハルキュー",
+    "policy_version": "HARUQ_F1_F2_FINALDAY_HIGH_FORMATIONS_V5_20261026",
+    "trifecta_tier": "LOW",
+    "trifecta_decision": "REJECT",
+    "trifecta_decision_ja": "買わない（F1専用の3連単条件未達）",
+    "approved_bets": {
+      "exacta": {
+        "label": "LOW",
+        "stake_per_ticket_yen": 0,
+        "points": 0,
+        "tickets": [],
+        "total_yen": 0,
+        "decision": "REJECT",
+        "decision_ja": "買わない（F1：最終日以外）"
+      },
+      "trifecta": {
+        "label": "LOW",
+        "decision": "REJECT",
+        "decision_ja": "買わない（F1専用の3連単条件未達）",
+        "tickets": [],
+        "points": 0,
+        "stake_per_ticket_yen": 0,
+        "total_yen": 0
+      }
+    },
+    "under_review": {
+      "trifecta": {
+        "label": "LOW",
+        "tickets": [],
+        "points": 0,
+        "stake_per_ticket_yen": 0,
+        "conditional_total_yen": 0,
+        "counts_as_purchase": false,
+        "decision": "なし（MEDも購入対象外）"
+      }
+    },
+    "approved_total_yen": 0,
+    "never_modify_model": true,
+    "user_review_required_for_med": false,
+    "exacta_high_only": true,
+    "trifecta_high_only": true,
+    "f2_eligible": true,
+    "f1_final_day_policy": true,
+    "f1_meeting_day_proof_status": "confirmed",
+    "f1_score_gap_threshold": 1.5,
+    "f1_buying_formation": "rank1>rank2;rank1>rank3",
+    "f1_s3_buy_if_score_gap_at_least": 2.0
+  },
+  "med_under_review": {
+    "label": "LOW",
+    "tickets": [],
+    "points": 0,
+    "stake_per_ticket_yen": 0,
+    "conditional_total_yen": 0,
+    "counts_as_purchase": false,
+    "decision": "なし（MEDも購入対象外）"
+  },
+  "total_yen": 0,
+  "feature_source": "historical 2026-03-21 build_race_features",
+  "model_sha256": "e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193",
+  "no_manual_selection": true,
+  "no_retraining": true,
+  "line_bonus_applied": false,
+  "torigami_filter_applied": false,
+  "input_url": "https://keirin.netkeiba.com/race/entry/?race_id=202610262711",
+  "web_record": {
+    "source_run_id": 40316141656,
+    "source_commit": "2770a4e2e19ab722b9ce1ea184f2ebc162d07911",
+    "created_at": "2026-10-26T11:35:46Z",
+    "origin": "verified-github-actions-output"
+  },
+  "meeting_day": {
+    "is_final_day": false,
+    "status": "confirmed",
+    "reason": null,
+    "meeting_day_label": "初日",
+    "source_url": "https://keirin.netkeiba.com/race/course/?jyo_cd=27",
+    "source_sha256": "aa7d2e9231789332b94fed04be8a8f5cf04ddf560904cef87c66876b31c51401",
+    "race_id": "202610262711"
+  },
+  "policy_replay": {
+    "method": "policy-only replay of pre-race 2026-10-26 frozen inference",
+    "original_source_run_id": 40208399912,
+    "original_policy_version": "HARUQ_HIGH_ONLY_ALL_MARKETS_F2_ELIGIBLE_V3",
+    "approved_policy_version": "HARUQ_F1_F2_FINALDAY_HIGH_FORMATIONS_V5_20261026",
+    "raw_model_scores_recomputed": false,
+    "prior_web_record": {
+      "source_run_id": 40208399912,
+      "source_commit": "eeb55d3a45b92e8bccaf41d5d2732a9dd8331aa7",
+      "created_at": "2026-10-25T15:47:09Z",
+      "origin": "verified-github-actions-output"
+    }
+  }
+}
