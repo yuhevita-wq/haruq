@@ -38,6 +38,18 @@ confirmed=collections.defaultdict(set)
 for rid,meta in races.items():
     if "決勝" in str(meta.get("round") or "") or "決勝" in str(meta.get("race_name") or ""):
         confirmed[(meta["date"],rid[8:10])].add(rid)
+# Independent published programme classification preserved in odds-only
+# archives, keyed by meeting start and day number. "決勝" is direct
+# race-programme evidence of the meeting's final day; no presumed duration.
+for year in (2025, 2026):
+    with gzip.open(f"odds_{year}.jsonl.gz", "rt", encoding="utf-8") as calendar_stream:
+        for line in calendar_stream:
+            event=json.loads(line)
+            if "決勝" not in str(event.get("race_type") or ""): continue
+            event_id=netid(str(event["race_id"]))
+            if event_id not in races: continue
+            confirmed[(event_id[:8][:4]+"-"+event_id[4:6]+"-"+event_id[6:8],event_id[8:10])].add(event_id)
+assert confirmed, "No final-round evidence from race metadata or published programme archive"
 def mark_final(rid):
     m=races.get(rid)
     return m is not None and (m["date"],rid[8:10]) in confirmed
@@ -59,7 +71,7 @@ ref={}
 ref["source_ledger"]="research_audits/validation_parity_20261025/current_policy_ledger.csv"
 ref["fixed_model_sha256"]="e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193"
 ref["holdout"]={"start":START,"end":END,"all_eligible":summary(allrows)}
-ref["finalday"]={"proof":"At least one exact final-round event on same day and venue in stored race metadata; no max-observed-date shortcut",
+ref["finalday"]={"proof":"Exact final-round race on same day and venue, from official programme label in independent archived odds where primary SQLite round metadata is null; no max-observed-date shortcut",
                  "confirmed_venue_days":len(confirmed),
                  "selected":summary(selected),
                  "excluded_unconfirmed":len(allrows)-len(selected),
