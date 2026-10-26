@@ -1,0 +1,1955 @@
+{
+  "scope": "Read-only archived fixed F2 HIGH ticket structures. All final days confirmed from calendar source. Comparison other days descriptive, not unseen validation.",
+  "candidates": {
+    "A_rank3_4_5_gap1_5": {
+      "rule": {
+        "exacta_ranks": [
+          2,
+          3,
+          4
+        ],
+        "trifecta_positions": [],
+        "gap_floor": 1.5
+      },
+      "final_day": {
+        "totals": {
+          "races": 213,
+          "tickets": 639,
+          "stake": 319500,
+          "paid": 392000,
+          "profit": 72500,
+          "roi_pct": 122.692,
+          "hit_tickets": 71
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 82,
+            "tickets": 246,
+            "stake": 123000,
+            "paid": 161850,
+            "profit": 38850,
+            "roi_pct": 131.585,
+            "hit_tickets": 28
+          },
+          "2026-02": {
+            "races": 79,
+            "tickets": 237,
+            "stake": 118500,
+            "paid": 117750,
+            "profit": -750,
+            "roi_pct": 99.367,
+            "hit_tickets": 26
+          },
+          "2026-03": {
+            "races": 52,
+            "tickets": 156,
+            "stake": 78000,
+            "paid": 112400,
+            "profit": 34400,
+            "roi_pct": 144.103,
+            "hit_tickets": 17
+          }
+        },
+        "max_single_payout": 32300,
+        "top3_payout_share": 22.39,
+        "excluding_top1_race": {
+          "stake": 318000,
+          "paid": 359700,
+          "profit": 41700,
+          "roi_pct": 113.113
+        },
+        "excluding_top3_races": {
+          "stake": 315000,
+          "paid": 304250,
+          "profit": -10750,
+          "roi_pct": 96.587
+        },
+        "venue_days": 135,
+        "venue_day_bootstrap": {
+          "95pct": [
+            87.68,
+            165.6
+          ],
+          "simulations": 3000
+        }
+      },
+      "other_meeting_days": {
+        "totals": {
+          "races": 2210,
+          "tickets": 6630,
+          "stake": 3315000,
+          "paid": 3189000,
+          "profit": -126000,
+          "roi_pct": 96.199,
+          "hit_tickets": 690
+        },
+        "monthly": {
+          "2025-07": {
+            "races": 151,
+            "tickets": 453,
+            "stake": 226500,
+            "paid": 183850,
+            "profit": -42650,
+            "roi_pct": 81.17,
+            "hit_tickets": 50
+          },
+          "2025-08": {
+            "races": 148,
+            "tickets": 444,
+            "stake": 222000,
+            "paid": 193250,
+            "profit": -28750,
+            "roi_pct": 87.05,
+            "hit_tickets": 43
+          },
+          "2025-09": {
+            "races": 121,
+            "tickets": 363,
+            "stake": 181500,
+            "paid": 178350,
+            "profit": -3150,
+            "roi_pct": 98.264,
+            "hit_tickets": 42
+          },
+          "2025-10": {
+            "races": 174,
+            "tickets": 522,
+            "stake": 261000,
+            "paid": 230250,
+            "profit": -30750,
+            "roi_pct": 88.218,
+            "hit_tickets": 53
+          },
+          "2025-11": {
+            "races": 181,
+            "tickets": 543,
+            "stake": 271500,
+            "paid": 174650,
+            "profit": -96850,
+            "roi_pct": 64.328,
+            "hit_tickets": 44
+          },
+          "2025-12": {
+            "races": 136,
+            "tickets": 408,
+            "stake": 204000,
+            "paid": 256100,
+            "profit": 52100,
+            "roi_pct": 125.539,
+            "hit_tickets": 41
+          },
+          "2026-01": {
+            "races": 84,
+            "tickets": 252,
+            "stake": 126000,
+            "paid": 60350,
+            "profit": -65650,
+            "roi_pct": 47.897,
+            "hit_tickets": 20
+          },
+          "2026-02": {
+            "races": 65,
+            "tickets": 195,
+            "stake": 97500,
+            "paid": 62300,
+            "profit": -35200,
+            "roi_pct": 63.897,
+            "hit_tickets": 16
+          },
+          "2026-03": {
+            "races": 88,
+            "tickets": 264,
+            "stake": 132000,
+            "paid": 91500,
+            "profit": -40500,
+            "roi_pct": 69.318,
+            "hit_tickets": 25
+          },
+          "2026-04": {
+            "races": 190,
+            "tickets": 570,
+            "stake": 285000,
+            "paid": 276600,
+            "profit": -8400,
+            "roi_pct": 97.053,
+            "hit_tickets": 66
+          },
+          "2026-05": {
+            "races": 222,
+            "tickets": 666,
+            "stake": 333000,
+            "paid": 540500,
+            "profit": 207500,
+            "roi_pct": 162.312,
+            "hit_tickets": 81
+          },
+          "2026-06": {
+            "races": 189,
+            "tickets": 567,
+            "stake": 283500,
+            "paid": 298600,
+            "profit": 15100,
+            "roi_pct": 105.326,
+            "hit_tickets": 56
+          },
+          "2026-07": {
+            "races": 164,
+            "tickets": 492,
+            "stake": 246000,
+            "paid": 256650,
+            "profit": 10650,
+            "roi_pct": 104.329,
+            "hit_tickets": 55
+          },
+          "2026-08": {
+            "races": 139,
+            "tickets": 417,
+            "stake": 208500,
+            "paid": 217050,
+            "profit": 8550,
+            "roi_pct": 104.101,
+            "hit_tickets": 45
+          },
+          "2026-09": {
+            "races": 158,
+            "tickets": 474,
+            "stake": 237000,
+            "paid": 169000,
+            "profit": -68000,
+            "roi_pct": 71.308,
+            "hit_tickets": 53
+          }
+        },
+        "max_single_payout": 75700,
+        "top3_payout_share": 4.9,
+        "excluding_top1_race": {
+          "stake": 3313500,
+          "paid": 3113300,
+          "profit": -200200,
+          "roi_pct": 93.958
+        },
+        "excluding_top3_races": {
+          "stake": 3310500,
+          "paid": 3032850,
+          "profit": -277650,
+          "roi_pct": 91.613
+        },
+        "venue_days": 1203,
+        "venue_day_bootstrap": {
+          "95pct": [
+            85.9,
+            107.13
+          ],
+          "simulations": 3000
+        }
+      }
+    },
+    "B_rank3_4_gap2": {
+      "rule": {
+        "exacta_ranks": [
+          2,
+          3
+        ],
+        "trifecta_positions": [],
+        "gap_floor": 2.0
+      },
+      "final_day": {
+        "totals": {
+          "races": 98,
+          "tickets": 196,
+          "stake": 98000,
+          "paid": 140750,
+          "profit": 42750,
+          "roi_pct": 143.622,
+          "hit_tickets": 34
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 35,
+            "tickets": 70,
+            "stake": 35000,
+            "paid": 54400,
+            "profit": 19400,
+            "roi_pct": 155.429,
+            "hit_tickets": 9
+          },
+          "2026-02": {
+            "races": 39,
+            "tickets": 78,
+            "stake": 39000,
+            "paid": 42750,
+            "profit": 3750,
+            "roi_pct": 109.615,
+            "hit_tickets": 14
+          },
+          "2026-03": {
+            "races": 24,
+            "tickets": 48,
+            "stake": 24000,
+            "paid": 43600,
+            "profit": 19600,
+            "roi_pct": 181.667,
+            "hit_tickets": 11
+          }
+        },
+        "max_single_payout": 14400,
+        "top3_payout_share": 25.93,
+        "excluding_top1_race": {
+          "stake": 97000,
+          "paid": 126350,
+          "profit": 29350,
+          "roi_pct": 130.258
+        },
+        "excluding_top3_races": {
+          "stake": 95000,
+          "paid": 104250,
+          "profit": 9250,
+          "roi_pct": 109.737
+        },
+        "venue_days": 78,
+        "venue_day_bootstrap": {
+          "95pct": [
+            94.26,
+            200.11
+          ],
+          "simulations": 3000
+        }
+      },
+      "other_meeting_days": {
+        "totals": {
+          "races": 1136,
+          "tickets": 2272,
+          "stake": 1136000,
+          "paid": 1115900,
+          "profit": -20100,
+          "roi_pct": 98.231,
+          "hit_tickets": 300
+        },
+        "monthly": {
+          "2025-07": {
+            "races": 77,
+            "tickets": 154,
+            "stake": 77000,
+            "paid": 53850,
+            "profit": -23150,
+            "roi_pct": 69.935,
+            "hit_tickets": 19
+          },
+          "2025-08": {
+            "races": 63,
+            "tickets": 126,
+            "stake": 63000,
+            "paid": 78150,
+            "profit": 15150,
+            "roi_pct": 124.048,
+            "hit_tickets": 18
+          },
+          "2025-09": {
+            "races": 60,
+            "tickets": 120,
+            "stake": 60000,
+            "paid": 47200,
+            "profit": -12800,
+            "roi_pct": 78.667,
+            "hit_tickets": 17
+          },
+          "2025-10": {
+            "races": 84,
+            "tickets": 168,
+            "stake": 84000,
+            "paid": 47750,
+            "profit": -36250,
+            "roi_pct": 56.845,
+            "hit_tickets": 18
+          },
+          "2025-11": {
+            "races": 97,
+            "tickets": 194,
+            "stake": 97000,
+            "paid": 69050,
+            "profit": -27950,
+            "roi_pct": 71.186,
+            "hit_tickets": 19
+          },
+          "2025-12": {
+            "races": 58,
+            "tickets": 116,
+            "stake": 58000,
+            "paid": 39800,
+            "profit": -18200,
+            "roi_pct": 68.621,
+            "hit_tickets": 16
+          },
+          "2026-01": {
+            "races": 43,
+            "tickets": 86,
+            "stake": 43000,
+            "paid": 31400,
+            "profit": -11600,
+            "roi_pct": 73.023,
+            "hit_tickets": 11
+          },
+          "2026-02": {
+            "races": 33,
+            "tickets": 66,
+            "stake": 33000,
+            "paid": 16300,
+            "profit": -16700,
+            "roi_pct": 49.394,
+            "hit_tickets": 7
+          },
+          "2026-03": {
+            "races": 47,
+            "tickets": 94,
+            "stake": 47000,
+            "paid": 32800,
+            "profit": -14200,
+            "roi_pct": 69.787,
+            "hit_tickets": 9
+          },
+          "2026-04": {
+            "races": 114,
+            "tickets": 228,
+            "stake": 114000,
+            "paid": 101100,
+            "profit": -12900,
+            "roi_pct": 88.684,
+            "hit_tickets": 33
+          },
+          "2026-05": {
+            "races": 138,
+            "tickets": 276,
+            "stake": 138000,
+            "paid": 324550,
+            "profit": 186550,
+            "roi_pct": 235.181,
+            "hit_tickets": 44
+          },
+          "2026-06": {
+            "races": 94,
+            "tickets": 188,
+            "stake": 94000,
+            "paid": 88200,
+            "profit": -5800,
+            "roi_pct": 93.83,
+            "hit_tickets": 23
+          },
+          "2026-07": {
+            "races": 82,
+            "tickets": 164,
+            "stake": 82000,
+            "paid": 87200,
+            "profit": 5200,
+            "roi_pct": 106.341,
+            "hit_tickets": 26
+          },
+          "2026-08": {
+            "races": 64,
+            "tickets": 128,
+            "stake": 64000,
+            "paid": 40000,
+            "profit": -24000,
+            "roi_pct": 62.5,
+            "hit_tickets": 15
+          },
+          "2026-09": {
+            "races": 82,
+            "tickets": 164,
+            "stake": 82000,
+            "paid": 58550,
+            "profit": -23450,
+            "roi_pct": 71.402,
+            "hit_tickets": 25
+          }
+        },
+        "max_single_payout": 75700,
+        "top3_payout_share": 12.1,
+        "excluding_top1_race": {
+          "stake": 1135000,
+          "paid": 1040200,
+          "profit": -94800,
+          "roi_pct": 91.648
+        },
+        "excluding_top3_races": {
+          "stake": 1133000,
+          "paid": 980850,
+          "profit": -152150,
+          "roi_pct": 86.571
+        },
+        "venue_days": 762,
+        "venue_day_bootstrap": {
+          "95pct": [
+            78.73,
+            121.87
+          ],
+          "simulations": 3000
+        }
+      }
+    },
+    "C_rank3_4_allHIGH": {
+      "rule": {
+        "exacta_ranks": [
+          2,
+          3
+        ],
+        "trifecta_positions": [],
+        "gap_floor": 1.0
+      },
+      "final_day": {
+        "totals": {
+          "races": 448,
+          "tickets": 896,
+          "stake": 448000,
+          "paid": 492850,
+          "profit": 44850,
+          "roi_pct": 110.011,
+          "hit_tickets": 110
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 194,
+            "tickets": 388,
+            "stake": 194000,
+            "paid": 240650,
+            "profit": 46650,
+            "roi_pct": 124.046,
+            "hit_tickets": 50
+          },
+          "2026-02": {
+            "races": 137,
+            "tickets": 274,
+            "stake": 137000,
+            "paid": 128950,
+            "profit": -8050,
+            "roi_pct": 94.124,
+            "hit_tickets": 36
+          },
+          "2026-03": {
+            "races": 117,
+            "tickets": 234,
+            "stake": 117000,
+            "paid": 123250,
+            "profit": 6250,
+            "roi_pct": 105.342,
+            "hit_tickets": 24
+          }
+        },
+        "max_single_payout": 37100,
+        "top3_payout_share": 17.0,
+        "excluding_top1_race": {
+          "stake": 447000,
+          "paid": 455750,
+          "profit": 8750,
+          "roi_pct": 101.957
+        },
+        "excluding_top3_races": {
+          "stake": 445000,
+          "paid": 409050,
+          "profit": -35950,
+          "roi_pct": 91.921
+        },
+        "venue_days": 190,
+        "venue_day_bootstrap": {
+          "95pct": [
+            83.67,
+            140.19
+          ],
+          "simulations": 3000
+        }
+      },
+      "other_meeting_days": {
+        "totals": {
+          "races": 4343,
+          "tickets": 8686,
+          "stake": 4343000,
+          "paid": 3809450,
+          "profit": -533550,
+          "roi_pct": 87.715,
+          "hit_tickets": 919
+        },
+        "monthly": {
+          "2025-07": {
+            "races": 319,
+            "tickets": 638,
+            "stake": 319000,
+            "paid": 228150,
+            "profit": -90850,
+            "roi_pct": 71.52,
+            "hit_tickets": 67
+          },
+          "2025-08": {
+            "races": 311,
+            "tickets": 622,
+            "stake": 311000,
+            "paid": 264600,
+            "profit": -46400,
+            "roi_pct": 85.08,
+            "hit_tickets": 65
+          },
+          "2025-09": {
+            "races": 291,
+            "tickets": 582,
+            "stake": 291000,
+            "paid": 193200,
+            "profit": -97800,
+            "roi_pct": 66.392,
+            "hit_tickets": 56
+          },
+          "2025-10": {
+            "races": 345,
+            "tickets": 690,
+            "stake": 345000,
+            "paid": 250900,
+            "profit": -94100,
+            "roi_pct": 72.725,
+            "hit_tickets": 72
+          },
+          "2025-11": {
+            "races": 340,
+            "tickets": 680,
+            "stake": 340000,
+            "paid": 287450,
+            "profit": -52550,
+            "roi_pct": 84.544,
+            "hit_tickets": 65
+          },
+          "2025-12": {
+            "races": 287,
+            "tickets": 574,
+            "stake": 287000,
+            "paid": 239950,
+            "profit": -47050,
+            "roi_pct": 83.606,
+            "hit_tickets": 62
+          },
+          "2026-01": {
+            "races": 151,
+            "tickets": 302,
+            "stake": 151000,
+            "paid": 105950,
+            "profit": -45050,
+            "roi_pct": 70.166,
+            "hit_tickets": 29
+          },
+          "2026-02": {
+            "races": 123,
+            "tickets": 246,
+            "stake": 123000,
+            "paid": 61350,
+            "profit": -61650,
+            "roi_pct": 49.878,
+            "hit_tickets": 21
+          },
+          "2026-03": {
+            "races": 172,
+            "tickets": 344,
+            "stake": 172000,
+            "paid": 111850,
+            "profit": -60150,
+            "roi_pct": 65.029,
+            "hit_tickets": 29
+          },
+          "2026-04": {
+            "races": 361,
+            "tickets": 722,
+            "stake": 361000,
+            "paid": 249100,
+            "profit": -111900,
+            "roi_pct": 69.003,
+            "hit_tickets": 73
+          },
+          "2026-05": {
+            "races": 385,
+            "tickets": 770,
+            "stake": 385000,
+            "paid": 676350,
+            "profit": 291350,
+            "roi_pct": 175.675,
+            "hit_tickets": 103
+          },
+          "2026-06": {
+            "races": 318,
+            "tickets": 636,
+            "stake": 318000,
+            "paid": 363400,
+            "profit": 45400,
+            "roi_pct": 114.277,
+            "hit_tickets": 76
+          },
+          "2026-07": {
+            "races": 309,
+            "tickets": 618,
+            "stake": 309000,
+            "paid": 264850,
+            "profit": -44150,
+            "roi_pct": 85.712,
+            "hit_tickets": 67
+          },
+          "2026-08": {
+            "races": 304,
+            "tickets": 608,
+            "stake": 304000,
+            "paid": 290450,
+            "profit": -13550,
+            "roi_pct": 95.543,
+            "hit_tickets": 65
+          },
+          "2026-09": {
+            "races": 327,
+            "tickets": 654,
+            "stake": 327000,
+            "paid": 221900,
+            "profit": -105100,
+            "roi_pct": 67.859,
+            "hit_tickets": 69
+          }
+        },
+        "max_single_payout": 87150,
+        "top3_payout_share": 5.48,
+        "excluding_top1_race": {
+          "stake": 4342000,
+          "paid": 3722300,
+          "profit": -619700,
+          "roi_pct": 85.728
+        },
+        "excluding_top3_races": {
+          "stake": 4340000,
+          "paid": 3600800,
+          "profit": -739200,
+          "roi_pct": 82.968
+        },
+        "venue_days": 1679,
+        "venue_day_bootstrap": {
+          "95pct": [
+            78.88,
+            97.35
+          ],
+          "simulations": 3000
+        }
+      }
+    },
+    "D_exacta4_allHIGH": {
+      "rule": {
+        "exacta_ranks": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "trifecta_positions": [],
+        "gap_floor": 1.0
+      },
+      "final_day": {
+        "totals": {
+          "races": 448,
+          "tickets": 1792,
+          "stake": 896000,
+          "paid": 917700,
+          "profit": 21700,
+          "roi_pct": 102.422,
+          "hit_tickets": 255
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 194,
+            "tickets": 776,
+            "stake": 388000,
+            "paid": 443500,
+            "profit": 55500,
+            "roi_pct": 114.304,
+            "hit_tickets": 114
+          },
+          "2026-02": {
+            "races": 137,
+            "tickets": 548,
+            "stake": 274000,
+            "paid": 265550,
+            "profit": -8450,
+            "roi_pct": 96.916,
+            "hit_tickets": 78
+          },
+          "2026-03": {
+            "races": 117,
+            "tickets": 468,
+            "stake": 234000,
+            "paid": 208650,
+            "profit": -25350,
+            "roi_pct": 89.167,
+            "hit_tickets": 63
+          }
+        },
+        "max_single_payout": 37100,
+        "top3_payout_share": 11.05,
+        "excluding_top1_race": {
+          "stake": 894000,
+          "paid": 880600,
+          "profit": -13400,
+          "roi_pct": 98.501
+        },
+        "excluding_top3_races": {
+          "stake": 890000,
+          "paid": 816300,
+          "profit": -73700,
+          "roi_pct": 91.719
+        },
+        "venue_days": 190,
+        "venue_day_bootstrap": {
+          "95pct": [
+            85.11,
+            121.88
+          ],
+          "simulations": 3000
+        }
+      },
+      "other_meeting_days": {
+        "totals": {
+          "races": 4343,
+          "tickets": 17372,
+          "stake": 8686000,
+          "paid": 8013650,
+          "profit": -672350,
+          "roi_pct": 92.259,
+          "hit_tickets": 2744
+        },
+        "monthly": {
+          "2025-07": {
+            "races": 319,
+            "tickets": 1276,
+            "stake": 638000,
+            "paid": 567700,
+            "profit": -70300,
+            "roi_pct": 88.981,
+            "hit_tickets": 198
+          },
+          "2025-08": {
+            "races": 311,
+            "tickets": 1244,
+            "stake": 622000,
+            "paid": 583500,
+            "profit": -38500,
+            "roi_pct": 93.81,
+            "hit_tickets": 205
+          },
+          "2025-09": {
+            "races": 291,
+            "tickets": 1164,
+            "stake": 582000,
+            "paid": 442900,
+            "profit": -139100,
+            "roi_pct": 76.1,
+            "hit_tickets": 172
+          },
+          "2025-10": {
+            "races": 345,
+            "tickets": 1380,
+            "stake": 690000,
+            "paid": 598500,
+            "profit": -91500,
+            "roi_pct": 86.739,
+            "hit_tickets": 232
+          },
+          "2025-11": {
+            "races": 340,
+            "tickets": 1360,
+            "stake": 680000,
+            "paid": 576800,
+            "profit": -103200,
+            "roi_pct": 84.824,
+            "hit_tickets": 212
+          },
+          "2025-12": {
+            "races": 287,
+            "tickets": 1148,
+            "stake": 574000,
+            "paid": 478900,
+            "profit": -95100,
+            "roi_pct": 83.432,
+            "hit_tickets": 163
+          },
+          "2026-01": {
+            "races": 151,
+            "tickets": 604,
+            "stake": 302000,
+            "paid": 214200,
+            "profit": -87800,
+            "roi_pct": 70.927,
+            "hit_tickets": 101
+          },
+          "2026-02": {
+            "races": 123,
+            "tickets": 492,
+            "stake": 246000,
+            "paid": 160300,
+            "profit": -85700,
+            "roi_pct": 65.163,
+            "hit_tickets": 75
+          },
+          "2026-03": {
+            "races": 172,
+            "tickets": 688,
+            "stake": 344000,
+            "paid": 254950,
+            "profit": -89050,
+            "roi_pct": 74.113,
+            "hit_tickets": 117
+          },
+          "2026-04": {
+            "races": 361,
+            "tickets": 1444,
+            "stake": 722000,
+            "paid": 620550,
+            "profit": -101450,
+            "roi_pct": 85.949,
+            "hit_tickets": 228
+          },
+          "2026-05": {
+            "races": 385,
+            "tickets": 1540,
+            "stake": 770000,
+            "paid": 1130650,
+            "profit": 360650,
+            "roi_pct": 146.838,
+            "hit_tickets": 270
+          },
+          "2026-06": {
+            "races": 318,
+            "tickets": 1272,
+            "stake": 636000,
+            "paid": 621900,
+            "profit": -14100,
+            "roi_pct": 97.783,
+            "hit_tickets": 201
+          },
+          "2026-07": {
+            "races": 309,
+            "tickets": 1236,
+            "stake": 618000,
+            "paid": 619550,
+            "profit": 1550,
+            "roi_pct": 100.251,
+            "hit_tickets": 186
+          },
+          "2026-08": {
+            "races": 304,
+            "tickets": 1216,
+            "stake": 608000,
+            "paid": 692550,
+            "profit": 84550,
+            "roi_pct": 113.906,
+            "hit_tickets": 194
+          },
+          "2026-09": {
+            "races": 327,
+            "tickets": 1308,
+            "stake": 654000,
+            "paid": 450700,
+            "profit": -203300,
+            "roi_pct": 68.914,
+            "hit_tickets": 190
+          }
+        },
+        "max_single_payout": 87150,
+        "top3_payout_share": 2.85,
+        "excluding_top1_race": {
+          "stake": 8684000,
+          "paid": 7926500,
+          "profit": -757500,
+          "roi_pct": 91.277
+        },
+        "excluding_top3_races": {
+          "stake": 8680000,
+          "paid": 7785250,
+          "profit": -894750,
+          "roi_pct": 89.692
+        },
+        "venue_days": 1679,
+        "venue_day_bootstrap": {
+          "95pct": [
+            86.13,
+            98.8
+          ],
+          "simulations": 3000
+        }
+      }
+    },
+    "E_original": {
+      "rule": {
+        "exacta_ranks": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "trifecta_positions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "gap_floor": 1.0
+      },
+      "final_day": {
+        "totals": {
+          "races": 448,
+          "tickets": 2380,
+          "stake": 1190000,
+          "paid": 1143500,
+          "profit": -46500,
+          "roi_pct": 96.092,
+          "hit_tickets": 283
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 194,
+            "tickets": 986,
+            "stake": 493000,
+            "paid": 584750,
+            "profit": 91750,
+            "roi_pct": 118.611,
+            "hit_tickets": 125
+          },
+          "2026-02": {
+            "races": 137,
+            "tickets": 782,
+            "stake": 391000,
+            "paid": 303950,
+            "profit": -87050,
+            "roi_pct": 77.737,
+            "hit_tickets": 86
+          },
+          "2026-03": {
+            "races": 117,
+            "tickets": 612,
+            "stake": 306000,
+            "paid": 254800,
+            "profit": -51200,
+            "roi_pct": 83.268,
+            "hit_tickets": 72
+          }
+        },
+        "max_single_payout": 68550,
+        "top3_payout_share": 13.45,
+        "excluding_top1_race": {
+          "stake": 1185000,
+          "paid": 1074950,
+          "profit": -110050,
+          "roi_pct": 90.713
+        },
+        "excluding_top3_races": {
+          "stake": 1178000,
+          "paid": 989650,
+          "profit": -188350,
+          "roi_pct": 84.011
+        },
+        "venue_days": 190,
+        "venue_day_bootstrap": {
+          "95pct": [
+            77.03,
+            117.63
+          ],
+          "simulations": 3000
+        }
+      },
+      "other_meeting_days": {
+        "totals": {
+          "races": 4343,
+          "tickets": 24188,
+          "stake": 12094000,
+          "paid": 11324000,
+          "profit": -770000,
+          "roi_pct": 93.633,
+          "hit_tickets": 3272
+        },
+        "monthly": {
+          "2025-07": {
+            "races": 319,
+            "tickets": 1738,
+            "stake": 869000,
+            "paid": 675700,
+            "profit": -193300,
+            "roi_pct": 77.756,
+            "hit_tickets": 224
+          },
+          "2025-08": {
+            "races": 311,
+            "tickets": 1622,
+            "stake": 811000,
+            "paid": 898350,
+            "profit": 87350,
+            "roi_pct": 110.771,
+            "hit_tickets": 233
+          },
+          "2025-09": {
+            "races": 291,
+            "tickets": 1524,
+            "stake": 762000,
+            "paid": 605350,
+            "profit": -156650,
+            "roi_pct": 79.442,
+            "hit_tickets": 199
+          },
+          "2025-10": {
+            "races": 345,
+            "tickets": 1884,
+            "stake": 942000,
+            "paid": 782700,
+            "profit": -159300,
+            "roi_pct": 83.089,
+            "hit_tickets": 274
+          },
+          "2025-11": {
+            "races": 340,
+            "tickets": 1942,
+            "stake": 971000,
+            "paid": 847550,
+            "profit": -123450,
+            "roi_pct": 87.286,
+            "hit_tickets": 255
+          },
+          "2025-12": {
+            "races": 287,
+            "tickets": 1496,
+            "stake": 748000,
+            "paid": 653550,
+            "profit": -94450,
+            "roi_pct": 87.373,
+            "hit_tickets": 189
+          },
+          "2026-01": {
+            "races": 151,
+            "tickets": 862,
+            "stake": 431000,
+            "paid": 352750,
+            "profit": -78250,
+            "roi_pct": 81.845,
+            "hit_tickets": 127
+          },
+          "2026-02": {
+            "races": 123,
+            "tickets": 690,
+            "stake": 345000,
+            "paid": 202900,
+            "profit": -142100,
+            "roi_pct": 58.812,
+            "hit_tickets": 90
+          },
+          "2026-03": {
+            "races": 172,
+            "tickets": 970,
+            "stake": 485000,
+            "paid": 348550,
+            "profit": -136450,
+            "roi_pct": 71.866,
+            "hit_tickets": 139
+          },
+          "2026-04": {
+            "races": 361,
+            "tickets": 2128,
+            "stake": 1064000,
+            "paid": 875300,
+            "profit": -188700,
+            "roi_pct": 82.265,
+            "hit_tickets": 283
+          },
+          "2026-05": {
+            "races": 385,
+            "tickets": 2368,
+            "stake": 1184000,
+            "paid": 1868550,
+            "profit": 684550,
+            "roi_pct": 157.817,
+            "hit_tickets": 338
+          },
+          "2026-06": {
+            "races": 318,
+            "tickets": 1836,
+            "stake": 918000,
+            "paid": 879550,
+            "profit": -38450,
+            "roi_pct": 95.812,
+            "hit_tickets": 242
+          },
+          "2026-07": {
+            "races": 309,
+            "tickets": 1728,
+            "stake": 864000,
+            "paid": 828500,
+            "profit": -35500,
+            "roi_pct": 95.891,
+            "hit_tickets": 220
+          },
+          "2026-08": {
+            "races": 304,
+            "tickets": 1600,
+            "stake": 800000,
+            "paid": 860500,
+            "profit": 60500,
+            "roi_pct": 107.562,
+            "hit_tickets": 227
+          },
+          "2026-09": {
+            "races": 327,
+            "tickets": 1800,
+            "stake": 900000,
+            "paid": 644200,
+            "profit": -255800,
+            "roi_pct": 71.578,
+            "hit_tickets": 232
+          }
+        },
+        "max_single_payout": 115600,
+        "top3_payout_share": 2.99,
+        "excluding_top1_race": {
+          "stake": 12089000,
+          "paid": 11208400,
+          "profit": -880600,
+          "roi_pct": 92.716
+        },
+        "excluding_top3_races": {
+          "stake": 12079000,
+          "paid": 10985650,
+          "profit": -1093350,
+          "roi_pct": 90.948
+        },
+        "venue_days": 1679,
+        "venue_day_bootstrap": {
+          "95pct": [
+            86.44,
+            101.4
+          ],
+          "simulations": 3000
+        }
+      }
+    },
+    "F_rank3_only_gap2": {
+      "rule": {
+        "exacta_ranks": [
+          2
+        ],
+        "trifecta_positions": [],
+        "gap_floor": 2.0
+      },
+      "final_day": {
+        "totals": {
+          "races": 98,
+          "tickets": 98,
+          "stake": 49000,
+          "paid": 73250,
+          "profit": 24250,
+          "roi_pct": 149.49,
+          "hit_tickets": 19
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 35,
+            "tickets": 35,
+            "stake": 17500,
+            "paid": 33450,
+            "profit": 15950,
+            "roi_pct": 191.143,
+            "hit_tickets": 5
+          },
+          "2026-02": {
+            "races": 39,
+            "tickets": 39,
+            "stake": 19500,
+            "paid": 22350,
+            "profit": 2850,
+            "roi_pct": 114.615,
+            "hit_tickets": 10
+          },
+          "2026-03": {
+            "races": 24,
+            "tickets": 24,
+            "stake": 12000,
+            "paid": 17450,
+            "profit": 5450,
+            "roi_pct": 145.417,
+            "hit_tickets": 4
+          }
+        },
+        "max_single_payout": 14400,
+        "top3_payout_share": 48.67,
+        "excluding_top1_race": {
+          "stake": 48500,
+          "paid": 58850,
+          "profit": 10350,
+          "roi_pct": 121.34
+        },
+        "excluding_top3_races": {
+          "stake": 47500,
+          "paid": 37600,
+          "profit": -9900,
+          "roi_pct": 79.158
+        },
+        "venue_days": 78,
+        "venue_day_bootstrap": {
+          "95pct": [
+            71.41,
+            241.73
+          ],
+          "simulations": 3000
+        }
+      },
+      "other_meeting_days": {
+        "totals": {
+          "races": 1136,
+          "tickets": 1136,
+          "stake": 568000,
+          "paid": 686850,
+          "profit": 118850,
+          "roi_pct": 120.924,
+          "hit_tickets": 205
+        },
+        "monthly": {
+          "2025-07": {
+            "races": 77,
+            "tickets": 77,
+            "stake": 38500,
+            "paid": 29150,
+            "profit": -9350,
+            "roi_pct": 75.714,
+            "hit_tickets": 15
+          },
+          "2025-08": {
+            "races": 63,
+            "tickets": 63,
+            "stake": 31500,
+            "paid": 52150,
+            "profit": 20650,
+            "roi_pct": 165.556,
+            "hit_tickets": 13
+          },
+          "2025-09": {
+            "races": 60,
+            "tickets": 60,
+            "stake": 30000,
+            "paid": 29650,
+            "profit": -350,
+            "roi_pct": 98.833,
+            "hit_tickets": 12
+          },
+          "2025-10": {
+            "races": 84,
+            "tickets": 84,
+            "stake": 42000,
+            "paid": 26600,
+            "profit": -15400,
+            "roi_pct": 63.333,
+            "hit_tickets": 13
+          },
+          "2025-11": {
+            "races": 97,
+            "tickets": 97,
+            "stake": 48500,
+            "paid": 23000,
+            "profit": -25500,
+            "roi_pct": 47.423,
+            "hit_tickets": 13
+          },
+          "2025-12": {
+            "races": 58,
+            "tickets": 58,
+            "stake": 29000,
+            "paid": 23850,
+            "profit": -5150,
+            "roi_pct": 82.241,
+            "hit_tickets": 10
+          },
+          "2026-01": {
+            "races": 43,
+            "tickets": 43,
+            "stake": 21500,
+            "paid": 16200,
+            "profit": -5300,
+            "roi_pct": 75.349,
+            "hit_tickets": 8
+          },
+          "2026-02": {
+            "races": 33,
+            "tickets": 33,
+            "stake": 16500,
+            "paid": 9300,
+            "profit": -7200,
+            "roi_pct": 56.364,
+            "hit_tickets": 4
+          },
+          "2026-03": {
+            "races": 47,
+            "tickets": 47,
+            "stake": 23500,
+            "paid": 15200,
+            "profit": -8300,
+            "roi_pct": 64.681,
+            "hit_tickets": 5
+          },
+          "2026-04": {
+            "races": 114,
+            "tickets": 114,
+            "stake": 57000,
+            "paid": 81700,
+            "profit": 24700,
+            "roi_pct": 143.333,
+            "hit_tickets": 26
+          },
+          "2026-05": {
+            "races": 138,
+            "tickets": 138,
+            "stake": 69000,
+            "paid": 251000,
+            "profit": 182000,
+            "roi_pct": 363.768,
+            "hit_tickets": 32
+          },
+          "2026-06": {
+            "races": 94,
+            "tickets": 94,
+            "stake": 47000,
+            "paid": 49000,
+            "profit": 2000,
+            "roi_pct": 104.255,
+            "hit_tickets": 13
+          },
+          "2026-07": {
+            "races": 82,
+            "tickets": 82,
+            "stake": 41000,
+            "paid": 38400,
+            "profit": -2600,
+            "roi_pct": 93.659,
+            "hit_tickets": 17
+          },
+          "2026-08": {
+            "races": 64,
+            "tickets": 64,
+            "stake": 32000,
+            "paid": 10000,
+            "profit": -22000,
+            "roi_pct": 31.25,
+            "hit_tickets": 6
+          },
+          "2026-09": {
+            "races": 82,
+            "tickets": 82,
+            "stake": 41000,
+            "paid": 31650,
+            "profit": -9350,
+            "roi_pct": 77.195,
+            "hit_tickets": 18
+          }
+        },
+        "max_single_payout": 75700,
+        "top3_payout_share": 19.66,
+        "excluding_top1_race": {
+          "stake": 567500,
+          "paid": 611150,
+          "profit": 43650,
+          "roi_pct": 107.692
+        },
+        "excluding_top3_races": {
+          "stake": 566500,
+          "paid": 551800,
+          "profit": -14700,
+          "roi_pct": 97.405
+        },
+        "venue_days": 762,
+        "venue_day_bootstrap": {
+          "95pct": [
+            88.25,
+            164.03
+          ],
+          "simulations": 3000
+        }
+      }
+    },
+    "G_rank3_4_5_allHIGH": {
+      "rule": {
+        "exacta_ranks": [
+          2,
+          3,
+          4
+        ],
+        "trifecta_positions": [],
+        "gap_floor": 1.0
+      },
+      "final_day": {
+        "totals": {
+          "races": 448,
+          "tickets": 1344,
+          "stake": 672000,
+          "paid": 742350,
+          "profit": 70350,
+          "roi_pct": 110.469,
+          "hit_tickets": 140
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 194,
+            "tickets": 582,
+            "stake": 291000,
+            "paid": 364250,
+            "profit": 73250,
+            "roi_pct": 125.172,
+            "hit_tickets": 65
+          },
+          "2026-02": {
+            "races": 137,
+            "tickets": 411,
+            "stake": 205500,
+            "paid": 214950,
+            "profit": 9450,
+            "roi_pct": 104.599,
+            "hit_tickets": 44
+          },
+          "2026-03": {
+            "races": 117,
+            "tickets": 351,
+            "stake": 175500,
+            "paid": 163150,
+            "profit": -12350,
+            "roi_pct": 92.963,
+            "hit_tickets": 31
+          }
+        },
+        "max_single_payout": 37100,
+        "top3_payout_share": 13.66,
+        "excluding_top1_race": {
+          "stake": 670500,
+          "paid": 705250,
+          "profit": 34750,
+          "roi_pct": 105.183
+        },
+        "excluding_top3_races": {
+          "stake": 667500,
+          "paid": 640950,
+          "profit": -26550,
+          "roi_pct": 96.022
+        },
+        "venue_days": 190,
+        "venue_day_bootstrap": {
+          "95pct": [
+            86.6,
+            137.94
+          ],
+          "simulations": 3000
+        }
+      },
+      "other_meeting_days": {
+        "totals": {
+          "races": 4343,
+          "tickets": 13029,
+          "stake": 6514500,
+          "paid": 5793700,
+          "profit": -720800,
+          "roi_pct": 88.935,
+          "hit_tickets": 1183
+        },
+        "monthly": {
+          "2025-07": {
+            "races": 319,
+            "tickets": 957,
+            "stake": 478500,
+            "paid": 377800,
+            "profit": -100700,
+            "roi_pct": 78.955,
+            "hit_tickets": 91
+          },
+          "2025-08": {
+            "races": 311,
+            "tickets": 933,
+            "stake": 466500,
+            "paid": 417700,
+            "profit": -48800,
+            "roi_pct": 89.539,
+            "hit_tickets": 85
+          },
+          "2025-09": {
+            "races": 291,
+            "tickets": 873,
+            "stake": 436500,
+            "paid": 313000,
+            "profit": -123500,
+            "roi_pct": 71.707,
+            "hit_tickets": 75
+          },
+          "2025-10": {
+            "races": 345,
+            "tickets": 1035,
+            "stake": 517500,
+            "paid": 426100,
+            "profit": -91400,
+            "roi_pct": 82.338,
+            "hit_tickets": 97
+          },
+          "2025-11": {
+            "races": 340,
+            "tickets": 1020,
+            "stake": 510000,
+            "paid": 426500,
+            "profit": -83500,
+            "roi_pct": 83.627,
+            "hit_tickets": 85
+          },
+          "2025-12": {
+            "races": 287,
+            "tickets": 861,
+            "stake": 430500,
+            "paid": 372400,
+            "profit": -58100,
+            "roi_pct": 86.504,
+            "hit_tickets": 76
+          },
+          "2026-01": {
+            "races": 151,
+            "tickets": 453,
+            "stake": 226500,
+            "paid": 146500,
+            "profit": -80000,
+            "roi_pct": 64.68,
+            "hit_tickets": 38
+          },
+          "2026-02": {
+            "races": 123,
+            "tickets": 369,
+            "stake": 184500,
+            "paid": 109250,
+            "profit": -75250,
+            "roi_pct": 59.214,
+            "hit_tickets": 28
+          },
+          "2026-03": {
+            "races": 172,
+            "tickets": 516,
+            "stake": 258000,
+            "paid": 163950,
+            "profit": -94050,
+            "roi_pct": 63.547,
+            "hit_tickets": 40
+          },
+          "2026-04": {
+            "races": 361,
+            "tickets": 1083,
+            "stake": 541500,
+            "paid": 460250,
+            "profit": -81250,
+            "roi_pct": 84.995,
+            "hit_tickets": 98
+          },
+          "2026-05": {
+            "races": 385,
+            "tickets": 1155,
+            "stake": 577500,
+            "paid": 795600,
+            "profit": 218100,
+            "roi_pct": 137.766,
+            "hit_tickets": 124
+          },
+          "2026-06": {
+            "races": 318,
+            "tickets": 954,
+            "stake": 477000,
+            "paid": 488700,
+            "profit": 11700,
+            "roi_pct": 102.453,
+            "hit_tickets": 90
+          },
+          "2026-07": {
+            "races": 309,
+            "tickets": 927,
+            "stake": 463500,
+            "paid": 481950,
+            "profit": 18450,
+            "roi_pct": 103.981,
+            "hit_tickets": 90
+          },
+          "2026-08": {
+            "races": 304,
+            "tickets": 912,
+            "stake": 456000,
+            "paid": 490150,
+            "profit": 34150,
+            "roi_pct": 107.489,
+            "hit_tickets": 82
+          },
+          "2026-09": {
+            "races": 327,
+            "tickets": 981,
+            "stake": 490500,
+            "paid": 323850,
+            "profit": -166650,
+            "roi_pct": 66.024,
+            "hit_tickets": 84
+          }
+        },
+        "max_single_payout": 87150,
+        "top3_payout_share": 3.94,
+        "excluding_top1_race": {
+          "stake": 6513000,
+          "paid": 5706550,
+          "profit": -806450,
+          "roi_pct": 87.618
+        },
+        "excluding_top3_races": {
+          "stake": 6510000,
+          "paid": 5565300,
+          "profit": -944700,
+          "roi_pct": 85.488
+        },
+        "venue_days": 1679,
+        "venue_day_bootstrap": {
+          "95pct": [
+            81.38,
+            96.98
+          ],
+          "simulations": 3000
+        }
+      }
+    },
+    "H_exacta4_gap1_5": {
+      "rule": {
+        "exacta_ranks": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "trifecta_positions": [],
+        "gap_floor": 1.5
+      },
+      "final_day": {
+        "totals": {
+          "races": 213,
+          "tickets": 852,
+          "stake": 426000,
+          "paid": 496600,
+          "profit": 70600,
+          "roi_pct": 116.573,
+          "hit_tickets": 142
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 82,
+            "tickets": 328,
+            "stake": 164000,
+            "paid": 204200,
+            "profit": 40200,
+            "roi_pct": 124.512,
+            "hit_tickets": 53
+          },
+          "2026-02": {
+            "races": 79,
+            "tickets": 316,
+            "stake": 158000,
+            "paid": 155950,
+            "profit": -2050,
+            "roi_pct": 98.703,
+            "hit_tickets": 53
+          },
+          "2026-03": {
+            "races": 52,
+            "tickets": 208,
+            "stake": 104000,
+            "paid": 136450,
+            "profit": 32450,
+            "roi_pct": 131.202,
+            "hit_tickets": 36
+          }
+        },
+        "max_single_payout": 32300,
+        "top3_payout_share": 17.67,
+        "excluding_top1_race": {
+          "stake": 424000,
+          "paid": 464300,
+          "profit": 40300,
+          "roi_pct": 109.505
+        },
+        "excluding_top3_races": {
+          "stake": 420000,
+          "paid": 408850,
+          "profit": -11150,
+          "roi_pct": 97.345
+        },
+        "venue_days": 135,
+        "venue_day_bootstrap": {
+          "95pct": [
+            90.99,
+            146.79
+          ],
+          "simulations": 3000
+        }
+      },
+      "other_meeting_days": {
+        "totals": {
+          "races": 2210,
+          "tickets": 8840,
+          "stake": 4420000,
+          "paid": 4312850,
+          "profit": -107150,
+          "roi_pct": 97.576,
+          "hit_tickets": 1610
+        },
+        "monthly": {
+          "2025-07": {
+            "races": 151,
+            "tickets": 604,
+            "stake": 302000,
+            "paid": 257800,
+            "profit": -44200,
+            "roi_pct": 85.364,
+            "hit_tickets": 107
+          },
+          "2025-08": {
+            "races": 148,
+            "tickets": 592,
+            "stake": 296000,
+            "paid": 281650,
+            "profit": -14350,
+            "roi_pct": 95.152,
+            "hit_tickets": 109
+          },
+          "2025-09": {
+            "races": 121,
+            "tickets": 484,
+            "stake": 242000,
+            "paid": 225050,
+            "profit": -16950,
+            "roi_pct": 92.996,
+            "hit_tickets": 88
+          },
+          "2025-10": {
+            "races": 174,
+            "tickets": 696,
+            "stake": 348000,
+            "paid": 324250,
+            "profit": -23750,
+            "roi_pct": 93.175,
+            "hit_tickets": 135
+          },
+          "2025-11": {
+            "races": 181,
+            "tickets": 724,
+            "stake": 362000,
+            "paid": 246550,
+            "profit": -115450,
+            "roi_pct": 68.108,
+            "hit_tickets": 125
+          },
+          "2025-12": {
+            "races": 136,
+            "tickets": 544,
+            "stake": 272000,
+            "paid": 309000,
+            "profit": 37000,
+            "roi_pct": 113.603,
+            "hit_tickets": 93
+          },
+          "2026-01": {
+            "races": 84,
+            "tickets": 336,
+            "stake": 168000,
+            "paid": 105400,
+            "profit": -62600,
+            "roi_pct": 62.738,
+            "hit_tickets": 62
+          },
+          "2026-02": {
+            "races": 65,
+            "tickets": 260,
+            "stake": 130000,
+            "paid": 88650,
+            "profit": -41350,
+            "roi_pct": 68.192,
+            "hit_tickets": 45
+          },
+          "2026-03": {
+            "races": 88,
+            "tickets": 352,
+            "stake": 176000,
+            "paid": 140050,
+            "profit": -35950,
+            "roi_pct": 79.574,
+            "hit_tickets": 70
+          },
+          "2026-04": {
+            "races": 190,
+            "tickets": 760,
+            "stake": 380000,
+            "paid": 353000,
+            "profit": -27000,
+            "roi_pct": 92.895,
+            "hit_tickets": 140
+          },
+          "2026-05": {
+            "races": 222,
+            "tickets": 888,
+            "stake": 444000,
+            "paid": 754900,
+            "profit": 310900,
+            "roi_pct": 170.023,
+            "hit_tickets": 180
+          },
+          "2026-06": {
+            "races": 189,
+            "tickets": 756,
+            "stake": 378000,
+            "paid": 372350,
+            "profit": -5650,
+            "roi_pct": 98.505,
+            "hit_tickets": 131
+          },
+          "2026-07": {
+            "races": 164,
+            "tickets": 656,
+            "stake": 328000,
+            "paid": 333400,
+            "profit": 5400,
+            "roi_pct": 101.646,
+            "hit_tickets": 116
+          },
+          "2026-08": {
+            "races": 139,
+            "tickets": 556,
+            "stake": 278000,
+            "paid": 288250,
+            "profit": 10250,
+            "roi_pct": 103.687,
+            "hit_tickets": 100
+          },
+          "2026-09": {
+            "races": 158,
+            "tickets": 632,
+            "stake": 316000,
+            "paid": 232550,
+            "profit": -83450,
+            "roi_pct": 73.592,
+            "hit_tickets": 109
+          }
+        },
+        "max_single_payout": 75700,
+        "top3_payout_share": 3.81,
+        "excluding_top1_race": {
+          "stake": 4418000,
+          "paid": 4237150,
+          "profit": -180850,
+          "roi_pct": 95.907
+        },
+        "excluding_top3_races": {
+          "stake": 4414000,
+          "paid": 4148400,
+          "profit": -265600,
+          "roi_pct": 93.983
+        },
+        "venue_days": 1203,
+        "venue_day_bootstrap": {
+          "95pct": [
+            88.83,
+            107.3
+          ],
+          "simulations": 3000
+        }
+      }
+    }
+  }
+}
