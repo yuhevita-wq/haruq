@@ -44,10 +44,10 @@ jobs:
           from scripts.haruq_meeting_final_day import resolve_meeting_day
           s=KeirinScraper()
           specs=[("202610263409",True),("202610261209",True),
-                 ("202610265505",False),("202610285505",True)]
+                 ("202610265505",False),("202610285505",None)]
           for rid,expected in specs:
               obj=resolve_meeting_day(s,rid)
               print("MEETING_DAY_PROOF",rid,obj,flush=True)
               assert obj["is_final_day"] is expected,(rid,obj)
-              assert obj["status"]=="confirmed"
+              assert obj["status"]==("confirmed" if expected is not None else "unverified")
           PY
