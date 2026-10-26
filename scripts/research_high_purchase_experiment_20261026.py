@@ -115,6 +115,48 @@ result=dict(
  positive_in_both_count=len(positive_in_both),
  positive_in_both=positive_both_sorted[:20],
  caution="Exploratory multiple comparisons; no rule validated on genuinely unseen future period. Do not silently change production, ticket amounts, criteria or predictability.")
+# Stress test potentially promising candidates on meeting-day clusters:
+# no rebasing on later outcomes, the target variants were selected above.
+import random
+def stress_candidate(gap_floor):
+    candidate=[x for x in final if x["grade"]=="F1" and x["gap"]>=gap_floor
+               and (x["rank"] in ({1,2} if x["market"]=="exacta" else set(range(1,7))))]
+    out=dict(economics=summarize_condition(candidate),by_market={
+      name:summarize_condition([x for x in candidate if x["market"]==name])
+      for name in ("exacta","trifecta")})
+    race_returns=collections.defaultdict(lambda:dict(stake=0,paid=0))
+    venue_days=collections.defaultdict(lambda:dict(stake=0,paid=0))
+    months=collections.defaultdict(lambda:dict(stake=0,paid=0))
+    for x in candidate:
+        for d,key in [(race_returns,x["race_id"]),
+                      (venue_days,x["date"]+"_"+x["race_id"][8:10]),
+                      (months,x["date"][:7])]:
+            d[key]["stake"]+=x["stake"];d[key]["paid"]+=x["paid"]
+    top=sorted(race_returns.items(),key=lambda y:y[1]["paid"],reverse=True)
+    out["concentration"]={
+       "max_winning_race":({"race_id":top[0][0],**top[0][1]} if top else None),
+       "top3_payout_share_pct":round(100*sum(v["paid"] for _,v in top[:3])/sum(x["paid"] for x in candidate),2),
+       "remove_best1_profits_roi_pct":round(100*(sum(x["paid"] for x in candidate)-top[0][1]["paid"])/(sum(x["stake"] for x in candidate)-top[0][1]["stake"]),3),
+       "remove_best3_profits_roi_pct":round(100*(sum(x["paid"] for x in candidate)-sum(v["paid"] for _,v in top[:3]))/(sum(x["stake"] for x in candidate)-sum(v["stake"] for _,v in top[:3])),3),
+       "venues_days":len(venue_days),
+       "active_months":len(months),
+       "profitable_months":sum(v["paid"]>v["stake"] for v in months.values()),
+    }
+    rng=random.Random(20261026)
+    units=list(venue_days.values())
+    vals=[]
+    for _ in range(3000):
+        chosen=[units[rng.randrange(len(units))] for _ in units]
+        st=sum(v["stake"] for v in chosen)
+        vals.append(100*sum(v["paid"] for v in chosen)/st)
+    vals.sort()
+    out["venue_day_block_bootstrap_95"]=dict(
+      percentile2_5=round(vals[75],2),percentile97_5=round(vals[2924],2),
+      iterations=3000,seed=20261026,
+      caveat="Descriptive venue-day block bootstrap, not a multiple-testing-adjusted or unseen-holdout CI.")
+    return out
+result["candidate_stress"]={"F1_gap1_25_first2_plus_original_tri":stress_candidate(1.25),
+                            "F1_gap1_5_first2_plus_original_tri":stress_candidate(1.5)}
 (OUT/"high_purchase_stability.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
 with (OUT/"all_candidate_ablation.csv").open("w",encoding="utf-8",newline="") as f:
  w=csv.DictWriter(f,fieldnames=["grade","gap_floor","ticket_rule","early_races","early_stake","early_paid","early_profit","early_roi_pct","later_races","later_stake","later_paid","later_profit","later_roi_pct"])
