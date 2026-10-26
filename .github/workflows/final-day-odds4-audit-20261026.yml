@@ -53,3 +53,5 @@ jobs:
         run: rm -f db/keirin.db finalday_work/*.gpg odds_2025.jsonl.gz odds_2026.jsonl.gz
 
 # Re-evaluate final-day evidence using archived programme labels.
+
+# Include winning-dividend-only under-4x counterfactual without ex-post screening of losing tickets.
