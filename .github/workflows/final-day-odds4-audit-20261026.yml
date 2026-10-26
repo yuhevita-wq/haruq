@@ -37,6 +37,8 @@ jobs:
           done
       - name: Independently recompute last day and available odds
         run: python -u scripts/audit_final_day_odds4_20261026.py
+      - name: Explore existing HIGH tickets with temporal validation
+        run: python -u scripts/research_high_purchase_experiment_20261026.py
       - name: Publish aggregated research-only audit
         if: always()
         shell: bash
@@ -44,7 +46,7 @@ jobs:
           if test -d research_audits/final_day_4x_20261026; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -f research_audits/final_day_4x_20261026/
+            git add -f research_audits/final_day_4x_20261026/ research_audits/high_purchase_research_20261026/
             git diff --cached --quiet || git commit -m "Record independent final-day odds 4x audit [skip ci]"
             git push origin HEAD:research/final-day-odds4-audit-20261026
           fi
