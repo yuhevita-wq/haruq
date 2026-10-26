@@ -14,67 +14,215 @@
     }
   },
   "finalday": {
-    "proof": "At least one exact final-round event on same day and venue in stored race metadata; no max-observed-date shortcut",
-    "confirmed_venue_days": 0,
+    "proof": "Exact final-round race on same day and venue, from official programme label in independent archived odds where primary SQLite round metadata is null; no max-observed-date shortcut",
+    "confirmed_venue_days": 805,
     "selected": {
-      "races": 0,
-      "stake": 0,
-      "paid": 0,
-      "profit": 0,
-      "roi_pct": null,
-      "winning_races": 0
+      "races": 1800,
+      "stake": 4179000,
+      "paid": 3976750,
+      "profit": -202250,
+      "roi_pct": 95.16033,
+      "winning_races": 952
     },
-    "excluded_unconfirmed": 7448,
+    "excluded_unconfirmed": 5648,
     "missing_metadata_count": 0,
     "diagnostic_round_counts": {
       "None": 32548
     },
-    "monthly": {},
-    "by_market": {
-      "exacta": {
-        "races": 0,
-        "stake": 0,
-        "paid": 0,
-        "profit": 0,
-        "roi_pct": null,
-        "winning_races": 0
+    "monthly": {
+      "2025-07": {
+        "races": 121,
+        "stake": 272000,
+        "paid": 222400,
+        "profit": -49600,
+        "roi_pct": 81.76471,
+        "winning_races": 58
       },
-      "trifecta": {
-        "races": 0,
-        "stake": 0,
-        "paid": 0,
-        "profit": 0,
-        "roi_pct": null,
-        "winning_races": 0
+      "2025-08": {
+        "races": 124,
+        "stake": 266000,
+        "paid": 293800,
+        "profit": 27800,
+        "roi_pct": 110.45113,
+        "winning_races": 77
+      },
+      "2025-09": {
+        "races": 105,
+        "stake": 228000,
+        "paid": 252950,
+        "profit": 24950,
+        "roi_pct": 110.94298,
+        "winning_races": 59
+      },
+      "2025-10": {
+        "races": 119,
+        "stake": 259000,
+        "paid": 233500,
+        "profit": -25500,
+        "roi_pct": 90.15444,
+        "winning_races": 55
+      },
+      "2025-11": {
+        "races": 118,
+        "stake": 263000,
+        "paid": 186100,
+        "profit": -76900,
+        "roi_pct": 70.76046,
+        "winning_races": 53
+      },
+      "2025-12": {
+        "races": 125,
+        "stake": 289000,
+        "paid": 332300,
+        "profit": 43300,
+        "roi_pct": 114.9827,
+        "winning_races": 62
+      },
+      "2026-01": {
+        "races": 326,
+        "stake": 784000,
+        "paid": 834950,
+        "profit": 50950,
+        "roi_pct": 106.49872,
+        "winning_races": 178
+      },
+      "2026-02": {
+        "races": 227,
+        "stake": 595000,
+        "paid": 498750,
+        "profit": -96250,
+        "roi_pct": 83.82353,
+        "winning_races": 125
+      },
+      "2026-03": {
+        "races": 226,
+        "stake": 560000,
+        "paid": 517700,
+        "profit": -42300,
+        "roi_pct": 92.44643,
+        "winning_races": 132
+      },
+      "2026-04": {
+        "races": 121,
+        "stake": 260000,
+        "paid": 230450,
+        "profit": -29550,
+        "roi_pct": 88.63462,
+        "winning_races": 58
+      },
+      "2026-05": {
+        "races": 87,
+        "stake": 180000,
+        "paid": 143600,
+        "profit": -36400,
+        "roi_pct": 79.77778,
+        "winning_races": 47
+      },
+      "2026-06": {
+        "races": 101,
+        "stake": 223000,
+        "paid": 230250,
+        "profit": 7250,
+        "roi_pct": 103.25112,
+        "winning_races": 48
       }
     },
-    "by_grade": {}
+    "by_market": {
+      "exacta": {
+        "races": 1800,
+        "stake": 3600000,
+        "paid": 3432400,
+        "profit": -167600,
+        "roi_pct": 95.34444,
+        "winning_races": 952
+      },
+      "trifecta": {
+        "races": 193,
+        "stake": 579000,
+        "paid": 544350,
+        "profit": -34650,
+        "roi_pct": 94.01554,
+        "winning_races": 56
+      }
+    },
+    "by_grade": {
+      "F1": {
+        "races": 1128,
+        "stake": 2466000,
+        "paid": 2328700,
+        "profit": -137300,
+        "roi_pct": 94.43228,
+        "winning_races": 596
+      },
+      "F2": {
+        "races": 448,
+        "stake": 1190000,
+        "paid": 1143500,
+        "profit": -46500,
+        "roi_pct": 96.09244,
+        "winning_races": 255
+      },
+      "G1": {
+        "races": 9,
+        "stake": 18000,
+        "paid": 24300,
+        "profit": 6300,
+        "roi_pct": 135.0,
+        "winning_races": 3
+      },
+      "G2": {
+        "races": 9,
+        "stake": 27000,
+        "paid": 10500,
+        "profit": -16500,
+        "roi_pct": 38.88889,
+        "winning_races": 2
+      },
+      "G3": {
+        "races": 202,
+        "stake": 464000,
+        "paid": 467700,
+        "profit": 3700,
+        "roi_pct": 100.79741,
+        "winning_races": 95
+      },
+      "GP": {
+        "races": 4,
+        "stake": 14000,
+        "paid": 2050,
+        "profit": -11950,
+        "roi_pct": 14.64286,
+        "winning_races": 1
+      }
+    }
   },
   "odds4_partial": {
     "status": "PARTIAL_ONLY__NOT_USER_REQUESTED_COMBINED_RESULT",
     "source": "yuhevita-wq/keirin-market-analysis-/data/odds_only",
     "coverage": "3連単 final odds only; up to 2026-06-30, NO 2車単 all-ticket quotes, NO 2026Q3",
-    "qualifying_final_day_trifecta_races_through_20260630": 0,
-    "verified_races": 0,
-    "rejections": {},
+    "qualifying_final_day_trifecta_races_through_20260630": 193,
+    "verified_races": 151,
+    "rejections": {
+      "missing_or_duplicate_quote_record": 42
+    },
     "before_4x": {
-      "races": 0,
-      "stake": 0,
-      "paid": 0,
-      "profit": 0,
-      "roi_pct": null,
-      "winning_races": 0
+      "races": 151,
+      "stake": 453000,
+      "paid": 383650,
+      "profit": -69350,
+      "roi_pct": 84.69095,
+      "winning_races": 40
     },
     "after_excluding_below_4x": {
-      "races": 0,
-      "stake": 0,
-      "paid": 0,
-      "profit": 0,
-      "roi_pct": null,
-      "winning_races": 0
+      "races": 151,
+      "stake": 440500,
+      "paid": 373550,
+      "profit": -66950,
+      "roi_pct": 84.80136,
+      "winning_races": 32
     },
-    "removed_tickets": 0,
-    "stayed_tickets": 0,
+    "removed_tickets": 25,
+    "stayed_tickets": 881,
     "disclaimer": "Retrospective final odds, not purchase-time odds; incomplete selection can bias ROI; never report as total HARUQ return."
   }
 }
