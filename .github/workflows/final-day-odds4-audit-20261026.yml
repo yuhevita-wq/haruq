@@ -51,3 +51,5 @@ jobs:
       - name: Remove decrypted ephemeral history and source odds
         if: always()
         run: rm -f db/keirin.db finalday_work/*.gpg odds_2025.jsonl.gz odds_2026.jsonl.gz
+
+# Re-evaluate final-day evidence using archived programme labels.
