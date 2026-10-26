@@ -51,14 +51,51 @@ for score,ex_orig,tri_orig in [(0.49,0,0),(0.5,100,0),(0.8,200,0),
     if score>=2.0:assert decision["approved_bets"]["trifecta"]["tickets"]==expected_tri
     if score<1.0:assert decision["approved_bets"]["exacta"]["tickets"]==[]
 
-# F2 is eligible ONLY for user-approved HaruQ, not retroactively for original.
-for score in [0.4,0.5,0.8,1.0,1.5,2.0,2.5]:
+# The sole explicit production purchase change, approved 2026-10-26:
+# F2 confirmed final day AND score gap >= 2.0 -> exacta model-rank 1 to 3,4,
+# 500 yen each.  All other F2 situations buy nothing; original baseline
+# remains untouched in strict_tickets(...,allow_f2=False).
+for score in [0.4,0.5,0.8,1.0,1.5,1.999999,2.0,2.5]:
     f2_original=strict_tickets(ordered,score,"F2")
     assert f2_original["exacta"]["points"]==0 and f2_original["trifecta"]["points"]==0
-    result=apply_user_policy(strict_tickets(ordered,score,"F2",allow_f2=True))
-    assert result["approved_bets"]["exacta"]["total_yen"]==(2000 if score>=1 else 0)
-    assert result["approved_bets"]["trifecta"]["total_yen"]==(3000 if score>=2 else 0)
-    assert result["approved_total_yen"]==(2000 if score>=1 else 0)+(3000 if score>=2 else 0)
+    base=strict_tickets(ordered,score,"F2",allow_f2=True)
+    original_repr=repr(base)
+    for final_day in [True,False,None]:
+        proof={"status":"confirmed" if final_day is not None else "unverified",
+               "is_final_day":final_day}
+        result=apply_user_policy(base,grade="F2",score_gap=score,meeting_day=proof)
+        assert repr(base)==original_repr
+        buying=(score>=2 and final_day is True)
+        approved=result["approved_bets"]
+        assert approved["exacta"]["tickets"]==(["5>7","5>2"] if buying else [])
+        assert approved["exacta"]["points"]==(2 if buying else 0)
+        assert approved["exacta"]["total_yen"]==(1000 if buying else 0)
+        assert approved["trifecta"]["points"]==0
+        assert approved["trifecta"]["tickets"]==[]
+        assert result["approved_total_yen"]==(1000 if buying else 0)
+        assert result["f2_final_day_policy"] is True
+        assert result["policy_version"]==POLICY_VERSION
+    # Spoofing is_final_day=True but the source remains unverified cannot buy.
+    no_proof=apply_user_policy(base,grade="F2",score_gap=score,
+                               meeting_day={"is_final_day":True,"status":"unverified"})
+    assert no_proof["approved_total_yen"]==0
+
+from scripts.haruq_meeting_final_day import parse_meeting_day
+sample="""<html><body><ul>
+<li>10/24 (土) 初日</li><li>10/25 (日) 2日目</li><li>10/26 (月) 最終日</li>
+</ul><a href="/race/entry/?race_id=202610263409&rf=courselist">9R A級決勝</a>
+</body></html>"""
+j=parse_meeting_day(sample,"202610263409")
+assert j["status"]=="confirmed" and j["is_final_day"] is True
+assert parse_meeting_day(sample.replace("最終日","3日目"),"202610263409")["is_final_day"] is False
+assert parse_meeting_day(sample,"202610263408")["is_final_day"] is None
+assert parse_meeting_day(sample.replace("最終日","不明"),"202610263409")["is_final_day"] is None
+assert parse_meeting_day(sample.replace("</ul>","<li>10/26 (月) 2日目</li></ul>"),
+                         "202610263409")["is_final_day"] is None
+assert parse_meeting_day(sample.replace("10/26 (月) 最終日","10/28 (水) 最終日"),
+                         "202610263409")["is_final_day"] is None
+# Published course link must be of the EXACT target race, not merely same day.
+assert parse_meeting_day(sample,"202610263408")["reason"]=="race_not_listed_on_course_calendar"
 # All-L1/unknown class entries: fail closed as girls, before touching SQLite.
 from scripts.flagship_live_predict import record_entries
 for title in ("ガールズ一般","ガールズ決勝"):
@@ -70,6 +107,6 @@ for title in ("ガールズ一般","ガールズ決勝"):
         assert "ガールズ" in str(e)
 print("HARUQ_GIRLS_FAIL_CLOSED_PASSED")
 
-print("HARUQ_HIGH_ONLY_V3_TESTS_PASSED")
+print("HARUQ_HIGH_F2_FINAL_V4_TESTS_PASSED")
 print("HARUQ_USER_POLICY_TESTS_PASSED")
 print("FLAGSHIP_FIXED_LOGIC_TESTS_PASSED")

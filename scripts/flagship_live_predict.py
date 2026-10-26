@@ -25,6 +25,7 @@ from data.scraper import KeirinScraper
 from features.builder import FeatureBuilder
 from models.lgbm_ranker import LGBMRanker
 from scripts.haruq_operating_policy import apply_user_policy
+from scripts.haruq_meeting_final_day import resolve_meeting_day
 
 MODEL_SHA256 = "e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193"
 MODEL_TAG = "haruqube-20260321-flagship-v1"
@@ -202,7 +203,15 @@ def main():
     gap=float(frame.iloc[0]["score"]-frame.iloc[1]["score"])
     original_bets=strict_tickets(frame,gap,grade)
     eligible_bets=strict_tickets(frame,gap,grade,allow_f2=True)
-    operation=apply_user_policy(eligible_bets)
+    # User-authorized F2 ticket policy is restricted to a confirmed final day.
+    # A missing, stale, or ambiguous calendar means no F2 ticket is bought.
+    # No extra course lookup is made for non-F2 grades.
+    meeting_day=(resolve_meeting_day(scraper,target) if grade=="F2" else {
+        "status":"not_applicable", "is_final_day":None,
+        "reason":"non_F2_legacy_policy", "race_id":target,
+    })
+    operation=apply_user_policy(
+        eligible_bets,grade=grade,score_gap=gap,meeting_day=meeting_day)
     now=datetime.now(TIMEZONE)
     start=data.get("start_time")
     race_started=None
@@ -230,6 +239,7 @@ def main():
         "original_model_bets":original_bets,
         "f2_purchase_override_applied":grade == "F2",
         "f2_all_grades_eligible":True,
+        "meeting_day":meeting_day,
         "s3_decision":operation["trifecta_decision_ja"],
         "s3_policy":operation,
         "med_under_review":operation["under_review"]["trifecta"],
