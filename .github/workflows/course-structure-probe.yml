@@ -1,0 +1,32 @@
+name: Verify Netkeirin Final Day Program Structure
+on:
+  push:
+    branches: [research/final-day-odds4-audit-20261026]
+    paths: [.github/workflows/course-structure-probe.yml]
+permissions: {contents: read}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Print bounded event calendar DOM structure
+        run: |
+          python -m pip install -q requests beautifulsoup4 lxml
+          python - <<'PY'
+          import requests,re
+          from bs4 import BeautifulSoup
+          for code,date in [('34','20261026'),('55','20261026'),('12','20261026')]:
+              u='https://keirin.netkeiba.com/race/course/?jyo_cd='+code
+              r=requests.get(u,timeout=30,headers={'User-Agent':'Mozilla/5.0'})
+              soup=BeautifulSoup(r.text,'lxml')
+              norm=soup.get_text(' ',strip=True)
+              mark=[(m.group(),m.start()) for m in re.finditer(r'10/2[4-8].{0,45}(?:初日|最終日|[234]日目)',norm)]
+              links=re.findall(r'race_id=(20261026'+code+r'\\d{2})',r.text)
+              print('COURSE',code,'status',r.status_code,'bytes',len(r.content),'ids',sorted(set(links))[:5],'nav',mark[:15],flush=True)
+              for txt in soup.find_all(string=re.compile('最終日')):
+                  el=txt.parent
+                  print('FINAL_DOM',code,[(p.name,p.get('class'),p.get('id'),p.get_text(' ',strip=True)[:200]) for p in [el,el.parent,el.parent.parent] if p][:3],flush=True)
+                  break
+              for a in soup.find_all('a',href=re.compile('race_id=20261026'+code)):
+                  print('RACE_DOM',code,a.get('href')[:150],[(p.name,p.get('class'),p.get('id'),p.get_text(' ',strip=True)[:110]) for p in [a,a.parent,a.parent.parent] if p][:3]);break
+          PY
