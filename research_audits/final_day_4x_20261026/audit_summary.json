@@ -1,0 +1,80 @@
+{
+  "source_ledger": "research_audits/validation_parity_20261025/current_policy_ledger.csv",
+  "fixed_model_sha256": "e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193",
+  "holdout": {
+    "start": "2025-07-01",
+    "end": "2026-09-30",
+    "all_eligible": {
+      "races": 7448,
+      "stake": 19330000,
+      "paid": 17926550,
+      "profit": -1403450,
+      "roi_pct": 92.73952,
+      "winning_races": 4404
+    }
+  },
+  "finalday": {
+    "proof": "At least one exact final-round event on same day and venue in stored race metadata; no max-observed-date shortcut",
+    "confirmed_venue_days": 0,
+    "selected": {
+      "races": 0,
+      "stake": 0,
+      "paid": 0,
+      "profit": 0,
+      "roi_pct": null,
+      "winning_races": 0
+    },
+    "excluded_unconfirmed": 7448,
+    "missing_metadata_count": 0,
+    "diagnostic_round_counts": {
+      "None": 32548
+    },
+    "monthly": {},
+    "by_market": {
+      "exacta": {
+        "races": 0,
+        "stake": 0,
+        "paid": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "winning_races": 0
+      },
+      "trifecta": {
+        "races": 0,
+        "stake": 0,
+        "paid": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "winning_races": 0
+      }
+    },
+    "by_grade": {}
+  },
+  "odds4_partial": {
+    "status": "PARTIAL_ONLY__NOT_USER_REQUESTED_COMBINED_RESULT",
+    "source": "yuhevita-wq/keirin-market-analysis-/data/odds_only",
+    "coverage": "3連単 final odds only; up to 2026-06-30, NO 2車単 all-ticket quotes, NO 2026Q3",
+    "qualifying_final_day_trifecta_races_through_20260630": 0,
+    "verified_races": 0,
+    "rejections": {},
+    "before_4x": {
+      "races": 0,
+      "stake": 0,
+      "paid": 0,
+      "profit": 0,
+      "roi_pct": null,
+      "winning_races": 0
+    },
+    "after_excluding_below_4x": {
+      "races": 0,
+      "stake": 0,
+      "paid": 0,
+      "profit": 0,
+      "roi_pct": null,
+      "winning_races": 0
+    },
+    "removed_tickets": 0,
+    "stayed_tickets": 0,
+    "disclaimer": "Retrospective final odds, not purchase-time odds; incomplete selection can bias ROI; never report as total HARUQ return."
+  }
+}

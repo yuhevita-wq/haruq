@@ -1,0 +1,53 @@
+{
+  "source_ledger": "research_audits/validation_parity_20261025/current_policy_ledger.csv",
+  "fixed_model_sha256": "e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193",
+  "holdout": {
+    "start": "2025-07-01",
+    "end": "2026-09-30",
+    "all_eligible": {
+      "races": 7448,
+      "stake": 19330000,
+      "paid": 17926550,
+      "profit": -1403450,
+      "roi_pct": 92.73952,
+      "winning_races": 4404
+    }
+  },
+  "finalday": {
+    "proof": "At least one exact final-round event on same day and venue in stored race metadata; no max-observed-date shortcut",
+    "confirmed_venue_days": 0,
+    "selected": {
+      "races": 0,
+      "stake": 0,
+      "paid": 0,
+      "profit": 0,
+      "roi_pct": null,
+      "winning_races": 0
+    },
+    "excluded_unconfirmed": 7448,
+    "missing_metadata_count": 0,
+    "diagnostic_round_counts": {
+      "None": 32548
+    },
+    "monthly": {},
+    "by_market": {
+      "exacta": {
+        "races": 0,
+        "stake": 0,
+        "paid": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "winning_races": 0
+      },
+      "trifecta": {
+        "races": 0,
+        "stake": 0,
+        "paid": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "winning_races": 0
+      }
+    },
+    "by_grade": {}
+  }
+}
