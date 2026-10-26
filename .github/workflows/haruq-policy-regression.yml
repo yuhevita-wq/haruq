@@ -8,6 +8,11 @@ on:
       - scripts/haruq_operating_policy.py
       - scripts/flagship_live_predict.py
       - scripts/test_flagship_live.py
+      - scripts/haruq_meeting_final_day.py
+      - scripts/haruq_publish_web.py
+      - scripts/test_haruq_f2_publish.py
+      - docs/haruq/index.html
+      - docs/haruq/daily.html
       - .github/workflows/haruq-policy-regression.yml
   workflow_dispatch:
 
@@ -35,7 +40,7 @@ jobs:
           test "$(git hash-object config.py)" = 011c2091816d16358dfe478726bcb0ff2bc74bf9
           test "$(git hash-object features/builder.py)" = b47b793b5cf763bcb6d05137a115105006e50eba
           test "$(git hash-object features/line_features.py)" = ecf3ab7c762475946054f806bb1d4b802c889389
-          python -m py_compile scripts/haruq_operating_policy.py scripts/flagship_live_predict.py scripts/test_flagship_live.py
+          python -m py_compile scripts/haruq_operating_policy.py scripts/flagship_live_predict.py scripts/haruq_meeting_final_day.py scripts/haruq_publish_web.py scripts/test_flagship_live.py scripts/test_haruq_f2_publish.py
       - name: Install consistent runtime
         run: |
           python -m pip install --disable-pip-version-check \
@@ -43,4 +48,6 @@ jobs:
             scikit-learn==1.7.2 python-dotenv==1.1.1 \
             requests beautifulsoup4 lxml
       - name: Assert original March21 logic unchanged and HaruQ review rules deterministic
-        run: python -m scripts.test_flagship_live
+        run: |
+          python -m scripts.test_flagship_live
+          python -m scripts.test_haruq_f2_publish
