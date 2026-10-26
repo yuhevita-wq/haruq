@@ -1,0 +1,53 @@
+name: Validate user-authorized F2 final-day purchase change
+on:
+  push:
+    branches: [feature/f2-final-high-purchase-20261026]
+    paths:
+      - scripts/haruq_operating_policy.py
+      - scripts/haruq_meeting_final_day.py
+      - scripts/flagship_live_predict.py
+      - scripts/haruq_publish_web.py
+      - scripts/test_flagship_live.py
+      - README.md
+      - .github/workflows/validate-f2-final-high-20261026.yml
+permissions: {contents: read}
+jobs:
+  regression-and-real-calendar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Restore immutable March 21 feature and threshold code
+        shell: bash
+        run: |
+          cp research_snapshots/haruqube_20260321/config.py config.py
+          cp research_snapshots/haruqube_20260321/features/builder.py features/builder.py
+          cp research_snapshots/haruqube_20260321/features/line_features.py features/line_features.py
+          test "$(git hash-object config.py)" = 011c2091816d16358dfe478726bcb0ff2bc74bf9
+          test "$(git hash-object features/builder.py)" = b47b793b5cf763bcb6d05137a115105006e50eba
+          test "$(git hash-object features/line_features.py)" = ecf3ab7c762475946054f806bb1d4b802c889389
+      - name: Install frozen-compatible inference and parser dependencies
+        run: |
+          python -m pip install --disable-pip-version-check lightgbm==4.6.0 pandas==2.3.3 numpy==2.2.6 scikit-learn==1.7.2 python-dotenv==1.1.1 requests beautifulsoup4 lxml
+      - name: Run frozen baseline and revised purchase boundary tests
+        run: |
+          python -m py_compile scripts/haruq_operating_policy.py scripts/haruq_meeting_final_day.py scripts/flagship_live_predict.py scripts/haruq_publish_web.py scripts/test_flagship_live.py
+          python -m scripts.test_flagship_live
+      - name: Check published live calendar for 2026-10-26
+        shell: bash
+        run: |
+          python - <<'PY'
+          from data.scraper import KeirinScraper
+          from scripts.haruq_meeting_final_day import resolve_meeting_day
+          s=KeirinScraper()
+          specs=[("202610263409",True),("202610261209",True),
+                 ("202610265505",False),("202610285505",True)]
+          for rid,expected in specs:
+              obj=resolve_meeting_day(s,rid)
+              print("MEETING_DAY_PROOF",rid,obj,flush=True)
+              assert obj["is_final_day"] is expected,(rid,obj)
+              assert obj["status"]=="confirmed"
+          PY
