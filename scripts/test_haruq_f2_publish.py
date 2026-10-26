@@ -1,4 +1,4 @@
-"""Smoke-test web publishing of the sole authorized HaruQ F2 purchase change."""
+"""Smoke-test web publishing of authorized HaruQ F1 and F2 purchases."""
 import copy,json,tempfile
 from pathlib import Path
 from scripts.haruq_publish_web import export_result
@@ -53,3 +53,45 @@ no_purchase.update(confidence=3.,s3_policy=op,bets=op["approved_bets"],
                    total_yen=0,meeting_day=unverified)
 check(no_purchase,True)
 print("F2_LIVE_WEB_PUBLISH_CONTRACT_PASSED")
+
+# User approved F1 confirmed final day, gap >=1.5, only first two exacta.
+for gap in (1.5,1.9999,2.0,2.4):
+    f1_base=copy.deepcopy(base)
+    if gap<2:
+        f1_base["trifecta"].update(label="S3-MED",tickets=[],points=0,
+                                    stake_per_ticket_yen=200,total_yen=0)
+    p=apply_user_policy(f1_base,grade="F1",score_gap=gap,meeting_day=confirmed)
+    data=copy.deepcopy(value)
+    data.update(grade="F1",confidence=gap,s3_policy=p,bets=p["approved_bets"],
+                s3_decision=p["trifecta_decision_ja"],total_yen=p["approved_total_yen"])
+    check(data,True)
+    assert data["bets"]["exacta"]["tickets"]==["5>3","5>7"]
+    assert data["bets"]["trifecta"]["points"]==(6 if gap>=2 else 0)
+    corrupt=copy.deepcopy(data)
+    corrupt["bets"]["exacta"]["tickets"][1]="5>2"
+    corrupt["s3_policy"]["approved_bets"]["exacta"]["tickets"][1]="5>2"
+    check(corrupt,False)
+    if gap>=2:
+        corrupt_tri=copy.deepcopy(data)
+        corrupt_tri["bets"]["trifecta"]["tickets"][0]="5>7>3"
+        corrupt_tri["s3_policy"]["approved_bets"]["trifecta"]["tickets"][0]="5>7>3"
+        check(corrupt_tri,False)
+    bad_date=copy.deepcopy(data)
+    bad_date["meeting_day"]["is_final_day"]=False
+    check(bad_date,False)
+
+for score in (1.49,2.01):
+    for date_meta in ({"status":"confirmed","is_final_day":False},
+                      {"status":"unverified","is_final_day":None}):
+        f1_base=copy.deepcopy(base)
+        if score<2:
+            f1_base["trifecta"].update(label="S3-MED",tickets=[],points=0,
+                                        stake_per_ticket_yen=200,total_yen=0)
+        p=apply_user_policy(f1_base,grade="F1",score_gap=score,meeting_day=date_meta)
+        assert p["approved_total_yen"]==0
+        data=copy.deepcopy(value)
+        data.update(grade="F1",confidence=score,s3_policy=p,bets=p["approved_bets"],
+                    s3_decision=p["trifecta_decision_ja"],total_yen=0,meeting_day=date_meta)
+        check(data,True)
+
+print("F1_LIVE_WEB_PUBLISH_CONTRACT_PASSED")
