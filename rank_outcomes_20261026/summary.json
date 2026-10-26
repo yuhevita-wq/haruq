@@ -1,0 +1,92 @@
+{
+  "model": "eligible_train_ndcg3",
+  "model_sha256": "1a9e9d1ab0e0534a0413e278428b55736c1d783a0565300f296d9c0174b9fe6c",
+  "source_commit": "8f53e20611929734b0e59d45f1c7d7f9742c1a71",
+  "period_start": "2025-07-01",
+  "period_end": "2026-10-22",
+  "records": 28819,
+  "outcome_status": {
+    "ok": 28819
+  },
+  "exacta_bands": {
+    "LOW": 14325,
+    "MED": 5409,
+    "HIGH": 6445,
+    "MED+": 2640
+  },
+  "trifecta_bands": {
+    "S3-LOW": 22374,
+    "S3-MED": 3742,
+    "S3-MED+": 1587,
+    "S3-HIGH": 1116
+  },
+  "phases": {
+    "main_2025H2_2026Q3": 27653,
+    "additional_2026Oct01_22": 1166
+  },
+  "exacta_payout_verified": 28819,
+  "trifecta_payout_verified": 28819,
+  "prior_ledger_checks": {
+    "exacta": 6445,
+    "trifecta": 1116
+  },
+  "prior_ledger_mismatches": [],
+  "issues": [],
+  "input_files": [
+    {
+      "path": "recovery_186_v1/eligible_train_ndcg3_predictions.csv",
+      "sha256": "7959f05820c216504ad5ec0e5971227997f9f8a1d7e41b9845418c48dee614f8",
+      "rows": 27653
+    },
+    {
+      "path": "recovery_186_v1/eligible_train_ndcg3_october_additional_predictions.csv",
+      "sha256": "2e25c93ac07f314882399c6e5e1115cfe62b05c36527b82d34032d21ca5f1daf",
+      "rows": 1166
+    }
+  ],
+  "purchase_or_odds_filter_applied": false,
+  "production_changed": false,
+  "band_definition": {
+    "exacta": [
+      [
+        1.0,
+        "HIGH"
+      ],
+      [
+        0.8,
+        "MED+"
+      ],
+      [
+        0.5,
+        "MED"
+      ]
+    ],
+    "exacta_fallback": "LOW",
+    "trifecta": [
+      [
+        2.0,
+        "S3-HIGH"
+      ],
+      [
+        1.5,
+        "S3-MED+"
+      ],
+      [
+        1.0,
+        "S3-MED"
+      ]
+    ],
+    "trifecta_fallback": "S3-LOW"
+  },
+  "limitations": [
+    "Retrospective archived inputs, not timestamped pre-race captures.",
+    "Research model, not production fixed model.",
+    "Descriptive outcome record, not a new independent holdout or evidence of positive expected value.",
+    "Band labels reflect frozen score thresholds, not grade-based purchase permission. F2 retained.",
+    "Missing/unverified payouts do not remove an otherwise verifiable finish record."
+  ],
+  "output_sha256": {
+    "race_rank_outcomes.csv": "9a319624f9b0b0427e04261f625ed6d3e7811d03cf312011157a1121676389ff",
+    "rank_pattern_counts.csv": "28952acd914d05079297ae54f77ea81dc1cb34e3dce091b3356cf3ec4e9aca2d"
+  }
+}
