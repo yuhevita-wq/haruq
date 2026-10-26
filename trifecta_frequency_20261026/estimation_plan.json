@@ -1,0 +1,20 @@
+{
+  "task": "Estimate trifecta rank-pattern frequencies conditional on final quoted price, without selecting a purchase policy.",
+  "created_date_jst": "2026-10-26",
+  "model": "eligible_train_ndcg3",
+  "model_sha256": "1a9e9d1ab0e0534a0413e278428b55736c1d783a0565300f296d9c0174b9fe6c",
+  "record_source_commit": "a6c9a471a41fd00b2fef13cd1bcfe95600b4e7a1",
+  "period": "2025-07-01 through 2026-06-30, also report each half-year separately",
+  "grouping": ["period", "exacta_band OR trifecta_band (reported separately)", "rider_count", "full ordered rank triple", "that candidate ticket's final odds bin"],
+  "odds_upper_boundaries": [4, 10, 20, 50, 100, 200, 500, 1000],
+  "odds_bins": ["(0,4]", "(4,10]", "(10,20]", "(20,50]", "(50,100]", "(100,200]", "(200,500]", "(500,1000]", "(1000,infinity)"],
+  "bin_rationale": "Round descriptive reporting ranges, including the previous exacta ranges; extend above100 for trifecta. No return-based tuning or purchase threshold selection.",
+  "denominator": "All matched complete-book races meeting the cell conditions, including losses of that exact rank-pattern ticket.",
+  "point_estimator": "hits / opportunities, no smoothing",
+  "interval": "95% Wilson, approximate independent-binomial interval, not a future guarantee",
+  "zero_hit_policy": "Retain cells with opportunities but no hits and a nonzero uncertainty upper bound.",
+  "zero_opportunity_policy": "No frequency defined; omit those cells and distinguish from zero hits.",
+  "source_validation": "Check complete nP3 keys and finite positive quotes, direct archived combination semantics, mapped race dates, and winning price versus independent recorded payout. Quarantine structural/conflicting/payout data mismatches; never choose combination direction per outcome.",
+  "production_changed": false,
+  "limitations": ["Previously viewed historical archive.", "Final prices, no purchase-time snapshot claim.", "Frequency within broad groups, not a calibrated individual race probability.", "No profitable-cell selection or adoption in this task."]
+}
