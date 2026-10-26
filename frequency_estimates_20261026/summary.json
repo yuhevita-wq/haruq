@@ -1,0 +1,36 @@
+{
+  "model": "eligible_train_ndcg3",
+  "records": 28819,
+  "input_sha256": {
+    "records": "9a319624f9b0b0427e04261f625ed6d3e7811d03cf312011157a1121676389ff",
+    "books": "b0c7b6e74327c09f6e3306855e72b3a39e100efb0a61b51fa706075f70444e5d"
+  },
+  "base_estimate_cells": 49996,
+  "base_zero_hit_cells": 35661,
+  "conditional_estimate_cells": 11243,
+  "price_matched_races": 21312,
+  "price_eligible_races": 21912,
+  "price_missing_races": 600,
+  "price_invalid_races": 0,
+  "price_ticket_opportunities": 932908,
+  "payout_checks": 21312,
+  "price_problems": [],
+  "production_changed": false,
+  "selection_performed": false,
+  "interval": "95% Wilson approximate independent-binomial interval; no adjustment for day clustering, drift or prior research selection",
+  "record_periods": {
+    "2025H2": 11396,
+    "2026H1": 10516,
+    "2026Q3": 5741,
+    "2026Oct01_22": 1166
+  },
+  "price_periods": {
+    "2025H2": 11135,
+    "2026H1": 10177
+  },
+  "output_sha256": {
+    "price_coverage.csv": "e0c6c0f077a6b18350a1ce157396f9c0809509d08c4b833abcf5a3c57b271c10",
+    "exacta_price_conditional_frequencies.csv": "7cda050da9b141940e6e9fe288c533cc844911bcffa0119b3c63d777a67ed9b8",
+    "rank_pattern_frequency_estimates.csv": "84b9547ab88cd506c0c8b01de386aad38a80cea07254a3c761c5af2021f4c210"
+  }
+}

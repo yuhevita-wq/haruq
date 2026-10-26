@@ -1,0 +1,22 @@
+{
+  "created_date_jst": "2026-10-26",
+  "task": "Estimate empirical rank-pattern frequencies, with exacta final-price conditioning where complete candidate quote books exist. No purchase selection.",
+  "model": "eligible_train_ndcg3",
+  "record_source_commit": "a6c9a471a41fd00b2fef13cd1bcfe95600b4e7a1",
+  "source_records": 28819,
+  "primary_conditioning": ["existing exacta_band", "rider_count"],
+  "primary_markets": ["exacta", "trifecta"],
+  "supplementary_conditioning": "existing trifecta_band for trifecta",
+  "include_unobserved_legal_rank_patterns": true,
+  "point_estimator": "observed_hits / all_eligible_opportunities_in_cell; no smoothing",
+  "interval": "95% Wilson score interval, approximate independent-binomial sampling interval only; not future assurance",
+  "periods": ["all_20250701_20261022", "2025H2", "2026H1", "2026Q3", "2026Oct01_22"],
+  "exacta_price_bins": ["(0,4]", "(4,10]", "(10,20]", "(20,50]", "(50,100]", "(100,infinity)"],
+  "price_periods": ["all_20250701_20260630", "2025H2", "2026H1"],
+  "price_bin_selection": "Round reporting boundaries, fixed before this estimation run; not optimized for returns and not proposed purchase thresholds.",
+  "price_denominator": "Every complete-book race in the cell where that specific rank-pair ticket has a quote in that bin, whether it wins or loses.",
+  "missing_quote_policy": "Exclude from conditional-price estimates; never zero-fill. Report coverage.",
+  "trifecta_price_estimation": "Not available from current local complete candidate-quote dataset; do not substitute winning payout-only data.",
+  "production_changed": false,
+  "limitations": ["Previously viewed archive, not newly untouched validation.", "Final quotes, not pre-purchase quote snapshots.", "Historical group frequencies, not calibrated individual race probabilities.", "No selection of profitable-looking patterns and no automatic promotion."]
+}
