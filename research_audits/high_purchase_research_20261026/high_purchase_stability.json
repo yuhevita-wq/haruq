@@ -1,0 +1,2929 @@
+{
+  "method": "Read-only frozen HIGH ticket ablations; meeting-final confirmation exactly as baseline; 2025H2 discovery / 2026H1 temporal diagnostic; latter previously viewed not untouched. Historical archive odds not used.",
+  "frozen_model_sha256": "e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193",
+  "validation": {
+    "selected_races": 1800,
+    "ticket_lines": 8358,
+    "stake": 4179000,
+    "paid": 3976750,
+    "market_counts": {
+      "exacta": 7200,
+      "trifecta": 1158
+    }
+  },
+  "statistics": {
+    "baseline": {
+      "overall": {
+        "tickets": 8358,
+        "stake": 4179000,
+        "paid": 3976750,
+        "profit": -202250,
+        "roi_pct": 95.16,
+        "hits": 1008,
+        "races": 1800
+      },
+      "early": {
+        "tickets": 3154,
+        "stake": 1577000,
+        "paid": 1521050,
+        "profit": -55950,
+        "roi_pct": 96.452,
+        "hits": 378,
+        "races": 712
+      },
+      "later": {
+        "tickets": 5204,
+        "stake": 2602000,
+        "paid": 2455700,
+        "profit": -146300,
+        "roi_pct": 94.377,
+        "hits": 630,
+        "races": 1088
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 1532,
+          "stake": 766000,
+          "paid": 769150,
+          "profit": 3150,
+          "roi_pct": 100.411,
+          "hits": 198,
+          "races": 350
+        },
+        "2025Q4": {
+          "tickets": 1622,
+          "stake": 811000,
+          "paid": 751900,
+          "profit": -59100,
+          "roi_pct": 92.713,
+          "hits": 180,
+          "races": 362
+        },
+        "2026Q1": {
+          "tickets": 3878,
+          "stake": 1939000,
+          "paid": 1851400,
+          "profit": -87600,
+          "roi_pct": 95.482,
+          "hits": 474,
+          "races": 779
+        },
+        "2026Q2": {
+          "tickets": 1326,
+          "stake": 663000,
+          "paid": 604300,
+          "profit": -58700,
+          "roi_pct": 91.146,
+          "hits": 156,
+          "races": 309
+        }
+      }
+    },
+    "exacta_only": {
+      "overall": {
+        "tickets": 7200,
+        "stake": 3600000,
+        "paid": 3432400,
+        "profit": -167600,
+        "roi_pct": 95.344,
+        "hits": 952,
+        "races": 1800
+      },
+      "early": {
+        "tickets": 2848,
+        "stake": 1424000,
+        "paid": 1305550,
+        "profit": -118450,
+        "roi_pct": 91.682,
+        "hits": 364,
+        "races": 712
+      },
+      "later": {
+        "tickets": 4352,
+        "stake": 2176000,
+        "paid": 2126850,
+        "profit": -49150,
+        "roi_pct": 97.741,
+        "hits": 588,
+        "races": 1088
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 1400,
+          "stake": 700000,
+          "paid": 714000,
+          "profit": 14000,
+          "roi_pct": 102.0,
+          "hits": 194,
+          "races": 350
+        },
+        "2025Q4": {
+          "tickets": 1448,
+          "stake": 724000,
+          "paid": 591550,
+          "profit": -132450,
+          "roi_pct": 81.706,
+          "hits": 170,
+          "races": 362
+        },
+        "2026Q1": {
+          "tickets": 3116,
+          "stake": 1558000,
+          "paid": 1542300,
+          "profit": -15700,
+          "roi_pct": 98.992,
+          "hits": 435,
+          "races": 779
+        },
+        "2026Q2": {
+          "tickets": 1236,
+          "stake": 618000,
+          "paid": 584550,
+          "profit": -33450,
+          "roi_pct": 94.587,
+          "hits": 153,
+          "races": 309
+        }
+      }
+    },
+    "trifecta_only": {
+      "overall": {
+        "tickets": 1158,
+        "stake": 579000,
+        "paid": 544350,
+        "profit": -34650,
+        "roi_pct": 94.016,
+        "hits": 56,
+        "races": 193
+      },
+      "early": {
+        "tickets": 306,
+        "stake": 153000,
+        "paid": 215500,
+        "profit": 62500,
+        "roi_pct": 140.85,
+        "hits": 14,
+        "races": 51
+      },
+      "later": {
+        "tickets": 852,
+        "stake": 426000,
+        "paid": 328850,
+        "profit": -97150,
+        "roi_pct": 77.195,
+        "hits": 42,
+        "races": 142
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 132,
+          "stake": 66000,
+          "paid": 55150,
+          "profit": -10850,
+          "roi_pct": 83.561,
+          "hits": 4,
+          "races": 22
+        },
+        "2025Q4": {
+          "tickets": 174,
+          "stake": 87000,
+          "paid": 160350,
+          "profit": 73350,
+          "roi_pct": 184.31,
+          "hits": 10,
+          "races": 29
+        },
+        "2026Q1": {
+          "tickets": 762,
+          "stake": 381000,
+          "paid": 309100,
+          "profit": -71900,
+          "roi_pct": 81.129,
+          "hits": 39,
+          "races": 127
+        },
+        "2026Q2": {
+          "tickets": 90,
+          "stake": 45000,
+          "paid": 19750,
+          "profit": -25250,
+          "roi_pct": 43.889,
+          "hits": 3,
+          "races": 15
+        }
+      }
+    },
+    "individual_rank": {
+      "exacta": {
+        "1": {
+          "overall": {
+            "tickets": 1800,
+            "stake": 900000,
+            "paid": 859600,
+            "profit": -40400,
+            "roi_pct": 95.511,
+            "hits": 417,
+            "races": 1800
+          },
+          "early": {
+            "tickets": 712,
+            "stake": 356000,
+            "paid": 364600,
+            "profit": 8600,
+            "roi_pct": 102.416,
+            "hits": 160,
+            "races": 712
+          },
+          "later": {
+            "tickets": 1088,
+            "stake": 544000,
+            "paid": 495000,
+            "profit": -49000,
+            "roi_pct": 90.993,
+            "hits": 257,
+            "races": 1088
+          },
+          "quarters": {
+            "2025Q3": {
+              "tickets": 350,
+              "stake": 175000,
+              "paid": 198100,
+              "profit": 23100,
+              "roi_pct": 113.2,
+              "hits": 81,
+              "races": 350
+            },
+            "2025Q4": {
+              "tickets": 362,
+              "stake": 181000,
+              "paid": 166500,
+              "profit": -14500,
+              "roi_pct": 91.989,
+              "hits": 79,
+              "races": 362
+            },
+            "2026Q1": {
+              "tickets": 779,
+              "stake": 389500,
+              "paid": 342100,
+              "profit": -47400,
+              "roi_pct": 87.831,
+              "hits": 185,
+              "races": 779
+            },
+            "2026Q2": {
+              "tickets": 309,
+              "stake": 154500,
+              "paid": 152900,
+              "profit": -1600,
+              "roi_pct": 98.964,
+              "hits": 72,
+              "races": 309
+            }
+          }
+        },
+        "2": {
+          "overall": {
+            "tickets": 1800,
+            "stake": 900000,
+            "paid": 900400,
+            "profit": 400,
+            "roi_pct": 100.044,
+            "hits": 249,
+            "races": 1800
+          },
+          "early": {
+            "tickets": 712,
+            "stake": 356000,
+            "paid": 337100,
+            "profit": -18900,
+            "roi_pct": 94.691,
+            "hits": 97,
+            "races": 712
+          },
+          "later": {
+            "tickets": 1088,
+            "stake": 544000,
+            "paid": 563300,
+            "profit": 19300,
+            "roi_pct": 103.548,
+            "hits": 152,
+            "races": 1088
+          },
+          "quarters": {
+            "2025Q3": {
+              "tickets": 350,
+              "stake": 175000,
+              "paid": 182400,
+              "profit": 7400,
+              "roi_pct": 104.229,
+              "hits": 55,
+              "races": 350
+            },
+            "2025Q4": {
+              "tickets": 362,
+              "stake": 181000,
+              "paid": 154700,
+              "profit": -26300,
+              "roi_pct": 85.47,
+              "hits": 42,
+              "races": 362
+            },
+            "2026Q1": {
+              "tickets": 779,
+              "stake": 389500,
+              "paid": 420750,
+              "profit": 31250,
+              "roi_pct": 108.023,
+              "hits": 119,
+              "races": 779
+            },
+            "2026Q2": {
+              "tickets": 309,
+              "stake": 154500,
+              "paid": 142550,
+              "profit": -11950,
+              "roi_pct": 92.265,
+              "hits": 33,
+              "races": 309
+            }
+          }
+        },
+        "3": {
+          "overall": {
+            "tickets": 1800,
+            "stake": 900000,
+            "paid": 832150,
+            "profit": -67850,
+            "roi_pct": 92.461,
+            "hits": 173,
+            "races": 1800
+          },
+          "early": {
+            "tickets": 712,
+            "stake": 356000,
+            "paid": 258300,
+            "profit": -97700,
+            "roi_pct": 72.556,
+            "hits": 59,
+            "races": 712
+          },
+          "later": {
+            "tickets": 1088,
+            "stake": 544000,
+            "paid": 573850,
+            "profit": 29850,
+            "roi_pct": 105.487,
+            "hits": 114,
+            "races": 1088
+          },
+          "quarters": {
+            "2025Q3": {
+              "tickets": 350,
+              "stake": 175000,
+              "paid": 142250,
+              "profit": -32750,
+              "roi_pct": 81.286,
+              "hits": 33,
+              "races": 350
+            },
+            "2025Q4": {
+              "tickets": 362,
+              "stake": 181000,
+              "paid": 116050,
+              "profit": -64950,
+              "roi_pct": 64.116,
+              "hits": 26,
+              "races": 362
+            },
+            "2026Q1": {
+              "tickets": 779,
+              "stake": 389500,
+              "paid": 417500,
+              "profit": 28000,
+              "roi_pct": 107.189,
+              "hits": 86,
+              "races": 779
+            },
+            "2026Q2": {
+              "tickets": 309,
+              "stake": 154500,
+              "paid": 156350,
+              "profit": 1850,
+              "roi_pct": 101.197,
+              "hits": 28,
+              "races": 309
+            }
+          }
+        },
+        "4": {
+          "overall": {
+            "tickets": 1800,
+            "stake": 900000,
+            "paid": 840250,
+            "profit": -59750,
+            "roi_pct": 93.361,
+            "hits": 113,
+            "races": 1800
+          },
+          "early": {
+            "tickets": 712,
+            "stake": 356000,
+            "paid": 345550,
+            "profit": -10450,
+            "roi_pct": 97.065,
+            "hits": 48,
+            "races": 712
+          },
+          "later": {
+            "tickets": 1088,
+            "stake": 544000,
+            "paid": 494700,
+            "profit": -49300,
+            "roi_pct": 90.938,
+            "hits": 65,
+            "races": 1088
+          },
+          "quarters": {
+            "2025Q3": {
+              "tickets": 350,
+              "stake": 175000,
+              "paid": 191250,
+              "profit": 16250,
+              "roi_pct": 109.286,
+              "hits": 25,
+              "races": 350
+            },
+            "2025Q4": {
+              "tickets": 362,
+              "stake": 181000,
+              "paid": 154300,
+              "profit": -26700,
+              "roi_pct": 85.249,
+              "hits": 23,
+              "races": 362
+            },
+            "2026Q1": {
+              "tickets": 779,
+              "stake": 389500,
+              "paid": 361950,
+              "profit": -27550,
+              "roi_pct": 92.927,
+              "hits": 45,
+              "races": 779
+            },
+            "2026Q2": {
+              "tickets": 309,
+              "stake": 154500,
+              "paid": 132750,
+              "profit": -21750,
+              "roi_pct": 85.922,
+              "hits": 20,
+              "races": 309
+            }
+          }
+        }
+      },
+      "trifecta": {
+        "1": {
+          "overall": {
+            "tickets": 193,
+            "stake": 96500,
+            "paid": 46350,
+            "profit": -50150,
+            "roi_pct": 48.031,
+            "hits": 14,
+            "races": 193
+          },
+          "early": {
+            "tickets": 51,
+            "stake": 25500,
+            "paid": 10750,
+            "profit": -14750,
+            "roi_pct": 42.157,
+            "hits": 2,
+            "races": 51
+          },
+          "later": {
+            "tickets": 142,
+            "stake": 71000,
+            "paid": 35600,
+            "profit": -35400,
+            "roi_pct": 50.141,
+            "hits": 12,
+            "races": 142
+          },
+          "quarters": {
+            "2025Q3": {
+              "tickets": 22,
+              "stake": 11000,
+              "paid": 8300,
+              "profit": -2700,
+              "roi_pct": 75.455,
+              "hits": 1,
+              "races": 22
+            },
+            "2025Q4": {
+              "tickets": 29,
+              "stake": 14500,
+              "paid": 2450,
+              "profit": -12050,
+              "roi_pct": 16.897,
+              "hits": 1,
+              "races": 29
+            },
+            "2026Q1": {
+              "tickets": 127,
+              "stake": 63500,
+              "paid": 35600,
+              "profit": -27900,
+              "roi_pct": 56.063,
+              "hits": 12,
+              "races": 127
+            },
+            "2026Q2": {
+              "tickets": 15,
+              "stake": 7500,
+              "paid": 0,
+              "profit": -7500,
+              "roi_pct": 0.0,
+              "hits": 0,
+              "races": 15
+            }
+          }
+        },
+        "2": {
+          "overall": {
+            "tickets": 193,
+            "stake": 96500,
+            "paid": 61450,
+            "profit": -35050,
+            "roi_pct": 63.679,
+            "hits": 13,
+            "races": 193
+          },
+          "early": {
+            "tickets": 51,
+            "stake": 25500,
+            "paid": 21150,
+            "profit": -4350,
+            "roi_pct": 82.941,
+            "hits": 2,
+            "races": 51
+          },
+          "later": {
+            "tickets": 142,
+            "stake": 71000,
+            "paid": 40300,
+            "profit": -30700,
+            "roi_pct": 56.761,
+            "hits": 11,
+            "races": 142
+          },
+          "quarters": {
+            "2025Q3": {
+              "tickets": 22,
+              "stake": 11000,
+              "paid": 18300,
+              "profit": 7300,
+              "roi_pct": 166.364,
+              "hits": 1,
+              "races": 22
+            },
+            "2025Q4": {
+              "tickets": 29,
+              "stake": 14500,
+              "paid": 2850,
+              "profit": -11650,
+              "roi_pct": 19.655,
+              "hits": 1,
+              "races": 29
+            },
+            "2026Q1": {
+              "tickets": 127,
+              "stake": 63500,
+              "paid": 34850,
+              "profit": -28650,
+              "roi_pct": 54.882,
+              "hits": 9,
+              "races": 127
+            },
+            "2026Q2": {
+              "tickets": 15,
+              "stake": 7500,
+              "paid": 5450,
+              "profit": -2050,
+              "roi_pct": 72.667,
+              "hits": 2,
+              "races": 15
+            }
+          }
+        },
+        "3": {
+          "overall": {
+            "tickets": 193,
+            "stake": 96500,
+            "paid": 117250,
+            "profit": 20750,
+            "roi_pct": 121.503,
+            "hits": 7,
+            "races": 193
+          },
+          "early": {
+            "tickets": 51,
+            "stake": 25500,
+            "paid": 80150,
+            "profit": 54650,
+            "roi_pct": 314.314,
+            "hits": 2,
+            "races": 51
+          },
+          "later": {
+            "tickets": 142,
+            "stake": 71000,
+            "paid": 37100,
+            "profit": -33900,
+            "roi_pct": 52.254,
+            "hits": 5,
+            "races": 142
+          },
+          "quarters": {
+            "2025Q3": {
+              "tickets": 22,
+              "stake": 11000,
+              "paid": 0,
+              "profit": -11000,
+              "roi_pct": 0.0,
+              "hits": 0,
+              "races": 22
+            },
+            "2025Q4": {
+              "tickets": 29,
+              "stake": 14500,
+              "paid": 80150,
+              "profit": 65650,
+              "roi_pct": 552.759,
+              "hits": 2,
+              "races": 29
+            },
+            "2026Q1": {
+              "tickets": 127,
+              "stake": 63500,
+              "paid": 37100,
+              "profit": -26400,
+              "roi_pct": 58.425,
+              "hits": 5,
+              "races": 127
+            },
+            "2026Q2": {
+              "tickets": 15,
+              "stake": 7500,
+              "paid": 0,
+              "profit": -7500,
+              "roi_pct": 0.0,
+              "hits": 0,
+              "races": 15
+            }
+          }
+        },
+        "4": {
+          "overall": {
+            "tickets": 193,
+            "stake": 96500,
+            "paid": 102050,
+            "profit": 5550,
+            "roi_pct": 105.751,
+            "hits": 6,
+            "races": 193
+          },
+          "early": {
+            "tickets": 51,
+            "stake": 25500,
+            "paid": 27900,
+            "profit": 2400,
+            "roi_pct": 109.412,
+            "hits": 3,
+            "races": 51
+          },
+          "later": {
+            "tickets": 142,
+            "stake": 71000,
+            "paid": 74150,
+            "profit": 3150,
+            "roi_pct": 104.437,
+            "hits": 3,
+            "races": 142
+          },
+          "quarters": {
+            "2025Q3": {
+              "tickets": 22,
+              "stake": 11000,
+              "paid": 0,
+              "profit": -11000,
+              "roi_pct": 0.0,
+              "hits": 0,
+              "races": 22
+            },
+            "2025Q4": {
+              "tickets": 29,
+              "stake": 14500,
+              "paid": 27900,
+              "profit": 13400,
+              "roi_pct": 192.414,
+              "hits": 3,
+              "races": 29
+            },
+            "2026Q1": {
+              "tickets": 127,
+              "stake": 63500,
+              "paid": 59850,
+              "profit": -3650,
+              "roi_pct": 94.252,
+              "hits": 2,
+              "races": 127
+            },
+            "2026Q2": {
+              "tickets": 15,
+              "stake": 7500,
+              "paid": 14300,
+              "profit": 6800,
+              "roi_pct": 190.667,
+              "hits": 1,
+              "races": 15
+            }
+          }
+        },
+        "5": {
+          "overall": {
+            "tickets": 193,
+            "stake": 96500,
+            "paid": 104600,
+            "profit": 8100,
+            "roi_pct": 108.394,
+            "hits": 8,
+            "races": 193
+          },
+          "early": {
+            "tickets": 51,
+            "stake": 25500,
+            "paid": 36900,
+            "profit": 11400,
+            "roi_pct": 144.706,
+            "hits": 3,
+            "races": 51
+          },
+          "later": {
+            "tickets": 142,
+            "stake": 71000,
+            "paid": 67700,
+            "profit": -3300,
+            "roi_pct": 95.352,
+            "hits": 5,
+            "races": 142
+          },
+          "quarters": {
+            "2025Q3": {
+              "tickets": 22,
+              "stake": 11000,
+              "paid": 28550,
+              "profit": 17550,
+              "roi_pct": 259.545,
+              "hits": 2,
+              "races": 22
+            },
+            "2025Q4": {
+              "tickets": 29,
+              "stake": 14500,
+              "paid": 8350,
+              "profit": -6150,
+              "roi_pct": 57.586,
+              "hits": 1,
+              "races": 29
+            },
+            "2026Q1": {
+              "tickets": 127,
+              "stake": 63500,
+              "paid": 67700,
+              "profit": 4200,
+              "roi_pct": 106.614,
+              "hits": 5,
+              "races": 127
+            },
+            "2026Q2": {
+              "tickets": 15,
+              "stake": 7500,
+              "paid": 0,
+              "profit": -7500,
+              "roi_pct": 0.0,
+              "hits": 0,
+              "races": 15
+            }
+          }
+        },
+        "6": {
+          "overall": {
+            "tickets": 193,
+            "stake": 96500,
+            "paid": 112650,
+            "profit": 16150,
+            "roi_pct": 116.736,
+            "hits": 8,
+            "races": 193
+          },
+          "early": {
+            "tickets": 51,
+            "stake": 25500,
+            "paid": 38650,
+            "profit": 13150,
+            "roi_pct": 151.569,
+            "hits": 2,
+            "races": 51
+          },
+          "later": {
+            "tickets": 142,
+            "stake": 71000,
+            "paid": 74000,
+            "profit": 3000,
+            "roi_pct": 104.225,
+            "hits": 6,
+            "races": 142
+          },
+          "quarters": {
+            "2025Q3": {
+              "tickets": 22,
+              "stake": 11000,
+              "paid": 0,
+              "profit": -11000,
+              "roi_pct": 0.0,
+              "hits": 0,
+              "races": 22
+            },
+            "2025Q4": {
+              "tickets": 29,
+              "stake": 14500,
+              "paid": 38650,
+              "profit": 24150,
+              "roi_pct": 266.552,
+              "hits": 2,
+              "races": 29
+            },
+            "2026Q1": {
+              "tickets": 127,
+              "stake": 63500,
+              "paid": 74000,
+              "profit": 10500,
+              "roi_pct": 116.535,
+              "hits": 6,
+              "races": 127
+            },
+            "2026Q2": {
+              "tickets": 15,
+              "stake": 7500,
+              "paid": 0,
+              "profit": -7500,
+              "roi_pct": 0.0,
+              "hits": 0,
+              "races": 15
+            }
+          }
+        }
+      }
+    },
+    "grades": {
+      "F1": {
+        "overall": {
+          "tickets": 4932,
+          "stake": 2466000,
+          "paid": 2328700,
+          "profit": -137300,
+          "roi_pct": 94.432,
+          "hits": 620,
+          "races": 1128
+        },
+        "early": {
+          "tickets": 2534,
+          "stake": 1267000,
+          "paid": 1242150,
+          "profit": -24850,
+          "roi_pct": 98.039,
+          "hits": 323,
+          "races": 578
+        },
+        "later": {
+          "tickets": 2398,
+          "stake": 1199000,
+          "paid": 1086550,
+          "profit": -112450,
+          "roi_pct": 90.621,
+          "hits": 297,
+          "races": 550
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 1182,
+            "stake": 591000,
+            "paid": 625000,
+            "profit": 34000,
+            "roi_pct": 105.753,
+            "hits": 167,
+            "races": 276
+          },
+          "2025Q4": {
+            "tickets": 1352,
+            "stake": 676000,
+            "paid": 617150,
+            "profit": -58850,
+            "roi_pct": 91.294,
+            "hits": 156,
+            "races": 302
+          },
+          "2026Q1": {
+            "tickets": 1256,
+            "stake": 628000,
+            "paid": 546150,
+            "profit": -81850,
+            "roi_pct": 86.967,
+            "hits": 159,
+            "races": 281
+          },
+          "2026Q2": {
+            "tickets": 1142,
+            "stake": 571000,
+            "paid": 540400,
+            "profit": -30600,
+            "roi_pct": 94.641,
+            "hits": 138,
+            "races": 269
+          }
+        }
+      },
+      "F2": {
+        "overall": {
+          "tickets": 2380,
+          "stake": 1190000,
+          "paid": 1143500,
+          "profit": -46500,
+          "roi_pct": 96.092,
+          "hits": 283,
+          "races": 448
+        },
+        "early": {
+          "tickets": 0,
+          "stake": 0,
+          "paid": 0,
+          "profit": 0,
+          "roi_pct": null,
+          "hits": 0,
+          "races": 0
+        },
+        "later": {
+          "tickets": 2380,
+          "stake": 1190000,
+          "paid": 1143500,
+          "profit": -46500,
+          "roi_pct": 96.092,
+          "hits": 283,
+          "races": 448
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          },
+          "2025Q4": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          },
+          "2026Q1": {
+            "tickets": 2380,
+            "stake": 1190000,
+            "paid": 1143500,
+            "profit": -46500,
+            "roi_pct": 96.092,
+            "hits": 283,
+            "races": 448
+          },
+          "2026Q2": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          }
+        }
+      },
+      "G1": {
+        "overall": {
+          "tickets": 36,
+          "stake": 18000,
+          "paid": 24300,
+          "profit": 6300,
+          "roi_pct": 135.0,
+          "hits": 3,
+          "races": 9
+        },
+        "early": {
+          "tickets": 36,
+          "stake": 18000,
+          "paid": 24300,
+          "profit": 6300,
+          "roi_pct": 135.0,
+          "hits": 3,
+          "races": 9
+        },
+        "later": {
+          "tickets": 0,
+          "stake": 0,
+          "paid": 0,
+          "profit": 0,
+          "roi_pct": null,
+          "hits": 0,
+          "races": 0
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 16,
+            "stake": 8000,
+            "paid": 21200,
+            "profit": 13200,
+            "roi_pct": 265.0,
+            "hits": 1,
+            "races": 4
+          },
+          "2025Q4": {
+            "tickets": 20,
+            "stake": 10000,
+            "paid": 3100,
+            "profit": -6900,
+            "roi_pct": 31.0,
+            "hits": 2,
+            "races": 5
+          },
+          "2026Q1": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          },
+          "2026Q2": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          }
+        }
+      },
+      "G2": {
+        "overall": {
+          "tickets": 54,
+          "stake": 27000,
+          "paid": 10500,
+          "profit": -16500,
+          "roi_pct": 38.889,
+          "hits": 2,
+          "races": 9
+        },
+        "early": {
+          "tickets": 54,
+          "stake": 27000,
+          "paid": 10500,
+          "profit": -16500,
+          "roi_pct": 38.889,
+          "hits": 2,
+          "races": 9
+        },
+        "later": {
+          "tickets": 0,
+          "stake": 0,
+          "paid": 0,
+          "profit": 0,
+          "roi_pct": null,
+          "hits": 0,
+          "races": 0
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 54,
+            "stake": 27000,
+            "paid": 10500,
+            "profit": -16500,
+            "roi_pct": 38.889,
+            "hits": 2,
+            "races": 9
+          },
+          "2025Q4": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          },
+          "2026Q1": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          },
+          "2026Q2": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          }
+        }
+      },
+      "G3": {
+        "overall": {
+          "tickets": 928,
+          "stake": 464000,
+          "paid": 467700,
+          "profit": 3700,
+          "roi_pct": 100.797,
+          "hits": 99,
+          "races": 202
+        },
+        "early": {
+          "tickets": 530,
+          "stake": 265000,
+          "paid": 244100,
+          "profit": -20900,
+          "roi_pct": 92.113,
+          "hits": 50,
+          "races": 116
+        },
+        "later": {
+          "tickets": 398,
+          "stake": 199000,
+          "paid": 223600,
+          "profit": 24600,
+          "roi_pct": 112.362,
+          "hits": 49,
+          "races": 86
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 280,
+            "stake": 140000,
+            "paid": 112450,
+            "profit": -27550,
+            "roi_pct": 80.321,
+            "hits": 28,
+            "races": 61
+          },
+          "2025Q4": {
+            "tickets": 250,
+            "stake": 125000,
+            "paid": 131650,
+            "profit": 6650,
+            "roi_pct": 105.32,
+            "hits": 22,
+            "races": 55
+          },
+          "2026Q1": {
+            "tickets": 214,
+            "stake": 107000,
+            "paid": 159700,
+            "profit": 52700,
+            "roi_pct": 149.252,
+            "hits": 31,
+            "races": 46
+          },
+          "2026Q2": {
+            "tickets": 184,
+            "stake": 92000,
+            "paid": 63900,
+            "profit": -28100,
+            "roi_pct": 69.457,
+            "hits": 18,
+            "races": 40
+          }
+        }
+      },
+      "GP": {
+        "overall": {
+          "tickets": 28,
+          "stake": 14000,
+          "paid": 2050,
+          "profit": -11950,
+          "roi_pct": 14.643,
+          "hits": 1,
+          "races": 4
+        },
+        "early": {
+          "tickets": 0,
+          "stake": 0,
+          "paid": 0,
+          "profit": 0,
+          "roi_pct": null,
+          "hits": 0,
+          "races": 0
+        },
+        "later": {
+          "tickets": 28,
+          "stake": 14000,
+          "paid": 2050,
+          "profit": -11950,
+          "roi_pct": 14.643,
+          "hits": 1,
+          "races": 4
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          },
+          "2025Q4": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          },
+          "2026Q1": {
+            "tickets": 28,
+            "stake": 14000,
+            "paid": 2050,
+            "profit": -11950,
+            "roi_pct": 14.643,
+            "hits": 1,
+            "races": 4
+          },
+          "2026Q2": {
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hits": 0,
+            "races": 0
+          }
+        }
+      }
+    },
+    "scoregap": {
+      "1.0-1.25": {
+        "overall": {
+          "tickets": 2728,
+          "stake": 1364000,
+          "paid": 1250600,
+          "profit": -113400,
+          "roi_pct": 91.686,
+          "hits": 315,
+          "races": 682
+        },
+        "early": {
+          "tickets": 1156,
+          "stake": 578000,
+          "paid": 547000,
+          "profit": -31000,
+          "roi_pct": 94.637,
+          "hits": 131,
+          "races": 289
+        },
+        "later": {
+          "tickets": 1572,
+          "stake": 786000,
+          "paid": 703600,
+          "profit": -82400,
+          "roi_pct": 89.517,
+          "hits": 184,
+          "races": 393
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 600,
+            "stake": 300000,
+            "paid": 323650,
+            "profit": 23650,
+            "roi_pct": 107.883,
+            "hits": 78,
+            "races": 150
+          },
+          "2025Q4": {
+            "tickets": 556,
+            "stake": 278000,
+            "paid": 223350,
+            "profit": -54650,
+            "roi_pct": 80.342,
+            "hits": 53,
+            "races": 139
+          },
+          "2026Q1": {
+            "tickets": 1076,
+            "stake": 538000,
+            "paid": 505850,
+            "profit": -32150,
+            "roi_pct": 94.024,
+            "hits": 131,
+            "races": 269
+          },
+          "2026Q2": {
+            "tickets": 496,
+            "stake": 248000,
+            "paid": 197750,
+            "profit": -50250,
+            "roi_pct": 79.738,
+            "hits": 53,
+            "races": 124
+          }
+        }
+      },
+      "1.25-1.5": {
+        "overall": {
+          "tickets": 1888,
+          "stake": 944000,
+          "paid": 887000,
+          "profit": -57000,
+          "roi_pct": 93.962,
+          "hits": 250,
+          "races": 472
+        },
+        "early": {
+          "tickets": 772,
+          "stake": 386000,
+          "paid": 359750,
+          "profit": -26250,
+          "roi_pct": 93.199,
+          "hits": 104,
+          "races": 193
+        },
+        "later": {
+          "tickets": 1116,
+          "stake": 558000,
+          "paid": 527250,
+          "profit": -30750,
+          "roi_pct": 94.489,
+          "hits": 146,
+          "races": 279
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 372,
+            "stake": 186000,
+            "paid": 175900,
+            "profit": -10100,
+            "roi_pct": 94.57,
+            "hits": 46,
+            "races": 93
+          },
+          "2025Q4": {
+            "tickets": 400,
+            "stake": 200000,
+            "paid": 183850,
+            "profit": -16150,
+            "roi_pct": 91.925,
+            "hits": 58,
+            "races": 100
+          },
+          "2026Q1": {
+            "tickets": 772,
+            "stake": 386000,
+            "paid": 334650,
+            "profit": -51350,
+            "roi_pct": 86.697,
+            "hits": 91,
+            "races": 193
+          },
+          "2026Q2": {
+            "tickets": 344,
+            "stake": 172000,
+            "paid": 192600,
+            "profit": 20600,
+            "roi_pct": 111.977,
+            "hits": 55,
+            "races": 86
+          }
+        }
+      },
+      "1.5-2.0": {
+        "overall": {
+          "tickets": 1812,
+          "stake": 906000,
+          "paid": 927750,
+          "profit": 21750,
+          "roi_pct": 102.401,
+          "hits": 255,
+          "races": 453
+        },
+        "early": {
+          "tickets": 716,
+          "stake": 358000,
+          "paid": 303800,
+          "profit": -54200,
+          "roi_pct": 84.86,
+          "hits": 100,
+          "races": 179
+        },
+        "later": {
+          "tickets": 1096,
+          "stake": 548000,
+          "paid": 623950,
+          "profit": 75950,
+          "roi_pct": 113.859,
+          "hits": 155,
+          "races": 274
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 340,
+            "stake": 170000,
+            "paid": 161200,
+            "profit": -8800,
+            "roi_pct": 94.824,
+            "hits": 58,
+            "races": 85
+          },
+          "2025Q4": {
+            "tickets": 376,
+            "stake": 188000,
+            "paid": 142600,
+            "profit": -45400,
+            "roi_pct": 75.851,
+            "hits": 42,
+            "races": 94
+          },
+          "2026Q1": {
+            "tickets": 760,
+            "stake": 380000,
+            "paid": 450450,
+            "profit": 70450,
+            "roi_pct": 118.539,
+            "hits": 117,
+            "races": 190
+          },
+          "2026Q2": {
+            "tickets": 336,
+            "stake": 168000,
+            "paid": 173500,
+            "profit": 5500,
+            "roi_pct": 103.274,
+            "hits": 38,
+            "races": 84
+          }
+        }
+      },
+      "2.0-2.5": {
+        "overall": {
+          "tickets": 1440,
+          "stake": 720000,
+          "paid": 693600,
+          "profit": -26400,
+          "roi_pct": 96.333,
+          "hits": 140,
+          "races": 144
+        },
+        "early": {
+          "tickets": 450,
+          "stake": 225000,
+          "paid": 287850,
+          "profit": 62850,
+          "roi_pct": 127.933,
+          "hits": 39,
+          "races": 45
+        },
+        "later": {
+          "tickets": 990,
+          "stake": 495000,
+          "paid": 405750,
+          "profit": -89250,
+          "roi_pct": 81.97,
+          "hits": 101,
+          "races": 99
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 170,
+            "stake": 85000,
+            "paid": 89050,
+            "profit": 4050,
+            "roi_pct": 104.765,
+            "hits": 13,
+            "races": 17
+          },
+          "2025Q4": {
+            "tickets": 280,
+            "stake": 140000,
+            "paid": 198800,
+            "profit": 58800,
+            "roi_pct": 142.0,
+            "hits": 26,
+            "races": 28
+          },
+          "2026Q1": {
+            "tickets": 860,
+            "stake": 430000,
+            "paid": 369900,
+            "profit": -60100,
+            "roi_pct": 86.023,
+            "hits": 92,
+            "races": 86
+          },
+          "2026Q2": {
+            "tickets": 130,
+            "stake": 65000,
+            "paid": 35850,
+            "profit": -29150,
+            "roi_pct": 55.154,
+            "hits": 9,
+            "races": 13
+          }
+        }
+      },
+      "2.5+": {
+        "overall": {
+          "tickets": 490,
+          "stake": 245000,
+          "paid": 217800,
+          "profit": -27200,
+          "roi_pct": 88.898,
+          "hits": 48,
+          "races": 49
+        },
+        "early": {
+          "tickets": 60,
+          "stake": 30000,
+          "paid": 22650,
+          "profit": -7350,
+          "roi_pct": 75.5,
+          "hits": 4,
+          "races": 6
+        },
+        "later": {
+          "tickets": 430,
+          "stake": 215000,
+          "paid": 195150,
+          "profit": -19850,
+          "roi_pct": 90.767,
+          "hits": 44,
+          "races": 43
+        },
+        "quarters": {
+          "2025Q3": {
+            "tickets": 50,
+            "stake": 25000,
+            "paid": 19350,
+            "profit": -5650,
+            "roi_pct": 77.4,
+            "hits": 3,
+            "races": 5
+          },
+          "2025Q4": {
+            "tickets": 10,
+            "stake": 5000,
+            "paid": 3300,
+            "profit": -1700,
+            "roi_pct": 66.0,
+            "hits": 1,
+            "races": 1
+          },
+          "2026Q1": {
+            "tickets": 410,
+            "stake": 205000,
+            "paid": 190550,
+            "profit": -14450,
+            "roi_pct": 92.951,
+            "hits": 43,
+            "races": 41
+          },
+          "2026Q2": {
+            "tickets": 20,
+            "stake": 10000,
+            "paid": 4600,
+            "profit": -5400,
+            "roi_pct": 46.0,
+            "hits": 1,
+            "races": 2
+          }
+        }
+      }
+    },
+    "nonfinal_check": {
+      "overall": {
+        "tickets": 30302,
+        "stake": 15151000,
+        "paid": 13949800,
+        "profit": -1201200,
+        "roi_pct": 92.072,
+        "hits": 4031,
+        "races": 5648
+      },
+      "early": {
+        "tickets": 12058,
+        "stake": 6029000,
+        "paid": 5210100,
+        "profit": -818900,
+        "roi_pct": 86.417,
+        "hits": 1597,
+        "races": 2281
+      },
+      "later": {
+        "tickets": 18244,
+        "stake": 9122000,
+        "paid": 8739700,
+        "profit": -382300,
+        "roi_pct": 95.809,
+        "hits": 2434,
+        "races": 3367
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 5820,
+          "stake": 2910000,
+          "paid": 2611500,
+          "profit": -298500,
+          "roi_pct": 89.742,
+          "hits": 770,
+          "races": 1119
+        },
+        "2025Q4": {
+          "tickets": 6238,
+          "stake": 3119000,
+          "paid": 2598600,
+          "profit": -520400,
+          "roi_pct": 83.315,
+          "hits": 827,
+          "races": 1162
+        },
+        "2026Q1": {
+          "tickets": 3352,
+          "stake": 1676000,
+          "paid": 1209800,
+          "profit": -466200,
+          "roi_pct": 72.184,
+          "hits": 461,
+          "races": 634
+        },
+        "2026Q2": {
+          "tickets": 7394,
+          "stake": 3697000,
+          "paid": 4123450,
+          "profit": 426450,
+          "roi_pct": 111.535,
+          "hits": 1008,
+          "races": 1283
+        }
+      }
+    }
+  },
+  "candidate_design": {
+    "grade": [
+      "any",
+      "F1",
+      "F2",
+      "G3",
+      "F1_F2"
+    ],
+    "gap_floors": [
+      "1.0",
+      "1.25",
+      "1.5",
+      "2.0",
+      "2.5"
+    ],
+    "ticket_rules": [
+      "all_original",
+      "exacta_all",
+      "exacta_first3",
+      "exacta_first2",
+      "exacta_first",
+      "exacta_second",
+      "exacta_third",
+      "exacta_fourth",
+      "trifecta_all",
+      "exacta_first2_plus_trifecta"
+    ],
+    "generated": 235,
+    "early_min_stake": 100000,
+    "early_min_races": 50,
+    "eligible_in_discovery": 86
+  },
+  "best_early_chosen": [
+    {
+      "grade": "any",
+      "gap_floor": "2.0",
+      "ticket_rule": "trifecta_all",
+      "overall": {
+        "tickets": 1158,
+        "stake": 579000,
+        "paid": 544350,
+        "profit": -34650,
+        "roi_pct": 94.016,
+        "hits": 56,
+        "races": 193
+      },
+      "early": {
+        "tickets": 306,
+        "stake": 153000,
+        "paid": 215500,
+        "profit": 62500,
+        "roi_pct": 140.85,
+        "hits": 14,
+        "races": 51
+      },
+      "later": {
+        "tickets": 852,
+        "stake": 426000,
+        "paid": 328850,
+        "profit": -97150,
+        "roi_pct": 77.195,
+        "hits": 42,
+        "races": 142
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 132,
+          "stake": 66000,
+          "paid": 55150,
+          "profit": -10850,
+          "roi_pct": 83.561,
+          "hits": 4,
+          "races": 22
+        },
+        "2025Q4": {
+          "tickets": 174,
+          "stake": 87000,
+          "paid": 160350,
+          "profit": 73350,
+          "roi_pct": 184.31,
+          "hits": 10,
+          "races": 29
+        },
+        "2026Q1": {
+          "tickets": 762,
+          "stake": 381000,
+          "paid": 309100,
+          "profit": -71900,
+          "roi_pct": 81.129,
+          "hits": 39,
+          "races": 127
+        },
+        "2026Q2": {
+          "tickets": 90,
+          "stake": 45000,
+          "paid": 19750,
+          "profit": -25250,
+          "roi_pct": 43.889,
+          "hits": 3,
+          "races": 15
+        }
+      }
+    },
+    {
+      "grade": "any",
+      "gap_floor": "2.0",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 1544,
+        "stake": 772000,
+        "paid": 747100,
+        "profit": -24900,
+        "roi_pct": 96.775,
+        "hits": 148,
+        "races": 193
+      },
+      "early": {
+        "tickets": 408,
+        "stake": 204000,
+        "paid": 252600,
+        "profit": 48600,
+        "roi_pct": 123.824,
+        "hits": 30,
+        "races": 51
+      },
+      "later": {
+        "tickets": 1136,
+        "stake": 568000,
+        "paid": 494500,
+        "profit": -73500,
+        "roi_pct": 87.06,
+        "hits": 118,
+        "races": 142
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 176,
+          "stake": 88000,
+          "paid": 66800,
+          "profit": -21200,
+          "roi_pct": 75.909,
+          "hits": 9,
+          "races": 22
+        },
+        "2025Q4": {
+          "tickets": 232,
+          "stake": 116000,
+          "paid": 185800,
+          "profit": 69800,
+          "roi_pct": 160.172,
+          "hits": 21,
+          "races": 29
+        },
+        "2026Q1": {
+          "tickets": 1016,
+          "stake": 508000,
+          "paid": 461650,
+          "profit": -46350,
+          "roi_pct": 90.876,
+          "hits": 110,
+          "races": 127
+        },
+        "2026Q2": {
+          "tickets": 120,
+          "stake": 60000,
+          "paid": 32850,
+          "profit": -27150,
+          "roi_pct": 54.75,
+          "hits": 8,
+          "races": 15
+        }
+      }
+    },
+    {
+      "grade": "any",
+      "gap_floor": "2.0",
+      "ticket_rule": "all_original",
+      "overall": {
+        "tickets": 1930,
+        "stake": 965000,
+        "paid": 911400,
+        "profit": -53600,
+        "roi_pct": 94.446,
+        "hits": 188,
+        "races": 193
+      },
+      "early": {
+        "tickets": 510,
+        "stake": 255000,
+        "paid": 310500,
+        "profit": 55500,
+        "roi_pct": 121.765,
+        "hits": 43,
+        "races": 51
+      },
+      "later": {
+        "tickets": 1420,
+        "stake": 710000,
+        "paid": 600900,
+        "profit": -109100,
+        "roi_pct": 84.634,
+        "hits": 145,
+        "races": 142
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 220,
+          "stake": 110000,
+          "paid": 108400,
+          "profit": -1600,
+          "roi_pct": 98.545,
+          "hits": 16,
+          "races": 22
+        },
+        "2025Q4": {
+          "tickets": 290,
+          "stake": 145000,
+          "paid": 202100,
+          "profit": 57100,
+          "roi_pct": 139.379,
+          "hits": 27,
+          "races": 29
+        },
+        "2026Q1": {
+          "tickets": 1270,
+          "stake": 635000,
+          "paid": 560450,
+          "profit": -74550,
+          "roi_pct": 88.26,
+          "hits": 135,
+          "races": 127
+        },
+        "2026Q2": {
+          "tickets": 150,
+          "stake": 75000,
+          "paid": 40450,
+          "profit": -34550,
+          "roi_pct": 53.933,
+          "hits": 10,
+          "races": 15
+        }
+      }
+    },
+    {
+      "grade": "F1",
+      "gap_floor": "1.5",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 1122,
+        "stake": 561000,
+        "paid": 639350,
+        "profit": 78350,
+        "roi_pct": 113.966,
+        "hits": 166,
+        "races": 351
+      },
+      "early": {
+        "tickets": 594,
+        "stake": 297000,
+        "paid": 340600,
+        "profit": 43600,
+        "roi_pct": 114.68,
+        "hits": 86,
+        "races": 186
+      },
+      "later": {
+        "tickets": 528,
+        "stake": 264000,
+        "paid": 298750,
+        "profit": 34750,
+        "roi_pct": 113.163,
+        "hits": 80,
+        "races": 165
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 250,
+          "stake": 125000,
+          "paid": 130750,
+          "profit": 5750,
+          "roi_pct": 104.6,
+          "hits": 42,
+          "races": 86
+        },
+        "2025Q4": {
+          "tickets": 344,
+          "stake": 172000,
+          "paid": 209850,
+          "profit": 37850,
+          "roi_pct": 122.006,
+          "hits": 44,
+          "races": 100
+        },
+        "2026Q1": {
+          "tickets": 292,
+          "stake": 146000,
+          "paid": 162650,
+          "profit": 16650,
+          "roi_pct": 111.404,
+          "hits": 49,
+          "races": 80
+        },
+        "2026Q2": {
+          "tickets": 236,
+          "stake": 118000,
+          "paid": 136100,
+          "profit": 18100,
+          "roi_pct": 115.339,
+          "hits": 31,
+          "races": 85
+        }
+      }
+    },
+    {
+      "grade": "F1_F2",
+      "gap_floor": "1.5",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 2136,
+        "stake": 1068000,
+        "paid": 1086700,
+        "profit": 18700,
+        "roi_pct": 101.751,
+        "hits": 299,
+        "races": 564
+      },
+      "early": {
+        "tickets": 594,
+        "stake": 297000,
+        "paid": 340600,
+        "profit": 43600,
+        "roi_pct": 114.68,
+        "hits": 86,
+        "races": 186
+      },
+      "later": {
+        "tickets": 1542,
+        "stake": 771000,
+        "paid": 746100,
+        "profit": -24900,
+        "roi_pct": 96.77,
+        "hits": 213,
+        "races": 378
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 250,
+          "stake": 125000,
+          "paid": 130750,
+          "profit": 5750,
+          "roi_pct": 104.6,
+          "hits": 42,
+          "races": 86
+        },
+        "2025Q4": {
+          "tickets": 344,
+          "stake": 172000,
+          "paid": 209850,
+          "profit": 37850,
+          "roi_pct": 122.006,
+          "hits": 44,
+          "races": 100
+        },
+        "2026Q1": {
+          "tickets": 1306,
+          "stake": 653000,
+          "paid": 610000,
+          "profit": -43000,
+          "roi_pct": 93.415,
+          "hits": 182,
+          "races": 293
+        },
+        "2026Q2": {
+          "tickets": 236,
+          "stake": 118000,
+          "paid": 136100,
+          "profit": 18100,
+          "roi_pct": 115.339,
+          "hits": 31,
+          "races": 85
+        }
+      }
+    },
+    {
+      "grade": "G3",
+      "gap_floor": "1.25",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 362,
+        "stake": 181000,
+        "paid": 192650,
+        "profit": 11650,
+        "roi_pct": 106.436,
+        "hits": 44,
+        "races": 121
+      },
+      "early": {
+        "tickets": 204,
+        "stake": 102000,
+        "paid": 116050,
+        "profit": 14050,
+        "roi_pct": 113.775,
+        "hits": 21,
+        "races": 69
+      },
+      "later": {
+        "tickets": 158,
+        "stake": 79000,
+        "paid": 76600,
+        "profit": -2400,
+        "roi_pct": 96.962,
+        "hits": 23,
+        "races": 52
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 102,
+          "stake": 51000,
+          "paid": 37300,
+          "profit": -13700,
+          "roi_pct": 73.137,
+          "hits": 11,
+          "races": 33
+        },
+        "2025Q4": {
+          "tickets": 102,
+          "stake": 51000,
+          "paid": 78750,
+          "profit": 27750,
+          "roi_pct": 154.412,
+          "hits": 10,
+          "races": 36
+        },
+        "2026Q1": {
+          "tickets": 90,
+          "stake": 45000,
+          "paid": 50500,
+          "profit": 5500,
+          "roi_pct": 112.222,
+          "hits": 15,
+          "races": 30
+        },
+        "2026Q2": {
+          "tickets": 68,
+          "stake": 34000,
+          "paid": 26100,
+          "profit": -7900,
+          "roi_pct": 76.765,
+          "hits": 8,
+          "races": 22
+        }
+      }
+    },
+    {
+      "grade": "F1",
+      "gap_floor": "1.25",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 1748,
+        "stake": 874000,
+        "paid": 961850,
+        "profit": 87850,
+        "roi_pct": 110.051,
+        "hits": 297,
+        "races": 664
+      },
+      "early": {
+        "tickets": 910,
+        "stake": 455000,
+        "paid": 512000,
+        "profit": 57000,
+        "roi_pct": 112.527,
+        "hits": 156,
+        "races": 344
+      },
+      "later": {
+        "tickets": 838,
+        "stake": 419000,
+        "paid": 449850,
+        "profit": 30850,
+        "roi_pct": 107.363,
+        "hits": 141,
+        "races": 320
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 394,
+          "stake": 197000,
+          "paid": 211900,
+          "profit": 14900,
+          "roi_pct": 107.563,
+          "hits": 72,
+          "races": 158
+        },
+        "2025Q4": {
+          "tickets": 516,
+          "stake": 258000,
+          "paid": 300100,
+          "profit": 42100,
+          "roi_pct": 116.318,
+          "hits": 84,
+          "races": 186
+        },
+        "2026Q1": {
+          "tickets": 446,
+          "stake": 223000,
+          "paid": 231300,
+          "profit": 8300,
+          "roi_pct": 103.722,
+          "hits": 76,
+          "races": 157
+        },
+        "2026Q2": {
+          "tickets": 392,
+          "stake": 196000,
+          "paid": 218550,
+          "profit": 22550,
+          "roi_pct": 111.505,
+          "hits": 65,
+          "races": 163
+        }
+      }
+    },
+    {
+      "grade": "F1_F2",
+      "gap_floor": "1.25",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 2976,
+        "stake": 1488000,
+        "paid": 1475700,
+        "profit": -12300,
+        "roi_pct": 99.173,
+        "hits": 457,
+        "races": 984
+      },
+      "early": {
+        "tickets": 910,
+        "stake": 455000,
+        "paid": 512000,
+        "profit": 57000,
+        "roi_pct": 112.527,
+        "hits": 156,
+        "races": 344
+      },
+      "later": {
+        "tickets": 2066,
+        "stake": 1033000,
+        "paid": 963700,
+        "profit": -69300,
+        "roi_pct": 93.291,
+        "hits": 301,
+        "races": 640
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 394,
+          "stake": 197000,
+          "paid": 211900,
+          "profit": 14900,
+          "roi_pct": 107.563,
+          "hits": 72,
+          "races": 158
+        },
+        "2025Q4": {
+          "tickets": 516,
+          "stake": 258000,
+          "paid": 300100,
+          "profit": 42100,
+          "roi_pct": 116.318,
+          "hits": 84,
+          "races": 186
+        },
+        "2026Q1": {
+          "tickets": 1674,
+          "stake": 837000,
+          "paid": 745150,
+          "profit": -91850,
+          "roi_pct": 89.026,
+          "hits": 236,
+          "races": 477
+        },
+        "2026Q2": {
+          "tickets": 392,
+          "stake": 196000,
+          "paid": 218550,
+          "profit": 22550,
+          "roi_pct": 111.505,
+          "hits": 65,
+          "races": 163
+        }
+      }
+    },
+    {
+      "grade": "F1",
+      "gap_floor": "1.0",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 2676,
+        "stake": 1338000,
+        "paid": 1387950,
+        "profit": 49950,
+        "roi_pct": 103.733,
+        "hits": 449,
+        "races": 1128
+      },
+      "early": {
+        "tickets": 1378,
+        "stake": 689000,
+        "paid": 761050,
+        "profit": 72050,
+        "roi_pct": 110.457,
+        "hits": 235,
+        "races": 578
+      },
+      "later": {
+        "tickets": 1298,
+        "stake": 649000,
+        "paid": 626900,
+        "profit": -22100,
+        "roi_pct": 96.595,
+        "hits": 214,
+        "races": 550
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 630,
+          "stake": 315000,
+          "paid": 370400,
+          "profit": 55400,
+          "roi_pct": 117.587,
+          "hits": 120,
+          "races": 276
+        },
+        "2025Q4": {
+          "tickets": 748,
+          "stake": 374000,
+          "paid": 390650,
+          "profit": 16650,
+          "roi_pct": 104.452,
+          "hits": 115,
+          "races": 302
+        },
+        "2026Q1": {
+          "tickets": 694,
+          "stake": 347000,
+          "paid": 345700,
+          "profit": -1300,
+          "roi_pct": 99.625,
+          "hits": 118,
+          "races": 281
+        },
+        "2026Q2": {
+          "tickets": 604,
+          "stake": 302000,
+          "paid": 281200,
+          "profit": -20800,
+          "roi_pct": 93.113,
+          "hits": 96,
+          "races": 269
+        }
+      }
+    },
+    {
+      "grade": "F1_F2",
+      "gap_floor": "1.0",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 4160,
+        "stake": 2080000,
+        "paid": 2037700,
+        "profit": -42300,
+        "roi_pct": 97.966,
+        "hits": 655,
+        "races": 1576
+      },
+      "early": {
+        "tickets": 1378,
+        "stake": 689000,
+        "paid": 761050,
+        "profit": 72050,
+        "roi_pct": 110.457,
+        "hits": 235,
+        "races": 578
+      },
+      "later": {
+        "tickets": 2782,
+        "stake": 1391000,
+        "paid": 1276650,
+        "profit": -114350,
+        "roi_pct": 91.779,
+        "hits": 420,
+        "races": 998
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 630,
+          "stake": 315000,
+          "paid": 370400,
+          "profit": 55400,
+          "roi_pct": 117.587,
+          "hits": 120,
+          "races": 276
+        },
+        "2025Q4": {
+          "tickets": 748,
+          "stake": 374000,
+          "paid": 390650,
+          "profit": 16650,
+          "roi_pct": 104.452,
+          "hits": 115,
+          "races": 302
+        },
+        "2026Q1": {
+          "tickets": 2178,
+          "stake": 1089000,
+          "paid": 995450,
+          "profit": -93550,
+          "roi_pct": 91.41,
+          "hits": 324,
+          "races": 729
+        },
+        "2026Q2": {
+          "tickets": 604,
+          "stake": 302000,
+          "paid": 281200,
+          "profit": -20800,
+          "roi_pct": 93.113,
+          "hits": 96,
+          "races": 269
+        }
+      }
+    },
+    {
+      "grade": "any",
+      "gap_floor": "1.25",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 3394,
+        "stake": 1697000,
+        "paid": 1672450,
+        "profit": -24550,
+        "roi_pct": 98.553,
+        "hits": 503,
+        "races": 1118
+      },
+      "early": {
+        "tickets": 1152,
+        "stake": 576000,
+        "paid": 630100,
+        "profit": 54100,
+        "roi_pct": 109.392,
+        "hits": 178,
+        "races": 423
+      },
+      "later": {
+        "tickets": 2242,
+        "stake": 1121000,
+        "paid": 1042350,
+        "profit": -78650,
+        "roi_pct": 92.984,
+        "hits": 325,
+        "races": 695
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 532,
+          "stake": 266000,
+          "paid": 251250,
+          "profit": -14750,
+          "roi_pct": 94.455,
+          "hits": 84,
+          "races": 200
+        },
+        "2025Q4": {
+          "tickets": 620,
+          "stake": 310000,
+          "paid": 378850,
+          "profit": 68850,
+          "roi_pct": 122.21,
+          "hits": 94,
+          "races": 223
+        },
+        "2026Q1": {
+          "tickets": 1782,
+          "stake": 891000,
+          "paid": 797700,
+          "profit": -93300,
+          "roi_pct": 89.529,
+          "hits": 252,
+          "races": 510
+        },
+        "2026Q2": {
+          "tickets": 460,
+          "stake": 230000,
+          "paid": 244650,
+          "profit": 14650,
+          "roi_pct": 106.37,
+          "hits": 73,
+          "races": 185
+        }
+      }
+    },
+    {
+      "grade": "any",
+      "gap_floor": "1.5",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 2450,
+        "stake": 1225000,
+        "paid": 1217200,
+        "profit": -7800,
+        "roi_pct": 99.363,
+        "hits": 329,
+        "races": 646
+      },
+      "early": {
+        "tickets": 766,
+        "stake": 383000,
+        "paid": 415250,
+        "profit": 32250,
+        "roi_pct": 108.42,
+        "hits": 98,
+        "races": 230
+      },
+      "later": {
+        "tickets": 1684,
+        "stake": 842000,
+        "paid": 801950,
+        "profit": -40050,
+        "roi_pct": 95.243,
+        "hits": 231,
+        "races": 416
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 346,
+          "stake": 173000,
+          "paid": 148950,
+          "profit": -24050,
+          "roi_pct": 86.098,
+          "hits": 48,
+          "races": 107
+        },
+        "2025Q4": {
+          "tickets": 420,
+          "stake": 210000,
+          "paid": 266300,
+          "profit": 56300,
+          "roi_pct": 126.81,
+          "hits": 50,
+          "races": 123
+        },
+        "2026Q1": {
+          "tickets": 1396,
+          "stake": 698000,
+          "paid": 655800,
+          "profit": -42200,
+          "roi_pct": 93.954,
+          "hits": 196,
+          "races": 317
+        },
+        "2026Q2": {
+          "tickets": 288,
+          "stake": 144000,
+          "paid": 146150,
+          "profit": 2150,
+          "roi_pct": 101.493,
+          "hits": 35,
+          "races": 99
+        }
+      }
+    }
+  ],
+  "positive_in_both_count": 5,
+  "positive_in_both": [
+    {
+      "grade": "F1",
+      "gap_floor": "1.25",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 1748,
+        "stake": 874000,
+        "paid": 961850,
+        "profit": 87850,
+        "roi_pct": 110.051,
+        "hits": 297,
+        "races": 664
+      },
+      "early": {
+        "tickets": 910,
+        "stake": 455000,
+        "paid": 512000,
+        "profit": 57000,
+        "roi_pct": 112.527,
+        "hits": 156,
+        "races": 344
+      },
+      "later": {
+        "tickets": 838,
+        "stake": 419000,
+        "paid": 449850,
+        "profit": 30850,
+        "roi_pct": 107.363,
+        "hits": 141,
+        "races": 320
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 394,
+          "stake": 197000,
+          "paid": 211900,
+          "profit": 14900,
+          "roi_pct": 107.563,
+          "hits": 72,
+          "races": 158
+        },
+        "2025Q4": {
+          "tickets": 516,
+          "stake": 258000,
+          "paid": 300100,
+          "profit": 42100,
+          "roi_pct": 116.318,
+          "hits": 84,
+          "races": 186
+        },
+        "2026Q1": {
+          "tickets": 446,
+          "stake": 223000,
+          "paid": 231300,
+          "profit": 8300,
+          "roi_pct": 103.722,
+          "hits": 76,
+          "races": 157
+        },
+        "2026Q2": {
+          "tickets": 392,
+          "stake": 196000,
+          "paid": 218550,
+          "profit": 22550,
+          "roi_pct": 111.505,
+          "hits": 65,
+          "races": 163
+        }
+      }
+    },
+    {
+      "grade": "F1",
+      "gap_floor": "1.5",
+      "ticket_rule": "exacta_first2_plus_trifecta",
+      "overall": {
+        "tickets": 1122,
+        "stake": 561000,
+        "paid": 639350,
+        "profit": 78350,
+        "roi_pct": 113.966,
+        "hits": 166,
+        "races": 351
+      },
+      "early": {
+        "tickets": 594,
+        "stake": 297000,
+        "paid": 340600,
+        "profit": 43600,
+        "roi_pct": 114.68,
+        "hits": 86,
+        "races": 186
+      },
+      "later": {
+        "tickets": 528,
+        "stake": 264000,
+        "paid": 298750,
+        "profit": 34750,
+        "roi_pct": 113.163,
+        "hits": 80,
+        "races": 165
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 250,
+          "stake": 125000,
+          "paid": 130750,
+          "profit": 5750,
+          "roi_pct": 104.6,
+          "hits": 42,
+          "races": 86
+        },
+        "2025Q4": {
+          "tickets": 344,
+          "stake": 172000,
+          "paid": 209850,
+          "profit": 37850,
+          "roi_pct": 122.006,
+          "hits": 44,
+          "races": 100
+        },
+        "2026Q1": {
+          "tickets": 292,
+          "stake": 146000,
+          "paid": 162650,
+          "profit": 16650,
+          "roi_pct": 111.404,
+          "hits": 49,
+          "races": 80
+        },
+        "2026Q2": {
+          "tickets": 236,
+          "stake": 118000,
+          "paid": 136100,
+          "profit": 18100,
+          "roi_pct": 115.339,
+          "hits": 31,
+          "races": 85
+        }
+      }
+    },
+    {
+      "grade": "any",
+      "gap_floor": "1.25",
+      "ticket_rule": "exacta_second",
+      "overall": {
+        "tickets": 1118,
+        "stake": 559000,
+        "paid": 603000,
+        "profit": 44000,
+        "roi_pct": 107.871,
+        "hits": 168,
+        "races": 1118
+      },
+      "early": {
+        "tickets": 423,
+        "stake": 211500,
+        "paid": 218300,
+        "profit": 6800,
+        "roi_pct": 103.215,
+        "hits": 63,
+        "races": 423
+      },
+      "later": {
+        "tickets": 695,
+        "stake": 347500,
+        "paid": 384700,
+        "profit": 37200,
+        "roi_pct": 110.705,
+        "hits": 105,
+        "races": 695
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 200,
+          "stake": 100000,
+          "paid": 110700,
+          "profit": 10700,
+          "roi_pct": 110.7,
+          "hits": 35,
+          "races": 200
+        },
+        "2025Q4": {
+          "tickets": 223,
+          "stake": 111500,
+          "paid": 107600,
+          "profit": -3900,
+          "roi_pct": 96.502,
+          "hits": 28,
+          "races": 223
+        },
+        "2026Q1": {
+          "tickets": 510,
+          "stake": 255000,
+          "paid": 262850,
+          "profit": 7850,
+          "roi_pct": 103.078,
+          "hits": 79,
+          "races": 510
+        },
+        "2026Q2": {
+          "tickets": 185,
+          "stake": 92500,
+          "paid": 121850,
+          "profit": 29350,
+          "roi_pct": 131.73,
+          "hits": 26,
+          "races": 185
+        }
+      }
+    },
+    {
+      "grade": "F1_F2",
+      "gap_floor": "1.25",
+      "ticket_rule": "exacta_second",
+      "overall": {
+        "tickets": 984,
+        "stake": 492000,
+        "paid": 523550,
+        "profit": 31550,
+        "roi_pct": 106.413,
+        "hits": 149,
+        "races": 984
+      },
+      "early": {
+        "tickets": 344,
+        "stake": 172000,
+        "paid": 173550,
+        "profit": 1550,
+        "roi_pct": 100.901,
+        "hits": 52,
+        "races": 344
+      },
+      "later": {
+        "tickets": 640,
+        "stake": 320000,
+        "paid": 350000,
+        "profit": 30000,
+        "roi_pct": 109.375,
+        "hits": 97,
+        "races": 640
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 158,
+          "stake": 79000,
+          "paid": 79100,
+          "profit": 100,
+          "roi_pct": 100.127,
+          "hits": 26,
+          "races": 158
+        },
+        "2025Q4": {
+          "tickets": 186,
+          "stake": 93000,
+          "paid": 94450,
+          "profit": 1450,
+          "roi_pct": 101.559,
+          "hits": 26,
+          "races": 186
+        },
+        "2026Q1": {
+          "tickets": 477,
+          "stake": 238500,
+          "paid": 242600,
+          "profit": 4100,
+          "roi_pct": 101.719,
+          "hits": 74,
+          "races": 477
+        },
+        "2026Q2": {
+          "tickets": 163,
+          "stake": 81500,
+          "paid": 107400,
+          "profit": 25900,
+          "roi_pct": 131.779,
+          "hits": 23,
+          "races": 163
+        }
+      }
+    },
+    {
+      "grade": "F1",
+      "gap_floor": "1.25",
+      "ticket_rule": "exacta_second",
+      "overall": {
+        "tickets": 664,
+        "stake": 332000,
+        "paid": 368200,
+        "profit": 36200,
+        "roi_pct": 110.904,
+        "hits": 105,
+        "races": 664
+      },
+      "early": {
+        "tickets": 344,
+        "stake": 172000,
+        "paid": 173550,
+        "profit": 1550,
+        "roi_pct": 100.901,
+        "hits": 52,
+        "races": 344
+      },
+      "later": {
+        "tickets": 320,
+        "stake": 160000,
+        "paid": 194650,
+        "profit": 34650,
+        "roi_pct": 121.656,
+        "hits": 53,
+        "races": 320
+      },
+      "quarters": {
+        "2025Q3": {
+          "tickets": 158,
+          "stake": 79000,
+          "paid": 79100,
+          "profit": 100,
+          "roi_pct": 100.127,
+          "hits": 26,
+          "races": 158
+        },
+        "2025Q4": {
+          "tickets": 186,
+          "stake": 93000,
+          "paid": 94450,
+          "profit": 1450,
+          "roi_pct": 101.559,
+          "hits": 26,
+          "races": 186
+        },
+        "2026Q1": {
+          "tickets": 157,
+          "stake": 78500,
+          "paid": 87250,
+          "profit": 8750,
+          "roi_pct": 111.146,
+          "hits": 30,
+          "races": 157
+        },
+        "2026Q2": {
+          "tickets": 163,
+          "stake": 81500,
+          "paid": 107400,
+          "profit": 25900,
+          "roi_pct": 131.779,
+          "hits": 23,
+          "races": 163
+        }
+      }
+    }
+  ],
+  "caution": "Exploratory multiple comparisons; no rule validated on genuinely unseen future period. Do not silently change production, ticket amounts, criteria or predictability."
+}
