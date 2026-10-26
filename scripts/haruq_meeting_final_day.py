@@ -1,8 +1,8 @@
-"""Read-only meeting-date proof for the user-approved HaruQ F2 final-day policy.
+"""Read-only meeting-date proof for the user-approved HaruQ F1/F2 final-day policy.
 
 Only a netkeirin course-page date navigation entry explicitly marked 最終日
-can activate the special F2 ticket selection.  Neither a race's number nor
-its round name is proof.  Ambiguous/missing information => no F2 purchase.
+can activate the special F1/F2 ticket selection.  Neither a race's number nor
+its round name is proof.  Ambiguous/missing information => no F1/F2 purchase.
 """
 from __future__ import annotations
 
