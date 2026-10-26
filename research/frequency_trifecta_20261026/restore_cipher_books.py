@@ -34,11 +34,15 @@ for ix,(item,path) in enumerate(zip(manifest['files'],paths)):
    val=decimal.Decimal(row['odds_min'])
    if not val.is_finite() or val<1 or val!=decimal.Decimal(row['odds_max']):
     conflicts.add(rid);counts['invalid_values']+=1;continue
+   # Legacy first_place_block treats a left row label as second place.
+   # Historical source tables label THIRD place on rows and SECOND on columns.
+   # Uniform semantic normalization a-b-c -> a-c-b; never choose by race outcome.
+   a,b,c=row['selection'].split('-');selection='-'.join([a,c,b])
    q=books.setdefault(rid,{})
-   if row['selection'] in q:
-    if q[row['selection']]!=val:conflicts.add(rid);counts['conflicting_duplicate_quotes']+=1
+   if selection in q:
+    if q[selection]!=val:conflicts.add(rid);counts['conflicting_duplicate_quotes']+=1
     else:counts['identical_duplicate_quotes']+=1
-   q[row['selection']]=val
+   q[selection]=val
    m=meta.setdefault(rid,dict(source_race_id=original,times=set(),paths=set()))
    m['times'].add(row['odds_time_jst']);m['paths'].add(item['path'])
  if ix%40==0:print('CIPHER_PARSED',ix,len(paths),'books',len(books),flush=True)
@@ -60,7 +64,7 @@ with gzip.open(OUT/'cipher_validated_trifecta_books.jsonl.gz','wt',encoding='utf
   m=meta[rid]
   f.write(json.dumps(dict(race_id=rid,source_race_id=m['source_race_id'],times=sorted(m['times']),source_paths=sorted(m['paths']),odds={k:str(v) for k,v in q.items()}),separators=(',',':'))+'\n')
   admitted+=1;quotes+=len(q)
-summary=dict(source_commit=manifest['source_commit'],source_archives=len(paths),counts=dict(counts),overlapping_race_books=len(books),admitted_races=admitted,admitted_quotes=quotes,quarantined=len(bad),quarantine_reasons=dict(collections.Counter(x['reason'] for x in bad)),issues=bad)
+summary=dict(source_commit=manifest['source_commit'],source_archives=len(paths),normalization='Uniform legacy selection a-b-c -> a-c-b: source table rows are third place, columns second place.',counts=dict(counts),overlapping_race_books=len(books),admitted_races=admitted,admitted_quotes=quotes,quarantined=len(bad),quarantine_reasons=dict(collections.Counter(x['reason'] for x in bad)),issues=bad)
 (OUT/'cipher_source_audit.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
 print('CIPHER_AUDIT',json.dumps({k:v for k,v in summary.items() if k!='issues'}),flush=True)
 print('ISSUES',json.dumps(bad[:10]),flush=True)

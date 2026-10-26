@@ -1,0 +1,26 @@
+{
+  "legacy_parser": {
+    "path": "odds_market/collect_all_odds.py",
+    "git_blob_sha": "e0156fbe279c583e879334e02cb8ee93ea9c6ce5",
+    "problem": "first_place_block names the left row label second and column labels third."
+  },
+  "trusted_parser": {
+    "path": "src/keirin_market_analysis/historical_final_odds.py",
+    "git_blob_sha": "97194d3af72e102f6894431db682338fb0d0995d",
+    "definition": "parse_fixed_first_trifecta_table explicitly names left row labels third and column labels second."
+  },
+  "normalization": "All legacy 3rentan a-b-c -> a-c-b, fixed globally before frequency estimation.",
+  "independent_price_only_example": {
+    "race_id": "202509291108",
+    "quotes": 210,
+    "direct_matches": 2,
+    "swapped_second_third_matches": 210,
+    "other_four_permutations_matches": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "not_per_race_outcome_optimization": true
+}

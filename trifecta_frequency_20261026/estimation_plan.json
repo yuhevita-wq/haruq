@@ -14,7 +14,7 @@
   "interval": "95% Wilson, approximate independent-binomial interval, not a future guarantee",
   "zero_hit_policy": "Retain cells with opportunities but no hits and a nonzero uncertainty upper bound.",
   "zero_opportunity_policy": "No frequency defined; omit those cells and distinguish from zero hits.",
-  "source_validation": "Check complete nP3 keys and finite positive quotes, direct archived combination semantics, mapped race dates, and winning price versus independent recorded payout. Quarantine structural/conflicting/payout data mismatches; never choose combination direction per outcome.",
+  "source_validation": "Check complete nP3 keys and finite positive quotes, mapped race dates, and winning price versus independent recorded payout. Public export preserves standard combination order. Legacy encrypted archive is uniformly normalized a-b-c -> a-c-b because its parser reverses row-third/column-second labels; verify against independent full books. Quarantine structural/conflicting/payout data mismatches; never choose combination direction per outcome.",
   "production_changed": false,
   "limitations": ["Previously viewed historical archive.", "Final prices, no purchase-time snapshot claim.", "Frequency within broad groups, not a calibrated individual race probability.", "No profitable-cell selection or adoption in this task."]
 }
