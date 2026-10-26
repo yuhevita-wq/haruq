@@ -57,3 +57,5 @@ jobs:
 # Re-evaluate final-day evidence using archived programme labels.
 
 # Include winning-dividend-only under-4x counterfactual without ex-post screening of losing tickets.
+
+# Run candidate stress tests for payout concentration and time-block instability.
