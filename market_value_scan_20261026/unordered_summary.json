@@ -1,0 +1,153 @@
+{
+  "unordered_cells": 13251,
+  "diagnostics": [
+    {
+      "diagnostic": "early_positive_unordered_HIGH_MEDplus_MED",
+      "market": "combined",
+      "period": "early_2025H2",
+      "opportunities": 163818,
+      "hits": 2149,
+      "investment_yen": 16381800,
+      "returned_yen": 29087790,
+      "roi_pct": 177.5616232648427,
+      "day_bootstrap95_lower": 154.43694398330152,
+      "day_bootstrap95_upper": 204.06593712334066
+    },
+    {
+      "diagnostic": "early_positive_unordered_HIGH_MEDplus_MED",
+      "market": "exacta",
+      "period": "early_2025H2",
+      "opportunities": 24175,
+      "hits": 854,
+      "investment_yen": 2417500,
+      "returned_yen": 4171210,
+      "roi_pct": 172.54229576008277,
+      "day_bootstrap95_lower": 141.8385875487902,
+      "day_bootstrap95_upper": 210.88441502656366
+    },
+    {
+      "diagnostic": "early_positive_unordered_HIGH_MEDplus_MED",
+      "market": "trifecta",
+      "period": "early_2025H2",
+      "opportunities": 139643,
+      "hits": 1295,
+      "investment_yen": 13964300,
+      "returned_yen": 24916580,
+      "roi_pct": 178.43056938049168,
+      "day_bootstrap95_lower": 154.6339088557537,
+      "day_bootstrap95_upper": 205.30835780074347
+    },
+    {
+      "diagnostic": "early_positive_unordered_all",
+      "market": "combined",
+      "period": "early_2025H2",
+      "opportunities": 258615,
+      "hits": 3570,
+      "investment_yen": 25861500,
+      "returned_yen": 44387190,
+      "roi_pct": 171.634243953367,
+      "day_bootstrap95_lower": 155.7153252371503,
+      "day_bootstrap95_upper": 188.57052954573237
+    },
+    {
+      "diagnostic": "early_positive_unordered_all",
+      "market": "exacta",
+      "period": "early_2025H2",
+      "opportunities": 41398,
+      "hits": 1420,
+      "investment_yen": 4139800,
+      "returned_yen": 6628540,
+      "roi_pct": 160.11739697569928,
+      "day_bootstrap95_lower": 140.39232032075182,
+      "day_bootstrap95_upper": 184.14200626589803
+    },
+    {
+      "diagnostic": "early_positive_unordered_all",
+      "market": "trifecta",
+      "period": "early_2025H2",
+      "opportunities": 217217,
+      "hits": 2150,
+      "investment_yen": 21721700,
+      "returned_yen": 37758650,
+      "roi_pct": 173.82916622547958,
+      "day_bootstrap95_lower": 157.09274630157236,
+      "day_bootstrap95_upper": 191.662224866341
+    },
+    {
+      "diagnostic": "early_positive_unordered_HIGH_MEDplus_MED",
+      "market": "combined",
+      "period": "later_2026H1",
+      "opportunities": 152846,
+      "hits": 1052,
+      "investment_yen": 15284600,
+      "returned_yen": 9556880,
+      "roi_pct": 62.526202844693344,
+      "day_bootstrap95_lower": 52.53483876963539,
+      "day_bootstrap95_upper": 73.36836451057766
+    },
+    {
+      "diagnostic": "early_positive_unordered_HIGH_MEDplus_MED",
+      "market": "exacta",
+      "period": "later_2026H1",
+      "opportunities": 22833,
+      "hits": 460,
+      "investment_yen": 2283300,
+      "returned_yen": 1220370,
+      "roi_pct": 53.44764157140979,
+      "day_bootstrap95_lower": 46.43841424908222,
+      "day_bootstrap95_upper": 60.733530184378985
+    },
+    {
+      "diagnostic": "early_positive_unordered_HIGH_MEDplus_MED",
+      "market": "trifecta",
+      "period": "later_2026H1",
+      "opportunities": 130013,
+      "hits": 592,
+      "investment_yen": 13001300,
+      "returned_yen": 8336510,
+      "roi_pct": 64.12058794120588,
+      "day_bootstrap95_lower": 52.3002142956585,
+      "day_bootstrap95_upper": 76.87655855604808
+    },
+    {
+      "diagnostic": "early_positive_unordered_all",
+      "market": "combined",
+      "period": "later_2026H1",
+      "opportunities": 247468,
+      "hits": 1851,
+      "investment_yen": 24746800,
+      "returned_yen": 15940720,
+      "roi_pct": 64.41527793492492,
+      "day_bootstrap95_lower": 56.96662626552513,
+      "day_bootstrap95_upper": 72.54454663174775
+    },
+    {
+      "diagnostic": "early_positive_unordered_all",
+      "market": "exacta",
+      "period": "later_2026H1",
+      "opportunities": 39762,
+      "hits": 791,
+      "investment_yen": 3976200,
+      "returned_yen": 2304800,
+      "roi_pct": 57.96489110205724,
+      "day_bootstrap95_lower": 51.95196852043513,
+      "day_bootstrap95_upper": 64.3520955153925
+    },
+    {
+      "diagnostic": "early_positive_unordered_all",
+      "market": "trifecta",
+      "period": "later_2026H1",
+      "opportunities": 207706,
+      "hits": 1060,
+      "investment_yen": 20770600,
+      "returned_yen": 13635920,
+      "roi_pct": 65.65010158589546,
+      "day_bootstrap95_lower": 56.71377542625853,
+      "day_bootstrap95_upper": 75.34780718045019
+    }
+  ],
+  "classification": "Same primary exacta_band; all unordered sets include all2! or3! orders before selecting by early-period aggregate returns.",
+  "production_changed": false,
+  "adopted_policy": false,
+  "crosscheck": "All selected HIGH/MED+/MED cell totals equal independent full-book replay."
+}

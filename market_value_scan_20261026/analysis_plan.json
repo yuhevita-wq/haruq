@@ -1,0 +1,22 @@
+{
+  "task": "Compare all exacta/trifecta rank patterns and reporting price bands; assess actual price-weighted returns and temporal persistence without prescribing a formation.",
+  "created_date_jst": "2026-10-26",
+  "model": "eligible_train_ndcg3",
+  "model_sha256": "1a9e9d1ab0e0534a0413e278428b55736c1d783a0565300f296d9c0174b9fe6c",
+  "source_record_commit": "a6c9a471a41fd00b2fef13cd1bcfe95600b4e7a1",
+  "early_period": "2025-07-01 through 2025-12-31",
+  "later_period": "2026-01-01 through 2026-06-30",
+  "shared_universe": "Only races with complete validated exacta AND trifecta books and frozen-model predictions; never zero-fill missing prices.",
+  "rank_patterns": "All distinct rank pairs and triples for every rider count present. No favorite formation, head fixation or preset ticket count.",
+  "reporting_bins_upper": [4, 10, 20, 50, 100, 200, 500, 1000],
+  "classification": "Primary exacta_band for both markets; separate native trifecta_band as a sensitivity view. Do not merge schemes.",
+  "returns": "Direct observed return: sum of winning ticket odds / candidate opportunities. Do not multiply pooled hit frequency by mean candidate odds.",
+  "persistence_diagnostic": "Freeze every primary-scheme cell with early-period observed ROI>100%; report later-period performance of ALL such cells. No sample-size cutoff, no cherry-picking of later winners, no added selection filter. This is a descriptive diagnostic, not an adopted purchase policy.",
+  "all_cell_output": "Include early/later opportunities, wins, realized ROI and largest-single-win share for all observed cells, including losing and zero-hit cells.",
+  "followup_exploration": "After the ordered-pattern comparison, pool all2! or3! orders of every unordered rank-member set. Compare every set and price band and repeat the early-positive persistence diagnostic. This additional view is exploratory, not an untouched test or a chosen formation.",
+  "pooled_output": "Price-band results for all candidates and HIGH/MED+/MED candidates; also retain classification, rider-count and price cross-tabs.",
+  "uncertainty": "5000 resamples of whole race days within each half-year; seed20261026. Conditional on the fixed historical data and early-period diagnostic mask; no claim of fresh untouched validation.",
+  "control": "Replay the unchanged current research rule: HIGH gap>=1 exacta4, S3-HIGH gap>=2 trifecta6,100yen per ticket, whole race skipped if any of exacta4 odds<=4. No policy edits.",
+  "production_changed": false,
+  "limitations": ["All periods have been viewed before; this is historical temporal consistency analysis, not newly independent proof.", "Final quotes only, not purchase-time odds.", "135k-style cell searches create severe multiple-comparison and sparse-event risks; positive cells alone are not adoption evidence.", "LOW here is a control band of the same research model, not the separate Ura model."]
+}

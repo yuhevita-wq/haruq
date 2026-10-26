@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "all_ordered_cells": 53686,
+  "independent_export_to_full_book_persistence_reconciliations": 8,
+  "unordered_checks": "All selected HIGH/MED+/MED cell totals equal independent full-book replay.",
+  "unchanged_control_investment": 318000,
+  "unchanged_control_return": 266350,
+  "monetary_positive_boundary_checked": true,
+  "primary_native_trifecta_totals_match": true,
+  "unobserved_future_not_inferred_from_zero_hits": true,
+  "production_changed": false
+}
