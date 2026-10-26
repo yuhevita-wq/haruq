@@ -33,6 +33,39 @@ def export_result(source: Path, directory: Path, run_id: str, commit: str):
         raise ValueError("Published tickets differ from policy output")
     if value.get("total_yen") != value["s3_policy"]["approved_total_yen"]:
         raise ValueError("Published monetary total inconsistent")
+    if value.get("grade") == "F1":
+        proof = value.get("meeting_day") or {}
+        policy = value["s3_policy"]
+        if policy.get("f1_final_day_policy") is not True:
+            raise ValueError("F1 confirmed final-day policy is absent")
+        bets = value["bets"]
+        rank = value.get("ranked") or []
+        if len(rank) < 4:
+            raise ValueError("Not enough frozen ranked riders for F1")
+        verified = proof.get("status") == "confirmed" and proof.get("is_final_day") is True
+        score = float(value["confidence"])
+        should_buy = verified and score >= 1.5
+        should_buy_tri = should_buy and score >= 2.0
+        expected_exacta = [str(rank[0]["bike"]) + ">" + str(rank[i]["bike"]) for i in (1,2)]
+        if should_buy:
+            if (bets["exacta"]["tickets"] != expected_exacta
+                    or bets["exacta"]["total_yen"] != 1000
+                    or bets["exacta"]["stake_per_ticket_yen"] != 500):
+                raise ValueError("F1 2-ticket exacta differs from frozen ranks")
+        elif bets["exacta"]["tickets"] or bets["exacta"]["total_yen"]:
+            raise ValueError("Unconfirmed/non-final or score-under-1.5 F1 purchase")
+        if should_buy_tri:
+            from itertools import permutations
+            expected_tri = [
+                str(rank[0]["bike"]) + ">" + str(rank[b]["bike"]) + ">" + str(rank[c]["bike"])
+                for b,c in permutations((1,2,3),2)
+            ]
+            if (bets["trifecta"]["tickets"] != expected_tri
+                    or bets["trifecta"]["total_yen"] != 3000
+                    or bets["trifecta"]["stake_per_ticket_yen"] != 500):
+                raise ValueError("F1 S3-HIGH 6-ticket formation differs from frozen ranks")
+        elif bets["trifecta"]["tickets"] or bets["trifecta"]["total_yen"]:
+            raise ValueError("F1 trifecta must be skipped outside final-day HIGH gap>=2")
     if value.get("grade") == "F2":
         proof = value.get("meeting_day") or {}
         policy = value["s3_policy"]
