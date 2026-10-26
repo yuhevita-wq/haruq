@@ -37,7 +37,8 @@ for score,ex_orig,tri_orig in [(0.49,0,0),(0.5,100,0),(0.8,200,0),
     assert orig["exacta"]["stake_per_ticket_yen"]==ex_orig
     assert orig["trifecta"]["stake_per_ticket_yen"]==tri_orig
     before=repr(orig)
-    decision=apply_user_policy(orig)
+    # G-grade purchase decision must remain unchanged under V5.
+    decision=apply_user_policy(orig,grade="G3",score_gap=score)
     assert repr(orig)==before
     assert decision["policy_version"]==POLICY_VERSION
     assert decision["name"]==DISPLAY_NAME=="ハルキュー"
@@ -50,6 +51,33 @@ for score,ex_orig,tri_orig in [(0.49,0,0),(0.5,100,0),(0.8,200,0),
     assert decision["trifecta_high_only"] and decision["exacta_high_only"]
     if score>=2.0:assert decision["approved_bets"]["trifecta"]["tickets"]==expected_tri
     if score<1.0:assert decision["approved_bets"]["exacta"]["tickets"]==[]
+
+# F1 only: user explicitly approved 2026-10-26.
+# The raw March21 model ticket generator remains unchanged.
+for score in (0.49,0.5,1.0,1.499999,1.5,1.999999,2.0,2.5):
+    old=strict_tickets(ordered,score,"F1")
+    old_raw=repr(old)
+    for final_day in (True,False,None):
+        proof={"status":"confirmed" if final_day is not None else "unverified",
+               "is_final_day":final_day}
+        approved=apply_user_policy(old,grade="F1",score_gap=score,meeting_day=proof)
+        assert old_raw==repr(old)
+        assert approved["policy_version"]==POLICY_VERSION
+        assert approved["f1_final_day_policy"] is True
+        should_exacta=final_day is True and score>=1.5
+        should_tri=should_exacta and score>=2.
+        picks=approved["approved_bets"]
+        assert picks["exacta"]["tickets"]==(["5>3","5>7"] if should_exacta else [])
+        assert picks["exacta"]["points"]==(2 if should_exacta else 0)
+        assert picks["exacta"]["total_yen"]==(1000 if should_exacta else 0)
+        assert picks["trifecta"]["tickets"]==(expected_tri if should_tri else [])
+        assert picks["trifecta"]["points"]==(6 if should_tri else 0)
+        assert picks["trifecta"]["total_yen"]==(3000 if should_tri else 0)
+        assert approved["approved_total_yen"]==((1000 if should_exacta else 0)+(3000 if should_tri else 0))
+    no_source=apply_user_policy(old,grade="F1",score_gap=score,
+                                meeting_day={"status":"unverified","is_final_day":True})
+    assert no_source["approved_total_yen"]==0
+print("HARUQ_F1_FINAL_V5_CONDITIONS_PASSED")
 
 # The sole explicit production purchase change, approved 2026-10-26:
 # F2 confirmed final day AND score gap >= 2.0 -> exacta model-rank 1 to 3,4,
@@ -107,6 +135,6 @@ for title in ("ガールズ一般","ガールズ決勝"):
         assert "ガールズ" in str(e)
 print("HARUQ_GIRLS_FAIL_CLOSED_PASSED")
 
-print("HARUQ_HIGH_F2_FINAL_V4_TESTS_PASSED")
+print("HARUQ_HIGH_F1_F2_FINAL_V5_TESTS_PASSED")
 print("HARUQ_USER_POLICY_TESTS_PASSED")
 print("FLAGSHIP_FIXED_LOGIC_TESTS_PASSED")
