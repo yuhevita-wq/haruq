@@ -1,0 +1,4851 @@
+{
+  "method": "Read-only frozen HaruQ F2 HIGH, confirmed final days, outcomes and 500yen-per-ticket actual dividends",
+  "counts": {
+    "eligible_F2_finalday": {
+      "races": 448,
+      "tickets": 2380,
+      "stake": 1190000,
+      "paid": 1143500,
+      "profit": -46500,
+      "roi_pct": 96.092,
+      "hit_tickets": 283
+    },
+    "date_range": [
+      "2026-01-01",
+      "2026-03-28"
+    ],
+    "baseline_monthly": {
+      "2026-01": {
+        "races": 194,
+        "tickets": 986,
+        "stake": 493000,
+        "paid": 584750,
+        "profit": 91750,
+        "roi_pct": 118.611,
+        "hit_tickets": 125
+      },
+      "2026-02": {
+        "races": 137,
+        "tickets": 782,
+        "stake": 391000,
+        "paid": 303950,
+        "profit": -87050,
+        "roi_pct": 77.737,
+        "hit_tickets": 86
+      },
+      "2026-03": {
+        "races": 117,
+        "tickets": 612,
+        "stake": 306000,
+        "paid": 254800,
+        "profit": -51200,
+        "roi_pct": 83.268,
+        "hit_tickets": 72
+      }
+    },
+    "exacta_slots": {
+      "1": {
+        "all": {
+          "races": 448,
+          "tickets": 448,
+          "stake": 224000,
+          "paid": 175350,
+          "profit": -48650,
+          "roi_pct": 78.281,
+          "hit_tickets": 115
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 194,
+            "tickets": 194,
+            "stake": 97000,
+            "paid": 79250,
+            "profit": -17750,
+            "roi_pct": 81.701,
+            "hit_tickets": 49
+          },
+          "2026-02": {
+            "races": 137,
+            "tickets": 137,
+            "stake": 68500,
+            "paid": 50600,
+            "profit": -17900,
+            "roi_pct": 73.869,
+            "hit_tickets": 34
+          },
+          "2026-03": {
+            "races": 117,
+            "tickets": 117,
+            "stake": 58500,
+            "paid": 45500,
+            "profit": -13000,
+            "roi_pct": 77.778,
+            "hit_tickets": 32
+          }
+        },
+        "by_market": {
+          "exacta": {
+            "races": 448,
+            "tickets": 448,
+            "stake": 224000,
+            "paid": 175350,
+            "profit": -48650,
+            "roi_pct": 78.281,
+            "hit_tickets": 115
+          },
+          "trifecta": {
+            "races": 0,
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hit_tickets": 0
+          }
+        }
+      },
+      "2": {
+        "all": {
+          "races": 448,
+          "tickets": 448,
+          "stake": 224000,
+          "paid": 248600,
+          "profit": 24600,
+          "roi_pct": 110.982,
+          "hit_tickets": 63
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 194,
+            "tickets": 194,
+            "stake": 97000,
+            "paid": 139450,
+            "profit": 42450,
+            "roi_pct": 143.763,
+            "hit_tickets": 29
+          },
+          "2026-02": {
+            "races": 137,
+            "tickets": 137,
+            "stake": 68500,
+            "paid": 72050,
+            "profit": 3550,
+            "roi_pct": 105.182,
+            "hit_tickets": 24
+          },
+          "2026-03": {
+            "races": 117,
+            "tickets": 117,
+            "stake": 58500,
+            "paid": 37100,
+            "profit": -21400,
+            "roi_pct": 63.419,
+            "hit_tickets": 10
+          }
+        },
+        "by_market": {
+          "exacta": {
+            "races": 448,
+            "tickets": 448,
+            "stake": 224000,
+            "paid": 248600,
+            "profit": 24600,
+            "roi_pct": 110.982,
+            "hit_tickets": 63
+          },
+          "trifecta": {
+            "races": 0,
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hit_tickets": 0
+          }
+        }
+      },
+      "3": {
+        "all": {
+          "races": 448,
+          "tickets": 448,
+          "stake": 224000,
+          "paid": 244250,
+          "profit": 20250,
+          "roi_pct": 109.04,
+          "hit_tickets": 47
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 194,
+            "tickets": 194,
+            "stake": 97000,
+            "paid": 101200,
+            "profit": 4200,
+            "roi_pct": 104.33,
+            "hit_tickets": 21
+          },
+          "2026-02": {
+            "races": 137,
+            "tickets": 137,
+            "stake": 68500,
+            "paid": 56900,
+            "profit": -11600,
+            "roi_pct": 83.066,
+            "hit_tickets": 12
+          },
+          "2026-03": {
+            "races": 117,
+            "tickets": 117,
+            "stake": 58500,
+            "paid": 86150,
+            "profit": 27650,
+            "roi_pct": 147.265,
+            "hit_tickets": 14
+          }
+        },
+        "by_market": {
+          "exacta": {
+            "races": 448,
+            "tickets": 448,
+            "stake": 224000,
+            "paid": 244250,
+            "profit": 20250,
+            "roi_pct": 109.04,
+            "hit_tickets": 47
+          },
+          "trifecta": {
+            "races": 0,
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hit_tickets": 0
+          }
+        }
+      },
+      "4": {
+        "all": {
+          "races": 448,
+          "tickets": 448,
+          "stake": 224000,
+          "paid": 249500,
+          "profit": 25500,
+          "roi_pct": 111.384,
+          "hit_tickets": 30
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 194,
+            "tickets": 194,
+            "stake": 97000,
+            "paid": 123600,
+            "profit": 26600,
+            "roi_pct": 127.423,
+            "hit_tickets": 15
+          },
+          "2026-02": {
+            "races": 137,
+            "tickets": 137,
+            "stake": 68500,
+            "paid": 86000,
+            "profit": 17500,
+            "roi_pct": 125.547,
+            "hit_tickets": 8
+          },
+          "2026-03": {
+            "races": 117,
+            "tickets": 117,
+            "stake": 58500,
+            "paid": 39900,
+            "profit": -18600,
+            "roi_pct": 68.205,
+            "hit_tickets": 7
+          }
+        },
+        "by_market": {
+          "exacta": {
+            "races": 448,
+            "tickets": 448,
+            "stake": 224000,
+            "paid": 249500,
+            "profit": 25500,
+            "roi_pct": 111.384,
+            "hit_tickets": 30
+          },
+          "trifecta": {
+            "races": 0,
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hit_tickets": 0
+          }
+        }
+      }
+    },
+    "trifecta_slots": {
+      "1": {
+        "all": {
+          "races": 98,
+          "tickets": 98,
+          "stake": 49000,
+          "paid": 33750,
+          "profit": -15250,
+          "roi_pct": 68.878,
+          "hit_tickets": 11
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 35,
+            "tickets": 35,
+            "stake": 17500,
+            "paid": 22100,
+            "profit": 4600,
+            "roi_pct": 126.286,
+            "hit_tickets": 6
+          },
+          "2026-02": {
+            "races": 39,
+            "tickets": 39,
+            "stake": 19500,
+            "paid": 5950,
+            "profit": -13550,
+            "roi_pct": 30.513,
+            "hit_tickets": 3
+          },
+          "2026-03": {
+            "races": 24,
+            "tickets": 24,
+            "stake": 12000,
+            "paid": 5700,
+            "profit": -6300,
+            "roi_pct": 47.5,
+            "hit_tickets": 2
+          }
+        },
+        "by_market": {
+          "exacta": {
+            "races": 0,
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hit_tickets": 0
+          },
+          "trifecta": {
+            "races": 98,
+            "tickets": 98,
+            "stake": 49000,
+            "paid": 33750,
+            "profit": -15250,
+            "roi_pct": 68.878,
+            "hit_tickets": 11
+          }
+        }
+      },
+      "2": {
+        "all": {
+          "races": 98,
+          "tickets": 98,
+          "stake": 49000,
+          "paid": 17700,
+          "profit": -31300,
+          "roi_pct": 36.122,
+          "hit_tickets": 6
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 35,
+            "tickets": 35,
+            "stake": 17500,
+            "paid": 12100,
+            "profit": -5400,
+            "roi_pct": 69.143,
+            "hit_tickets": 2
+          },
+          "2026-02": {
+            "races": 39,
+            "tickets": 39,
+            "stake": 19500,
+            "paid": 4800,
+            "profit": -14700,
+            "roi_pct": 24.615,
+            "hit_tickets": 3
+          },
+          "2026-03": {
+            "races": 24,
+            "tickets": 24,
+            "stake": 12000,
+            "paid": 800,
+            "profit": -11200,
+            "roi_pct": 6.667,
+            "hit_tickets": 1
+          }
+        },
+        "by_market": {
+          "exacta": {
+            "races": 0,
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hit_tickets": 0
+          },
+          "trifecta": {
+            "races": 98,
+            "tickets": 98,
+            "stake": 49000,
+            "paid": 17700,
+            "profit": -31300,
+            "roi_pct": 36.122,
+            "hit_tickets": 6
+          }
+        }
+      },
+      "3": {
+        "all": {
+          "races": 98,
+          "tickets": 98,
+          "stake": 49000,
+          "paid": 3550,
+          "profit": -45450,
+          "roi_pct": 7.245,
+          "hit_tickets": 1
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 35,
+            "tickets": 35,
+            "stake": 17500,
+            "paid": 0,
+            "profit": -17500,
+            "roi_pct": 0.0,
+            "hit_tickets": 0
+          },
+          "2026-02": {
+            "races": 39,
+            "tickets": 39,
+            "stake": 19500,
+            "paid": 0,
+            "profit": -19500,
+            "roi_pct": 0.0,
+            "hit_tickets": 0
+          },
+          "2026-03": {
+            "races": 24,
+            "tickets": 24,
+            "stake": 12000,
+            "paid": 3550,
+            "profit": -8450,
+            "roi_pct": 29.583,
+            "hit_tickets": 1
+          }
+        },
+        "by_market": {
+          "exacta": {
+            "races": 0,
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hit_tickets": 0
+          },
+          "trifecta": {
+            "races": 98,
+            "tickets": 98,
+            "stake": 49000,
+            "paid": 3550,
+            "profit": -45450,
+            "roi_pct": 7.245,
+            "hit_tickets": 1
+          }
+        }
+      },
+      "4": {
+        "all": {
+          "races": 98,
+          "tickets": 98,
+          "stake": 49000,
+          "paid": 54150,
+          "profit": 5150,
+          "roi_pct": 110.51,
+          "hit_tickets": 1
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 35,
+            "tickets": 35,
+            "stake": 17500,
+            "paid": 54150,
+            "profit": 36650,
+            "roi_pct": 309.429,
+            "hit_tickets": 1
+          },
+          "2026-02": {
+            "races": 39,
+            "tickets": 39,
+            "stake": 19500,
+            "paid": 0,
+            "profit": -19500,
+            "roi_pct": 0.0,
+            "hit_tickets": 0
+          },
+          "2026-03": {
+            "races": 24,
+            "tickets": 24,
+            "stake": 12000,
+            "paid": 0,
+            "profit": -12000,
+            "roi_pct": 0.0,
+            "hit_tickets": 0
+          }
+        },
+        "by_market": {
+          "exacta": {
+            "races": 0,
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hit_tickets": 0
+          },
+          "trifecta": {
+            "races": 98,
+            "tickets": 98,
+            "stake": 49000,
+            "paid": 54150,
+            "profit": 5150,
+            "roi_pct": 110.51,
+            "hit_tickets": 1
+          }
+        }
+      },
+      "5": {
+        "all": {
+          "races": 98,
+          "tickets": 98,
+          "stake": 49000,
+          "paid": 62150,
+          "profit": 13150,
+          "roi_pct": 126.837,
+          "hit_tickets": 4
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 35,
+            "tickets": 35,
+            "stake": 17500,
+            "paid": 40450,
+            "profit": 22950,
+            "roi_pct": 231.143,
+            "hit_tickets": 1
+          },
+          "2026-02": {
+            "races": 39,
+            "tickets": 39,
+            "stake": 19500,
+            "paid": 0,
+            "profit": -19500,
+            "roi_pct": 0.0,
+            "hit_tickets": 0
+          },
+          "2026-03": {
+            "races": 24,
+            "tickets": 24,
+            "stake": 12000,
+            "paid": 21700,
+            "profit": 9700,
+            "roi_pct": 180.833,
+            "hit_tickets": 3
+          }
+        },
+        "by_market": {
+          "exacta": {
+            "races": 0,
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hit_tickets": 0
+          },
+          "trifecta": {
+            "races": 98,
+            "tickets": 98,
+            "stake": 49000,
+            "paid": 62150,
+            "profit": 13150,
+            "roi_pct": 126.837,
+            "hit_tickets": 4
+          }
+        }
+      },
+      "6": {
+        "all": {
+          "races": 98,
+          "tickets": 98,
+          "stake": 49000,
+          "paid": 54500,
+          "profit": 5500,
+          "roi_pct": 111.224,
+          "hit_tickets": 5
+        },
+        "monthly": {
+          "2026-01": {
+            "races": 35,
+            "tickets": 35,
+            "stake": 17500,
+            "paid": 12450,
+            "profit": -5050,
+            "roi_pct": 71.143,
+            "hit_tickets": 1
+          },
+          "2026-02": {
+            "races": 39,
+            "tickets": 39,
+            "stake": 19500,
+            "paid": 27650,
+            "profit": 8150,
+            "roi_pct": 141.795,
+            "hit_tickets": 2
+          },
+          "2026-03": {
+            "races": 24,
+            "tickets": 24,
+            "stake": 12000,
+            "paid": 14400,
+            "profit": 2400,
+            "roi_pct": 120.0,
+            "hit_tickets": 2
+          }
+        },
+        "by_market": {
+          "exacta": {
+            "races": 0,
+            "tickets": 0,
+            "stake": 0,
+            "paid": 0,
+            "profit": 0,
+            "roi_pct": null,
+            "hit_tickets": 0
+          },
+          "trifecta": {
+            "races": 98,
+            "tickets": 98,
+            "stake": 49000,
+            "paid": 54500,
+            "profit": 5500,
+            "roi_pct": 111.224,
+            "hit_tickets": 5
+          }
+        }
+      }
+    },
+    "nonfinal_baseline": {
+      "races": 4343,
+      "tickets": 24188,
+      "stake": 12094000,
+      "paid": 11324000,
+      "profit": -770000,
+      "roi_pct": 93.633,
+      "hit_tickets": 3272
+    },
+    "months": [
+      "2026-01",
+      "2026-02",
+      "2026-03"
+    ]
+  },
+  "candidate_family": {
+    "exacta": {
+      "E0_none": [],
+      "E1_rank2": [
+        1
+      ],
+      "E2_rank3": [
+        2
+      ],
+      "E3_rank4": [
+        3
+      ],
+      "E4_rank5": [
+        4
+      ],
+      "E12_rank2_3": [
+        1,
+        2
+      ],
+      "E13_rank2_4": [
+        1,
+        3
+      ],
+      "E14_rank2_5": [
+        1,
+        4
+      ],
+      "E23_rank3_4": [
+        2,
+        3
+      ],
+      "E24_rank3_5": [
+        2,
+        4
+      ],
+      "E34_rank4_5": [
+        3,
+        4
+      ],
+      "E123_rank2_3_4": [
+        1,
+        2,
+        3
+      ],
+      "E124_rank2_3_5": [
+        1,
+        2,
+        4
+      ],
+      "E134_rank2_4_5": [
+        1,
+        3,
+        4
+      ],
+      "E234_rank3_4_5": [
+        2,
+        3,
+        4
+      ],
+      "E1234_all": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "trifecta": {
+      "T0_none": [],
+      "T_all6": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "T_first3": [
+        1,
+        2,
+        3
+      ],
+      "T_last3": [
+        4,
+        5,
+        6
+      ],
+      "T_12": [
+        1,
+        2
+      ],
+      "T_34": [
+        3,
+        4
+      ],
+      "T_56": [
+        5,
+        6
+      ],
+      "T_135": [
+        1,
+        3,
+        5
+      ],
+      "T_246": [
+        2,
+        4,
+        6
+      ],
+      "T_1234": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "T_3456": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "T_reciprocal23": [
+        1,
+        3
+      ],
+      "T_reciprocal24": [
+        2,
+        5
+      ],
+      "T_reciprocal34": [
+        4,
+        6
+      ]
+    },
+    "floor": [
+      1,
+      1.25,
+      1.5,
+      2
+    ],
+    "evaluated": 853,
+    "JanFeb_min_stake": 30000,
+    "March_check_status": "The same historical holdout previously inspected; not independent untouched out-of-sample"
+  },
+  "top_20_discovery_JanFeb": [
+    {
+      "exacta_rule": "E2_rank3",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 2.0,
+      "overall": {
+        "races": 98,
+        "tickets": 98,
+        "stake": 49000,
+        "paid": 73250,
+        "profit": 24250,
+        "roi_pct": 149.49,
+        "hit_tickets": 19
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 35,
+          "tickets": 35,
+          "stake": 17500,
+          "paid": 33450,
+          "profit": 15950,
+          "roi_pct": 191.143,
+          "hit_tickets": 5
+        },
+        "2026-02": {
+          "races": 39,
+          "tickets": 39,
+          "stake": 19500,
+          "paid": 22350,
+          "profit": 2850,
+          "roi_pct": 114.615,
+          "hit_tickets": 10
+        },
+        "2026-03": {
+          "races": 24,
+          "tickets": 24,
+          "stake": 12000,
+          "paid": 17450,
+          "profit": 5450,
+          "roi_pct": 145.417,
+          "hit_tickets": 4
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 74,
+        "tickets": 74,
+        "stake": 37000,
+        "paid": 55800,
+        "profit": 18800,
+        "roi_pct": 150.811,
+        "hit_tickets": 15
+      },
+      "check_Mar": {
+        "races": 24,
+        "tickets": 24,
+        "stake": 12000,
+        "paid": 17450,
+        "profit": 5450,
+        "roi_pct": 145.417,
+        "hit_tickets": 4
+      },
+      "win_payout_concentration": 19.66
+    },
+    {
+      "exacta_rule": "E4_rank5",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 213,
+        "stake": 106500,
+        "paid": 136600,
+        "profit": 30100,
+        "roi_pct": 128.263,
+        "hit_tickets": 13
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 82,
+          "stake": 41000,
+          "paid": 67100,
+          "profit": 26100,
+          "roi_pct": 163.659,
+          "hit_tickets": 7
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 79,
+          "stake": 39500,
+          "paid": 48950,
+          "profit": 9450,
+          "roi_pct": 123.924,
+          "hit_tickets": 4
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 52,
+          "stake": 26000,
+          "paid": 20550,
+          "profit": -5450,
+          "roi_pct": 79.038,
+          "hit_tickets": 2
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 161,
+        "stake": 80500,
+        "paid": 116050,
+        "profit": 35550,
+        "roi_pct": 144.161,
+        "hit_tickets": 11
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 52,
+        "stake": 26000,
+        "paid": 20550,
+        "profit": -5450,
+        "roi_pct": 79.038,
+        "hit_tickets": 2
+      },
+      "win_payout_concentration": 23.43
+    },
+    {
+      "exacta_rule": "E4_rank5",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 409,
+        "stake": 204500,
+        "paid": 245250,
+        "profit": 40750,
+        "roi_pct": 119.927,
+        "hit_tickets": 19
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 152,
+          "stake": 76000,
+          "paid": 133700,
+          "profit": 57700,
+          "roi_pct": 175.921,
+          "hit_tickets": 9
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 157,
+          "stake": 78500,
+          "paid": 76600,
+          "profit": -1900,
+          "roi_pct": 97.58,
+          "hit_tickets": 6
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 100,
+          "stake": 50000,
+          "paid": 34950,
+          "profit": -15050,
+          "roi_pct": 69.9,
+          "hit_tickets": 4
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 309,
+        "stake": 154500,
+        "paid": 210300,
+        "profit": 55800,
+        "roi_pct": 136.117,
+        "hit_tickets": 15
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 100,
+        "stake": 50000,
+        "paid": 34950,
+        "profit": -15050,
+        "roi_pct": 69.9,
+        "hit_tickets": 4
+      },
+      "win_payout_concentration": 22.08
+    },
+    {
+      "exacta_rule": "E2_rank3",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 2.0,
+      "overall": {
+        "races": 98,
+        "tickets": 294,
+        "stake": 147000,
+        "paid": 181900,
+        "profit": 34900,
+        "roi_pct": 123.741,
+        "hit_tickets": 25
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 35,
+          "tickets": 105,
+          "stake": 52500,
+          "paid": 100050,
+          "profit": 47550,
+          "roi_pct": 190.571,
+          "hit_tickets": 7
+        },
+        "2026-02": {
+          "races": 39,
+          "tickets": 117,
+          "stake": 58500,
+          "paid": 50000,
+          "profit": -8500,
+          "roi_pct": 85.47,
+          "hit_tickets": 12
+        },
+        "2026-03": {
+          "races": 24,
+          "tickets": 72,
+          "stake": 36000,
+          "paid": 31850,
+          "profit": -4150,
+          "roi_pct": 88.472,
+          "hit_tickets": 6
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 74,
+        "tickets": 222,
+        "stake": 111000,
+        "paid": 150050,
+        "profit": 39050,
+        "roi_pct": 135.18,
+        "hit_tickets": 19
+      },
+      "check_Mar": {
+        "races": 24,
+        "tickets": 72,
+        "stake": 36000,
+        "paid": 31850,
+        "profit": -4150,
+        "roi_pct": 88.472,
+        "hit_tickets": 6
+      },
+      "win_payout_concentration": 29.77
+    },
+    {
+      "exacta_rule": "E24_rank3_5",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 426,
+        "stake": 213000,
+        "paid": 253550,
+        "profit": 40550,
+        "roi_pct": 119.038,
+        "hit_tickets": 47
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 164,
+          "stake": 82000,
+          "paid": 122300,
+          "profit": 40300,
+          "roi_pct": 149.146,
+          "hit_tickets": 20
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 158,
+          "stake": 79000,
+          "paid": 91350,
+          "profit": 12350,
+          "roi_pct": 115.633,
+          "hit_tickets": 20
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 104,
+          "stake": 52000,
+          "paid": 39900,
+          "profit": -12100,
+          "roi_pct": 76.731,
+          "hit_tickets": 7
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 322,
+        "stake": 161000,
+        "paid": 213650,
+        "profit": 52650,
+        "roi_pct": 132.702,
+        "hit_tickets": 40
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 104,
+        "stake": 52000,
+        "paid": 39900,
+        "profit": -12100,
+        "roi_pct": 76.731,
+        "hit_tickets": 7
+      },
+      "win_payout_concentration": 12.62
+    },
+    {
+      "exacta_rule": "E23_rank3_4",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 2.0,
+      "overall": {
+        "races": 98,
+        "tickets": 196,
+        "stake": 98000,
+        "paid": 140750,
+        "profit": 42750,
+        "roi_pct": 143.622,
+        "hit_tickets": 34
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 35,
+          "tickets": 70,
+          "stake": 35000,
+          "paid": 54400,
+          "profit": 19400,
+          "roi_pct": 155.429,
+          "hit_tickets": 9
+        },
+        "2026-02": {
+          "races": 39,
+          "tickets": 78,
+          "stake": 39000,
+          "paid": 42750,
+          "profit": 3750,
+          "roi_pct": 109.615,
+          "hit_tickets": 14
+        },
+        "2026-03": {
+          "races": 24,
+          "tickets": 48,
+          "stake": 24000,
+          "paid": 43600,
+          "profit": 19600,
+          "roi_pct": 181.667,
+          "hit_tickets": 11
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 74,
+        "tickets": 148,
+        "stake": 74000,
+        "paid": 97150,
+        "profit": 23150,
+        "roi_pct": 131.284,
+        "hit_tickets": 23
+      },
+      "check_Mar": {
+        "races": 24,
+        "tickets": 48,
+        "stake": 24000,
+        "paid": 43600,
+        "profit": 19600,
+        "roi_pct": 181.667,
+        "hit_tickets": 11
+      },
+      "win_payout_concentration": 10.23
+    },
+    {
+      "exacta_rule": "E24_rank3_5",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 622,
+        "stake": 311000,
+        "paid": 362200,
+        "profit": 51200,
+        "roi_pct": 116.463,
+        "hit_tickets": 53
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 234,
+          "stake": 117000,
+          "paid": 188900,
+          "profit": 71900,
+          "roi_pct": 161.453,
+          "hit_tickets": 22
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 236,
+          "stake": 118000,
+          "paid": 119000,
+          "profit": 1000,
+          "roi_pct": 100.847,
+          "hit_tickets": 22
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 152,
+          "stake": 76000,
+          "paid": 54300,
+          "profit": -21700,
+          "roi_pct": 71.447,
+          "hit_tickets": 9
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 470,
+        "stake": 235000,
+        "paid": 307900,
+        "profit": 72900,
+        "roi_pct": 131.021,
+        "hit_tickets": 44
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 152,
+        "stake": 76000,
+        "paid": 54300,
+        "profit": -21700,
+        "roi_pct": 71.447,
+        "hit_tickets": 9
+      },
+      "win_payout_concentration": 14.95
+    },
+    {
+      "exacta_rule": "E4_rank5",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 507,
+        "stake": 253500,
+        "paid": 307400,
+        "profit": 53900,
+        "roi_pct": 121.262,
+        "hit_tickets": 23
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 187,
+          "stake": 93500,
+          "paid": 174150,
+          "profit": 80650,
+          "roi_pct": 186.257,
+          "hit_tickets": 10
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 196,
+          "stake": 98000,
+          "paid": 76600,
+          "profit": -21400,
+          "roi_pct": 78.163,
+          "hit_tickets": 6
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 124,
+          "stake": 62000,
+          "paid": 56650,
+          "profit": -5350,
+          "roi_pct": 91.371,
+          "hit_tickets": 7
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 383,
+        "stake": 191500,
+        "paid": 250750,
+        "profit": 59250,
+        "roi_pct": 130.94,
+        "hit_tickets": 16
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 124,
+        "stake": 62000,
+        "paid": 56650,
+        "profit": -5350,
+        "roi_pct": 91.371,
+        "hit_tickets": 7
+      },
+      "win_payout_concentration": 17.62
+    },
+    {
+      "exacta_rule": "E23_rank3_4",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 2.0,
+      "overall": {
+        "races": 98,
+        "tickets": 392,
+        "stake": 196000,
+        "paid": 249400,
+        "profit": 53400,
+        "roi_pct": 127.245,
+        "hit_tickets": 40
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 35,
+          "tickets": 140,
+          "stake": 70000,
+          "paid": 121000,
+          "profit": 51000,
+          "roi_pct": 172.857,
+          "hit_tickets": 11
+        },
+        "2026-02": {
+          "races": 39,
+          "tickets": 156,
+          "stake": 78000,
+          "paid": 70400,
+          "profit": -7600,
+          "roi_pct": 90.256,
+          "hit_tickets": 16
+        },
+        "2026-03": {
+          "races": 24,
+          "tickets": 96,
+          "stake": 48000,
+          "paid": 58000,
+          "profit": 10000,
+          "roi_pct": 120.833,
+          "hit_tickets": 13
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 74,
+        "tickets": 296,
+        "stake": 148000,
+        "paid": 191400,
+        "profit": 43400,
+        "roi_pct": 129.324,
+        "hit_tickets": 27
+      },
+      "check_Mar": {
+        "races": 24,
+        "tickets": 96,
+        "stake": 48000,
+        "paid": 58000,
+        "profit": 10000,
+        "roi_pct": 120.833,
+        "hit_tickets": 13
+      },
+      "win_payout_concentration": 21.71
+    },
+    {
+      "exacta_rule": "E2_rank3",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 2.0,
+      "overall": {
+        "races": 98,
+        "tickets": 392,
+        "stake": 196000,
+        "paid": 244050,
+        "profit": 48050,
+        "roi_pct": 124.515,
+        "hit_tickets": 29
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 35,
+          "tickets": 140,
+          "stake": 70000,
+          "paid": 140500,
+          "profit": 70500,
+          "roi_pct": 200.714,
+          "hit_tickets": 8
+        },
+        "2026-02": {
+          "races": 39,
+          "tickets": 156,
+          "stake": 78000,
+          "paid": 50000,
+          "profit": -28000,
+          "roi_pct": 64.103,
+          "hit_tickets": 12
+        },
+        "2026-03": {
+          "races": 24,
+          "tickets": 96,
+          "stake": 48000,
+          "paid": 53550,
+          "profit": 5550,
+          "roi_pct": 111.563,
+          "hit_tickets": 9
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 74,
+        "tickets": 296,
+        "stake": 148000,
+        "paid": 190500,
+        "profit": 42500,
+        "roi_pct": 128.716,
+        "hit_tickets": 20
+      },
+      "check_Mar": {
+        "races": 24,
+        "tickets": 96,
+        "stake": 48000,
+        "paid": 53550,
+        "profit": 5550,
+        "roi_pct": 111.563,
+        "hit_tickets": 9
+      },
+      "win_payout_concentration": 22.19
+    },
+    {
+      "exacta_rule": "E24_rank3_5",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 720,
+        "stake": 360000,
+        "paid": 424350,
+        "profit": 64350,
+        "roi_pct": 117.875,
+        "hit_tickets": 57
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 269,
+          "stake": 134500,
+          "paid": 229350,
+          "profit": 94850,
+          "roi_pct": 170.52,
+          "hit_tickets": 23
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 275,
+          "stake": 137500,
+          "paid": 119000,
+          "profit": -18500,
+          "roi_pct": 86.545,
+          "hit_tickets": 22
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 176,
+          "stake": 88000,
+          "paid": 76000,
+          "profit": -12000,
+          "roi_pct": 86.364,
+          "hit_tickets": 12
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 544,
+        "stake": 272000,
+        "paid": 348350,
+        "profit": 76350,
+        "roi_pct": 128.07,
+        "hit_tickets": 45
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 176,
+        "stake": 88000,
+        "paid": 76000,
+        "profit": -12000,
+        "roi_pct": 86.364,
+        "hit_tickets": 12
+      },
+      "win_payout_concentration": 12.76
+    },
+    {
+      "exacta_rule": "E2_rank3",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 448,
+        "stake": 224000,
+        "paid": 248600,
+        "profit": 24600,
+        "roi_pct": 110.982,
+        "hit_tickets": 63
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 194,
+          "stake": 97000,
+          "paid": 139450,
+          "profit": 42450,
+          "roi_pct": 143.763,
+          "hit_tickets": 29
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 137,
+          "stake": 68500,
+          "paid": 72050,
+          "profit": 3550,
+          "roi_pct": 105.182,
+          "hit_tickets": 24
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 117,
+          "stake": 58500,
+          "paid": 37100,
+          "profit": -21400,
+          "roi_pct": 63.419,
+          "hit_tickets": 10
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 331,
+        "stake": 165500,
+        "paid": 211500,
+        "profit": 46000,
+        "roi_pct": 127.795,
+        "hit_tickets": 53
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 117,
+        "stake": 58500,
+        "paid": 37100,
+        "profit": -21400,
+        "roi_pct": 63.419,
+        "hit_tickets": 10
+      },
+      "win_payout_concentration": 14.92
+    },
+    {
+      "exacta_rule": "E2_rank3",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 644,
+        "stake": 322000,
+        "paid": 357250,
+        "profit": 35250,
+        "roi_pct": 110.947,
+        "hit_tickets": 69
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 264,
+          "stake": 132000,
+          "paid": 206050,
+          "profit": 74050,
+          "roi_pct": 156.098,
+          "hit_tickets": 31
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 215,
+          "stake": 107500,
+          "paid": 99700,
+          "profit": -7800,
+          "roi_pct": 92.744,
+          "hit_tickets": 26
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 165,
+          "stake": 82500,
+          "paid": 51500,
+          "profit": -31000,
+          "roi_pct": 62.424,
+          "hit_tickets": 12
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 479,
+        "stake": 239500,
+        "paid": 305750,
+        "profit": 66250,
+        "roi_pct": 127.662,
+        "hit_tickets": 57
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 165,
+        "stake": 82500,
+        "paid": 51500,
+        "profit": -31000,
+        "roi_pct": 62.424,
+        "hit_tickets": 12
+      },
+      "win_payout_concentration": 15.16
+    },
+    {
+      "exacta_rule": "E0_none",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 2.0,
+      "overall": {
+        "races": 98,
+        "tickets": 196,
+        "stake": 98000,
+        "paid": 108650,
+        "profit": 10650,
+        "roi_pct": 110.867,
+        "hit_tickets": 6
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 35,
+          "tickets": 70,
+          "stake": 35000,
+          "paid": 66600,
+          "profit": 31600,
+          "roi_pct": 190.286,
+          "hit_tickets": 2
+        },
+        "2026-02": {
+          "races": 39,
+          "tickets": 78,
+          "stake": 39000,
+          "paid": 27650,
+          "profit": -11350,
+          "roi_pct": 70.897,
+          "hit_tickets": 2
+        },
+        "2026-03": {
+          "races": 24,
+          "tickets": 48,
+          "stake": 24000,
+          "paid": 14400,
+          "profit": -9600,
+          "roi_pct": 60.0,
+          "hit_tickets": 2
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 74,
+        "tickets": 148,
+        "stake": 74000,
+        "paid": 94250,
+        "profit": 20250,
+        "roi_pct": 127.365,
+        "hit_tickets": 4
+      },
+      "check_Mar": {
+        "races": 24,
+        "tickets": 48,
+        "stake": 24000,
+        "paid": 14400,
+        "profit": -9600,
+        "roi_pct": 60.0,
+        "hit_tickets": 2
+      },
+      "win_payout_concentration": 49.84
+    },
+    {
+      "exacta_rule": "E4_rank5",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 409,
+        "stake": 204500,
+        "paid": 253250,
+        "profit": 48750,
+        "roi_pct": 123.839,
+        "hit_tickets": 22
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 152,
+          "stake": 76000,
+          "paid": 120000,
+          "profit": 44000,
+          "roi_pct": 157.895,
+          "hit_tickets": 9
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 157,
+          "stake": 78500,
+          "paid": 76600,
+          "profit": -1900,
+          "roi_pct": 97.58,
+          "hit_tickets": 6
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 100,
+          "stake": 50000,
+          "paid": 56650,
+          "profit": 6650,
+          "roi_pct": 113.3,
+          "hit_tickets": 7
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 309,
+        "stake": 154500,
+        "paid": 196600,
+        "profit": 42100,
+        "roi_pct": 127.249,
+        "hit_tickets": 15
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 100,
+        "stake": 50000,
+        "paid": 56650,
+        "profit": 6650,
+        "roi_pct": 113.3,
+        "hit_tickets": 7
+      },
+      "win_payout_concentration": 15.97
+    },
+    {
+      "exacta_rule": "E24_rank3_5",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 1092,
+        "stake": 546000,
+        "paid": 606750,
+        "profit": 60750,
+        "roi_pct": 111.126,
+        "hit_tickets": 99
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 458,
+          "stake": 229000,
+          "paid": 329650,
+          "profit": 100650,
+          "roi_pct": 143.952,
+          "hit_tickets": 46
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 352,
+          "stake": 176000,
+          "paid": 185700,
+          "profit": 9700,
+          "roi_pct": 105.511,
+          "hit_tickets": 34
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 282,
+          "stake": 141000,
+          "paid": 91400,
+          "profit": -49600,
+          "roi_pct": 64.823,
+          "hit_tickets": 19
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 810,
+        "stake": 405000,
+        "paid": 515350,
+        "profit": 110350,
+        "roi_pct": 127.247,
+        "hit_tickets": 80
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 282,
+        "stake": 141000,
+        "paid": 91400,
+        "profit": -49600,
+        "roi_pct": 64.823,
+        "hit_tickets": 19
+      },
+      "win_payout_concentration": 8.92
+    },
+    {
+      "exacta_rule": "E24_rank3_5",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 896,
+        "stake": 448000,
+        "paid": 498100,
+        "profit": 50100,
+        "roi_pct": 111.183,
+        "hit_tickets": 93
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 388,
+          "stake": 194000,
+          "paid": 263050,
+          "profit": 69050,
+          "roi_pct": 135.593,
+          "hit_tickets": 44
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 274,
+          "stake": 137000,
+          "paid": 158050,
+          "profit": 21050,
+          "roi_pct": 115.365,
+          "hit_tickets": 32
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 234,
+          "stake": 117000,
+          "paid": 77000,
+          "profit": -40000,
+          "roi_pct": 65.812,
+          "hit_tickets": 17
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 662,
+        "stake": 331000,
+        "paid": 421100,
+        "profit": 90100,
+        "roi_pct": 127.221,
+        "hit_tickets": 76
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 234,
+        "stake": 117000,
+        "paid": 77000,
+        "profit": -40000,
+        "roi_pct": 65.812,
+        "hit_tickets": 17
+      },
+      "win_payout_concentration": 7.45
+    },
+    {
+      "exacta_rule": "E4_rank5",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 644,
+        "stake": 322000,
+        "paid": 358150,
+        "profit": 36150,
+        "roi_pct": 111.227,
+        "hit_tickets": 36
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 264,
+          "stake": 132000,
+          "paid": 190200,
+          "profit": 58200,
+          "roi_pct": 144.091,
+          "hit_tickets": 17
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 215,
+          "stake": 107500,
+          "paid": 113650,
+          "profit": 6150,
+          "roi_pct": 105.721,
+          "hit_tickets": 10
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 165,
+          "stake": 82500,
+          "paid": 54300,
+          "profit": -28200,
+          "roi_pct": 65.818,
+          "hit_tickets": 9
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 479,
+        "stake": 239500,
+        "paid": 303850,
+        "profit": 64350,
+        "roi_pct": 126.868,
+        "hit_tickets": 27
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 165,
+        "stake": 82500,
+        "paid": 54300,
+        "profit": -28200,
+        "roi_pct": 65.818,
+        "hit_tickets": 9
+      },
+      "win_payout_concentration": 15.12
+    },
+    {
+      "exacta_rule": "E4_rank5",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 448,
+        "stake": 224000,
+        "paid": 249500,
+        "profit": 25500,
+        "roi_pct": 111.384,
+        "hit_tickets": 30
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 194,
+          "stake": 97000,
+          "paid": 123600,
+          "profit": 26600,
+          "roi_pct": 127.423,
+          "hit_tickets": 15
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 137,
+          "stake": 68500,
+          "paid": 86000,
+          "profit": 17500,
+          "roi_pct": 125.547,
+          "hit_tickets": 8
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 117,
+          "stake": 58500,
+          "paid": 39900,
+          "profit": -18600,
+          "roi_pct": 68.205,
+          "hit_tickets": 7
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 331,
+        "stake": 165500,
+        "paid": 209600,
+        "profit": 44100,
+        "roi_pct": 126.647,
+        "hit_tickets": 23
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 117,
+        "stake": 58500,
+        "paid": 39900,
+        "profit": -18600,
+        "roi_pct": 68.205,
+        "hit_tickets": 7
+      },
+      "win_payout_concentration": 12.83
+    },
+    {
+      "exacta_rule": "E24_rank3_5",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 1190,
+        "stake": 595000,
+        "paid": 668900,
+        "profit": 73900,
+        "roi_pct": 112.42,
+        "hit_tickets": 103
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 493,
+          "stake": 246500,
+          "paid": 370100,
+          "profit": 123600,
+          "roi_pct": 150.142,
+          "hit_tickets": 47
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 391,
+          "stake": 195500,
+          "paid": 185700,
+          "profit": -9800,
+          "roi_pct": 94.987,
+          "hit_tickets": 34
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 306,
+          "stake": 153000,
+          "paid": 113100,
+          "profit": -39900,
+          "roi_pct": 73.922,
+          "hit_tickets": 22
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 884,
+        "stake": 442000,
+        "paid": 555800,
+        "profit": 113800,
+        "roi_pct": 125.747,
+        "hit_tickets": 81
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 306,
+        "stake": 153000,
+        "paid": 113100,
+        "profit": -39900,
+        "roi_pct": 73.922,
+        "hit_tickets": 22
+      },
+      "win_payout_concentration": 8.1
+    }
+  ],
+  "top_20_full_sample_with_100k_stake": [
+    {
+      "exacta_rule": "E3_rank4",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 320,
+        "stake": 160000,
+        "paid": 208600,
+        "profit": 48600,
+        "roi_pct": 130.375,
+        "hit_tickets": 37
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 128,
+          "stake": 64000,
+          "paid": 76800,
+          "profit": 12800,
+          "roi_pct": 120.0,
+          "hit_tickets": 15
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 107,
+          "stake": 53500,
+          "paid": 47300,
+          "profit": -6200,
+          "roi_pct": 88.411,
+          "hit_tickets": 9
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 85,
+          "stake": 42500,
+          "paid": 84500,
+          "profit": 42000,
+          "roi_pct": 198.824,
+          "hit_tickets": 13
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 235,
+        "stake": 117500,
+        "paid": 124100,
+        "profit": 6600,
+        "roi_pct": 105.617,
+        "hit_tickets": 24
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 85,
+        "stake": 42500,
+        "paid": 84500,
+        "profit": 42000,
+        "roi_pct": 198.824,
+        "hit_tickets": 13
+      },
+      "win_payout_concentration": 15.48
+    },
+    {
+      "exacta_rule": "E3_rank4",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 213,
+        "stake": 106500,
+        "paid": 138450,
+        "profit": 31950,
+        "roi_pct": 130.0,
+        "hit_tickets": 24
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 82,
+          "stake": 41000,
+          "paid": 39550,
+          "profit": -1450,
+          "roi_pct": 96.463,
+          "hit_tickets": 8
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 79,
+          "stake": 39500,
+          "paid": 26400,
+          "profit": -13100,
+          "roi_pct": 66.835,
+          "hit_tickets": 6
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 52,
+          "stake": 26000,
+          "paid": 72500,
+          "profit": 46500,
+          "roi_pct": 278.846,
+          "hit_tickets": 10
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 161,
+        "stake": 80500,
+        "paid": 65950,
+        "profit": -14550,
+        "roi_pct": 81.925,
+        "hit_tickets": 14
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 52,
+        "stake": 26000,
+        "paid": 72500,
+        "profit": 46500,
+        "roi_pct": 278.846,
+        "hit_tickets": 10
+      },
+      "win_payout_concentration": 23.33
+    },
+    {
+      "exacta_rule": "E34_rank4_5",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 426,
+        "stake": 213000,
+        "paid": 275050,
+        "profit": 62050,
+        "roi_pct": 129.131,
+        "hit_tickets": 37
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 164,
+          "stake": 82000,
+          "paid": 106650,
+          "profit": 24650,
+          "roi_pct": 130.061,
+          "hit_tickets": 15
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 158,
+          "stake": 79000,
+          "paid": 75350,
+          "profit": -3650,
+          "roi_pct": 95.38,
+          "hit_tickets": 10
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 104,
+          "stake": 52000,
+          "paid": 93050,
+          "profit": 41050,
+          "roi_pct": 178.942,
+          "hit_tickets": 12
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 322,
+        "stake": 161000,
+        "paid": 182000,
+        "profit": 21000,
+        "roi_pct": 113.043,
+        "hit_tickets": 25
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 104,
+        "stake": 52000,
+        "paid": 93050,
+        "profit": 41050,
+        "roi_pct": 178.942,
+        "hit_tickets": 12
+      },
+      "win_payout_concentration": 11.74
+    },
+    {
+      "exacta_rule": "E4_rank5",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 213,
+        "stake": 106500,
+        "paid": 136600,
+        "profit": 30100,
+        "roi_pct": 128.263,
+        "hit_tickets": 13
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 82,
+          "stake": 41000,
+          "paid": 67100,
+          "profit": 26100,
+          "roi_pct": 163.659,
+          "hit_tickets": 7
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 79,
+          "stake": 39500,
+          "paid": 48950,
+          "profit": 9450,
+          "roi_pct": 123.924,
+          "hit_tickets": 4
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 52,
+          "stake": 26000,
+          "paid": 20550,
+          "profit": -5450,
+          "roi_pct": 79.038,
+          "hit_tickets": 2
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 161,
+        "stake": 80500,
+        "paid": 116050,
+        "profit": 35550,
+        "roi_pct": 144.161,
+        "hit_tickets": 11
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 52,
+        "stake": 26000,
+        "paid": 20550,
+        "profit": -5450,
+        "roi_pct": 79.038,
+        "hit_tickets": 2
+      },
+      "win_payout_concentration": 23.43
+    },
+    {
+      "exacta_rule": "E3_rank4",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 516,
+        "stake": 258000,
+        "paid": 325250,
+        "profit": 67250,
+        "roi_pct": 126.066,
+        "hit_tickets": 46
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 198,
+          "stake": 99000,
+          "paid": 129700,
+          "profit": 30700,
+          "roi_pct": 131.01,
+          "hit_tickets": 17
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 185,
+          "stake": 92500,
+          "paid": 74950,
+          "profit": -17550,
+          "roi_pct": 81.027,
+          "hit_tickets": 11
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 133,
+          "stake": 66500,
+          "paid": 120600,
+          "profit": 54100,
+          "roi_pct": 181.353,
+          "hit_tickets": 18
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 383,
+        "stake": 191500,
+        "paid": 204650,
+        "profit": 13150,
+        "roi_pct": 106.867,
+        "hit_tickets": 28
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 133,
+        "stake": 66500,
+        "paid": 120600,
+        "profit": 54100,
+        "roi_pct": 181.353,
+        "hit_tickets": 18
+      },
+      "win_payout_concentration": 12.44
+    },
+    {
+      "exacta_rule": "E34_rank4_5",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 622,
+        "stake": 311000,
+        "paid": 391700,
+        "profit": 80700,
+        "roi_pct": 125.949,
+        "hit_tickets": 46
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 234,
+          "stake": 117000,
+          "paid": 159550,
+          "profit": 42550,
+          "roi_pct": 136.368,
+          "hit_tickets": 17
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 236,
+          "stake": 118000,
+          "paid": 103000,
+          "profit": -15000,
+          "roi_pct": 87.288,
+          "hit_tickets": 12
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 152,
+          "stake": 76000,
+          "paid": 129150,
+          "profit": 53150,
+          "roi_pct": 169.934,
+          "hit_tickets": 17
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 470,
+        "stake": 235000,
+        "paid": 262550,
+        "profit": 27550,
+        "roi_pct": 111.723,
+        "hit_tickets": 29
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 152,
+        "stake": 76000,
+        "paid": 129150,
+        "profit": 53150,
+        "roi_pct": 169.934,
+        "hit_tickets": 17
+      },
+      "win_payout_concentration": 10.33
+    },
+    {
+      "exacta_rule": "E3_rank4",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 409,
+        "stake": 204500,
+        "paid": 255100,
+        "profit": 50600,
+        "roi_pct": 124.743,
+        "hit_tickets": 33
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 152,
+          "stake": 76000,
+          "paid": 92450,
+          "profit": 16450,
+          "roi_pct": 121.645,
+          "hit_tickets": 10
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 157,
+          "stake": 78500,
+          "paid": 54050,
+          "profit": -24450,
+          "roi_pct": 68.854,
+          "hit_tickets": 8
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 100,
+          "stake": 50000,
+          "paid": 108600,
+          "profit": 58600,
+          "roi_pct": 217.2,
+          "hit_tickets": 15
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 309,
+        "stake": 154500,
+        "paid": 146500,
+        "profit": -8000,
+        "roi_pct": 94.822,
+        "hit_tickets": 18
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 100,
+        "stake": 50000,
+        "paid": 108600,
+        "profit": 58600,
+        "roi_pct": 217.2,
+        "hit_tickets": 15
+      },
+      "win_payout_concentration": 15.86
+    },
+    {
+      "exacta_rule": "E34_rank4_5",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 720,
+        "stake": 360000,
+        "paid": 445850,
+        "profit": 85850,
+        "roi_pct": 123.847,
+        "hit_tickets": 47
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 269,
+          "stake": 134500,
+          "paid": 213700,
+          "profit": 79200,
+          "roi_pct": 158.885,
+          "hit_tickets": 18
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 275,
+          "stake": 137500,
+          "paid": 103000,
+          "profit": -34500,
+          "roi_pct": 74.909,
+          "hit_tickets": 12
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 176,
+          "stake": 88000,
+          "paid": 129150,
+          "profit": 41150,
+          "roi_pct": 146.761,
+          "hit_tickets": 17
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 544,
+        "stake": 272000,
+        "paid": 316700,
+        "profit": 44700,
+        "roi_pct": 116.434,
+        "hit_tickets": 30
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 176,
+        "stake": 88000,
+        "paid": 129150,
+        "profit": 41150,
+        "roi_pct": 146.761,
+        "hit_tickets": 17
+      },
+      "win_payout_concentration": 12.15
+    },
+    {
+      "exacta_rule": "E4_rank5",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 409,
+        "stake": 204500,
+        "paid": 253250,
+        "profit": 48750,
+        "roi_pct": 123.839,
+        "hit_tickets": 22
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 152,
+          "stake": 76000,
+          "paid": 120000,
+          "profit": 44000,
+          "roi_pct": 157.895,
+          "hit_tickets": 9
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 157,
+          "stake": 78500,
+          "paid": 76600,
+          "profit": -1900,
+          "roi_pct": 97.58,
+          "hit_tickets": 6
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 100,
+          "stake": 50000,
+          "paid": 56650,
+          "profit": 6650,
+          "roi_pct": 113.3,
+          "hit_tickets": 7
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 309,
+        "stake": 154500,
+        "paid": 196600,
+        "profit": 42100,
+        "roi_pct": 127.249,
+        "hit_tickets": 15
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 100,
+        "stake": 50000,
+        "paid": 56650,
+        "profit": 6650,
+        "roi_pct": 113.3,
+        "hit_tickets": 7
+      },
+      "win_payout_concentration": 15.97
+    },
+    {
+      "exacta_rule": "E3_rank4",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 614,
+        "stake": 307000,
+        "paid": 379400,
+        "profit": 72400,
+        "roi_pct": 123.583,
+        "hit_tickets": 47
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 233,
+          "stake": 116500,
+          "paid": 183850,
+          "profit": 67350,
+          "roi_pct": 157.811,
+          "hit_tickets": 18
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 224,
+          "stake": 112000,
+          "paid": 74950,
+          "profit": -37050,
+          "roi_pct": 66.92,
+          "hit_tickets": 11
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 157,
+          "stake": 78500,
+          "paid": 120600,
+          "profit": 42100,
+          "roi_pct": 153.631,
+          "hit_tickets": 18
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 457,
+        "stake": 228500,
+        "paid": 258800,
+        "profit": 30300,
+        "roi_pct": 113.26,
+        "hit_tickets": 29
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 157,
+        "stake": 78500,
+        "paid": 120600,
+        "profit": 42100,
+        "roi_pct": 153.631,
+        "hit_tickets": 18
+      },
+      "win_payout_concentration": 14.27
+    },
+    {
+      "exacta_rule": "E34_rank4_5",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 622,
+        "stake": 311000,
+        "paid": 383700,
+        "profit": 72700,
+        "roi_pct": 123.376,
+        "hit_tickets": 43
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 234,
+          "stake": 117000,
+          "paid": 173250,
+          "profit": 56250,
+          "roi_pct": 148.077,
+          "hit_tickets": 17
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 236,
+          "stake": 118000,
+          "paid": 103000,
+          "profit": -15000,
+          "roi_pct": 87.288,
+          "hit_tickets": 12
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 152,
+          "stake": 76000,
+          "paid": 107450,
+          "profit": 31450,
+          "roi_pct": 141.382,
+          "hit_tickets": 14
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 470,
+        "stake": 235000,
+        "paid": 276250,
+        "profit": 41250,
+        "roi_pct": 117.553,
+        "hit_tickets": 29
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 152,
+        "stake": 76000,
+        "paid": 107450,
+        "profit": 31450,
+        "roi_pct": 141.382,
+        "hit_tickets": 14
+      },
+      "win_payout_concentration": 14.11
+    },
+    {
+      "exacta_rule": "E3_rank4",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 516,
+        "stake": 258000,
+        "paid": 317250,
+        "profit": 59250,
+        "roi_pct": 122.965,
+        "hit_tickets": 43
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 198,
+          "stake": 99000,
+          "paid": 143400,
+          "profit": 44400,
+          "roi_pct": 144.848,
+          "hit_tickets": 17
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 185,
+          "stake": 92500,
+          "paid": 74950,
+          "profit": -17550,
+          "roi_pct": 81.027,
+          "hit_tickets": 11
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 133,
+          "stake": 66500,
+          "paid": 98900,
+          "profit": 32400,
+          "roi_pct": 148.722,
+          "hit_tickets": 15
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 383,
+        "stake": 191500,
+        "paid": 218350,
+        "profit": 26850,
+        "roi_pct": 114.021,
+        "hit_tickets": 28
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 133,
+        "stake": 66500,
+        "paid": 98900,
+        "profit": 32400,
+        "roi_pct": 148.722,
+        "hit_tickets": 15
+      },
+      "win_payout_concentration": 17.07
+    },
+    {
+      "exacta_rule": "E234_rank3_4_5",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 639,
+        "stake": 319500,
+        "paid": 392000,
+        "profit": 72500,
+        "roi_pct": 122.692,
+        "hit_tickets": 71
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 246,
+          "stake": 123000,
+          "paid": 161850,
+          "profit": 38850,
+          "roi_pct": 131.585,
+          "hit_tickets": 28
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 237,
+          "stake": 118500,
+          "paid": 117750,
+          "profit": -750,
+          "roi_pct": 99.367,
+          "hit_tickets": 26
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 156,
+          "stake": 78000,
+          "paid": 112400,
+          "profit": 34400,
+          "roi_pct": 144.103,
+          "hit_tickets": 17
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 483,
+        "stake": 241500,
+        "paid": 279600,
+        "profit": 38100,
+        "roi_pct": 115.776,
+        "hit_tickets": 54
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 156,
+        "stake": 78000,
+        "paid": 112400,
+        "profit": 34400,
+        "roi_pct": 144.103,
+        "hit_tickets": 17
+      },
+      "win_payout_concentration": 8.24
+    },
+    {
+      "exacta_rule": "E3_rank4",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 507,
+        "stake": 253500,
+        "paid": 309250,
+        "profit": 55750,
+        "roi_pct": 121.992,
+        "hit_tickets": 34
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 187,
+          "stake": 93500,
+          "paid": 146600,
+          "profit": 53100,
+          "roi_pct": 156.791,
+          "hit_tickets": 11
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 196,
+          "stake": 98000,
+          "paid": 54050,
+          "profit": -43950,
+          "roi_pct": 55.153,
+          "hit_tickets": 8
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 124,
+          "stake": 62000,
+          "paid": 108600,
+          "profit": 46600,
+          "roi_pct": 175.161,
+          "hit_tickets": 15
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 383,
+        "stake": 191500,
+        "paid": 200650,
+        "profit": 9150,
+        "roi_pct": 104.778,
+        "hit_tickets": 19
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 124,
+        "stake": 62000,
+        "paid": 108600,
+        "profit": 46600,
+        "roi_pct": 175.161,
+        "hit_tickets": 15
+      },
+      "win_payout_concentration": 17.51
+    },
+    {
+      "exacta_rule": "E234_rank3_4_5",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 835,
+        "stake": 417500,
+        "paid": 508650,
+        "profit": 91150,
+        "roi_pct": 121.832,
+        "hit_tickets": 80
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 316,
+          "stake": 158000,
+          "paid": 214750,
+          "profit": 56750,
+          "roi_pct": 135.918,
+          "hit_tickets": 30
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 315,
+          "stake": 157500,
+          "paid": 145400,
+          "profit": -12100,
+          "roi_pct": 92.317,
+          "hit_tickets": 28
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 204,
+          "stake": 102000,
+          "paid": 148500,
+          "profit": 46500,
+          "roi_pct": 145.588,
+          "hit_tickets": 22
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 631,
+        "stake": 315500,
+        "paid": 360150,
+        "profit": 44650,
+        "roi_pct": 114.152,
+        "hit_tickets": 58
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 204,
+        "stake": 102000,
+        "paid": 148500,
+        "profit": 46500,
+        "roi_pct": 145.588,
+        "hit_tickets": 22
+      },
+      "win_payout_concentration": 7.95
+    },
+    {
+      "exacta_rule": "E4_rank5",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 507,
+        "stake": 253500,
+        "paid": 307400,
+        "profit": 53900,
+        "roi_pct": 121.262,
+        "hit_tickets": 23
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 187,
+          "stake": 93500,
+          "paid": 174150,
+          "profit": 80650,
+          "roi_pct": 186.257,
+          "hit_tickets": 10
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 196,
+          "stake": 98000,
+          "paid": 76600,
+          "profit": -21400,
+          "roi_pct": 78.163,
+          "hit_tickets": 6
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 124,
+          "stake": 62000,
+          "paid": 56650,
+          "profit": -5350,
+          "roi_pct": 91.371,
+          "hit_tickets": 7
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 383,
+        "stake": 191500,
+        "paid": 250750,
+        "profit": 59250,
+        "roi_pct": 130.94,
+        "hit_tickets": 16
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 124,
+        "stake": 62000,
+        "paid": 56650,
+        "profit": -5350,
+        "roi_pct": 91.371,
+        "hit_tickets": 7
+      },
+      "win_payout_concentration": 17.62
+    },
+    {
+      "exacta_rule": "E3_rank4",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 409,
+        "stake": 204500,
+        "paid": 247100,
+        "profit": 42600,
+        "roi_pct": 120.831,
+        "hit_tickets": 30
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 152,
+          "stake": 76000,
+          "paid": 106150,
+          "profit": 30150,
+          "roi_pct": 139.671,
+          "hit_tickets": 10
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 157,
+          "stake": 78500,
+          "paid": 54050,
+          "profit": -24450,
+          "roi_pct": 68.854,
+          "hit_tickets": 8
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 100,
+          "stake": 50000,
+          "paid": 86900,
+          "profit": 36900,
+          "roi_pct": 173.8,
+          "hit_tickets": 12
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 309,
+        "stake": 154500,
+        "paid": 160200,
+        "profit": 5700,
+        "roi_pct": 103.689,
+        "hit_tickets": 18
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 100,
+        "stake": 50000,
+        "paid": 86900,
+        "profit": 36900,
+        "roi_pct": 173.8,
+        "hit_tickets": 12
+      },
+      "win_payout_concentration": 21.91
+    },
+    {
+      "exacta_rule": "E234_rank3_4_5",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 933,
+        "stake": 466500,
+        "paid": 562800,
+        "profit": 96300,
+        "roi_pct": 120.643,
+        "hit_tickets": 81
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 351,
+          "stake": 175500,
+          "paid": 268900,
+          "profit": 93400,
+          "roi_pct": 153.219,
+          "hit_tickets": 31
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 354,
+          "stake": 177000,
+          "paid": 145400,
+          "profit": -31600,
+          "roi_pct": 82.147,
+          "hit_tickets": 28
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 228,
+          "stake": 114000,
+          "paid": 148500,
+          "profit": 34500,
+          "roi_pct": 130.263,
+          "hit_tickets": 22
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 705,
+        "stake": 352500,
+        "paid": 414300,
+        "profit": 61800,
+        "roi_pct": 117.532,
+        "hit_tickets": 59
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 228,
+        "stake": 114000,
+        "paid": 148500,
+        "profit": 34500,
+        "roi_pct": 130.263,
+        "hit_tickets": 22
+      },
+      "win_payout_concentration": 9.62
+    },
+    {
+      "exacta_rule": "E4_rank5",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 409,
+        "stake": 204500,
+        "paid": 245250,
+        "profit": 40750,
+        "roi_pct": 119.927,
+        "hit_tickets": 19
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 152,
+          "stake": 76000,
+          "paid": 133700,
+          "profit": 57700,
+          "roi_pct": 175.921,
+          "hit_tickets": 9
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 157,
+          "stake": 78500,
+          "paid": 76600,
+          "profit": -1900,
+          "roi_pct": 97.58,
+          "hit_tickets": 6
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 100,
+          "stake": 50000,
+          "paid": 34950,
+          "profit": -15050,
+          "roi_pct": 69.9,
+          "hit_tickets": 4
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 309,
+        "stake": 154500,
+        "paid": 210300,
+        "profit": 55800,
+        "roi_pct": 136.117,
+        "hit_tickets": 15
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 100,
+        "stake": 50000,
+        "paid": 34950,
+        "profit": -15050,
+        "roi_pct": 69.9,
+        "hit_tickets": 4
+      },
+      "win_payout_concentration": 22.08
+    },
+    {
+      "exacta_rule": "E234_rank3_4_5",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 835,
+        "stake": 417500,
+        "paid": 500650,
+        "profit": 83150,
+        "roi_pct": 119.916,
+        "hit_tickets": 77
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 316,
+          "stake": 158000,
+          "paid": 228450,
+          "profit": 70450,
+          "roi_pct": 144.589,
+          "hit_tickets": 30
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 315,
+          "stake": 157500,
+          "paid": 145400,
+          "profit": -12100,
+          "roi_pct": 92.317,
+          "hit_tickets": 28
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 204,
+          "stake": 102000,
+          "paid": 126800,
+          "profit": 24800,
+          "roi_pct": 124.314,
+          "hit_tickets": 19
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 631,
+        "stake": 315500,
+        "paid": 373850,
+        "profit": 58350,
+        "roi_pct": 118.494,
+        "hit_tickets": 58
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 204,
+        "stake": 102000,
+        "paid": 126800,
+        "profit": 24800,
+        "roi_pct": 124.314,
+        "hit_tickets": 19
+      },
+      "win_payout_concentration": 10.82
+    }
+  ],
+  "both_JanFeb_and_March_positive_supported": [
+    {
+      "exacta_rule": "E1234_all",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1574,
+        "stake": 787000,
+        "paid": 836350,
+        "profit": 49350,
+        "roi_pct": 106.271,
+        "hit_tickets": 201
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 617,
+          "stake": 308500,
+          "paid": 404350,
+          "profit": 95850,
+          "roi_pct": 131.07,
+          "hit_tickets": 82
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 545,
+          "stake": 272500,
+          "paid": 225250,
+          "profit": -47250,
+          "roi_pct": 82.661,
+          "hit_tickets": 66
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 412,
+          "stake": 206000,
+          "paid": 206750,
+          "profit": 750,
+          "roi_pct": 100.364,
+          "hit_tickets": 53
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 1162,
+        "stake": 581000,
+        "paid": 629600,
+        "profit": 48600,
+        "roi_pct": 108.365,
+        "hit_tickets": 148
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 412,
+        "stake": 206000,
+        "paid": 206750,
+        "profit": 750,
+        "roi_pct": 100.364,
+        "hit_tickets": 53
+      },
+      "win_payout_concentration": 6.47
+    },
+    {
+      "exacta_rule": "E134_rank2_4_5",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 1540,
+        "stake": 770000,
+        "paid": 785750,
+        "profit": 15750,
+        "roi_pct": 102.045,
+        "hit_tickets": 201
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 652,
+          "stake": 326000,
+          "paid": 356950,
+          "profit": 30950,
+          "roi_pct": 109.494,
+          "hit_tickets": 87
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 489,
+          "stake": 244500,
+          "paid": 221150,
+          "profit": -23350,
+          "roi_pct": 90.45,
+          "hit_tickets": 56
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 399,
+          "stake": 199500,
+          "paid": 207650,
+          "profit": 8150,
+          "roi_pct": 104.085,
+          "hit_tickets": 58
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 1141,
+        "stake": 570500,
+        "paid": 578100,
+        "profit": 7600,
+        "roi_pct": 101.332,
+        "hit_tickets": 143
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 399,
+        "stake": 199500,
+        "paid": 207650,
+        "profit": 8150,
+        "roi_pct": 104.085,
+        "hit_tickets": 58
+      },
+      "win_payout_concentration": 5.15
+    },
+    {
+      "exacta_rule": "E123_rank2_3_4",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 1540,
+        "stake": 770000,
+        "paid": 784850,
+        "profit": 14850,
+        "roi_pct": 101.929,
+        "hit_tickets": 234
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 652,
+          "stake": 326000,
+          "paid": 372800,
+          "profit": 46800,
+          "roi_pct": 114.356,
+          "hit_tickets": 101
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 489,
+          "stake": 244500,
+          "paid": 207200,
+          "profit": -37300,
+          "roi_pct": 84.744,
+          "hit_tickets": 72
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 399,
+          "stake": 199500,
+          "paid": 204850,
+          "profit": 5350,
+          "roi_pct": 102.682,
+          "hit_tickets": 61
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 1141,
+        "stake": 570500,
+        "paid": 580000,
+        "profit": 9500,
+        "roi_pct": 101.665,
+        "hit_tickets": 173
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 399,
+        "stake": 199500,
+        "paid": 204850,
+        "profit": 5350,
+        "roi_pct": 102.682,
+        "hit_tickets": 61
+      },
+      "win_payout_concentration": 5.15
+    },
+    {
+      "exacta_rule": "E1234_all",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1476,
+        "stake": 738000,
+        "paid": 782200,
+        "profit": 44200,
+        "roi_pct": 105.989,
+        "hit_tickets": 200
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 582,
+          "stake": 291000,
+          "paid": 350200,
+          "profit": 59200,
+          "roi_pct": 120.344,
+          "hit_tickets": 81
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 506,
+          "stake": 253000,
+          "paid": 225250,
+          "profit": -27750,
+          "roi_pct": 89.032,
+          "hit_tickets": 66
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 388,
+          "stake": 194000,
+          "paid": 206750,
+          "profit": 12750,
+          "roi_pct": 106.572,
+          "hit_tickets": 53
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 1088,
+        "stake": 544000,
+        "paid": 575450,
+        "profit": 31450,
+        "roi_pct": 105.781,
+        "hit_tickets": 147
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 388,
+        "stake": 194000,
+        "paid": 206750,
+        "profit": 12750,
+        "roi_pct": 106.572,
+        "hit_tickets": 53
+      },
+      "win_payout_concentration": 5.17
+    },
+    {
+      "exacta_rule": "E234_rank3_4_5",
+      "trifecta_rule": "T_3456",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1352,
+        "stake": 676000,
+        "paid": 707200,
+        "profit": 31200,
+        "roi_pct": 104.615,
+        "hit_tickets": 114
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 524,
+          "stake": 262000,
+          "paid": 348200,
+          "profit": 86200,
+          "roi_pct": 132.901,
+          "hit_tickets": 49
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 477,
+          "stake": 238500,
+          "paid": 180600,
+          "profit": -57900,
+          "roi_pct": 75.723,
+          "hit_tickets": 35
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 351,
+          "stake": 175500,
+          "paid": 178400,
+          "profit": 2900,
+          "roi_pct": 101.652,
+          "hit_tickets": 30
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 1001,
+        "stake": 500500,
+        "paid": 528800,
+        "profit": 28300,
+        "roi_pct": 105.654,
+        "hit_tickets": 84
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 351,
+        "stake": 175500,
+        "paid": 178400,
+        "profit": 2900,
+        "roi_pct": 101.652,
+        "hit_tickets": 30
+      },
+      "win_payout_concentration": 7.66
+    },
+    {
+      "exacta_rule": "E34_rank4_5",
+      "trifecta_rule": "T_3456",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 1288,
+        "stake": 644000,
+        "paid": 668100,
+        "profit": 24100,
+        "roi_pct": 103.742,
+        "hit_tickets": 88
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 528,
+          "stake": 264000,
+          "paid": 331850,
+          "profit": 67850,
+          "roi_pct": 125.701,
+          "hit_tickets": 39
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 430,
+          "stake": 215000,
+          "paid": 170550,
+          "profit": -44450,
+          "roi_pct": 79.326,
+          "hit_tickets": 22
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 330,
+          "stake": 165000,
+          "paid": 165700,
+          "profit": 700,
+          "roi_pct": 100.424,
+          "hit_tickets": 27
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 958,
+        "stake": 479000,
+        "paid": 502400,
+        "profit": 23400,
+        "roi_pct": 104.885,
+        "hit_tickets": 61
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 330,
+        "stake": 165000,
+        "paid": 165700,
+        "profit": 700,
+        "roi_pct": 100.424,
+        "hit_tickets": 27
+      },
+      "win_payout_concentration": 8.11
+    },
+    {
+      "exacta_rule": "E1234_all",
+      "trifecta_rule": "T0_none",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1280,
+        "stake": 640000,
+        "paid": 665550,
+        "profit": 25550,
+        "roi_pct": 103.992,
+        "hit_tickets": 191
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 512,
+          "stake": 256000,
+          "paid": 297300,
+          "profit": 41300,
+          "roi_pct": 116.133,
+          "hit_tickets": 79
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 428,
+          "stake": 214000,
+          "paid": 197600,
+          "profit": -16400,
+          "roi_pct": 92.336,
+          "hit_tickets": 64
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 340,
+          "stake": 170000,
+          "paid": 170650,
+          "profit": 650,
+          "roi_pct": 100.382,
+          "hit_tickets": 48
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 940,
+        "stake": 470000,
+        "paid": 494900,
+        "profit": 24900,
+        "roi_pct": 105.298,
+        "hit_tickets": 143
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 340,
+        "stake": 170000,
+        "paid": 170650,
+        "profit": 650,
+        "roi_pct": 100.382,
+        "hit_tickets": 48
+      },
+      "win_payout_concentration": 4.85
+    },
+    {
+      "exacta_rule": "E234_rank3_4_5",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1254,
+        "stake": 627000,
+        "paid": 703650,
+        "profit": 76650,
+        "roi_pct": 112.225,
+        "hit_tickets": 113
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 489,
+          "stake": 244500,
+          "paid": 348200,
+          "profit": 103700,
+          "roi_pct": 142.413,
+          "hit_tickets": 49
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 438,
+          "stake": 219000,
+          "paid": 180600,
+          "profit": -38400,
+          "roi_pct": 82.466,
+          "hit_tickets": 35
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 327,
+          "stake": 163500,
+          "paid": 174850,
+          "profit": 11350,
+          "roi_pct": 106.942,
+          "hit_tickets": 29
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 927,
+        "stake": 463500,
+        "paid": 528800,
+        "profit": 65300,
+        "roi_pct": 114.088,
+        "hit_tickets": 84
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 327,
+        "stake": 163500,
+        "paid": 174850,
+        "profit": 11350,
+        "roi_pct": 106.942,
+        "hit_tickets": 29
+      },
+      "win_payout_concentration": 7.7
+    },
+    {
+      "exacta_rule": "E134_rank2_4_5",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1254,
+        "stake": 627000,
+        "paid": 681000,
+        "profit": 54000,
+        "roi_pct": 108.612,
+        "hit_tickets": 157
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 489,
+          "stake": 244500,
+          "paid": 321000,
+          "profit": 76500,
+          "roi_pct": 131.288,
+          "hit_tickets": 62
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 438,
+          "stake": 219000,
+          "paid": 174950,
+          "profit": -44050,
+          "roi_pct": 79.886,
+          "hit_tickets": 48
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 327,
+          "stake": 163500,
+          "paid": 185050,
+          "profit": 21550,
+          "roi_pct": 113.18,
+          "hit_tickets": 47
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 927,
+        "stake": 463500,
+        "paid": 495950,
+        "profit": 32450,
+        "roi_pct": 107.001,
+        "hit_tickets": 110
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 327,
+        "stake": 163500,
+        "paid": 185050,
+        "profit": 21550,
+        "roi_pct": 113.18,
+        "hit_tickets": 47
+      },
+      "win_payout_concentration": 7.95
+    },
+    {
+      "exacta_rule": "E123_rank2_3_4",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1254,
+        "stake": 627000,
+        "paid": 667450,
+        "profit": 40450,
+        "roi_pct": 106.451,
+        "hit_tickets": 179
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 489,
+          "stake": 244500,
+          "paid": 323350,
+          "profit": 78850,
+          "roi_pct": 132.249,
+          "hit_tickets": 71
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 438,
+          "stake": 219000,
+          "paid": 169900,
+          "profit": -49100,
+          "roi_pct": 77.58,
+          "hit_tickets": 60
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 327,
+          "stake": 163500,
+          "paid": 174200,
+          "profit": 10700,
+          "roi_pct": 106.544,
+          "hit_tickets": 48
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 927,
+        "stake": 463500,
+        "paid": 493250,
+        "profit": 29750,
+        "roi_pct": 106.419,
+        "hit_tickets": 131
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 327,
+        "stake": 163500,
+        "paid": 174200,
+        "profit": 10700,
+        "roi_pct": 106.544,
+        "hit_tickets": 48
+      },
+      "win_payout_concentration": 8.11
+    },
+    {
+      "exacta_rule": "E134_rank2_4_5",
+      "trifecta_rule": "T_246",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1254,
+        "stake": 627000,
+        "paid": 636550,
+        "profit": 9550,
+        "roi_pct": 101.523,
+        "hit_tickets": 159
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 489,
+          "stake": 244500,
+          "paid": 292650,
+          "profit": 48150,
+          "roi_pct": 119.693,
+          "hit_tickets": 63
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 438,
+          "stake": 219000,
+          "paid": 179750,
+          "profit": -39250,
+          "roi_pct": 82.078,
+          "hit_tickets": 51
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 327,
+          "stake": 163500,
+          "paid": 164150,
+          "profit": 650,
+          "roi_pct": 100.398,
+          "hit_tickets": 45
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 927,
+        "stake": 463500,
+        "paid": 472400,
+        "profit": 8900,
+        "roi_pct": 101.92,
+        "hit_tickets": 114
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 327,
+        "stake": 163500,
+        "paid": 164150,
+        "profit": 650,
+        "roi_pct": 100.398,
+        "hit_tickets": 45
+      },
+      "win_payout_concentration": 8.51
+    },
+    {
+      "exacta_rule": "E1234_all",
+      "trifecta_rule": "T_3456",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 1244,
+        "stake": 622000,
+        "paid": 670950,
+        "profit": 48950,
+        "roi_pct": 107.87,
+        "hit_tickets": 153
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 468,
+          "stake": 234000,
+          "paid": 311250,
+          "profit": 77250,
+          "roi_pct": 133.013,
+          "hit_tickets": 56
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 472,
+          "stake": 236000,
+          "paid": 183600,
+          "profit": -52400,
+          "roi_pct": 77.797,
+          "hit_tickets": 55
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 304,
+          "stake": 152000,
+          "paid": 176100,
+          "profit": 24100,
+          "roi_pct": 115.855,
+          "hit_tickets": 42
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 940,
+        "stake": 470000,
+        "paid": 494850,
+        "profit": 24850,
+        "roi_pct": 105.287,
+        "hit_tickets": 111
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 304,
+        "stake": 152000,
+        "paid": 176100,
+        "profit": 24100,
+        "roi_pct": 115.855,
+        "hit_tickets": 42
+      },
+      "win_payout_concentration": 8.07
+    },
+    {
+      "exacta_rule": "E34_rank4_5",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 1190,
+        "stake": 595000,
+        "paid": 664550,
+        "profit": 69550,
+        "roi_pct": 111.689,
+        "hit_tickets": 87
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 493,
+          "stake": 246500,
+          "paid": 331850,
+          "profit": 85350,
+          "roi_pct": 134.625,
+          "hit_tickets": 39
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 391,
+          "stake": 195500,
+          "paid": 170550,
+          "profit": -24950,
+          "roi_pct": 87.238,
+          "hit_tickets": 22
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 306,
+          "stake": 153000,
+          "paid": 162150,
+          "profit": 9150,
+          "roi_pct": 105.98,
+          "hit_tickets": 26
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 884,
+        "stake": 442000,
+        "paid": 502400,
+        "profit": 60400,
+        "roi_pct": 113.665,
+        "hit_tickets": 61
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 306,
+        "stake": 153000,
+        "paid": 162150,
+        "profit": 9150,
+        "roi_pct": 105.98,
+        "hit_tickets": 26
+      },
+      "win_payout_concentration": 8.15
+    },
+    {
+      "exacta_rule": "E23_rank3_4",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 1190,
+        "stake": 595000,
+        "paid": 663650,
+        "profit": 68650,
+        "roi_pct": 111.538,
+        "hit_tickets": 120
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 493,
+          "stake": 246500,
+          "paid": 347700,
+          "profit": 101200,
+          "roi_pct": 141.055,
+          "hit_tickets": 53
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 391,
+          "stake": 195500,
+          "paid": 156600,
+          "profit": -38900,
+          "roi_pct": 80.102,
+          "hit_tickets": 38
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 306,
+          "stake": 153000,
+          "paid": 159350,
+          "profit": 6350,
+          "roi_pct": 104.15,
+          "hit_tickets": 29
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 884,
+        "stake": 442000,
+        "paid": 504300,
+        "profit": 62300,
+        "roi_pct": 114.095,
+        "hit_tickets": 91
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 306,
+        "stake": 153000,
+        "paid": 159350,
+        "profit": 6350,
+        "roi_pct": 104.15,
+        "hit_tickets": 29
+      },
+      "win_payout_concentration": 8.16
+    },
+    {
+      "exacta_rule": "E234_rank3_4_5",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1156,
+        "stake": 578000,
+        "paid": 649500,
+        "profit": 71500,
+        "roi_pct": 112.37,
+        "hit_tickets": 112
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 454,
+          "stake": 227000,
+          "paid": 294050,
+          "profit": 67050,
+          "roi_pct": 129.537,
+          "hit_tickets": 48
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 399,
+          "stake": 199500,
+          "paid": 180600,
+          "profit": -18900,
+          "roi_pct": 90.526,
+          "hit_tickets": 35
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 303,
+          "stake": 151500,
+          "paid": 174850,
+          "profit": 23350,
+          "roi_pct": 115.413,
+          "hit_tickets": 29
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 853,
+        "stake": 426500,
+        "paid": 474650,
+        "profit": 48150,
+        "roi_pct": 111.29,
+        "hit_tickets": 83
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 303,
+        "stake": 151500,
+        "paid": 174850,
+        "profit": 23350,
+        "roi_pct": 115.413,
+        "hit_tickets": 29
+      },
+      "win_payout_concentration": 6.23
+    },
+    {
+      "exacta_rule": "E234_rank3_4_5",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1156,
+        "stake": 578000,
+        "paid": 641500,
+        "profit": 63500,
+        "roi_pct": 110.986,
+        "hit_tickets": 109
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 454,
+          "stake": 227000,
+          "paid": 307750,
+          "profit": 80750,
+          "roi_pct": 135.573,
+          "hit_tickets": 48
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 399,
+          "stake": 199500,
+          "paid": 180600,
+          "profit": -18900,
+          "roi_pct": 90.526,
+          "hit_tickets": 35
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 303,
+          "stake": 151500,
+          "paid": 153150,
+          "profit": 1650,
+          "roi_pct": 101.089,
+          "hit_tickets": 26
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 853,
+        "stake": 426500,
+        "paid": 488350,
+        "profit": 61850,
+        "roi_pct": 114.502,
+        "hit_tickets": 83
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 303,
+        "stake": 151500,
+        "paid": 153150,
+        "profit": 1650,
+        "roi_pct": 101.089,
+        "hit_tickets": 26
+      },
+      "win_payout_concentration": 8.44
+    },
+    {
+      "exacta_rule": "E134_rank2_4_5",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1156,
+        "stake": 578000,
+        "paid": 626850,
+        "profit": 48850,
+        "roi_pct": 108.452,
+        "hit_tickets": 156
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 454,
+          "stake": 227000,
+          "paid": 266850,
+          "profit": 39850,
+          "roi_pct": 117.555,
+          "hit_tickets": 61
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 399,
+          "stake": 199500,
+          "paid": 174950,
+          "profit": -24550,
+          "roi_pct": 87.694,
+          "hit_tickets": 48
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 303,
+          "stake": 151500,
+          "paid": 185050,
+          "profit": 33550,
+          "roi_pct": 122.145,
+          "hit_tickets": 47
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 853,
+        "stake": 426500,
+        "paid": 441800,
+        "profit": 15300,
+        "roi_pct": 103.587,
+        "hit_tickets": 109
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 303,
+        "stake": 151500,
+        "paid": 185050,
+        "profit": 33550,
+        "roi_pct": 122.145,
+        "hit_tickets": 47
+      },
+      "win_payout_concentration": 6.45
+    },
+    {
+      "exacta_rule": "E134_rank2_4_5",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1156,
+        "stake": 578000,
+        "paid": 618850,
+        "profit": 40850,
+        "roi_pct": 107.067,
+        "hit_tickets": 153
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 454,
+          "stake": 227000,
+          "paid": 280550,
+          "profit": 53550,
+          "roi_pct": 123.59,
+          "hit_tickets": 61
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 399,
+          "stake": 199500,
+          "paid": 174950,
+          "profit": -24550,
+          "roi_pct": 87.694,
+          "hit_tickets": 48
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 303,
+          "stake": 151500,
+          "paid": 163350,
+          "profit": 11850,
+          "roi_pct": 107.822,
+          "hit_tickets": 44
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 853,
+        "stake": 426500,
+        "paid": 455500,
+        "profit": 29000,
+        "roi_pct": 106.8,
+        "hit_tickets": 109
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 303,
+        "stake": 151500,
+        "paid": 163350,
+        "profit": 11850,
+        "roi_pct": 107.822,
+        "hit_tickets": 44
+      },
+      "win_payout_concentration": 8.75
+    },
+    {
+      "exacta_rule": "E123_rank2_3_4",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1156,
+        "stake": 578000,
+        "paid": 613300,
+        "profit": 35300,
+        "roi_pct": 106.107,
+        "hit_tickets": 178
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 454,
+          "stake": 227000,
+          "paid": 269200,
+          "profit": 42200,
+          "roi_pct": 118.59,
+          "hit_tickets": 70
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 399,
+          "stake": 199500,
+          "paid": 169900,
+          "profit": -29600,
+          "roi_pct": 85.163,
+          "hit_tickets": 60
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 303,
+          "stake": 151500,
+          "paid": 174200,
+          "profit": 22700,
+          "roi_pct": 114.983,
+          "hit_tickets": 48
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 853,
+        "stake": 426500,
+        "paid": 439100,
+        "profit": 12600,
+        "roi_pct": 102.954,
+        "hit_tickets": 130
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 303,
+        "stake": 151500,
+        "paid": 174200,
+        "profit": 22700,
+        "roi_pct": 114.983,
+        "hit_tickets": 48
+      },
+      "win_payout_concentration": 6.6
+    },
+    {
+      "exacta_rule": "E234_rank3_4_5",
+      "trifecta_rule": "T_reciprocal24",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1156,
+        "stake": 578000,
+        "paid": 612700,
+        "profit": 34700,
+        "roi_pct": 106.003,
+        "hit_tickets": 113
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 454,
+          "stake": 227000,
+          "paid": 293700,
+          "profit": 66700,
+          "roi_pct": 129.383,
+          "hit_tickets": 49
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 399,
+          "stake": 199500,
+          "paid": 157750,
+          "profit": -41750,
+          "roi_pct": 79.073,
+          "hit_tickets": 36
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 303,
+          "stake": 151500,
+          "paid": 161250,
+          "profit": 9750,
+          "roi_pct": 106.436,
+          "hit_tickets": 28
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 853,
+        "stake": 426500,
+        "paid": 451450,
+        "profit": 24950,
+        "roi_pct": 105.85,
+        "hit_tickets": 85
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 303,
+        "stake": 151500,
+        "paid": 161250,
+        "profit": 9750,
+        "roi_pct": 106.436,
+        "hit_tickets": 28
+      },
+      "win_payout_concentration": 6.6
+    },
+    {
+      "exacta_rule": "E123_rank2_3_4",
+      "trifecta_rule": "T_reciprocal34",
+      "gap_floor": 1.25,
+      "overall": {
+        "races": 320,
+        "tickets": 1156,
+        "stake": 578000,
+        "paid": 605300,
+        "profit": 27300,
+        "roi_pct": 104.723,
+        "hit_tickets": 175
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 128,
+          "tickets": 454,
+          "stake": 227000,
+          "paid": 282900,
+          "profit": 55900,
+          "roi_pct": 124.626,
+          "hit_tickets": 70
+        },
+        "2026-02": {
+          "races": 107,
+          "tickets": 399,
+          "stake": 199500,
+          "paid": 169900,
+          "profit": -29600,
+          "roi_pct": 85.163,
+          "hit_tickets": 60
+        },
+        "2026-03": {
+          "races": 85,
+          "tickets": 303,
+          "stake": 151500,
+          "paid": 152500,
+          "profit": 1000,
+          "roi_pct": 100.66,
+          "hit_tickets": 45
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 235,
+        "tickets": 853,
+        "stake": 426500,
+        "paid": 452800,
+        "profit": 26300,
+        "roi_pct": 106.166,
+        "hit_tickets": 130
+      },
+      "check_Mar": {
+        "races": 85,
+        "tickets": 303,
+        "stake": 151500,
+        "paid": 152500,
+        "profit": 1000,
+        "roi_pct": 100.66,
+        "hit_tickets": 45
+      },
+      "win_payout_concentration": 8.95
+    },
+    {
+      "exacta_rule": "E1234_all",
+      "trifecta_rule": "T_last3",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 1146,
+        "stake": 573000,
+        "paid": 667400,
+        "profit": 94400,
+        "roi_pct": 116.475,
+        "hit_tickets": 152
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 433,
+          "stake": 216500,
+          "paid": 311250,
+          "profit": 94750,
+          "roi_pct": 143.764,
+          "hit_tickets": 56
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 433,
+          "stake": 216500,
+          "paid": 183600,
+          "profit": -32900,
+          "roi_pct": 84.804,
+          "hit_tickets": 55
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 280,
+          "stake": 140000,
+          "paid": 172550,
+          "profit": 32550,
+          "roi_pct": 123.25,
+          "hit_tickets": 41
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 866,
+        "stake": 433000,
+        "paid": 494850,
+        "profit": 61850,
+        "roi_pct": 114.284,
+        "hit_tickets": 111
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 280,
+        "stake": 140000,
+        "paid": 172550,
+        "profit": 32550,
+        "roi_pct": 123.25,
+        "hit_tickets": 41
+      },
+      "win_payout_concentration": 8.11
+    },
+    {
+      "exacta_rule": "E1234_all",
+      "trifecta_rule": "T_246",
+      "gap_floor": 1.5,
+      "overall": {
+        "races": 213,
+        "tickets": 1146,
+        "stake": 573000,
+        "paid": 622950,
+        "profit": 49950,
+        "roi_pct": 108.717,
+        "hit_tickets": 154
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 82,
+          "tickets": 433,
+          "stake": 216500,
+          "paid": 282900,
+          "profit": 66400,
+          "roi_pct": 130.67,
+          "hit_tickets": 57
+        },
+        "2026-02": {
+          "races": 79,
+          "tickets": 433,
+          "stake": 216500,
+          "paid": 188400,
+          "profit": -28100,
+          "roi_pct": 87.021,
+          "hit_tickets": 58
+        },
+        "2026-03": {
+          "races": 52,
+          "tickets": 280,
+          "stake": 140000,
+          "paid": 151650,
+          "profit": 11650,
+          "roi_pct": 108.321,
+          "hit_tickets": 39
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 161,
+        "tickets": 866,
+        "stake": 433000,
+        "paid": 471300,
+        "profit": 38300,
+        "roi_pct": 108.845,
+        "hit_tickets": 115
+      },
+      "check_Mar": {
+        "races": 52,
+        "tickets": 280,
+        "stake": 140000,
+        "paid": 151650,
+        "profit": 11650,
+        "roi_pct": 108.321,
+        "hit_tickets": 39
+      },
+      "win_payout_concentration": 8.69
+    },
+    {
+      "exacta_rule": "E34_rank4_5",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 1092,
+        "stake": 546000,
+        "paid": 610400,
+        "profit": 64400,
+        "roi_pct": 111.795,
+        "hit_tickets": 86
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 458,
+          "stake": 229000,
+          "paid": 277700,
+          "profit": 48700,
+          "roi_pct": 121.266,
+          "hit_tickets": 38
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 352,
+          "stake": 176000,
+          "paid": 170550,
+          "profit": -5450,
+          "roi_pct": 96.903,
+          "hit_tickets": 22
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 282,
+          "stake": 141000,
+          "paid": 162150,
+          "profit": 21150,
+          "roi_pct": 115.0,
+          "hit_tickets": 26
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 810,
+        "stake": 405000,
+        "paid": 448250,
+        "profit": 43250,
+        "roi_pct": 110.679,
+        "hit_tickets": 60
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 282,
+        "stake": 141000,
+        "paid": 162150,
+        "profit": 21150,
+        "roi_pct": 115.0,
+        "hit_tickets": 26
+      },
+      "win_payout_concentration": 6.63
+    },
+    {
+      "exacta_rule": "E23_rank3_4",
+      "trifecta_rule": "T_56",
+      "gap_floor": 1.0,
+      "overall": {
+        "races": 448,
+        "tickets": 1092,
+        "stake": 546000,
+        "paid": 609500,
+        "profit": 63500,
+        "roi_pct": 111.63,
+        "hit_tickets": 119
+      },
+      "monthly": {
+        "2026-01": {
+          "races": 194,
+          "tickets": 458,
+          "stake": 229000,
+          "paid": 293550,
+          "profit": 64550,
+          "roi_pct": 128.188,
+          "hit_tickets": 52
+        },
+        "2026-02": {
+          "races": 137,
+          "tickets": 352,
+          "stake": 176000,
+          "paid": 156600,
+          "profit": -19400,
+          "roi_pct": 88.977,
+          "hit_tickets": 38
+        },
+        "2026-03": {
+          "races": 117,
+          "tickets": 282,
+          "stake": 141000,
+          "paid": 159350,
+          "profit": 18350,
+          "roi_pct": 113.014,
+          "hit_tickets": 29
+        }
+      },
+      "discovery_JanFeb": {
+        "races": 331,
+        "tickets": 810,
+        "stake": 405000,
+        "paid": 450150,
+        "profit": 45150,
+        "roi_pct": 111.148,
+        "hit_tickets": 90
+      },
+      "check_Mar": {
+        "races": 117,
+        "tickets": 282,
+        "stake": 141000,
+        "paid": 159350,
+        "profit": 18350,
+        "roi_pct": 113.014,
+        "hit_tickets": 29
+      },
+      "win_payout_concentration": 6.64
+    }
+  ],
+  "both_positive_count": 147,
+  "limitations": [
+    "F2 archive covers 2026 Q1 only.",
+    "Many candidate tests, selection-bias risk.",
+    "Individual exacta losing odds not archived; no 4.0x filter applied.",
+    "No model/policy alteration."
+  ]
+}
