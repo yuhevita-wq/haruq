@@ -195,5 +195,148 @@
         "winning_races": 1
       }
     }
+  },
+  "winning_dividend_only_4x_proxy": {
+    "calculation": "For each originally winning ticket with payout <2000 JPY on 500 JPY stake, omit exactly 500 JPY investment AND that actual winning dividend; other tickets unchanged.",
+    "strict_boundary": "4.0x exactly is kept",
+    "status": "CONSERVATIVE_WIN_ONLY_PROXY_NOT_FULL_ODDS_FILTER",
+    "coverage": "All identified final-day races, 2025-07-01 through 2026-06-30; 2026Q3 unverified because no public programme odds data.",
+    "result": {
+      "races": 1800,
+      "stake": 3961000,
+      "paid": 3426400,
+      "profit": -534600,
+      "roi_pct": 86.50341,
+      "winning_races": 543
+    },
+    "removed_winning_tickets": {
+      "exacta": 427,
+      "trifecta": 9
+    },
+    "removed_winning_stakes": {
+      "exacta": 213500,
+      "trifecta": 4500
+    },
+    "removed_winning_payouts": {
+      "exacta": 539050,
+      "trifecta": 11300
+    },
+    "by_market": {
+      "exacta": {
+        "races": 1800,
+        "stake": 3386500,
+        "paid": 2893350,
+        "profit": -493150,
+        "roi_pct": 85.43777,
+        "winning_races": 525
+      },
+      "trifecta": {
+        "races": 193,
+        "stake": 574500,
+        "paid": 533050,
+        "profit": -41450,
+        "roi_pct": 92.78503,
+        "winning_races": 47
+      }
+    },
+    "monthly": {
+      "2025-07": {
+        "races": 121,
+        "stake": 259500,
+        "paid": 187250,
+        "profit": -72250,
+        "roi_pct": 72.158,
+        "winning_races": 33
+      },
+      "2025-08": {
+        "races": 124,
+        "stake": 246500,
+        "paid": 244900,
+        "profit": -1600,
+        "roi_pct": 99.35091,
+        "winning_races": 38
+      },
+      "2025-09": {
+        "races": 105,
+        "stake": 219500,
+        "paid": 232550,
+        "profit": 13050,
+        "roi_pct": 105.94533,
+        "winning_races": 43
+      },
+      "2025-10": {
+        "races": 119,
+        "stake": 247000,
+        "paid": 204100,
+        "profit": -42900,
+        "roi_pct": 82.63158,
+        "winning_races": 31
+      },
+      "2025-11": {
+        "races": 118,
+        "stake": 247000,
+        "paid": 145150,
+        "profit": -101850,
+        "roi_pct": 58.76518,
+        "winning_races": 23
+      },
+      "2025-12": {
+        "races": 125,
+        "stake": 274500,
+        "paid": 298800,
+        "profit": 24300,
+        "roi_pct": 108.85246,
+        "winning_races": 35
+      },
+      "2026-01": {
+        "races": 326,
+        "stake": 745500,
+        "paid": 737050,
+        "profit": -8450,
+        "roi_pct": 98.86653,
+        "winning_races": 107
+      },
+      "2026-02": {
+        "races": 227,
+        "stake": 562500,
+        "paid": 413050,
+        "profit": -149450,
+        "roi_pct": 73.43111,
+        "winning_races": 67
+      },
+      "2026-03": {
+        "races": 226,
+        "stake": 527000,
+        "paid": 437000,
+        "profit": -90000,
+        "roi_pct": 82.9222,
+        "winning_races": 73
+      },
+      "2026-04": {
+        "races": 121,
+        "stake": 249000,
+        "paid": 203700,
+        "profit": -45300,
+        "roi_pct": 81.80723,
+        "winning_races": 37
+      },
+      "2026-05": {
+        "races": 87,
+        "stake": 167500,
+        "paid": 111450,
+        "profit": -56050,
+        "roi_pct": 66.53731,
+        "winning_races": 22
+      },
+      "2026-06": {
+        "races": 101,
+        "stake": 215500,
+        "paid": 211400,
+        "profit": -4100,
+        "roi_pct": 98.09745,
+        "winning_races": 34
+      }
+    },
+    "interpretation": "Worst-case profit/ROI relative to excluding all <4.0x original tickets in this verified subset; cannot identify losing low-odds selections without quotes. Ex-post comparison not real-time betting evidence."
   }
 }
