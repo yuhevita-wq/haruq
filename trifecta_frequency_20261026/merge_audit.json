@@ -1,0 +1,14 @@
+{
+  "admitted_races": 21445,
+  "admitted_quotes": 4952142,
+  "source_counts": {
+    "cipher_only": 12709,
+    "both_agree": 8602,
+    "public_only": 134
+  },
+  "cross_source_conflicting_races": 0,
+  "cross_source_conflicts": [],
+  "quarantine_rule": "Different candidate prices across otherwise independently valid complete books quarantine the entire race; never choose the most profitable source.",
+  "output_sha256": "45b1e249774d55fef22ffc87e6ce1c7f27e65bbe876dd364f1ba2e5b1c64e79f",
+  "output_bytes": 22172271
+}

@@ -1,0 +1,28 @@
+{
+  "source": "data/odds_only/odds_2025.jsonl.gz and odds_2026.jsonl.gz",
+  "source_export": "research/odds_universe_v1/build_odds_only.py",
+  "direct_combination_order": true,
+  "eligible_races": 21912,
+  "counts": {
+    "source_rows": 16517,
+    "overlapping_rows": 8737,
+    "matched": 8736,
+    "ticket_quotes": 2304744,
+    "payout_mismatch": 1
+  },
+  "issues": [
+    {
+      "race_id": "202603142606",
+      "source_id": "2620260312030006",
+      "reason": "payout_mismatch",
+      "winning": "8-6-2",
+      "odds": "9999.9",
+      "payout": "1240140"
+    }
+  ],
+  "duplicates": [],
+  "matched_races": 8736,
+  "missing_or_rejected_races": 13176,
+  "output_sha256": "a3e53979c9b8d00b7b2b912c46cbf1970f650a7beff0b4ea0e8f72d08f9785d9",
+  "output_bytes": 10244984
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "matched_races": 21445,
+  "candidate_quotes": 4952142,
+  "exact_payout_checks": 21445,
+  "exported_cells": 135877,
+  "exported_group_checks": 118,
+  "pattern_denominator_partition_checks": 28848,
+  "independently_recounted_examples": "Every band and price bin for 7-rider patterns4>2>1 and1>2>3, using Decimal values and actual bike combinations.",
+  "comparison": "Independent scalar Decimal binning versus vectorized NumPy estimates; all matched.",
+  "production_changed": false
+}

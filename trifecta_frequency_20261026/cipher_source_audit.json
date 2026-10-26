@@ -1,0 +1,26 @@
+{
+  "source_commit": "468cd077aa878f8ebf099a822aa230afe94851c9",
+  "source_archives": 436,
+  "normalization": "Uniform legacy selection a-b-c -> a-c-b: source table rows are third place, columns second place.",
+  "counts": {
+    "source_trifecta_quote_rows": 6692118,
+    "overlap_quote_rows": 5873844,
+    "identical_duplicate_quotes": 988734
+  },
+  "overlapping_race_books": 21312,
+  "admitted_races": 21311,
+  "admitted_quotes": 4884606,
+  "quarantined": 1,
+  "quarantine_reasons": {
+    "winning_payout_mismatch": 1
+  },
+  "issues": [
+    {
+      "race_id": "202603142606",
+      "reason": "winning_payout_mismatch",
+      "winning": "8-6-2",
+      "odds": "9999.9",
+      "payout": "1240140"
+    }
+  ]
+}

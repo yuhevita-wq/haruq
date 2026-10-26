@@ -1,0 +1,29 @@
+{
+  "model": "eligible_train_ndcg3",
+  "eligible_races": 21912,
+  "matched_races": 21445,
+  "unavailable_or_quarantined_races": 467,
+  "ticket_quote_opportunities": 4952142,
+  "estimated_cells": 135877,
+  "zero_hit_cells": 112814,
+  "matched_periods": {
+    "2026H1": 10176,
+    "2025H2": 11269
+  },
+  "grouping": "Primary exacta_band for cross-market HIGH/MED comparison; separate native trifecta_band. Never merge schemes.",
+  "record_input_sha256": "9a319624f9b0b0427e04261f625ed6d3e7811d03cf312011157a1121676389ff",
+  "books_input_sha256": "45b1e249774d55fef22ffc87e6ce1c7f27e65bbe876dd364f1ba2e5b1c64e79f",
+  "production_changed": false,
+  "selection_performed": false,
+  "purchase_or_le4_filter_applied": false,
+  "limitations": [
+    "Final odds, not pre-purchase snapshots.",
+    "Previously viewed archive, not a newly untouched holdout.",
+    "Broad conditional historical frequencies, not calibrated individual-race probabilities.",
+    "Wilson interval assumes approximate independent binomial trials; no clustering/drift/multiple-search adjustment."
+  ],
+  "output_sha256": {
+    "trifecta_price_conditional_frequencies.csv": "1e1cf2ef863d22aa7bd60765c6ab76ced34f4ea4e679f142ffb640127a06a348",
+    "trifecta_price_coverage.csv": "591496105a5a170210d3c4f5fd6f80fa327e5eb2e994ffee5fb6b68ba5ba9407"
+  }
+}

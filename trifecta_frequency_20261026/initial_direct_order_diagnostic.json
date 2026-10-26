@@ -1,0 +1,89 @@
+{
+  "source_commit": "468cd077aa878f8ebf099a822aa230afe94851c9",
+  "source_archives": 436,
+  "counts": {
+    "source_trifecta_quote_rows": 6692118,
+    "overlap_quote_rows": 5873844,
+    "identical_duplicate_quotes": 988734
+  },
+  "overlapping_race_books": 21312,
+  "admitted_races": 18,
+  "admitted_quotes": 3984,
+  "quarantined": 21294,
+  "quarantine_reasons": {
+    "winning_payout_mismatch": 21294
+  },
+  "issue_examples": [
+    {
+      "race_id": "202507011101",
+      "reason": "winning_payout_mismatch",
+      "winning": "1-2-3",
+      "odds": "35.6",
+      "payout": "1800"
+    },
+    {
+      "race_id": "202507011102",
+      "reason": "winning_payout_mismatch",
+      "winning": "7-1-6",
+      "odds": "92.6",
+      "payout": "740"
+    },
+    {
+      "race_id": "202507011103",
+      "reason": "winning_payout_mismatch",
+      "winning": "6-1-4",
+      "odds": "58.6",
+      "payout": "1830"
+    },
+    {
+      "race_id": "202507011104",
+      "reason": "winning_payout_mismatch",
+      "winning": "1-3-2",
+      "odds": "3.9",
+      "payout": "240"
+    },
+    {
+      "race_id": "202507011105",
+      "reason": "winning_payout_mismatch",
+      "winning": "1-5-6",
+      "odds": "36.5",
+      "payout": "16230"
+    },
+    {
+      "race_id": "202507011106",
+      "reason": "winning_payout_mismatch",
+      "winning": "2-1-3",
+      "odds": "45.0",
+      "payout": "820"
+    },
+    {
+      "race_id": "202507011107",
+      "reason": "winning_payout_mismatch",
+      "winning": "4-3-1",
+      "odds": "118.4",
+      "payout": "8010"
+    },
+    {
+      "race_id": "202507011301",
+      "reason": "winning_payout_mismatch",
+      "winning": "4-7-1",
+      "odds": "86.2",
+      "payout": "7970"
+    },
+    {
+      "race_id": "202507011302",
+      "reason": "winning_payout_mismatch",
+      "winning": "4-2-3",
+      "odds": "170.1",
+      "payout": "2790"
+    },
+    {
+      "race_id": "202507011303",
+      "reason": "winning_payout_mismatch",
+      "winning": "6-3-1",
+      "odds": "127.1",
+      "payout": "2380"
+    }
+  ],
+  "full_initial_audit_sha256": "63ffff7501bb1e204304813bf21010258cc79d71d49ddd80da81b76e29950f40"
+}
