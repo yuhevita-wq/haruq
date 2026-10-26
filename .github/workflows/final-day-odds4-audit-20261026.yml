@@ -1,0 +1,53 @@
+name: HaruQ Final Day and 4x Odds Read-only Audit
+on:
+  push:
+    branches: [research/final-day-odds4-audit-20261026]
+    paths: [.github/workflows/final-day-odds4-audit-20261026.yml]
+permissions:
+  contents: write
+concurrency:
+  group: haruq-finalday-odds4-20261026
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+      COLLECTOR_PASSPHRASE: ${{ secrets.COLLECTOR_PASSPHRASE }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore historical SQLite database with checksum verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p db finalday_work
+          for n in keirin-history.sqlite.gpg PLAINTEXT_SHA256.txt; do
+            gh release download haruqube-20260321-history-cache-haruq-v1 --repo "$GITHUB_REPOSITORY" --pattern "$n" --dir finalday_work
+          done
+          python -c 'import os,sys;sys.stdout.write(os.environ["COLLECTOR_PASSPHRASE"].rstrip("\r\n"))' | gpg --batch --yes --pinentry-mode loopback --passphrase-fd 0 --output db/keirin.db --decrypt finalday_work/keirin-history.sqlite.gpg
+          (cd db && sha256sum -c ../finalday_work/PLAINTEXT_SHA256.txt)
+          test "$(sqlite3 db/keirin.db 'PRAGMA integrity_check;')" = "ok"
+      - name: Download publicly archived 2025-2026H1 trifecta odds
+        shell: bash
+        run: |
+          set -euo pipefail
+          for yr in 2025 2026; do
+            curl -fL --retry 3 --connect-timeout 20 --max-time 300 -o "odds_${yr}.jsonl.gz" "https://raw.githubusercontent.com/yuhevita-wq/keirin-market-analysis-/main/data/odds_only/odds_${yr}.jsonl.gz"
+          done
+      - name: Independently recompute last day and available odds
+        run: python -u scripts/audit_final_day_odds4_20261026.py
+      - name: Publish aggregated research-only audit
+        if: always()
+        shell: bash
+        run: |
+          if test -d research_audits/final_day_4x_20261026; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -f research_audits/final_day_4x_20261026/
+            git diff --cached --quiet || git commit -m "Record independent final-day odds 4x audit [skip ci]"
+            git push origin HEAD:research/final-day-odds4-audit-20261026
+          fi
+      - name: Remove decrypted ephemeral history and source odds
+        if: always()
+        run: rm -f db/keirin.db finalday_work/*.gpg odds_2025.jsonl.gz odds_2026.jsonl.gz
