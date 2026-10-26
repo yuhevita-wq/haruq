@@ -8,6 +8,7 @@ on:
       - scripts/flagship_live_predict.py
       - scripts/haruq_publish_web.py
       - scripts/test_flagship_live.py
+      - scripts/test_haruq_f2_publish.py
       - README.md
       - .github/workflows/validate-f2-final-high-20261026.yml
 permissions: {contents: read}
@@ -36,6 +37,7 @@ jobs:
         run: |
           python -m py_compile scripts/haruq_operating_policy.py scripts/haruq_meeting_final_day.py scripts/flagship_live_predict.py scripts/haruq_publish_web.py scripts/test_flagship_live.py
           python -m scripts.test_flagship_live
+          python -m scripts.test_haruq_f2_publish
       - name: Check published live calendar for 2026-10-26
         shell: bash
         run: |
