@@ -88,6 +88,54 @@ for market in ["exacta","trifecta"]:
 ref["finalday"]["by_grade"]={}
 for grade in sorted({r["grade"] for r in selected}):
     ref["finalday"]["by_grade"][grade]=summary(x for x in selected if x["grade"]==grade)
+# Counterfactual that needs winning dividends ONLY. 500 yen is the
+# fixed stake per original production ticket. Winning tickets with a
+# strictly lower than 4.0x dividend are removed from investment AND return.
+# Losing tickets with odds below 4.0x remain because their odds are unknown:
+# reported ROI is therefore a conservative lower bound for this selected
+# final-day subset, not a full individual-ticket odds filter.
+POSTHOC_PRICE_LIMIT_YEN = 2000
+permarket=collections.defaultdict(list)
+counterfactual=[]
+removed_hit_counts=collections.Counter()
+removed_hit_stake=collections.Counter()
+removed_hit_paid=collections.Counter()
+for x in selected:
+    newstake,newpaid=x["stake"],x["paid"]
+    for m in x["markets"]:
+        typ=m["market"]
+        stake,paid=int(m["stake"]),int(m["paid"])
+        assert stake in (2000,3000),(x["race_id"],typ,stake)
+        # At most one ordered exacta/trifecta ticket can hit in each market;
+        # each such ticket is staked at 500 yen in the frozen policy.
+        removed=0 < paid < POSTHOC_PRICE_LIMIT_YEN
+        adj_stake=stake-(500 if removed else 0)
+        adj_paid=0 if removed else paid
+        assert adj_stake>=0 and adj_paid>=0
+        if removed:
+            removed_hit_counts[typ]+=1
+            removed_hit_stake[typ]+=500
+            removed_hit_paid[typ]+=paid
+        permarket[typ].append({"stake":adj_stake,"paid":adj_paid})
+        newstake-=stake-adj_stake
+        newpaid-=paid-adj_paid
+    counterfactual.append({"race_id":x["race_id"],"date":x["date"],
+        "grade":x["grade"],"stake":newstake,"paid":newpaid})
+assert len(counterfactual)==len(selected)
+ref["winning_dividend_only_4x_proxy"]={
+    "calculation":"For each originally winning ticket with payout <2000 JPY on 500 JPY stake, omit exactly 500 JPY investment AND that actual winning dividend; other tickets unchanged.",
+    "strict_boundary":"4.0x exactly is kept",
+    "status":"CONSERVATIVE_WIN_ONLY_PROXY_NOT_FULL_ODDS_FILTER",
+    "coverage":"All identified final-day races, 2025-07-01 through 2026-06-30; 2026Q3 unverified because no public programme odds data.",
+    "result":summary(counterfactual),
+    "removed_winning_tickets":dict(removed_hit_counts),
+    "removed_winning_stakes":dict(removed_hit_stake),
+    "removed_winning_payouts":dict(removed_hit_paid),
+    "by_market":{market:summary(rows) for market,rows in sorted(permarket.items())},
+    "monthly":{month:summary(y for y in counterfactual if y["date"][:7]==month)
+               for month in sorted({r["date"][:7] for r in counterfactual})},
+    "interpretation":"Worst-case profit/ROI relative to excluding all <4.0x original tickets in this verified subset; cannot identify losing low-odds selections without quotes. Ex-post comparison not real-time betting evidence."
+}
 (OUT/"lastday_baseline.json").write_text(json.dumps(ref,ensure_ascii=False,indent=2)+"\n")
 print("HARUQ_FINAL_DAY_BASELINE",json.dumps({
     "baseline":ref["finalday"]["selected"],
