@@ -1,0 +1,43 @@
+name: Record Actual Outcomes in Prediction Rank Space
+on:
+  push:
+    branches: [research/rank-outcomes-20261026]
+    paths: [.github/workflows/rank-outcomes.yml]
+permissions:
+  contents: write
+concurrency:
+  group: rank-outcomes-20261026
+  cancel-in-progress: false
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      COLLECTOR_PASSPHRASE: ${{ secrets.COLLECTOR_PASSPHRASE }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Restore verified result archive
+        run: |
+          set -euo pipefail
+          mkdir -p rank_record_inputs db
+          for name in keirin-history.sqlite.gpg PLAINTEXT_SHA256.txt; do
+            gh release download haruqube-20260321-history-cache-haruq-v1 --repo "$GITHUB_REPOSITORY" --pattern "$name" --dir rank_record_inputs
+          done
+          python -c 'import os,sys; sys.stdout.write(os.environ["COLLECTOR_PASSPHRASE"].rstrip("\r\n"))' | gpg --batch --yes --pinentry-mode loopback --passphrase-fd 0 --output db/keirin.db --decrypt rank_record_inputs/keirin-history.sqlite.gpg
+          (cd db && sha256sum -c ../rank_record_inputs/PLAINTEXT_SHA256.txt)
+      - name: Record all eligible predictions including MED and nonpurchase races
+        run: python -u scripts/record_rank_outcomes.py
+      - name: Persist research records only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f rank_outcomes_20261026/
+          git diff --cached --quiet || git commit -m 'Record actual finish orders against frozen prediction ranks [skip ci]'
+          git push origin HEAD:research/rank-outcomes-20261026
+      - name: Remove ephemeral archive
+        if: always()
+        run: rm -f db/keirin.db rank_record_inputs/keirin-history.sqlite.gpg
