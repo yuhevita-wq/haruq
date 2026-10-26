@@ -203,12 +203,12 @@ def main():
     gap=float(frame.iloc[0]["score"]-frame.iloc[1]["score"])
     original_bets=strict_tickets(frame,gap,grade)
     eligible_bets=strict_tickets(frame,gap,grade,allow_f2=True)
-    # User-authorized F2 ticket policy is restricted to a confirmed final day.
-    # A missing, stale, or ambiguous calendar means no F2 ticket is bought.
-    # No extra course lookup is made for non-F2 grades.
-    meeting_day=(resolve_meeting_day(scraper,target) if grade=="F2" else {
+    # Explicitly approved F1 and F2 purchase policies need independently
+    # confirmed final-day programme metadata; unknown => no purchase.
+    # G/GP still use unchanged frozen V3 purchase behavior.
+    meeting_day=(resolve_meeting_day(scraper,target) if grade in {"F1","F2"} else {
         "status":"not_applicable", "is_final_day":None,
-        "reason":"non_F2_legacy_policy", "race_id":target,
+        "reason":"G_grade_legacy_policy", "race_id":target,
     })
     operation=apply_user_policy(
         eligible_bets,grade=grade,score_gap=gap,meeting_day=meeting_day)
