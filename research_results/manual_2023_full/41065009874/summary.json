@@ -1,0 +1,540 @@
+{
+  "period": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "months": [
+    {
+      "month": "2023-01",
+      "universe": 2359,
+      "recorded": 2359,
+      "statuses": {
+        "processed": 2084,
+        "excluded_girls_or_unknown_class": 141,
+        "missing_race_metadata": 134
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 108,
+          "investment_yen": 152000,
+          "returned_yen": 135250,
+          "hits": 45
+        },
+        "manual_H1/exacta": {
+          "settled_races": 108,
+          "investment_yen": 152000,
+          "returned_yen": 135250,
+          "hits": 45
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 15,
+          "investment_yen": 45000,
+          "returned_yen": 40050,
+          "hits": 7
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 15,
+          "investment_yen": 29200,
+          "returned_yen": 22680,
+          "hits": 10
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-02",
+      "universe": 2224,
+      "recorded": 2224,
+      "statuses": {
+        "processed": 1902,
+        "excluded_girls_or_unknown_class": 144,
+        "missing_race_metadata": 178
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 95,
+          "investment_yen": 127000,
+          "returned_yen": 115900,
+          "hits": 46,
+          "unresolved_races": 1
+        },
+        "manual_H1/exacta": {
+          "settled_races": 95,
+          "investment_yen": 127000,
+          "returned_yen": 115900,
+          "hits": 46,
+          "unresolved_races": 1
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 9,
+          "investment_yen": 27000,
+          "returned_yen": 45550,
+          "hits": 5
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 9,
+          "investment_yen": 17600,
+          "returned_yen": 11890,
+          "hits": 6
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-03",
+      "universe": 2218,
+      "recorded": 2218,
+      "statuses": {
+        "processed": 1991,
+        "excluded_girls_or_unknown_class": 147,
+        "missing_race_metadata": 80
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 88,
+          "investment_yen": 117000,
+          "returned_yen": 111350,
+          "hits": 36,
+          "unresolved_races": 1
+        },
+        "manual_H1/exacta": {
+          "settled_races": 88,
+          "investment_yen": 117000,
+          "returned_yen": 111350,
+          "hits": 36,
+          "unresolved_races": 1
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 2,
+          "investment_yen": 6000,
+          "returned_yen": 4650,
+          "hits": 1
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 2,
+          "investment_yen": 3500,
+          "returned_yen": 1800,
+          "hits": 2
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-04",
+      "universe": 2226,
+      "recorded": 2226,
+      "statuses": {
+        "excluded_girls_or_unknown_class": 140,
+        "processed": 2070,
+        "missing_race_metadata": 16
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 96,
+          "investment_yen": 156000,
+          "returned_yen": 136750,
+          "hits": 52
+        },
+        "manual_H1/exacta": {
+          "settled_races": 96,
+          "investment_yen": 156000,
+          "returned_yen": 136750,
+          "hits": 52
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 15,
+          "investment_yen": 45000,
+          "returned_yen": 30500,
+          "hits": 7
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 15,
+          "investment_yen": 28200,
+          "returned_yen": 8970,
+          "hits": 9
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-05",
+      "universe": 2371,
+      "recorded": 2371,
+      "statuses": {
+        "excluded_girls_or_unknown_class": 175,
+        "processed": 2196
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 115,
+          "investment_yen": 147000,
+          "returned_yen": 164250,
+          "hits": 43
+        },
+        "manual_H1/exacta": {
+          "settled_races": 115,
+          "investment_yen": 147000,
+          "returned_yen": 164250,
+          "hits": 43
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 8,
+          "investment_yen": 24000,
+          "returned_yen": 29050,
+          "hits": 4
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 8,
+          "investment_yen": 14400,
+          "returned_yen": 15180,
+          "hits": 7
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": true,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-06",
+      "universe": 2127,
+      "recorded": 2127,
+      "statuses": {
+        "processed": 1934,
+        "excluded_girls_or_unknown_class": 138,
+        "missing_race_metadata": 55
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 75,
+          "investment_yen": 118000,
+          "returned_yen": 96500,
+          "hits": 34
+        },
+        "manual_H1/exacta": {
+          "settled_races": 75,
+          "investment_yen": 118000,
+          "returned_yen": 96500,
+          "hits": 34
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 12,
+          "investment_yen": 36000,
+          "returned_yen": 42950,
+          "hits": 3
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 12,
+          "investment_yen": 24000,
+          "returned_yen": 13700,
+          "hits": 5
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-07",
+      "universe": 2331,
+      "recorded": 2331,
+      "statuses": {
+        "processed": 2141,
+        "excluded_girls_or_unknown_class": 163,
+        "missing_race_metadata": 27
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 72,
+          "investment_yen": 113000,
+          "returned_yen": 65950,
+          "hits": 29,
+          "unresolved_races": 1
+        },
+        "manual_H1/exacta": {
+          "settled_races": 72,
+          "investment_yen": 113000,
+          "returned_yen": 65950,
+          "hits": 29,
+          "unresolved_races": 1
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 9,
+          "investment_yen": 27000,
+          "returned_yen": 41400,
+          "hits": 4,
+          "unresolved_races": 1
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 9,
+          "investment_yen": 17600,
+          "returned_yen": 10280,
+          "hits": 5,
+          "unresolved_races": 1
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-08",
+      "universe": 2094,
+      "recorded": 2094,
+      "statuses": {
+        "processed": 1824,
+        "excluded_girls_or_unknown_class": 152,
+        "missing_race_metadata": 118
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 104,
+          "investment_yen": 157000,
+          "returned_yen": 166850,
+          "hits": 39,
+          "unresolved_races": 1
+        },
+        "manual_H1/exacta": {
+          "settled_races": 104,
+          "investment_yen": 157000,
+          "returned_yen": 166850,
+          "hits": 39,
+          "unresolved_races": 1
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 7,
+          "investment_yen": 21000,
+          "returned_yen": 25900,
+          "hits": 3
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 7,
+          "investment_yen": 14100,
+          "returned_yen": 17180,
+          "hits": 5
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-09",
+      "universe": 2109,
+      "recorded": 2109,
+      "statuses": {
+        "processed": 1877,
+        "excluded_girls_or_unknown_class": 149,
+        "missing_race_metadata": 83
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 109,
+          "investment_yen": 152000,
+          "returned_yen": 123350,
+          "hits": 45
+        },
+        "manual_H1/exacta": {
+          "settled_races": 109,
+          "investment_yen": 152000,
+          "returned_yen": 123350,
+          "hits": 45
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 10,
+          "investment_yen": 30000,
+          "returned_yen": 16500,
+          "hits": 5
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 10,
+          "investment_yen": 19200,
+          "returned_yen": 3820,
+          "hits": 6
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-10",
+      "universe": 2251,
+      "recorded": 2251,
+      "statuses": {
+        "processed": 2086,
+        "excluded_girls_or_unknown_class": 151,
+        "missing_race_metadata": 14
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 72,
+          "investment_yen": 105000,
+          "returned_yen": 80350,
+          "hits": 34,
+          "unresolved_races": 1
+        },
+        "manual_H1/exacta": {
+          "settled_races": 72,
+          "investment_yen": 105000,
+          "returned_yen": 80350,
+          "hits": 34,
+          "unresolved_races": 1
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 11,
+          "investment_yen": 33000,
+          "returned_yen": 3250,
+          "hits": 2
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 11,
+          "investment_yen": 20700,
+          "returned_yen": 10890,
+          "hits": 6
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-11",
+      "universe": 2221,
+      "recorded": 2221,
+      "statuses": {
+        "processed": 2047,
+        "excluded_girls_or_unknown_class": 156,
+        "missing_race_metadata": 18
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 78,
+          "investment_yen": 111000,
+          "returned_yen": 136450,
+          "hits": 38
+        },
+        "manual_H1/exacta": {
+          "settled_races": 78,
+          "investment_yen": 111000,
+          "returned_yen": 136450,
+          "hits": 38
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 12,
+          "investment_yen": 36000,
+          "returned_yen": 4650,
+          "hits": 1
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 12,
+          "investment_yen": 23300,
+          "returned_yen": 25230,
+          "hits": 8
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    },
+    {
+      "month": "2023-12",
+      "universe": 2307,
+      "recorded": 2307,
+      "statuses": {
+        "processed": 2142,
+        "excluded_girls_or_unknown_class": 165
+      },
+      "totals": {
+        "legacy_V5/exacta": {
+          "settled_races": 80,
+          "investment_yen": 127000,
+          "returned_yen": 106700,
+          "hits": 39,
+          "unresolved_races": 1
+        },
+        "manual_H1/exacta": {
+          "settled_races": 80,
+          "investment_yen": 127000,
+          "returned_yen": 106700,
+          "hits": 39,
+          "unresolved_races": 1
+        },
+        "legacy_V5/trifecta": {
+          "settled_races": 12,
+          "investment_yen": 36000,
+          "returned_yen": 14000,
+          "hits": 3,
+          "unresolved_races": 1
+        },
+        "manual_H1/trifecta": {
+          "settled_races": 12,
+          "investment_yen": 23300,
+          "returned_yen": 4190,
+          "hits": 5,
+          "unresolved_races": 1
+        }
+      },
+      "all_records_accounted": true,
+      "data_complete": false,
+      "model_test_status": "IN_SAMPLE_RETROSPECTIVE_NOT_UNKNOWN_PERIOD"
+    }
+  ],
+  "universe": 26838,
+  "recorded": 26838,
+  "statuses": {
+    "processed": 24294,
+    "excluded_girls_or_unknown_class": 1821,
+    "missing_race_metadata": 723
+  },
+  "data_complete": false,
+  "totals": {
+    "legacy_V5/exacta": {
+      "settled_races": 1092,
+      "investment_yen": 1582000,
+      "returned_yen": 1439650,
+      "hits": 480,
+      "unresolved_races": 6,
+      "net_yen": -142350,
+      "roi_percent": 91.00189633375474
+    },
+    "manual_H1/exacta": {
+      "settled_races": 1092,
+      "investment_yen": 1582000,
+      "returned_yen": 1439650,
+      "hits": 480,
+      "unresolved_races": 6,
+      "net_yen": -142350,
+      "roi_percent": 91.00189633375474
+    },
+    "legacy_V5/trifecta": {
+      "settled_races": 122,
+      "investment_yen": 366000,
+      "returned_yen": 298450,
+      "hits": 45,
+      "unresolved_races": 2,
+      "net_yen": -67550,
+      "roi_percent": 81.54371584699453
+    },
+    "manual_H1/trifecta": {
+      "settled_races": 122,
+      "investment_yen": 235100,
+      "returned_yen": 145810,
+      "hits": 74,
+      "unresolved_races": 2,
+      "net_yen": -89290,
+      "roi_percent": 62.020416843896214
+    }
+  },
+  "model_test_status": "IN_SAMPLE_RETROSPECTIVE",
+  "manual_H1_status": "Hypothetical 100-yen purchases of research candidates, not production purchases",
+  "coverage": "All archive DB races union independent odds calendar; unresolved records retained, never zero-loss imputed",
+  "price_selection": "Default H1 selection without prices; no final-odds purchase-time claim"
+}
