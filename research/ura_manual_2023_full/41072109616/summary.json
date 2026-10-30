@@ -1,0 +1,894 @@
+{
+  "period": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "policy_id": "URA_MANUAL_FORMATIONS_V1_20261030",
+  "months": [
+    {
+      "month": "2023-01",
+      "universe": 2359,
+      "recorded": 2359,
+      "statuses": {
+        "processed": 1531,
+        "missing_or_duplicate_odds_record": 42,
+        "not_low_confidence": 511,
+        "missing_compatible_frozen_score_snapshot": 141,
+        "missing_race_metadata": 134
+      },
+      "totals": {
+        "selected_races": 1531,
+        "settled_races": 1521,
+        "hits": 86,
+        "points": 57878,
+        "investment_yen": 5787800,
+        "returned_yen": 3670350,
+        "unresolved_selected_races": 10
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 1385,
+          "hits": 79,
+          "points": 56154,
+          "investment_yen": 5615400,
+          "returned_yen": 3458930
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 90,
+          "hits": 7,
+          "points": 1086,
+          "investment_yen": 108600,
+          "returned_yen": 211420
+        },
+        "first_fixed": {
+          "settled_races": 25,
+          "hits": 0,
+          "points": 498,
+          "investment_yen": 49800,
+          "returned_yen": 0
+        },
+        "three_rider_box": {
+          "settled_races": 15,
+          "hits": 0,
+          "points": 90,
+          "investment_yen": 9000,
+          "returned_yen": 0
+        },
+        "pair_reverse": {
+          "settled_races": 6,
+          "hits": 0,
+          "points": 50,
+          "investment_yen": 5000,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-02",
+      "universe": 2224,
+      "recorded": 2224,
+      "statuses": {
+        "processed": 959,
+        "not_low_confidence": 509,
+        "missing_or_duplicate_odds_record": 434,
+        "missing_compatible_frozen_score_snapshot": 144,
+        "missing_race_metadata": 178
+      },
+      "totals": {
+        "selected_races": 959,
+        "settled_races": 947,
+        "hits": 40,
+        "points": 37690,
+        "investment_yen": 3769000,
+        "returned_yen": 2196660,
+        "unresolved_selected_races": 12
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 868,
+          "hits": 37,
+          "points": 36667,
+          "investment_yen": 3666700,
+          "returned_yen": 2098850
+        },
+        "first_fixed": {
+          "settled_races": 12,
+          "hits": 0,
+          "points": 272,
+          "investment_yen": 27200,
+          "returned_yen": 0
+        },
+        "sandwich": {
+          "settled_races": 1,
+          "hits": 0,
+          "points": 3,
+          "investment_yen": 300,
+          "returned_yen": 0
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 51,
+          "hits": 2,
+          "points": 642,
+          "investment_yen": 64200,
+          "returned_yen": 28150
+        },
+        "three_rider_box": {
+          "settled_races": 5,
+          "hits": 0,
+          "points": 30,
+          "investment_yen": 3000,
+          "returned_yen": 0
+        },
+        "pair_reverse": {
+          "settled_races": 6,
+          "hits": 1,
+          "points": 60,
+          "investment_yen": 6000,
+          "returned_yen": 69660
+        },
+        "ordered_pair": {
+          "settled_races": 4,
+          "hits": 0,
+          "points": 16,
+          "investment_yen": 1600,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-03",
+      "universe": 2218,
+      "recorded": 2218,
+      "statuses": {
+        "missing_or_duplicate_odds_record": 476,
+        "not_low_confidence": 585,
+        "missing_compatible_frozen_score_snapshot": 147,
+        "processed": 929,
+        "missing_race_metadata": 80,
+        "invalid_formation_or_price_input": 1
+      },
+      "totals": {
+        "selected_races": 929,
+        "settled_races": 926,
+        "hits": 39,
+        "points": 35281,
+        "investment_yen": 3528100,
+        "returned_yen": 2134070,
+        "unresolved_selected_races": 3
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 832,
+          "hits": 38,
+          "points": 34091,
+          "investment_yen": 3409100,
+          "returned_yen": 2042560
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 54,
+          "hits": 1,
+          "points": 672,
+          "investment_yen": 67200,
+          "returned_yen": 91510
+        },
+        "pair_reverse": {
+          "settled_races": 8,
+          "hits": 0,
+          "points": 66,
+          "investment_yen": 6600,
+          "returned_yen": 0
+        },
+        "three_rider_box": {
+          "settled_races": 13,
+          "hits": 0,
+          "points": 78,
+          "investment_yen": 7800,
+          "returned_yen": 0
+        },
+        "first_fixed": {
+          "settled_races": 17,
+          "hits": 0,
+          "points": 366,
+          "investment_yen": 36600,
+          "returned_yen": 0
+        },
+        "ordered_pair": {
+          "settled_races": 2,
+          "hits": 0,
+          "points": 8,
+          "investment_yen": 800,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-04",
+      "universe": 2226,
+      "recorded": 2226,
+      "statuses": {
+        "missing_compatible_frozen_score_snapshot": 140,
+        "processed": 533,
+        "not_low_confidence": 623,
+        "missing_or_duplicate_odds_record": 914,
+        "missing_race_metadata": 16
+      },
+      "totals": {
+        "selected_races": 533,
+        "settled_races": 530,
+        "hits": 30,
+        "points": 22024,
+        "investment_yen": 2202400,
+        "returned_yen": 1503090,
+        "unresolved_selected_races": 3
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 495,
+          "hits": 28,
+          "points": 21589,
+          "investment_yen": 2158900,
+          "returned_yen": 1477220
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 24,
+          "hits": 2,
+          "points": 291,
+          "investment_yen": 29100,
+          "returned_yen": 25870
+        },
+        "three_rider_box": {
+          "settled_races": 1,
+          "hits": 0,
+          "points": 6,
+          "investment_yen": 600,
+          "returned_yen": 0
+        },
+        "first_fixed": {
+          "settled_races": 5,
+          "hits": 0,
+          "points": 100,
+          "investment_yen": 10000,
+          "returned_yen": 0
+        },
+        "pair_reverse": {
+          "settled_races": 4,
+          "hits": 0,
+          "points": 34,
+          "investment_yen": 3400,
+          "returned_yen": 0
+        },
+        "ordered_pair": {
+          "settled_races": 1,
+          "hits": 0,
+          "points": 4,
+          "investment_yen": 400,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-05",
+      "universe": 2371,
+      "recorded": 2371,
+      "statuses": {
+        "missing_compatible_frozen_score_snapshot": 175,
+        "missing_or_duplicate_odds_record": 821,
+        "not_low_confidence": 671,
+        "processed": 704
+      },
+      "totals": {
+        "selected_races": 704,
+        "settled_races": 701,
+        "hits": 39,
+        "points": 27327,
+        "investment_yen": 2732700,
+        "returned_yen": 1282660,
+        "unresolved_selected_races": 3
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 643,
+          "hits": 37,
+          "points": 26533,
+          "investment_yen": 2653300,
+          "returned_yen": 1241080
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 39,
+          "hits": 2,
+          "points": 486,
+          "investment_yen": 48600,
+          "returned_yen": 41580
+        },
+        "pair_reverse": {
+          "settled_races": 3,
+          "hits": 0,
+          "points": 22,
+          "investment_yen": 2200,
+          "returned_yen": 0
+        },
+        "three_rider_box": {
+          "settled_races": 4,
+          "hits": 0,
+          "points": 24,
+          "investment_yen": 2400,
+          "returned_yen": 0
+        },
+        "first_fixed": {
+          "settled_races": 12,
+          "hits": 0,
+          "points": 262,
+          "investment_yen": 26200,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-06",
+      "universe": 2127,
+      "recorded": 2127,
+      "statuses": {
+        "missing_or_duplicate_odds_record": 847,
+        "missing_compatible_frozen_score_snapshot": 138,
+        "processed": 536,
+        "not_low_confidence": 551,
+        "missing_race_metadata": 55
+      },
+      "totals": {
+        "selected_races": 536,
+        "settled_races": 532,
+        "hits": 32,
+        "points": 22515,
+        "investment_yen": 2251500,
+        "returned_yen": 1369330,
+        "unresolved_selected_races": 4
+      },
+      "by_family": {
+        "pair_plus_sandwich": {
+          "settled_races": 40,
+          "hits": 3,
+          "points": 480,
+          "investment_yen": 48000,
+          "returned_yen": 36150
+        },
+        "multiple_scenarios": {
+          "settled_races": 478,
+          "hits": 28,
+          "points": 21851,
+          "investment_yen": 2185100,
+          "returned_yen": 1326620
+        },
+        "pair_reverse": {
+          "settled_races": 3,
+          "hits": 0,
+          "points": 26,
+          "investment_yen": 2600,
+          "returned_yen": 0
+        },
+        "ordered_pair": {
+          "settled_races": 2,
+          "hits": 0,
+          "points": 8,
+          "investment_yen": 800,
+          "returned_yen": 0
+        },
+        "three_rider_box": {
+          "settled_races": 3,
+          "hits": 1,
+          "points": 18,
+          "investment_yen": 1800,
+          "returned_yen": 6560
+        },
+        "first_fixed": {
+          "settled_races": 6,
+          "hits": 0,
+          "points": 132,
+          "investment_yen": 13200,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-07",
+      "universe": 2331,
+      "recorded": 2331,
+      "statuses": {
+        "processed": 519,
+        "not_low_confidence": 559,
+        "missing_or_duplicate_odds_record": 1063,
+        "missing_compatible_frozen_score_snapshot": 163,
+        "missing_race_metadata": 27
+      },
+      "totals": {
+        "selected_races": 519,
+        "settled_races": 517,
+        "hits": 29,
+        "points": 20009,
+        "investment_yen": 2000900,
+        "returned_yen": 2455610,
+        "unresolved_selected_races": 2
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 461,
+          "hits": 25,
+          "points": 19266,
+          "investment_yen": 1926600,
+          "returned_yen": 2379850
+        },
+        "ordered_pair": {
+          "settled_races": 2,
+          "hits": 0,
+          "points": 8,
+          "investment_yen": 800,
+          "returned_yen": 0
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 32,
+          "hits": 2,
+          "points": 411,
+          "investment_yen": 41100,
+          "returned_yen": 45910
+        },
+        "three_rider_box": {
+          "settled_races": 3,
+          "hits": 0,
+          "points": 18,
+          "investment_yen": 1800,
+          "returned_yen": 0
+        },
+        "first_fixed": {
+          "settled_races": 13,
+          "hits": 0,
+          "points": 262,
+          "investment_yen": 26200,
+          "returned_yen": 0
+        },
+        "sandwich": {
+          "settled_races": 1,
+          "hits": 1,
+          "points": 4,
+          "investment_yen": 400,
+          "returned_yen": 5790
+        },
+        "pair_reverse": {
+          "settled_races": 5,
+          "hits": 1,
+          "points": 40,
+          "investment_yen": 4000,
+          "returned_yen": 24060
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-08",
+      "universe": 2094,
+      "recorded": 2094,
+      "statuses": {
+        "missing_or_duplicate_odds_record": 685,
+        "not_low_confidence": 503,
+        "processed": 636,
+        "missing_compatible_frozen_score_snapshot": 152,
+        "missing_race_metadata": 118
+      },
+      "totals": {
+        "selected_races": 636,
+        "settled_races": 633,
+        "hits": 25,
+        "points": 26353,
+        "investment_yen": 2635300,
+        "returned_yen": 1169100,
+        "unresolved_selected_races": 3
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 585,
+          "hits": 24,
+          "points": 25674,
+          "investment_yen": 2567400,
+          "returned_yen": 1166760
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 29,
+          "hits": 0,
+          "points": 363,
+          "investment_yen": 36300,
+          "returned_yen": 0
+        },
+        "pair_reverse": {
+          "settled_races": 2,
+          "hits": 0,
+          "points": 14,
+          "investment_yen": 1400,
+          "returned_yen": 0
+        },
+        "first_fixed": {
+          "settled_races": 14,
+          "hits": 0,
+          "points": 286,
+          "investment_yen": 28600,
+          "returned_yen": 0
+        },
+        "three_rider_box": {
+          "settled_races": 2,
+          "hits": 1,
+          "points": 12,
+          "investment_yen": 1200,
+          "returned_yen": 2340
+        },
+        "ordered_pair": {
+          "settled_races": 1,
+          "hits": 0,
+          "points": 4,
+          "investment_yen": 400,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-09",
+      "universe": 2109,
+      "recorded": 2109,
+      "statuses": {
+        "not_low_confidence": 510,
+        "processed": 585,
+        "missing_or_duplicate_odds_record": 782,
+        "missing_compatible_frozen_score_snapshot": 149,
+        "missing_race_metadata": 83
+      },
+      "totals": {
+        "selected_races": 585,
+        "settled_races": 578,
+        "hits": 25,
+        "points": 24852,
+        "investment_yen": 2485200,
+        "returned_yen": 841080,
+        "unresolved_selected_races": 7
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 528,
+          "hits": 20,
+          "points": 24126,
+          "investment_yen": 2412600,
+          "returned_yen": 745150
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 32,
+          "hits": 4,
+          "points": 408,
+          "investment_yen": 40800,
+          "returned_yen": 89870
+        },
+        "three_rider_box": {
+          "settled_races": 6,
+          "hits": 1,
+          "points": 36,
+          "investment_yen": 3600,
+          "returned_yen": 6060
+        },
+        "first_fixed": {
+          "settled_races": 12,
+          "hits": 0,
+          "points": 282,
+          "investment_yen": 28200,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-10",
+      "universe": 2251,
+      "recorded": 2251,
+      "statuses": {
+        "missing_or_duplicate_odds_record": 1003,
+        "not_low_confidence": 571,
+        "processed": 512,
+        "missing_compatible_frozen_score_snapshot": 151,
+        "missing_race_metadata": 14
+      },
+      "totals": {
+        "selected_races": 512,
+        "settled_races": 511,
+        "hits": 15,
+        "points": 20872,
+        "investment_yen": 2087200,
+        "returned_yen": 354360,
+        "unresolved_selected_races": 1
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 457,
+          "hits": 14,
+          "points": 20216,
+          "investment_yen": 2021600,
+          "returned_yen": 320570
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 37,
+          "hits": 1,
+          "points": 450,
+          "investment_yen": 45000,
+          "returned_yen": 33790
+        },
+        "first_fixed": {
+          "settled_races": 9,
+          "hits": 0,
+          "points": 148,
+          "investment_yen": 14800,
+          "returned_yen": 0
+        },
+        "pair_reverse": {
+          "settled_races": 5,
+          "hits": 0,
+          "points": 40,
+          "investment_yen": 4000,
+          "returned_yen": 0
+        },
+        "three_rider_box": {
+          "settled_races": 3,
+          "hits": 0,
+          "points": 18,
+          "investment_yen": 1800,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-11",
+      "universe": 2221,
+      "recorded": 2221,
+      "statuses": {
+        "missing_or_duplicate_odds_record": 971,
+        "not_low_confidence": 578,
+        "missing_compatible_frozen_score_snapshot": 156,
+        "processed": 498,
+        "missing_race_metadata": 18
+      },
+      "totals": {
+        "selected_races": 498,
+        "settled_races": 494,
+        "hits": 18,
+        "points": 20438,
+        "investment_yen": 2043800,
+        "returned_yen": 764660,
+        "unresolved_selected_races": 4
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 456,
+          "hits": 16,
+          "points": 19888,
+          "investment_yen": 1988800,
+          "returned_yen": 666640
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 19,
+          "hits": 1,
+          "points": 246,
+          "investment_yen": 24600,
+          "returned_yen": 12160
+        },
+        "three_rider_box": {
+          "settled_races": 3,
+          "hits": 0,
+          "points": 18,
+          "investment_yen": 1800,
+          "returned_yen": 0
+        },
+        "first_fixed": {
+          "settled_races": 11,
+          "hits": 1,
+          "points": 244,
+          "investment_yen": 24400,
+          "returned_yen": 85860
+        },
+        "pair_reverse": {
+          "settled_races": 5,
+          "hits": 0,
+          "points": 42,
+          "investment_yen": 4200,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    },
+    {
+      "month": "2023-12",
+      "universe": 2307,
+      "recorded": 2307,
+      "statuses": {
+        "not_low_confidence": 613,
+        "missing_or_duplicate_odds_record": 1021,
+        "missing_compatible_frozen_score_snapshot": 165,
+        "processed": 508
+      },
+      "totals": {
+        "selected_races": 508,
+        "settled_races": 506,
+        "hits": 15,
+        "points": 21068,
+        "investment_yen": 2106800,
+        "returned_yen": 1119930,
+        "unresolved_selected_races": 2
+      },
+      "by_family": {
+        "multiple_scenarios": {
+          "settled_races": 459,
+          "hits": 14,
+          "points": 20442,
+          "investment_yen": 2044200,
+          "returned_yen": 1102130
+        },
+        "pair_plus_sandwich": {
+          "settled_races": 28,
+          "hits": 1,
+          "points": 342,
+          "investment_yen": 34200,
+          "returned_yen": 17800
+        },
+        "ordered_pair": {
+          "settled_races": 1,
+          "hits": 0,
+          "points": 4,
+          "investment_yen": 400,
+          "returned_yen": 0
+        },
+        "pair_reverse": {
+          "settled_races": 6,
+          "hits": 0,
+          "points": 44,
+          "investment_yen": 4400,
+          "returned_yen": 0
+        },
+        "first_fixed": {
+          "settled_races": 10,
+          "hits": 0,
+          "points": 224,
+          "investment_yen": 22400,
+          "returned_yen": 0
+        },
+        "three_rider_box": {
+          "settled_races": 2,
+          "hits": 0,
+          "points": 12,
+          "investment_yen": 1200,
+          "returned_yen": 0
+        }
+      },
+      "all_records_accounted": true,
+      "simulation_context": "RETROSPECTIVE_FINAL_ODDS_PROXY"
+    }
+  ],
+  "universe": 26838,
+  "recorded": 26838,
+  "statuses": {
+    "processed": 8450,
+    "missing_or_duplicate_odds_record": 9059,
+    "not_low_confidence": 6784,
+    "missing_compatible_frozen_score_snapshot": 1821,
+    "missing_race_metadata": 723,
+    "invalid_formation_or_price_input": 1
+  },
+  "totals": {
+    "selected_races": 8450,
+    "settled_races": 8396,
+    "hits": 393,
+    "points": 336307,
+    "investment_yen": 33630700,
+    "returned_yen": 18860900,
+    "unresolved_selected_races": 54,
+    "net_yen": -14769800,
+    "roi_percent": 56.08238900766264,
+    "hit_rate_percent": 4.680800381133873,
+    "average_points": 40.055621724630775
+  },
+  "by_family": {
+    "multiple_scenarios": {
+      "settled_races": 7647,
+      "hits": 360,
+      "points": 326497,
+      "investment_yen": 32649700,
+      "returned_yen": 18026360,
+      "net_yen": -14623340,
+      "roi_percent": 55.21141082460176,
+      "hit_rate_percent": 4.707728520988623,
+      "average_points": 42.696089969922845
+    },
+    "pair_plus_sandwich": {
+      "settled_races": 475,
+      "hits": 26,
+      "points": 5877,
+      "investment_yen": 587700,
+      "returned_yen": 634210,
+      "net_yen": 46510,
+      "roi_percent": 107.91390165050196,
+      "hit_rate_percent": 5.473684210526316,
+      "average_points": 12.372631578947368
+    },
+    "first_fixed": {
+      "settled_races": 146,
+      "hits": 1,
+      "points": 3076,
+      "investment_yen": 307600,
+      "returned_yen": 85860,
+      "net_yen": -221740,
+      "roi_percent": 27.912873862158648,
+      "hit_rate_percent": 0.684931506849315,
+      "average_points": 21.068493150684933
+    },
+    "three_rider_box": {
+      "settled_races": 60,
+      "hits": 3,
+      "points": 360,
+      "investment_yen": 36000,
+      "returned_yen": 14960,
+      "net_yen": -21040,
+      "roi_percent": 41.55555555555556,
+      "hit_rate_percent": 5.0,
+      "average_points": 6.0
+    },
+    "pair_reverse": {
+      "settled_races": 53,
+      "hits": 2,
+      "points": 438,
+      "investment_yen": 43800,
+      "returned_yen": 93720,
+      "net_yen": 49920,
+      "roi_percent": 213.97260273972603,
+      "hit_rate_percent": 3.7735849056603774,
+      "average_points": 8.264150943396226
+    },
+    "sandwich": {
+      "settled_races": 2,
+      "hits": 1,
+      "points": 7,
+      "investment_yen": 700,
+      "returned_yen": 5790,
+      "net_yen": 5090,
+      "roi_percent": 827.1428571428571,
+      "hit_rate_percent": 50.0,
+      "average_points": 3.5
+    },
+    "ordered_pair": {
+      "settled_races": 13,
+      "hits": 0,
+      "points": 52,
+      "investment_yen": 5200,
+      "returned_yen": 0,
+      "net_yen": -5200,
+      "roi_percent": 0.0,
+      "hit_rate_percent": 0.0,
+      "average_points": 4.0
+    }
+  },
+  "unresolved_input_races": 11604,
+  "data_complete": false,
+  "decision_context": "RETROSPECTIVE_FINAL_ODDS_PROXY",
+  "legacy_formations_used": false,
+  "base_ranker_2023_in_sample": true,
+  "probability_coefficients_trained_after_2023": true,
+  "not_unknown_period_test": true,
+  "not_purchase_time_odds_test": true
+}
