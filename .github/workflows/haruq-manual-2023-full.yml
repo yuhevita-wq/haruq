@@ -1,0 +1,100 @@
+name: HaruQ textbook H1 - ALL races 2023 full-year replay
+on:
+  push:
+    branches: [research/haruq-manual-2023-full-20261030]
+    paths:
+      - .github/workflows/haruq-manual-2023-full.yml
+      - scripts/haruq_backtest_2023.py
+      - scripts/haruq_backtest_aggregate.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: haruq-manual-2023-full
+  cancel-in-progress: false
+jobs:
+  monthly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        month: ['2023-01','2023-02','2023-03','2023-04','2023-05','2023-06','2023-07','2023-08','2023-09','2023-10','2023-11','2023-12']
+    env:
+      GH_TOKEN: ${{ github.token }}
+      COLLECTOR_PASSPHRASE: ${{ secrets.COLLECTOR_PASSPHRASE }}
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Restore exact frozen inference definitions and run contracts
+        run: |
+          set -euo pipefail
+          cp research_snapshots/haruqube_20260321/config.py config.py
+          cp research_snapshots/haruqube_20260321/features/builder.py features/builder.py
+          cp research_snapshots/haruqube_20260321/features/line_features.py features/line_features.py
+          test "$(git hash-object config.py)" = 011c2091816d16358dfe478726bcb0ff2bc74bf9
+          test "$(git hash-object features/builder.py)" = b47b793b5cf763bcb6d05137a115105006e50eba
+          test "$(git hash-object features/line_features.py)" = ecf3ab7c762475946054f806bb1d4b802c889389
+          python -m pip install --disable-pip-version-check lightgbm==4.6.0 pandas==2.3.3 numpy==2.2.6 scikit-learn==1.7.2 python-dotenv==1.1.1 requests beautifulsoup4 lxml
+          python -m unittest scripts.test_haruq_formation scripts.test_haruq_backtest_2023
+          python -m scripts.test_flagship_live
+      - name: Restore verified model and full historical archive
+        run: |
+          set -euo pipefail
+          mkdir -p flagship_inputs db
+          gh release download haruqube-20260321-flagship-v1 --repo "$GITHUB_REPOSITORY" --pattern haruqube_20260321_fresh_model.pkl --pattern collection_manifest.json --dir flagship_inputs
+          gh release download haruqube-20260321-history-cache-haruq-v1 --repo "$GITHUB_REPOSITORY" --pattern keirin-history.sqlite.gpg --pattern PLAINTEXT_SHA256.txt --dir flagship_inputs
+          python -c 'import os,sys; s=os.environ["COLLECTOR_PASSPHRASE"].rstrip("\r\n"); assert len(s)>=32; sys.stdout.write(s)' | gpg --batch --yes --pinentry-mode loopback --passphrase-fd 0 --output db/keirin.db --decrypt flagship_inputs/keirin-history.sqlite.gpg
+          ( cd db && sha256sum -c ../flagship_inputs/PLAINTEXT_SHA256.txt )
+      - name: Retrieve pinned independent 2023 programme archive
+        run: |
+          curl --fail --location --retry 3 'https://raw.githubusercontent.com/yuhevita-wq/keirin-market-analysis-/main/data/odds_only/odds_2023.jsonl.gz' -o flagship_inputs/odds_2023.jsonl.gz
+          echo "4bbf3d2736d2a0d70143a1944b12c5f9290248dc5b77e7e85cfce0f375291c06  flagship_inputs/odds_2023.jsonl.gz" | sha256sum -c -
+      - name: Run every race in this month, including non-purchases and missing inputs
+        run: |
+          set -euo pipefail
+          mkdir -p replay_results/${{ matrix.month }}
+          cp flagship_inputs/collection_manifest.json replay_results/${{ matrix.month }}/source_collection_manifest.json
+          python -u -m scripts.haruq_backtest_2023 --month '${{ matrix.month }}' --db db/keirin.db --model flagship_inputs/haruqube_20260321_fresh_model.pkl --odds flagship_inputs/odds_2023.jsonl.gz --out replay_results/${{ matrix.month }} | tee replay_results/${{ matrix.month }}/run.log
+          gzip replay_results/${{ matrix.month }}/races.jsonl
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: haruq-2023-${{ matrix.month }}-${{ github.run_id }}
+          path: replay_results/
+          if-no-files-found: warn
+          retention-days: 90
+      - name: Remove temporary decrypted inputs
+        if: always()
+        run: rm -f db/keirin.db flagship_inputs/haruqube_20260321_fresh_model.pkl
+  annual:
+    needs: monthly
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: haruq-2023-*
+          path: monthly_results
+      - name: Combine all 12 months and verify unique race accounting
+        run: python -m scripts.haruq_backtest_aggregate
+      - uses: actions/upload-artifact@v4
+        with:
+          name: haruq-textbook-2023-ALL-RACES-${{ github.run_id }}
+          path: annual_results/
+          retention-days: 90
+      - name: Persist completed results on this isolated research branch
+        run: |
+          mkdir -p research_results/manual_2023_full/${{ github.run_id }}
+          cp annual_results/* research_results/manual_2023_full/${{ github.run_id }}/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research_results/manual_2023_full/
+          git commit -m 'Save all-race 2023 manual H1 replay ${{ github.run_id }} [skip ci]'
+          git push origin HEAD:${{ github.ref_name }}
