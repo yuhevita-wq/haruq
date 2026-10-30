@@ -26,6 +26,7 @@ from features.builder import FeatureBuilder
 from models.lgbm_ranker import LGBMRanker
 from scripts.haruq_operating_policy import apply_user_policy
 from scripts.haruq_meeting_final_day import resolve_meeting_day
+from scripts.haruq_formation import automatic_formation
 
 MODEL_SHA256 = "e70690f4538b77e927a042e7ae2db312f8a0a4f16bf72def37e7ccad3568c193"
 MODEL_TAG = "haruqube-20260321-flagship-v1"
@@ -212,6 +213,13 @@ def main():
     })
     operation=apply_user_policy(
         eligible_bets,grade=grade,score_gap=gap,meeting_day=meeting_day)
+    # Manual formation H1 is an additional research output; no retraining.
+    ranked_formation = [{"bike":int(row["bike_number"]), "score":round(float(row["score"]),6)}
+                        for _,row in frame.iterrows()]
+    lines = [[int(member["bike_number"]) for member in line]
+             for line in data.get("line_formation", [])]
+    formation = automatic_formation(ranked_formation, lines,
+        eligible=operation["trifecta_decision"] == "BUY")
     now=datetime.now(TIMEZONE)
     start=data.get("start_time")
     race_started=None
@@ -235,6 +243,8 @@ def main():
                    "name":name_by_rider.get(str(row["rider_id"]),""),
                    "score":round(float(row["score"]),6)}
                   for i,(_,row) in enumerate(frame.iterrows())],
+        "formation_strategy":formation,
+        "line_formation":[list(line) for line in lines],
         "bets":operation["approved_bets"],
         "original_model_bets":original_bets,
         "f2_purchase_override_applied":grade == "F2",

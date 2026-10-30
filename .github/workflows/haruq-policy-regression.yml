@@ -5,6 +5,9 @@ on:
     branches:
       - main
     paths:
+      - scripts/haruq_formation.py
+      - scripts/test_haruq_formation.py
+      - scripts/haruq_formation_replay.py
       - scripts/haruq_operating_policy.py
       - scripts/flagship_live_predict.py
       - scripts/test_flagship_live.py
@@ -49,5 +52,6 @@ jobs:
             requests beautifulsoup4 lxml
       - name: Assert original March21 logic unchanged and HaruQ review rules deterministic
         run: |
+          python -m unittest scripts.test_haruq_formation
           python -m scripts.test_flagship_live
           python -m scripts.test_haruq_f2_publish

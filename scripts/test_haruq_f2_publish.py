@@ -95,3 +95,17 @@ for score in (1.49,2.01):
         check(data,True)
 
 print("F1_LIVE_WEB_PUBLISH_CONTRACT_PASSED")
+
+# Manual H1 candidates are recomputed at publication; mutated sets must stop.
+from scripts.haruq_formation import automatic_formation
+new=copy.deepcopy(value)
+new.update(grade='F1',meeting_day=confirmed,confidence=2.1)
+op=apply_user_policy(copy.deepcopy(base),grade='F1',score_gap=2.1,meeting_day=confirmed)
+new.update(s3_policy=op,bets=op['approved_bets'],total_yen=op['approved_total_yen'])
+new['line_formation']=[[5,3,7],[2,1],[4,6]]
+new['formation_strategy']=automatic_formation(new['ranked'],new['line_formation'],eligible=True)
+check(new,True)
+corrupt=copy.deepcopy(new)
+corrupt['formation_strategy']['selected']['tickets'][0]='9>8>7'
+check(corrupt,False)
+print('HARUQ_MANUAL_FORMATION_PUBLISH_CONTRACT_PASSED')

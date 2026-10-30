@@ -87,6 +87,13 @@ def export_result(source: Path, directory: Path, run_id: str, commit: str):
         elif bets["exacta"]["tickets"] or bets["exacta"]["total_yen"] != 0:
             raise ValueError("Unconfirmed/non-final/sub-HIGH F2 purchase is forbidden")
 
+    if "formation_strategy" in value:
+        from scripts.haruq_formation import automatic_formation
+        expected_formation = automatic_formation(value["ranked"], value.get("line_formation", []),
+            eligible=value["s3_policy"]["trifecta_decision"] == "BUY")
+        if value["formation_strategy"] != expected_formation:
+            raise ValueError("教科書フォーメーションの再計算が不一致")
+
     if not re.fullmatch(r"\d+", str(run_id)):
         raise ValueError("Invalid GitHub workflow run id")
 

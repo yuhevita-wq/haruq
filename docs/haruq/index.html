@@ -183,6 +183,8 @@ function renderTri(v){
  html+='<div class="totals"><div><small>'+safe(cat==="S3-MED"&&!v.s3_policy.trifecta_high_only?"購入未承認・検討した場合":"確定購入額")+'</small><strong class="'+(approved?"gold":"")+'">'+money(cat==="S3-MED"&&!v.s3_policy.trifecta_high_only?(review.conditional_total_yen||0):accepted.total_yen)+'</strong></div><span class="tag '+(cat==="S3-HIGH"?"safe":"")+'">'+(f2_special?"F2は3連単なし":no_buy_special?"購入なし":cat==="S3-MED"?"購入額には含めない":cat==="S3-HIGH"?"6点確定":"購入0点")+'</span></div>';
  if(cat==="S3-HIGH"&&tickets.length)html+='<div class="tools"><button class="utility" id="copyTri" type="button">3連単6点をコピー</button></div>';
  if(cat==="S3-MED"&&!v.s3_policy.trifecta_high_only&&tickets.length)html+='<div class="tools"><button class="utility" id="copyTri" type="button">検討6点をコピー（未購入）</button></div>';
+ const formation=v.formation_strategy, selected=formation?.selected;
+ if(formation){html+='<div class="empty-note"><strong>教科書フォーメーション｜研究候補</strong><p>'+safe(formation.reason)+'</p>'+(selected?selected.blocks.map(b=>'<p>'+safe(b.notation)+'：'+safe(b.reason)+'</p>').join('')+'<p>重複除外 '+selected.points+'点／各'+money(formation.stake_per_ticket_yen)+'。購入額には含めません。</p>':'')+'</div>';}
  e("triPanel").innerHTML=html;
  if(e("copyTri"))e("copyTri").addEventListener("click",()=>copyText("ハルキュー "+v.velodrome+v.race_number+"R／3連単 "+statusText(cat)+"\n"+tickets.join(" / ")+"\n各"+money(each),e("copyTri")))
 }
